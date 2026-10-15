@@ -1,0 +1,3284 @@
+{
+ "generated_at": "2026-10-15T23:29:57+00:00",
+ "icp_weights": {
+  "segment": 30,
+  "function": 30,
+  "seniority": 20,
+  "region": 10,
+  "signal": 10
+ },
+ "tiers": {
+  "A": 88,
+  "B": 70
+ },
+ "events": [
+  {
+   "id": "euroblech-2026",
+   "name": "EuroBLECH 2026",
+   "start": "2026-10-20",
+   "end": "2026-10-23",
+   "city": "Hannover",
+   "country": "DE",
+   "url": "https://euroblech.com/",
+   "format": "Trade fair",
+   "audience": "Sheet metal processors, steel service centres, metal distributors",
+   "why": "Core vertical: metal distribution and processing is where GeneralMind's reference customer Kloeckner Metals sits. PO confirmations, RFQs and order changes in this sector still run over email and PDF.",
+   "segments": [
+    "metal"
+   ],
+   "list_status": "visitor-led",
+   "list_note": "Exhibitors are machine vendors; buyers attend as visitors and are not published. Source via pre-show meeting booking and post-show account lists.",
+   "date_source": "https://www.industrial-production.de/EuroBlech-2026_id_114492__app_510-485643__dId_185730_.htm",
+   "counts": {
+    "leads": 0,
+    "A": 0,
+    "B": 0,
+    "C": 0,
+    "partners": 0,
+    "excluded": 0
+   }
+  },
+  {
+   "id": "bvl-cx-2026",
+   "name": "BVL Supply Chain CX 2026",
+   "start": "2026-10-21",
+   "end": "2026-10-22",
+   "city": "Berlin",
+   "country": "DE",
+   "url": "https://www.visitberlin.de/en/event/bvl-supply-chain-cx",
+   "format": "Congress + expo",
+   "audience": "Supply chain and logistics decision makers, ~2,500 attendees",
+   "why": "Germany's main supply chain congress, in GeneralMind's home city next week. Strong mix of shipper-side operations leaders.",
+   "segments": [
+    "manufacturing",
+    "logistics",
+    "distribution"
+   ],
+   "list_status": "published",
+   "list_note": "Speakers and sponsors are public. Attendees are not; the BVL app matchmaker is the attendee channel.",
+   "date_source": "https://www.visitberlin.de/en/event/bvl-supply-chain-cx",
+   "counts": {
+    "leads": 8,
+    "A": 0,
+    "B": 5,
+    "C": 3,
+    "partners": 0,
+    "excluded": 8
+   }
+  },
+  {
+   "id": "emsc-2026",
+   "name": "European Manufacturing & Supply Chain Summit",
+   "start": "2026-11-03",
+   "end": "2026-11-04",
+   "city": "Munich",
+   "country": "DE",
+   "url": "https://www.bciglobal.com/22nd-annual-european-manufacturing-supply-chain-summit-2026",
+   "format": "Executive summit",
+   "audience": "~300 senior manufacturing, supply chain and procurement leaders",
+   "why": "Small, senior, manufacturer-heavy room (Henkel, Bosch, Mondelez, AGRANA). Food & beverage presence matches the Oatly reference.",
+   "segments": [
+    "manufacturing",
+    "food"
+   ],
+   "list_status": "published",
+   "list_note": "Featured speakers are public; full delegate list is sold by the organiser.",
+   "date_source": "https://www.bciglobal.com/22nd-annual-european-manufacturing-supply-chain-summit-2026",
+   "counts": {
+    "leads": 6,
+    "A": 1,
+    "B": 3,
+    "C": 2,
+    "partners": 0,
+    "excluded": 0
+   }
+  },
+  {
+   "id": "bme-2026",
+   "name": "BME Symposium Einkauf & Logistik",
+   "start": "2026-11-18",
+   "end": "2026-11-19",
+   "city": "Berlin",
+   "country": "DE",
+   "url": "https://www.bme.de/symposium",
+   "format": "Congress + expo",
+   "audience": "CPOs and procurement leaders from German industry",
+   "why": "The procurement event in DACH, in Berlin. Procure-to-Pay (PO follow-up, 4-way match, AP) is half of GeneralMind's product and this room owns that budget.",
+   "segments": [
+    "manufacturing",
+    "distribution",
+    "food"
+   ],
+   "list_status": "published",
+   "list_note": "Long public speaker list with titles; highest-yield source in this set.",
+   "date_source": "https://a.storyblok.com/f/104752/x/f35c82985f/bme-symposium-2026-premail.pdf",
+   "counts": {
+    "leads": 32,
+    "A": 16,
+    "B": 15,
+    "C": 1,
+    "partners": 0,
+    "excluded": 5
+   }
+  },
+  {
+   "id": "anuga-foodtec-2027",
+   "name": "Anuga FoodTec 2027",
+   "start": "2027-02-23",
+   "end": "2027-02-26",
+   "city": "Cologne",
+   "country": "DE",
+   "url": "https://anugafoodtec.com/trade-fair/anuga-foodtec/dates-opening-hours",
+   "format": "Trade fair",
+   "audience": "Food and beverage producers: production, operations, supply chain",
+   "why": "Core vertical: food & beverage (Oatly, bofrost* references). High order volumes, many customers, lots of email-driven order changes.",
+   "segments": [
+    "food"
+   ],
+   "list_status": "pending",
+   "list_note": "Speaker programme not published yet. Monitor from December; exhibitor list is mostly equipment vendors.",
+   "date_source": "https://anugafoodtec.com/trade-fair/anuga-foodtec/dates-opening-hours",
+   "counts": {
+    "leads": 0,
+    "A": 0,
+    "B": 0,
+    "C": 0,
+    "partners": 0,
+    "excluded": 0
+   }
+  },
+  {
+   "id": "dsag-tt-2027",
+   "name": "DSAG Technologietage 2027",
+   "start": "2027-03-09",
+   "end": "2027-03-10",
+   "city": "Bonn",
+   "country": "DE",
+   "url": "https://dsag.de",
+   "format": "SAP user-group conference",
+   "audience": "SAP customers: IT, architecture and process owners",
+   "why": "GeneralMind writes into SAP and other ERPs. SAP process owners and S/4HANA programme leads are the technical buyers and the integration gatekeepers.",
+   "segments": [
+    "manufacturing",
+    "distribution"
+   ],
+   "list_status": "pending",
+   "list_note": "2027 agenda not published; ticket sales opened 6 Oct 2026. Customer case-study speakers appear in the agenda ~8 weeks before.",
+   "date_source": "https://cantonfair.net/event/28558-dsag-technology-days",
+   "counts": {
+    "leads": 0,
+    "A": 0,
+    "B": 0,
+    "C": 0,
+    "partners": 0,
+    "excluded": 0
+   }
+  },
+  {
+   "id": "logimat-2027",
+   "name": "LogiMAT 2027",
+   "start": "2027-03-16",
+   "end": "2027-03-18",
+   "city": "Stuttgart",
+   "country": "DE",
+   "url": "https://www.logimat-messe.de",
+   "format": "Trade fair",
+   "audience": "~67,000 intralogistics visitors, ~1,600 exhibitors",
+   "why": "Large logistics audience, but the published programme is vendor-heavy. Useful for partner mapping (SAP EWM/TM integrators) more than direct buyers.",
+   "segments": [
+    "logistics",
+    "distribution"
+   ],
+   "list_status": "vendor-heavy",
+   "list_note": "2026 programme analysed: speakers were almost all vendors, consultants or academics. Vendors are classified as partners, not leads.",
+   "date_source": "https://bulkinside.com/events/logimat-2027/",
+   "counts": {
+    "leads": 0,
+    "A": 0,
+    "B": 0,
+    "C": 0,
+    "partners": 4,
+    "excluded": 3
+   }
+  },
+  {
+   "id": "hannover-messe-2027",
+   "name": "HANNOVER MESSE 2027",
+   "start": "2027-04-05",
+   "end": "2027-04-08",
+   "city": "Hannover",
+   "country": "DE",
+   "url": "https://www.hannovermesse.de",
+   "format": "Trade fair",
+   "audience": "~3,000 exhibitors, 110,000+ visitors from industry",
+   "why": "Every German manufacturer is here. Too broad for blanket outreach; works as a meeting venue for already-qualified A-tier accounts.",
+   "segments": [
+    "manufacturing"
+   ],
+   "list_status": "pending",
+   "list_note": "2027 speakers not published. 2026 Center Stage speakers were board-level (Siemens, Rheinmetall), far above the buying level.",
+   "date_source": "https://www.hannovermesse.de/en/for-visitors/opening-hours/",
+   "counts": {
+    "leads": 0,
+    "A": 0,
+    "B": 0,
+    "C": 0,
+    "partners": 0,
+    "excluded": 0
+   }
+  },
+  {
+   "id": "transport-logistic-2027",
+   "name": "transport logistic 2027",
+   "start": "2027-04-26",
+   "end": "2027-04-29",
+   "city": "Munich",
+   "country": "DE",
+   "url": "https://www.transportlogistic.de/en",
+   "format": "Trade fair (biennial)",
+   "audience": "~64,000 visitors, ~2,500 exhibitors from logistics and supply chain",
+   "why": "Freight and inbound/outbound logistics are named GeneralMind workflows. Shipper-side logistics heads from manufacturers and distributors attend.",
+   "segments": [
+    "logistics",
+    "distribution"
+   ],
+   "list_status": "pending",
+   "list_note": "Exhibitor registration still open; conference programme published early 2027.",
+   "date_source": "https://www.wko.at/veranstaltungen/f32ccefe-e86d-4e92-90ed-074da9a86630",
+   "counts": {
+    "leads": 0,
+    "A": 0,
+    "B": 0,
+    "C": 0,
+    "partners": 0,
+    "excluded": 0
+   }
+  },
+  {
+   "id": "gartner-sc-2027",
+   "name": "Gartner Supply Chain Symposium/Xpo",
+   "start": "2027-05-24",
+   "end": "2027-05-26",
+   "city": "Barcelona",
+   "country": "ES",
+   "url": "https://www.gartner.com/en/conferences/emea/supply-chain-spain",
+   "format": "Executive conference",
+   "audience": "CSCOs and supply chain executives from Europe's largest enterprises",
+   "why": "The most senior supply chain audience in Europe. Fits GeneralMind's enterprise motion and the 'AI that proves ROI' agenda Gartner pushes.",
+   "segments": [
+    "manufacturing",
+    "distribution",
+    "food"
+   ],
+   "list_status": "pending",
+   "list_note": "2027 exhibitors and customer speakers 'to be announced'. Gartner does not publish attendee lists.",
+   "date_source": "https://www.showsbee.com/fairs/91078-Gartner-Supply-Chain-Symposium-Xpo-Spain-2027.html",
+   "counts": {
+    "leads": 0,
+    "A": 0,
+    "B": 0,
+    "C": 0,
+    "partners": 0,
+    "excluded": 0
+   }
+  }
+ ],
+ "leads": [
+  {
+   "event_id": "bme-2026",
+   "event_name": "BME Symposium Einkauf & Logistik",
+   "role": "speaker",
+   "company": "Alfred Ritter (Ritter Sport)",
+   "company_type": "buyer",
+   "segment": "food",
+   "country": "DE",
+   "domain": "ritter-sport.com",
+   "source_url": "https://a.storyblok.com/f/104752/x/f35c82985f/bme-symposium-2026-premail.pdf",
+   "kind": "contact",
+   "name": "Asmus Wolff",
+   "title": "Geschäftsführer Supply Chain",
+   "id": "asmus-wolff-alfred-ritter-ritter-sport-bme-2026",
+   "score": 97,
+   "tier": "A",
+   "persona": "Supply chain / logistics leader",
+   "seniority": "C-level / VP",
+   "region": "DACH",
+   "breakdown": [
+    {
+     "factor": "Segment",
+     "points": 30,
+     "max": 30,
+     "why": "Food & beverage (Oatly, bofrost* lookalike)"
+    },
+    {
+     "factor": "Function",
+     "points": 27,
+     "max": 30,
+     "why": "Supply chain / logistics leader"
+    },
+    {
+     "factor": "Seniority",
+     "points": 20,
+     "max": 20,
+     "why": "C-level / VP"
+    },
+    {
+     "factor": "Region",
+     "points": 10,
+     "max": 10,
+     "why": "DACH"
+    },
+    {
+     "factor": "Event signal",
+     "points": 10,
+     "max": 10,
+     "why": "Speaking on stage: public, on-topic, easy opener"
+    }
+   ],
+   "reference": {
+    "id": "oatly",
+    "customer": "Oatly",
+    "story": "Scaling order intake without scaling headcount"
+   },
+   "flags": []
+  },
+  {
+   "event_id": "bme-2026",
+   "event_name": "BME Symposium Einkauf & Logistik",
+   "role": "speaker",
+   "company": "Fritz Winter Eisengießerei",
+   "company_type": "buyer",
+   "segment": "metal",
+   "country": "DE",
+   "domain": "fritzwinter.de",
+   "source_url": "https://a.storyblok.com/f/104752/x/f35c82985f/bme-symposium-2026-premail.pdf",
+   "kind": "contact",
+   "name": "Frithjof Karbach",
+   "title": "Leiter Materialwirtschaft",
+   "id": "frithjof-karbach-fritz-winter-eisengieerei-bme-2026",
+   "score": 97,
+   "tier": "A",
+   "persona": "Procure-to-Pay owner",
+   "seniority": "Head / Director",
+   "region": "DACH",
+   "breakdown": [
+    {
+     "factor": "Segment",
+     "points": 30,
+     "max": 30,
+     "why": "Metal distribution / processing (Kloeckner lookalike)"
+    },
+    {
+     "factor": "Function",
+     "points": 30,
+     "max": 30,
+     "why": "Procure-to-Pay owner"
+    },
+    {
+     "factor": "Seniority",
+     "points": 17,
+     "max": 20,
+     "why": "Head / Director"
+    },
+    {
+     "factor": "Region",
+     "points": 10,
+     "max": 10,
+     "why": "DACH"
+    },
+    {
+     "factor": "Event signal",
+     "points": 10,
+     "max": 10,
+     "why": "Speaking on stage: public, on-topic, easy opener"
+    }
+   ],
+   "reference": {
+    "id": "kloeckner",
+    "customer": "Kloeckner Metals",
+    "story": "Supplier order confirmations on autopilot"
+   },
+   "flags": []
+  },
+  {
+   "event_id": "emsc-2026",
+   "event_name": "European Manufacturing & Supply Chain Summit",
+   "role": "speaker",
+   "company": "AGRANA",
+   "company_type": "buyer",
+   "segment": "food",
+   "country": "AT",
+   "domain": "agrana.com",
+   "source_url": "https://www.luminik.io/events/ems-scms-summit-munich/",
+   "kind": "contact",
+   "name": "Yelli Ayala",
+   "title": "SVP Group – OpEx, OHS & CAPEX",
+   "id": "yelli-ayala-agrana-emsc-2026",
+   "score": 97,
+   "tier": "A",
+   "persona": "Supply chain / logistics leader",
+   "seniority": "C-level / VP",
+   "region": "DACH",
+   "breakdown": [
+    {
+     "factor": "Segment",
+     "points": 30,
+     "max": 30,
+     "why": "Food & beverage (Oatly, bofrost* lookalike)"
+    },
+    {
+     "factor": "Function",
+     "points": 27,
+     "max": 30,
+     "why": "Supply chain / logistics leader"
+    },
+    {
+     "factor": "Seniority",
+     "points": 20,
+     "max": 20,
+     "why": "C-level / VP"
+    },
+    {
+     "factor": "Region",
+     "points": 10,
+     "max": 10,
+     "why": "DACH"
+    },
+    {
+     "factor": "Event signal",
+     "points": 10,
+     "max": 10,
+     "why": "Speaking on stage: public, on-topic, easy opener"
+    }
+   ],
+   "reference": {
+    "id": "oatly",
+    "customer": "Oatly",
+    "story": "Scaling order intake without scaling headcount"
+   },
+   "flags": []
+  },
+  {
+   "event_id": "bme-2026",
+   "event_name": "BME Symposium Einkauf & Logistik",
+   "role": "speaker",
+   "company": "Nestlé Deutschland",
+   "company_type": "buyer",
+   "segment": "food",
+   "country": "DE",
+   "domain": "nestle.de",
+   "source_url": "https://a.storyblok.com/f/104752/x/f35c82985f/bme-symposium-2026-premail.pdf",
+   "kind": "contact",
+   "name": "Gaby Symonds",
+   "title": "Head of Logistics",
+   "id": "gaby-symonds-nestle-deutschland-bme-2026",
+   "score": 94,
+   "tier": "A",
+   "persona": "Supply chain / logistics leader",
+   "seniority": "Head / Director",
+   "region": "DACH",
+   "breakdown": [
+    {
+     "factor": "Segment",
+     "points": 30,
+     "max": 30,
+     "why": "Food & beverage (Oatly, bofrost* lookalike)"
+    },
+    {
+     "factor": "Function",
+     "points": 27,
+     "max": 30,
+     "why": "Supply chain / logistics leader"
+    },
+    {
+     "factor": "Seniority",
+     "points": 17,
+     "max": 20,
+     "why": "Head / Director"
+    },
+    {
+     "factor": "Region",
+     "points": 10,
+     "max": 10,
+     "why": "DACH"
+    },
+    {
+     "factor": "Event signal",
+     "points": 10,
+     "max": 10,
+     "why": "Speaking on stage: public, on-topic, easy opener"
+    }
+   ],
+   "reference": {
+    "id": "oatly",
+    "customer": "Oatly",
+    "story": "Scaling order intake without scaling headcount"
+   },
+   "flags": []
+  },
+  {
+   "event_id": "bme-2026",
+   "event_name": "BME Symposium Einkauf & Logistik",
+   "role": "speaker",
+   "company": "Kirsch Pharma",
+   "company_type": "buyer",
+   "segment": "distribution",
+   "country": "DE",
+   "domain": "kirsch-pharma.com",
+   "source_url": "https://a.storyblok.com/f/104752/x/f35c82985f/bme-symposium-2026-premail.pdf",
+   "kind": "contact",
+   "name": "Yofre Alberto Rodriguez Carlos",
+   "title": "Global Procurement & Supply Chain Director",
+   "id": "yofre-alberto-rodriguez-carlos-kirsch-pharma-bme-2026",
+   "score": 94,
+   "tier": "A",
+   "persona": "Procure-to-Pay owner",
+   "seniority": "Head / Director",
+   "region": "DACH",
+   "breakdown": [
+    {
+     "factor": "Segment",
+     "points": 27,
+     "max": 30,
+     "why": "Wholesale / B2B distribution"
+    },
+    {
+     "factor": "Function",
+     "points": 30,
+     "max": 30,
+     "why": "Procure-to-Pay owner"
+    },
+    {
+     "factor": "Seniority",
+     "points": 17,
+     "max": 20,
+     "why": "Head / Director"
+    },
+    {
+     "factor": "Region",
+     "points": 10,
+     "max": 10,
+     "why": "DACH"
+    },
+    {
+     "factor": "Event signal",
+     "points": 10,
+     "max": 10,
+     "why": "Speaking on stage: public, on-topic, easy opener"
+    }
+   ],
+   "reference": {
+    "id": "kloeckner",
+    "customer": "Kloeckner Metals",
+    "story": "Supplier order confirmations on autopilot"
+   },
+   "flags": []
+  },
+  {
+   "event_id": "bme-2026",
+   "event_name": "BME Symposium Einkauf & Logistik",
+   "role": "speaker",
+   "company": "Villeroy & Boch",
+   "company_type": "buyer",
+   "segment": "manufacturing",
+   "country": "DE",
+   "domain": "villeroy-boch.com",
+   "source_url": "https://a.storyblok.com/f/104752/x/f35c82985f/bme-symposium-2026-premail.pdf",
+   "kind": "contact",
+   "name": "Alexander Schreiber",
+   "title": "CPO, VP Global Procurement",
+   "id": "alexander-schreiber-villeroy-boch-bme-2026",
+   "score": 88,
+   "tier": "A",
+   "persona": "Procure-to-Pay owner",
+   "seniority": "C-level / VP",
+   "region": "DACH",
+   "breakdown": [
+    {
+     "factor": "Segment",
+     "points": 18,
+     "max": 30,
+     "why": "Manufacturing with high PO / SO volume"
+    },
+    {
+     "factor": "Function",
+     "points": 30,
+     "max": 30,
+     "why": "Procure-to-Pay owner"
+    },
+    {
+     "factor": "Seniority",
+     "points": 20,
+     "max": 20,
+     "why": "C-level / VP"
+    },
+    {
+     "factor": "Region",
+     "points": 10,
+     "max": 10,
+     "why": "DACH"
+    },
+    {
+     "factor": "Event signal",
+     "points": 10,
+     "max": 10,
+     "why": "Speaking on stage: public, on-topic, easy opener"
+    }
+   ],
+   "reference": {
+    "id": "kloeckner",
+    "customer": "Kloeckner Metals",
+    "story": "Supplier order confirmations on autopilot"
+   },
+   "flags": []
+  },
+  {
+   "event_id": "bme-2026",
+   "event_name": "BME Symposium Einkauf & Logistik",
+   "role": "speaker",
+   "company": "thyssenkrupp Automotive",
+   "company_type": "buyer",
+   "segment": "manufacturing",
+   "country": "DE",
+   "domain": "thyssenkrupp.com",
+   "source_url": "https://a.storyblok.com/f/104752/x/f35c82985f/bme-symposium-2026-premail.pdf",
+   "kind": "contact",
+   "name": "Ferdinand Wieland",
+   "title": "Senior Vice President Procurement & Supply Management",
+   "id": "ferdinand-wieland-thyssenkrupp-automotive-bme-2026",
+   "score": 88,
+   "tier": "A",
+   "persona": "Procure-to-Pay owner",
+   "seniority": "C-level / VP",
+   "region": "DACH",
+   "breakdown": [
+    {
+     "factor": "Segment",
+     "points": 18,
+     "max": 30,
+     "why": "Manufacturing with high PO / SO volume"
+    },
+    {
+     "factor": "Function",
+     "points": 30,
+     "max": 30,
+     "why": "Procure-to-Pay owner"
+    },
+    {
+     "factor": "Seniority",
+     "points": 20,
+     "max": 20,
+     "why": "C-level / VP"
+    },
+    {
+     "factor": "Region",
+     "points": 10,
+     "max": 10,
+     "why": "DACH"
+    },
+    {
+     "factor": "Event signal",
+     "points": 10,
+     "max": 10,
+     "why": "Speaking on stage: public, on-topic, easy opener"
+    }
+   ],
+   "reference": {
+    "id": "kloeckner",
+    "customer": "Kloeckner Metals",
+    "story": "Supplier order confirmations on autopilot"
+   },
+   "flags": []
+  },
+  {
+   "event_id": "bme-2026",
+   "event_name": "BME Symposium Einkauf & Logistik",
+   "role": "speaker",
+   "company": "KOSTAL Gruppe",
+   "company_type": "buyer",
+   "segment": "manufacturing",
+   "country": "DE",
+   "domain": "kostal.com",
+   "source_url": "https://a.storyblok.com/f/104752/x/f35c82985f/bme-symposium-2026-premail.pdf",
+   "kind": "contact",
+   "name": "Georg Mohr",
+   "title": "Vice President Global Procurement & Supply Chain",
+   "id": "georg-mohr-kostal-gruppe-bme-2026",
+   "score": 88,
+   "tier": "A",
+   "persona": "Procure-to-Pay owner",
+   "seniority": "C-level / VP",
+   "region": "DACH",
+   "breakdown": [
+    {
+     "factor": "Segment",
+     "points": 18,
+     "max": 30,
+     "why": "Manufacturing with high PO / SO volume"
+    },
+    {
+     "factor": "Function",
+     "points": 30,
+     "max": 30,
+     "why": "Procure-to-Pay owner"
+    },
+    {
+     "factor": "Seniority",
+     "points": 20,
+     "max": 20,
+     "why": "C-level / VP"
+    },
+    {
+     "factor": "Region",
+     "points": 10,
+     "max": 10,
+     "why": "DACH"
+    },
+    {
+     "factor": "Event signal",
+     "points": 10,
+     "max": 10,
+     "why": "Speaking on stage: public, on-topic, easy opener"
+    }
+   ],
+   "reference": {
+    "id": "kloeckner",
+    "customer": "Kloeckner Metals",
+    "story": "Supplier order confirmations on autopilot"
+   },
+   "flags": []
+  },
+  {
+   "event_id": "bme-2026",
+   "event_name": "BME Symposium Einkauf & Logistik",
+   "role": "speaker",
+   "company": "Hensoldt",
+   "company_type": "buyer",
+   "segment": "manufacturing",
+   "country": "DE",
+   "domain": "hensoldt.net",
+   "source_url": "https://a.storyblok.com/f/104752/x/f35c82985f/bme-symposium-2026-premail.pdf",
+   "kind": "contact",
+   "name": "Jochen Pfister",
+   "title": "Chief Procurement Officer",
+   "id": "jochen-pfister-hensoldt-bme-2026",
+   "score": 88,
+   "tier": "A",
+   "persona": "Procure-to-Pay owner",
+   "seniority": "C-level / VP",
+   "region": "DACH",
+   "breakdown": [
+    {
+     "factor": "Segment",
+     "points": 18,
+     "max": 30,
+     "why": "Manufacturing with high PO / SO volume"
+    },
+    {
+     "factor": "Function",
+     "points": 30,
+     "max": 30,
+     "why": "Procure-to-Pay owner"
+    },
+    {
+     "factor": "Seniority",
+     "points": 20,
+     "max": 20,
+     "why": "C-level / VP"
+    },
+    {
+     "factor": "Region",
+     "points": 10,
+     "max": 10,
+     "why": "DACH"
+    },
+    {
+     "factor": "Event signal",
+     "points": 10,
+     "max": 10,
+     "why": "Speaking on stage: public, on-topic, easy opener"
+    }
+   ],
+   "reference": {
+    "id": "kloeckner",
+    "customer": "Kloeckner Metals",
+    "story": "Supplier order confirmations on autopilot"
+   },
+   "flags": []
+  },
+  {
+   "event_id": "bme-2026",
+   "event_name": "BME Symposium Einkauf & Logistik",
+   "role": "speaker",
+   "company": "Bayer",
+   "company_type": "buyer",
+   "segment": "manufacturing",
+   "country": "DE",
+   "domain": "bayer.com",
+   "source_url": "https://a.storyblok.com/f/104752/x/f35c82985f/bme-symposium-2026-premail.pdf",
+   "kind": "contact",
+   "name": "Karin Guemmer",
+   "title": "Vice President, Head of Procurement Strategy and Transformation",
+   "id": "karin-guemmer-bayer-bme-2026",
+   "score": 88,
+   "tier": "A",
+   "persona": "Procure-to-Pay owner",
+   "seniority": "C-level / VP",
+   "region": "DACH",
+   "breakdown": [
+    {
+     "factor": "Segment",
+     "points": 18,
+     "max": 30,
+     "why": "Manufacturing with high PO / SO volume"
+    },
+    {
+     "factor": "Function",
+     "points": 30,
+     "max": 30,
+     "why": "Procure-to-Pay owner"
+    },
+    {
+     "factor": "Seniority",
+     "points": 20,
+     "max": 20,
+     "why": "C-level / VP"
+    },
+    {
+     "factor": "Region",
+     "points": 10,
+     "max": 10,
+     "why": "DACH"
+    },
+    {
+     "factor": "Event signal",
+     "points": 10,
+     "max": 10,
+     "why": "Speaking on stage: public, on-topic, easy opener"
+    }
+   ],
+   "reference": {
+    "id": "kloeckner",
+    "customer": "Kloeckner Metals",
+    "story": "Supplier order confirmations on autopilot"
+   },
+   "flags": []
+  },
+  {
+   "event_id": "bme-2026",
+   "event_name": "BME Symposium Einkauf & Logistik",
+   "role": "speaker",
+   "company": "Bayer Consumer Health",
+   "company_type": "buyer",
+   "segment": "manufacturing",
+   "country": "DE",
+   "domain": "bayer.com",
+   "source_url": "https://a.storyblok.com/f/104752/x/f35c82985f/bme-symposium-2026-premail.pdf",
+   "kind": "contact",
+   "name": "Malik Akhtar",
+   "title": "CPO",
+   "id": "malik-akhtar-bayer-consumer-health-bme-2026",
+   "score": 88,
+   "tier": "A",
+   "persona": "Procure-to-Pay owner",
+   "seniority": "C-level / VP",
+   "region": "DACH",
+   "breakdown": [
+    {
+     "factor": "Segment",
+     "points": 18,
+     "max": 30,
+     "why": "Manufacturing with high PO / SO volume"
+    },
+    {
+     "factor": "Function",
+     "points": 30,
+     "max": 30,
+     "why": "Procure-to-Pay owner"
+    },
+    {
+     "factor": "Seniority",
+     "points": 20,
+     "max": 20,
+     "why": "C-level / VP"
+    },
+    {
+     "factor": "Region",
+     "points": 10,
+     "max": 10,
+     "why": "DACH"
+    },
+    {
+     "factor": "Event signal",
+     "points": 10,
+     "max": 10,
+     "why": "Speaking on stage: public, on-topic, easy opener"
+    }
+   ],
+   "reference": {
+    "id": "kloeckner",
+    "customer": "Kloeckner Metals",
+    "story": "Supplier order confirmations on autopilot"
+   },
+   "flags": []
+  },
+  {
+   "event_id": "bme-2026",
+   "event_name": "BME Symposium Einkauf & Logistik",
+   "role": "speaker",
+   "company": "TKMS",
+   "company_type": "buyer",
+   "segment": "manufacturing",
+   "country": "DE",
+   "domain": "tkms.com",
+   "source_url": "https://a.storyblok.com/f/104752/x/f35c82985f/bme-symposium-2026-premail.pdf",
+   "kind": "contact",
+   "name": "Manuel Hartmann",
+   "title": "Vice President Procurement Digitalisation & Excellence",
+   "id": "manuel-hartmann-tkms-bme-2026",
+   "score": 88,
+   "tier": "A",
+   "persona": "Procure-to-Pay owner",
+   "seniority": "C-level / VP",
+   "region": "DACH",
+   "breakdown": [
+    {
+     "factor": "Segment",
+     "points": 18,
+     "max": 30,
+     "why": "Manufacturing with high PO / SO volume"
+    },
+    {
+     "factor": "Function",
+     "points": 30,
+     "max": 30,
+     "why": "Procure-to-Pay owner"
+    },
+    {
+     "factor": "Seniority",
+     "points": 20,
+     "max": 20,
+     "why": "C-level / VP"
+    },
+    {
+     "factor": "Region",
+     "points": 10,
+     "max": 10,
+     "why": "DACH"
+    },
+    {
+     "factor": "Event signal",
+     "points": 10,
+     "max": 10,
+     "why": "Speaking on stage: public, on-topic, easy opener"
+    }
+   ],
+   "reference": {
+    "id": "kloeckner",
+    "customer": "Kloeckner Metals",
+    "story": "Supplier order confirmations on autopilot"
+   },
+   "flags": []
+  },
+  {
+   "event_id": "bme-2026",
+   "event_name": "BME Symposium Einkauf & Logistik",
+   "role": "speaker",
+   "company": "QIAGEN",
+   "company_type": "buyer",
+   "segment": "manufacturing",
+   "country": "DE",
+   "domain": "qiagen.com",
+   "source_url": "https://a.storyblok.com/f/104752/x/f35c82985f/bme-symposium-2026-premail.pdf",
+   "kind": "contact",
+   "name": "Serge Van Vooren",
+   "title": "CPO",
+   "id": "serge-van-vooren-qiagen-bme-2026",
+   "score": 88,
+   "tier": "A",
+   "persona": "Procure-to-Pay owner",
+   "seniority": "C-level / VP",
+   "region": "DACH",
+   "breakdown": [
+    {
+     "factor": "Segment",
+     "points": 18,
+     "max": 30,
+     "why": "Manufacturing with high PO / SO volume"
+    },
+    {
+     "factor": "Function",
+     "points": 30,
+     "max": 30,
+     "why": "Procure-to-Pay owner"
+    },
+    {
+     "factor": "Seniority",
+     "points": 20,
+     "max": 20,
+     "why": "C-level / VP"
+    },
+    {
+     "factor": "Region",
+     "points": 10,
+     "max": 10,
+     "why": "DACH"
+    },
+    {
+     "factor": "Event signal",
+     "points": 10,
+     "max": 10,
+     "why": "Speaking on stage: public, on-topic, easy opener"
+    }
+   ],
+   "reference": {
+    "id": "kloeckner",
+    "customer": "Kloeckner Metals",
+    "story": "Supplier order confirmations on autopilot"
+   },
+   "flags": []
+  },
+  {
+   "event_id": "bme-2026",
+   "event_name": "BME Symposium Einkauf & Logistik",
+   "role": "speaker",
+   "company": "Brose Fahrzeugteile",
+   "company_type": "buyer",
+   "segment": "manufacturing",
+   "country": "DE",
+   "domain": "brose.com",
+   "source_url": "https://a.storyblok.com/f/104752/x/f35c82985f/bme-symposium-2026-premail.pdf",
+   "kind": "contact",
+   "name": "Sven-Uwe Erber",
+   "title": "Leiter Einkauf Brose Gruppe (CPO)",
+   "id": "sven-uwe-erber-brose-fahrzeugteile-bme-2026",
+   "score": 88,
+   "tier": "A",
+   "persona": "Procure-to-Pay owner",
+   "seniority": "C-level / VP",
+   "region": "DACH",
+   "breakdown": [
+    {
+     "factor": "Segment",
+     "points": 18,
+     "max": 30,
+     "why": "Manufacturing with high PO / SO volume"
+    },
+    {
+     "factor": "Function",
+     "points": 30,
+     "max": 30,
+     "why": "Procure-to-Pay owner"
+    },
+    {
+     "factor": "Seniority",
+     "points": 20,
+     "max": 20,
+     "why": "C-level / VP"
+    },
+    {
+     "factor": "Region",
+     "points": 10,
+     "max": 10,
+     "why": "DACH"
+    },
+    {
+     "factor": "Event signal",
+     "points": 10,
+     "max": 10,
+     "why": "Speaking on stage: public, on-topic, easy opener"
+    }
+   ],
+   "reference": {
+    "id": "kloeckner",
+    "customer": "Kloeckner Metals",
+    "story": "Supplier order confirmations on autopilot"
+   },
+   "flags": []
+  },
+  {
+   "event_id": "bme-2026",
+   "event_name": "BME Symposium Einkauf & Logistik",
+   "role": "speaker",
+   "company": "duisport",
+   "company_type": "buyer",
+   "segment": "logistics",
+   "country": "DE",
+   "domain": "duisport.de",
+   "source_url": "https://a.storyblok.com/f/104752/x/f35c82985f/bme-symposium-2026-premail.pdf",
+   "kind": "contact",
+   "name": "Svenja Meyer",
+   "title": "Head of Procurement",
+   "id": "svenja-meyer-duisport-bme-2026",
+   "score": 88,
+   "tier": "A",
+   "persona": "Procure-to-Pay owner",
+   "seniority": "Head / Director",
+   "region": "DACH",
+   "breakdown": [
+    {
+     "factor": "Segment",
+     "points": 21,
+     "max": 30,
+     "why": "Logistics provider (Müller – Die Lila Logistik is a customer)"
+    },
+    {
+     "factor": "Function",
+     "points": 30,
+     "max": 30,
+     "why": "Procure-to-Pay owner"
+    },
+    {
+     "factor": "Seniority",
+     "points": 17,
+     "max": 20,
+     "why": "Head / Director"
+    },
+    {
+     "factor": "Region",
+     "points": 10,
+     "max": 10,
+     "why": "DACH"
+    },
+    {
+     "factor": "Event signal",
+     "points": 10,
+     "max": 10,
+     "why": "Speaking on stage: public, on-topic, easy opener"
+    }
+   ],
+   "reference": {
+    "id": "kloeckner",
+    "customer": "Kloeckner Metals",
+    "story": "Supplier order confirmations on autopilot"
+   },
+   "flags": []
+  },
+  {
+   "event_id": "bme-2026",
+   "event_name": "BME Symposium Einkauf & Logistik",
+   "role": "speaker",
+   "company": "KNDS Deutschland",
+   "company_type": "buyer",
+   "segment": "manufacturing",
+   "country": "DE",
+   "domain": "knds.de",
+   "source_url": "https://a.storyblok.com/f/104752/x/f35c82985f/bme-symposium-2026-premail.pdf",
+   "kind": "contact",
+   "name": "Tanja Heinemann",
+   "title": "Senior Vice President Procurement",
+   "id": "tanja-heinemann-knds-deutschland-bme-2026",
+   "score": 88,
+   "tier": "A",
+   "persona": "Procure-to-Pay owner",
+   "seniority": "C-level / VP",
+   "region": "DACH",
+   "breakdown": [
+    {
+     "factor": "Segment",
+     "points": 18,
+     "max": 30,
+     "why": "Manufacturing with high PO / SO volume"
+    },
+    {
+     "factor": "Function",
+     "points": 30,
+     "max": 30,
+     "why": "Procure-to-Pay owner"
+    },
+    {
+     "factor": "Seniority",
+     "points": 20,
+     "max": 20,
+     "why": "C-level / VP"
+    },
+    {
+     "factor": "Region",
+     "points": 10,
+     "max": 10,
+     "why": "DACH"
+    },
+    {
+     "factor": "Event signal",
+     "points": 10,
+     "max": 10,
+     "why": "Speaking on stage: public, on-topic, easy opener"
+    }
+   ],
+   "reference": {
+    "id": "kloeckner",
+    "customer": "Kloeckner Metals",
+    "story": "Supplier order confirmations on autopilot"
+   },
+   "flags": []
+  },
+  {
+   "event_id": "bme-2026",
+   "event_name": "BME Symposium Einkauf & Logistik",
+   "role": "speaker",
+   "company": "PALFINGER",
+   "company_type": "buyer",
+   "segment": "manufacturing",
+   "country": "AT",
+   "domain": "palfinger.com",
+   "source_url": "https://a.storyblok.com/f/104752/x/f35c82985f/bme-symposium-2026-premail.pdf",
+   "kind": "contact",
+   "name": "Ulrich Bär",
+   "title": "VP Global Procurement",
+   "id": "ulrich-bar-palfinger-bme-2026",
+   "score": 88,
+   "tier": "A",
+   "persona": "Procure-to-Pay owner",
+   "seniority": "C-level / VP",
+   "region": "DACH",
+   "breakdown": [
+    {
+     "factor": "Segment",
+     "points": 18,
+     "max": 30,
+     "why": "Manufacturing with high PO / SO volume"
+    },
+    {
+     "factor": "Function",
+     "points": 30,
+     "max": 30,
+     "why": "Procure-to-Pay owner"
+    },
+    {
+     "factor": "Seniority",
+     "points": 20,
+     "max": 20,
+     "why": "C-level / VP"
+    },
+    {
+     "factor": "Region",
+     "points": 10,
+     "max": 10,
+     "why": "DACH"
+    },
+    {
+     "factor": "Event signal",
+     "points": 10,
+     "max": 10,
+     "why": "Speaking on stage: public, on-topic, easy opener"
+    }
+   ],
+   "reference": {
+    "id": "kloeckner",
+    "customer": "Kloeckner Metals",
+    "story": "Supplier order confirmations on autopilot"
+   },
+   "flags": []
+  },
+  {
+   "event_id": "emsc-2026",
+   "event_name": "European Manufacturing & Supply Chain Summit",
+   "role": "speaker",
+   "company": "Mondelēz International",
+   "company_type": "buyer",
+   "segment": "food",
+   "country": "US",
+   "domain": "mondelezinternational.com",
+   "source_url": "https://www.luminik.io/events/ems-scms-summit-munich/",
+   "kind": "contact",
+   "name": "Kiril Kirilov",
+   "title": "Plant Director",
+   "id": "kiril-kirilov-mondelez-international-emsc-2026",
+   "score": 86,
+   "tier": "B",
+   "persona": "Supply chain / logistics leader",
+   "seniority": "Head / Director",
+   "region": "Other",
+   "breakdown": [
+    {
+     "factor": "Segment",
+     "points": 30,
+     "max": 30,
+     "why": "Food & beverage (Oatly, bofrost* lookalike)"
+    },
+    {
+     "factor": "Function",
+     "points": 27,
+     "max": 30,
+     "why": "Supply chain / logistics leader"
+    },
+    {
+     "factor": "Seniority",
+     "points": 17,
+     "max": 20,
+     "why": "Head / Director"
+    },
+    {
+     "factor": "Region",
+     "points": 2,
+     "max": 10,
+     "why": "Other"
+    },
+    {
+     "factor": "Event signal",
+     "points": 10,
+     "max": 10,
+     "why": "Speaking on stage: public, on-topic, easy opener"
+    }
+   ],
+   "reference": {
+    "id": "oatly",
+    "customer": "Oatly",
+    "story": "Scaling order intake without scaling headcount"
+   },
+   "flags": []
+  },
+  {
+   "event_id": "bme-2026",
+   "event_name": "BME Symposium Einkauf & Logistik",
+   "role": "speaker",
+   "company": "Brose Fahrzeugteile",
+   "company_type": "buyer",
+   "segment": "manufacturing",
+   "country": "DE",
+   "domain": "brose.com",
+   "source_url": "https://a.storyblok.com/f/104752/x/f35c82985f/bme-symposium-2026-premail.pdf",
+   "kind": "contact",
+   "name": "Christian Götz",
+   "title": "Leiter Einkaufstrategie",
+   "id": "christian-gotz-brose-fahrzeugteile-bme-2026",
+   "score": 85,
+   "tier": "B",
+   "persona": "Procure-to-Pay owner",
+   "seniority": "Head / Director",
+   "region": "DACH",
+   "breakdown": [
+    {
+     "factor": "Segment",
+     "points": 18,
+     "max": 30,
+     "why": "Manufacturing with high PO / SO volume"
+    },
+    {
+     "factor": "Function",
+     "points": 30,
+     "max": 30,
+     "why": "Procure-to-Pay owner"
+    },
+    {
+     "factor": "Seniority",
+     "points": 17,
+     "max": 20,
+     "why": "Head / Director"
+    },
+    {
+     "factor": "Region",
+     "points": 10,
+     "max": 10,
+     "why": "DACH"
+    },
+    {
+     "factor": "Event signal",
+     "points": 10,
+     "max": 10,
+     "why": "Speaking on stage: public, on-topic, easy opener"
+    }
+   ],
+   "reference": {
+    "id": "kloeckner",
+    "customer": "Kloeckner Metals",
+    "story": "Supplier order confirmations on autopilot"
+   },
+   "flags": []
+  },
+  {
+   "event_id": "bvl-cx-2026",
+   "event_name": "BVL Supply Chain CX 2026",
+   "role": "speaker",
+   "company": "Voith Turbo",
+   "company_type": "buyer",
+   "segment": "manufacturing",
+   "country": "DE",
+   "domain": "voith.com",
+   "source_url": "https://www.luminik.io/events/bvl-supply-chain-cx-berlin-f1773cb8328b/attendees/",
+   "kind": "contact",
+   "name": "Felix Becker",
+   "title": "Vice President Global Supply Chain",
+   "id": "felix-becker-voith-turbo-bvl-cx-2026",
+   "score": 85,
+   "tier": "B",
+   "persona": "Supply chain / logistics leader",
+   "seniority": "C-level / VP",
+   "region": "DACH",
+   "breakdown": [
+    {
+     "factor": "Segment",
+     "points": 18,
+     "max": 30,
+     "why": "Manufacturing with high PO / SO volume"
+    },
+    {
+     "factor": "Function",
+     "points": 27,
+     "max": 30,
+     "why": "Supply chain / logistics leader"
+    },
+    {
+     "factor": "Seniority",
+     "points": 20,
+     "max": 20,
+     "why": "C-level / VP"
+    },
+    {
+     "factor": "Region",
+     "points": 10,
+     "max": 10,
+     "why": "DACH"
+    },
+    {
+     "factor": "Event signal",
+     "points": 10,
+     "max": 10,
+     "why": "Speaking on stage: public, on-topic, easy opener"
+    }
+   ],
+   "reference": {
+    "id": "tmd",
+    "customer": "TMD Friction",
+    "story": "Manufacturing customer (featured on case-study page)"
+   },
+   "flags": []
+  },
+  {
+   "event_id": "bme-2026",
+   "event_name": "BME Symposium Einkauf & Logistik",
+   "role": "speaker",
+   "company": "Heidelberger Druckmaschinen",
+   "company_type": "buyer",
+   "segment": "manufacturing",
+   "country": "DE",
+   "domain": "heidelberg.com",
+   "source_url": "https://a.storyblok.com/f/104752/x/f35c82985f/bme-symposium-2026-premail.pdf",
+   "kind": "contact",
+   "name": "Franziska Liebel",
+   "title": "Global Head of Purchasing",
+   "id": "franziska-liebel-heidelberger-druckmaschinen-bme-2026",
+   "score": 85,
+   "tier": "B",
+   "persona": "Procure-to-Pay owner",
+   "seniority": "Head / Director",
+   "region": "DACH",
+   "breakdown": [
+    {
+     "factor": "Segment",
+     "points": 18,
+     "max": 30,
+     "why": "Manufacturing with high PO / SO volume"
+    },
+    {
+     "factor": "Function",
+     "points": 30,
+     "max": 30,
+     "why": "Procure-to-Pay owner"
+    },
+    {
+     "factor": "Seniority",
+     "points": 17,
+     "max": 20,
+     "why": "Head / Director"
+    },
+    {
+     "factor": "Region",
+     "points": 10,
+     "max": 10,
+     "why": "DACH"
+    },
+    {
+     "factor": "Event signal",
+     "points": 10,
+     "max": 10,
+     "why": "Speaking on stage: public, on-topic, easy opener"
+    }
+   ],
+   "reference": {
+    "id": "kloeckner",
+    "customer": "Kloeckner Metals",
+    "story": "Supplier order confirmations on autopilot"
+   },
+   "flags": []
+  },
+  {
+   "event_id": "bme-2026",
+   "event_name": "BME Symposium Einkauf & Logistik",
+   "role": "speaker",
+   "company": "A.S. Création Tapeten",
+   "company_type": "buyer",
+   "segment": "manufacturing",
+   "country": "DE",
+   "domain": "as-creation.com",
+   "source_url": "https://a.storyblok.com/f/104752/x/f35c82985f/bme-symposium-2026-premail.pdf",
+   "kind": "contact",
+   "name": "Franziska Prüger",
+   "title": "Einkaufsleitung",
+   "id": "franziska-pruger-a-s-creation-tapeten-bme-2026",
+   "score": 85,
+   "tier": "B",
+   "persona": "Procure-to-Pay owner",
+   "seniority": "Head / Director",
+   "region": "DACH",
+   "breakdown": [
+    {
+     "factor": "Segment",
+     "points": 18,
+     "max": 30,
+     "why": "Manufacturing with high PO / SO volume"
+    },
+    {
+     "factor": "Function",
+     "points": 30,
+     "max": 30,
+     "why": "Procure-to-Pay owner"
+    },
+    {
+     "factor": "Seniority",
+     "points": 17,
+     "max": 20,
+     "why": "Head / Director"
+    },
+    {
+     "factor": "Region",
+     "points": 10,
+     "max": 10,
+     "why": "DACH"
+    },
+    {
+     "factor": "Event signal",
+     "points": 10,
+     "max": 10,
+     "why": "Speaking on stage: public, on-topic, easy opener"
+    }
+   ],
+   "reference": {
+    "id": "kloeckner",
+    "customer": "Kloeckner Metals",
+    "story": "Supplier order confirmations on autopilot"
+   },
+   "flags": []
+  },
+  {
+   "event_id": "bvl-cx-2026",
+   "event_name": "BVL Supply Chain CX 2026",
+   "role": "speaker",
+   "company": "Brenntag",
+   "company_type": "buyer",
+   "segment": "distribution",
+   "country": "DE",
+   "domain": "brenntag.com",
+   "source_url": "https://www.luminik.io/events/bvl-supply-chain-cx-berlin-f1773cb8328b/attendees/",
+   "kind": "contact",
+   "name": "Jens Birgersson",
+   "title": "CEO and Chairman of the Management Board",
+   "id": "jens-birgersson-brenntag-bvl-cx-2026",
+   "score": 85,
+   "tier": "B",
+   "persona": "Executive sponsor",
+   "seniority": "C-level / VP",
+   "region": "DACH",
+   "breakdown": [
+    {
+     "factor": "Segment",
+     "points": 27,
+     "max": 30,
+     "why": "Wholesale / B2B distribution"
+    },
+    {
+     "factor": "Function",
+     "points": 18,
+     "max": 30,
+     "why": "Executive sponsor"
+    },
+    {
+     "factor": "Seniority",
+     "points": 20,
+     "max": 20,
+     "why": "C-level / VP"
+    },
+    {
+     "factor": "Region",
+     "points": 10,
+     "max": 10,
+     "why": "DACH"
+    },
+    {
+     "factor": "Event signal",
+     "points": 10,
+     "max": 10,
+     "why": "Speaking on stage: public, on-topic, easy opener"
+    }
+   ],
+   "reference": {
+    "id": "oatly",
+    "customer": "Oatly",
+    "story": "Scaling order intake without scaling headcount"
+   },
+   "flags": []
+  },
+  {
+   "event_id": "bme-2026",
+   "event_name": "BME Symposium Einkauf & Logistik",
+   "role": "speaker",
+   "company": "Rodenstock",
+   "company_type": "buyer",
+   "segment": "manufacturing",
+   "country": "DE",
+   "domain": "rodenstock.com",
+   "source_url": "https://a.storyblok.com/f/104752/x/f35c82985f/bme-symposium-2026-premail.pdf",
+   "kind": "contact",
+   "name": "Karsten Dedendorf",
+   "title": "Head of Corporate Procurement",
+   "id": "karsten-dedendorf-rodenstock-bme-2026",
+   "score": 85,
+   "tier": "B",
+   "persona": "Procure-to-Pay owner",
+   "seniority": "Head / Director",
+   "region": "DACH",
+   "breakdown": [
+    {
+     "factor": "Segment",
+     "points": 18,
+     "max": 30,
+     "why": "Manufacturing with high PO / SO volume"
+    },
+    {
+     "factor": "Function",
+     "points": 30,
+     "max": 30,
+     "why": "Procure-to-Pay owner"
+    },
+    {
+     "factor": "Seniority",
+     "points": 17,
+     "max": 20,
+     "why": "Head / Director"
+    },
+    {
+     "factor": "Region",
+     "points": 10,
+     "max": 10,
+     "why": "DACH"
+    },
+    {
+     "factor": "Event signal",
+     "points": 10,
+     "max": 10,
+     "why": "Speaking on stage: public, on-topic, easy opener"
+    }
+   ],
+   "reference": {
+    "id": "kloeckner",
+    "customer": "Kloeckner Metals",
+    "story": "Supplier order confirmations on autopilot"
+   },
+   "flags": []
+  },
+  {
+   "event_id": "bme-2026",
+   "event_name": "BME Symposium Einkauf & Logistik",
+   "role": "speaker",
+   "company": "Ypsomed",
+   "company_type": "buyer",
+   "segment": "manufacturing",
+   "country": "CH",
+   "domain": "ypsomed.com",
+   "source_url": "https://a.storyblok.com/f/104752/x/f35c82985f/bme-symposium-2026-premail.pdf",
+   "kind": "contact",
+   "name": "Marcel Strohmenger",
+   "title": "Head of Purchasing",
+   "id": "marcel-strohmenger-ypsomed-bme-2026",
+   "score": 85,
+   "tier": "B",
+   "persona": "Procure-to-Pay owner",
+   "seniority": "Head / Director",
+   "region": "DACH",
+   "breakdown": [
+    {
+     "factor": "Segment",
+     "points": 18,
+     "max": 30,
+     "why": "Manufacturing with high PO / SO volume"
+    },
+    {
+     "factor": "Function",
+     "points": 30,
+     "max": 30,
+     "why": "Procure-to-Pay owner"
+    },
+    {
+     "factor": "Seniority",
+     "points": 17,
+     "max": 20,
+     "why": "Head / Director"
+    },
+    {
+     "factor": "Region",
+     "points": 10,
+     "max": 10,
+     "why": "DACH"
+    },
+    {
+     "factor": "Event signal",
+     "points": 10,
+     "max": 10,
+     "why": "Speaking on stage: public, on-topic, easy opener"
+    }
+   ],
+   "reference": {
+    "id": "kloeckner",
+    "customer": "Kloeckner Metals",
+    "story": "Supplier order confirmations on autopilot"
+   },
+   "flags": []
+  },
+  {
+   "event_id": "bme-2026",
+   "event_name": "BME Symposium Einkauf & Logistik",
+   "role": "speaker",
+   "company": "Mibelle Group",
+   "company_type": "buyer",
+   "segment": "manufacturing",
+   "country": "CH",
+   "domain": "mibellegroup.com",
+   "source_url": "https://a.storyblok.com/f/104752/x/f35c82985f/bme-symposium-2026-premail.pdf",
+   "kind": "contact",
+   "name": "Markus Sagolla",
+   "title": "Head of Group Supply Chain & Operations / Deputy CEO",
+   "id": "markus-sagolla-mibelle-group-bme-2026",
+   "score": 85,
+   "tier": "B",
+   "persona": "Supply chain / logistics leader",
+   "seniority": "C-level / VP",
+   "region": "DACH",
+   "breakdown": [
+    {
+     "factor": "Segment",
+     "points": 18,
+     "max": 30,
+     "why": "Manufacturing with high PO / SO volume"
+    },
+    {
+     "factor": "Function",
+     "points": 27,
+     "max": 30,
+     "why": "Supply chain / logistics leader"
+    },
+    {
+     "factor": "Seniority",
+     "points": 20,
+     "max": 20,
+     "why": "C-level / VP"
+    },
+    {
+     "factor": "Region",
+     "points": 10,
+     "max": 10,
+     "why": "DACH"
+    },
+    {
+     "factor": "Event signal",
+     "points": 10,
+     "max": 10,
+     "why": "Speaking on stage: public, on-topic, easy opener"
+    }
+   ],
+   "reference": {
+    "id": "tmd",
+    "customer": "TMD Friction",
+    "story": "Manufacturing customer (featured on case-study page)"
+   },
+   "flags": []
+  },
+  {
+   "event_id": "bme-2026",
+   "event_name": "BME Symposium Einkauf & Logistik",
+   "role": "speaker",
+   "company": "Brose Fahrzeugteile",
+   "company_type": "buyer",
+   "segment": "manufacturing",
+   "country": "DE",
+   "domain": "brose.com",
+   "source_url": "https://a.storyblok.com/f/104752/x/f35c82985f/bme-symposium-2026-premail.pdf",
+   "kind": "contact",
+   "name": "Olga Fendel",
+   "title": "Leiterin Digitalisierung, Prozesse und Methoden, Einkauf",
+   "id": "olga-fendel-brose-fahrzeugteile-bme-2026",
+   "score": 85,
+   "tier": "B",
+   "persona": "Procure-to-Pay owner",
+   "seniority": "Head / Director",
+   "region": "DACH",
+   "breakdown": [
+    {
+     "factor": "Segment",
+     "points": 18,
+     "max": 30,
+     "why": "Manufacturing with high PO / SO volume"
+    },
+    {
+     "factor": "Function",
+     "points": 30,
+     "max": 30,
+     "why": "Procure-to-Pay owner"
+    },
+    {
+     "factor": "Seniority",
+     "points": 17,
+     "max": 20,
+     "why": "Head / Director"
+    },
+    {
+     "factor": "Region",
+     "points": 10,
+     "max": 10,
+     "why": "DACH"
+    },
+    {
+     "factor": "Event signal",
+     "points": 10,
+     "max": 10,
+     "why": "Speaking on stage: public, on-topic, easy opener"
+    }
+   ],
+   "reference": {
+    "id": "kloeckner",
+    "customer": "Kloeckner Metals",
+    "story": "Supplier order confirmations on autopilot"
+   },
+   "flags": []
+  },
+  {
+   "event_id": "emsc-2026",
+   "event_name": "European Manufacturing & Supply Chain Summit",
+   "role": "speaker",
+   "company": "Robert Bosch",
+   "company_type": "buyer",
+   "segment": "manufacturing",
+   "country": "DE",
+   "domain": "bosch.com",
+   "source_url": "https://www.luminik.io/events/ems-scms-summit-munich/",
+   "kind": "contact",
+   "name": "Winfried Rockensteiner",
+   "title": "Global Vice President Logistics, Bosch Powertrain Solutions",
+   "id": "winfried-rockensteiner-robert-bosch-emsc-2026",
+   "score": 85,
+   "tier": "B",
+   "persona": "Supply chain / logistics leader",
+   "seniority": "C-level / VP",
+   "region": "DACH",
+   "breakdown": [
+    {
+     "factor": "Segment",
+     "points": 18,
+     "max": 30,
+     "why": "Manufacturing with high PO / SO volume"
+    },
+    {
+     "factor": "Function",
+     "points": 27,
+     "max": 30,
+     "why": "Supply chain / logistics leader"
+    },
+    {
+     "factor": "Seniority",
+     "points": 20,
+     "max": 20,
+     "why": "C-level / VP"
+    },
+    {
+     "factor": "Region",
+     "points": 10,
+     "max": 10,
+     "why": "DACH"
+    },
+    {
+     "factor": "Event signal",
+     "points": 10,
+     "max": 10,
+     "why": "Speaking on stage: public, on-topic, easy opener"
+    }
+   ],
+   "reference": {
+    "id": "tmd",
+    "customer": "TMD Friction",
+    "story": "Manufacturing customer (featured on case-study page)"
+   },
+   "flags": []
+  },
+  {
+   "event_id": "emsc-2026",
+   "event_name": "European Manufacturing & Supply Chain Summit",
+   "role": "speaker",
+   "company": "Henkel",
+   "company_type": "buyer",
+   "segment": "manufacturing",
+   "country": "DE",
+   "domain": "henkel.com",
+   "source_url": "https://www.luminik.io/events/ems-scms-summit-munich/",
+   "kind": "contact",
+   "name": "Biljana Visnjicki",
+   "title": "Director, Global Supply Chain Digital Transformation",
+   "id": "biljana-visnjicki-henkel-emsc-2026",
+   "score": 82,
+   "tier": "B",
+   "persona": "Supply chain / logistics leader",
+   "seniority": "Head / Director",
+   "region": "DACH",
+   "breakdown": [
+    {
+     "factor": "Segment",
+     "points": 18,
+     "max": 30,
+     "why": "Manufacturing with high PO / SO volume"
+    },
+    {
+     "factor": "Function",
+     "points": 27,
+     "max": 30,
+     "why": "Supply chain / logistics leader"
+    },
+    {
+     "factor": "Seniority",
+     "points": 17,
+     "max": 20,
+     "why": "Head / Director"
+    },
+    {
+     "factor": "Region",
+     "points": 10,
+     "max": 10,
+     "why": "DACH"
+    },
+    {
+     "factor": "Event signal",
+     "points": 10,
+     "max": 10,
+     "why": "Speaking on stage: public, on-topic, easy opener"
+    }
+   ],
+   "reference": {
+    "id": "tmd",
+    "customer": "TMD Friction",
+    "story": "Manufacturing customer (featured on case-study page)"
+   },
+   "flags": []
+  },
+  {
+   "event_id": "bme-2026",
+   "event_name": "BME Symposium Einkauf & Logistik",
+   "role": "speaker",
+   "company": "MENCK",
+   "company_type": "buyer",
+   "segment": "manufacturing",
+   "country": "DE",
+   "domain": "menck.com",
+   "source_url": "https://a.storyblok.com/f/104752/x/f35c82985f/bme-symposium-2026-premail.pdf",
+   "kind": "contact",
+   "name": "Klaus Stölken",
+   "title": "Senior Segment Lead Supply Chain Management",
+   "id": "klaus-stolken-menck-bme-2026",
+   "score": 82,
+   "tier": "B",
+   "persona": "Supply chain / logistics leader",
+   "seniority": "Head / Director",
+   "region": "DACH",
+   "breakdown": [
+    {
+     "factor": "Segment",
+     "points": 18,
+     "max": 30,
+     "why": "Manufacturing with high PO / SO volume"
+    },
+    {
+     "factor": "Function",
+     "points": 27,
+     "max": 30,
+     "why": "Supply chain / logistics leader"
+    },
+    {
+     "factor": "Seniority",
+     "points": 17,
+     "max": 20,
+     "why": "Head / Director"
+    },
+    {
+     "factor": "Region",
+     "points": 10,
+     "max": 10,
+     "why": "DACH"
+    },
+    {
+     "factor": "Event signal",
+     "points": 10,
+     "max": 10,
+     "why": "Speaking on stage: public, on-topic, easy opener"
+    }
+   ],
+   "reference": {
+    "id": "tmd",
+    "customer": "TMD Friction",
+    "story": "Manufacturing customer (featured on case-study page)"
+   },
+   "flags": []
+  },
+  {
+   "event_id": "bme-2026",
+   "event_name": "BME Symposium Einkauf & Logistik",
+   "role": "speaker",
+   "company": "Volkswagen Poznań",
+   "company_type": "buyer",
+   "segment": "manufacturing",
+   "country": "PL",
+   "domain": "volkswagen-poznan.pl",
+   "source_url": "https://a.storyblok.com/f/104752/x/f35c82985f/bme-symposium-2026-premail.pdf",
+   "kind": "contact",
+   "name": "Tanja Ernst",
+   "title": "Leiterin Gesamteinkauf Volkswagen Poznań",
+   "id": "tanja-ernst-volkswagen-poznan-bme-2026",
+   "score": 81,
+   "tier": "B",
+   "persona": "Procure-to-Pay owner",
+   "seniority": "Head / Director",
+   "region": "Europe",
+   "breakdown": [
+    {
+     "factor": "Segment",
+     "points": 18,
+     "max": 30,
+     "why": "Manufacturing with high PO / SO volume"
+    },
+    {
+     "factor": "Function",
+     "points": 30,
+     "max": 30,
+     "why": "Procure-to-Pay owner"
+    },
+    {
+     "factor": "Seniority",
+     "points": 17,
+     "max": 20,
+     "why": "Head / Director"
+    },
+    {
+     "factor": "Region",
+     "points": 6,
+     "max": 10,
+     "why": "Europe"
+    },
+    {
+     "factor": "Event signal",
+     "points": 10,
+     "max": 10,
+     "why": "Speaking on stage: public, on-topic, easy opener"
+    }
+   ],
+   "reference": {
+    "id": "kloeckner",
+    "customer": "Kloeckner Metals",
+    "story": "Supplier order confirmations on autopilot"
+   },
+   "flags": []
+  },
+  {
+   "event_id": "bvl-cx-2026",
+   "event_name": "BVL Supply Chain CX 2026",
+   "role": "speaker",
+   "company": "BLG LOGISTICS",
+   "company_type": "buyer",
+   "segment": "logistics",
+   "country": "DE",
+   "domain": "blg-logistics.com",
+   "source_url": "https://www.luminik.io/events/bvl-supply-chain-cx-berlin-f1773cb8328b/attendees/",
+   "kind": "contact",
+   "name": "Jan-Hinrich Brumloop",
+   "title": "Head of Technology & Innovation",
+   "id": "jan-hinrich-brumloop-blg-logistics-bvl-cx-2026",
+   "score": 79,
+   "tier": "B",
+   "persona": "Transformation / digital lead",
+   "seniority": "Head / Director",
+   "region": "DACH",
+   "breakdown": [
+    {
+     "factor": "Segment",
+     "points": 21,
+     "max": 30,
+     "why": "Logistics provider (Müller – Die Lila Logistik is a customer)"
+    },
+    {
+     "factor": "Function",
+     "points": 21,
+     "max": 30,
+     "why": "Transformation / digital lead"
+    },
+    {
+     "factor": "Seniority",
+     "points": 17,
+     "max": 20,
+     "why": "Head / Director"
+    },
+    {
+     "factor": "Region",
+     "points": 10,
+     "max": 10,
+     "why": "DACH"
+    },
+    {
+     "factor": "Event signal",
+     "points": 10,
+     "max": 10,
+     "why": "Speaking on stage: public, on-topic, easy opener"
+    }
+   ],
+   "reference": {
+    "id": "tmd",
+    "customer": "TMD Friction",
+    "story": "Manufacturing customer (featured on case-study page)"
+   },
+   "flags": []
+  },
+  {
+   "event_id": "bvl-cx-2026",
+   "event_name": "BVL Supply Chain CX 2026",
+   "role": "speaker",
+   "company": "SSI SCHÄFER",
+   "company_type": "buyer",
+   "segment": "manufacturing",
+   "country": "DE",
+   "domain": "ssi-schaefer.com",
+   "source_url": "https://www.luminik.io/events/bvl-supply-chain-cx-berlin-f1773cb8328b/attendees/",
+   "kind": "contact",
+   "name": "Martin Böhmer",
+   "title": "VP Global Technology",
+   "id": "martin-bohmer-ssi-schafer-bvl-cx-2026",
+   "score": 79,
+   "tier": "B",
+   "persona": "Transformation / digital lead",
+   "seniority": "C-level / VP",
+   "region": "DACH",
+   "breakdown": [
+    {
+     "factor": "Segment",
+     "points": 18,
+     "max": 30,
+     "why": "Manufacturing with high PO / SO volume"
+    },
+    {
+     "factor": "Function",
+     "points": 21,
+     "max": 30,
+     "why": "Transformation / digital lead"
+    },
+    {
+     "factor": "Seniority",
+     "points": 20,
+     "max": 20,
+     "why": "C-level / VP"
+    },
+    {
+     "factor": "Region",
+     "points": 10,
+     "max": 10,
+     "why": "DACH"
+    },
+    {
+     "factor": "Event signal",
+     "points": 10,
+     "max": 10,
+     "why": "Speaking on stage: public, on-topic, easy opener"
+    }
+   ],
+   "reference": {
+    "id": "tmd",
+    "customer": "TMD Friction",
+    "story": "Manufacturing customer (featured on case-study page)"
+   },
+   "flags": []
+  },
+  {
+   "event_id": "bme-2026",
+   "event_name": "BME Symposium Einkauf & Logistik",
+   "role": "speaker",
+   "company": "ALDI Nord",
+   "company_type": "buyer",
+   "segment": "retail",
+   "country": "DE",
+   "domain": "aldi-nord.de",
+   "source_url": "https://a.storyblok.com/f/104752/x/f35c82985f/bme-symposium-2026-premail.pdf",
+   "kind": "contact",
+   "name": "Sascha Siegers",
+   "title": "Director Planning & Replenishment",
+   "id": "sascha-siegers-aldi-nord-bme-2026",
+   "score": 78,
+   "tier": "B",
+   "persona": "Supply chain / logistics leader",
+   "seniority": "Head / Director",
+   "region": "DACH",
+   "breakdown": [
+    {
+     "factor": "Segment",
+     "points": 14,
+     "max": 30,
+     "why": "Retail: replenishment-heavy, adjacent fit"
+    },
+    {
+     "factor": "Function",
+     "points": 27,
+     "max": 30,
+     "why": "Supply chain / logistics leader"
+    },
+    {
+     "factor": "Seniority",
+     "points": 17,
+     "max": 20,
+     "why": "Head / Director"
+    },
+    {
+     "factor": "Region",
+     "points": 10,
+     "max": 10,
+     "why": "DACH"
+    },
+    {
+     "factor": "Event signal",
+     "points": 10,
+     "max": 10,
+     "why": "Speaking on stage: public, on-topic, easy opener"
+    }
+   ],
+   "reference": {
+    "id": "oatly",
+    "customer": "Oatly",
+    "story": "Scaling order intake without scaling headcount"
+   },
+   "flags": []
+  },
+  {
+   "event_id": "bvl-cx-2026",
+   "event_name": "BVL Supply Chain CX 2026",
+   "role": "speaker",
+   "company": "Jungheinrich",
+   "company_type": "buyer",
+   "segment": "manufacturing",
+   "country": "DE",
+   "domain": "jungheinrich.com",
+   "source_url": "https://www.luminik.io/events/bvl-supply-chain-cx-berlin-f1773cb8328b/attendees/",
+   "kind": "contact",
+   "name": "Tobias Harzer",
+   "title": "Member of the Board of Management, Automation & Warehouse Equipment",
+   "id": "tobias-harzer-jungheinrich-bvl-cx-2026",
+   "score": 76,
+   "tier": "B",
+   "persona": "Executive sponsor",
+   "seniority": "C-level / VP",
+   "region": "DACH",
+   "breakdown": [
+    {
+     "factor": "Segment",
+     "points": 18,
+     "max": 30,
+     "why": "Manufacturing with high PO / SO volume"
+    },
+    {
+     "factor": "Function",
+     "points": 18,
+     "max": 30,
+     "why": "Executive sponsor"
+    },
+    {
+     "factor": "Seniority",
+     "points": 20,
+     "max": 20,
+     "why": "C-level / VP"
+    },
+    {
+     "factor": "Region",
+     "points": 10,
+     "max": 10,
+     "why": "DACH"
+    },
+    {
+     "factor": "Event signal",
+     "points": 10,
+     "max": 10,
+     "why": "Speaking on stage: public, on-topic, easy opener"
+    }
+   ],
+   "reference": {
+    "id": "oatly",
+    "customer": "Oatly",
+    "story": "Scaling order intake without scaling headcount"
+   },
+   "flags": []
+  },
+  {
+   "event_id": "bme-2026",
+   "event_name": "BME Symposium Einkauf & Logistik",
+   "role": "speaker",
+   "company": "Apollo Tyres",
+   "company_type": "buyer",
+   "segment": "manufacturing",
+   "country": "IN",
+   "domain": "apollotyres.com",
+   "source_url": "https://a.storyblok.com/f/104752/x/f35c82985f/bme-symposium-2026-premail.pdf",
+   "kind": "contact",
+   "name": "Arjun Varma",
+   "title": "Group Head – Supply Chain Strategy & Transformation",
+   "id": "arjun-varma-apollo-tyres-bme-2026",
+   "score": 74,
+   "tier": "B",
+   "persona": "Supply chain / logistics leader",
+   "seniority": "Head / Director",
+   "region": "Other",
+   "breakdown": [
+    {
+     "factor": "Segment",
+     "points": 18,
+     "max": 30,
+     "why": "Manufacturing with high PO / SO volume"
+    },
+    {
+     "factor": "Function",
+     "points": 27,
+     "max": 30,
+     "why": "Supply chain / logistics leader"
+    },
+    {
+     "factor": "Seniority",
+     "points": 17,
+     "max": 20,
+     "why": "Head / Director"
+    },
+    {
+     "factor": "Region",
+     "points": 2,
+     "max": 10,
+     "why": "Other"
+    },
+    {
+     "factor": "Event signal",
+     "points": 10,
+     "max": 10,
+     "why": "Speaking on stage: public, on-topic, easy opener"
+    }
+   ],
+   "reference": {
+    "id": "tmd",
+    "customer": "TMD Friction",
+    "story": "Manufacturing customer (featured on case-study page)"
+   },
+   "flags": []
+  },
+  {
+   "event_id": "bme-2026",
+   "event_name": "BME Symposium Einkauf & Logistik",
+   "role": "speaker",
+   "company": "Lufthansa Group",
+   "company_type": "buyer",
+   "segment": "other",
+   "country": "DE",
+   "domain": "lufthansagroup.com",
+   "source_url": "https://a.storyblok.com/f/104752/x/f35c82985f/bme-symposium-2026-premail.pdf",
+   "kind": "contact",
+   "name": "Sabrina Winter",
+   "title": "VP Direct Procurement",
+   "id": "sabrina-winter-lufthansa-group-bme-2026",
+   "score": 73,
+   "tier": "B",
+   "persona": "Procure-to-Pay owner",
+   "seniority": "C-level / VP",
+   "region": "DACH",
+   "breakdown": [
+    {
+     "factor": "Segment",
+     "points": 3,
+     "max": 30,
+     "why": "Outside target segments"
+    },
+    {
+     "factor": "Function",
+     "points": 30,
+     "max": 30,
+     "why": "Procure-to-Pay owner"
+    },
+    {
+     "factor": "Seniority",
+     "points": 20,
+     "max": 20,
+     "why": "C-level / VP"
+    },
+    {
+     "factor": "Region",
+     "points": 10,
+     "max": 10,
+     "why": "DACH"
+    },
+    {
+     "factor": "Event signal",
+     "points": 10,
+     "max": 10,
+     "why": "Speaking on stage: public, on-topic, easy opener"
+    }
+   ],
+   "reference": {
+    "id": "kloeckner",
+    "customer": "Kloeckner Metals",
+    "story": "Supplier order confirmations on autopilot"
+   },
+   "flags": []
+  },
+  {
+   "event_id": "bme-2026",
+   "event_name": "BME Symposium Einkauf & Logistik",
+   "role": "speaker",
+   "company": "ADAC SE",
+   "company_type": "buyer",
+   "segment": "other",
+   "country": "DE",
+   "domain": "adac.de",
+   "source_url": "https://a.storyblok.com/f/104752/x/f35c82985f/bme-symposium-2026-premail.pdf",
+   "kind": "contact",
+   "name": "Thomas Germer",
+   "title": "CPO",
+   "id": "thomas-germer-adac-se-bme-2026",
+   "score": 73,
+   "tier": "B",
+   "persona": "Procure-to-Pay owner",
+   "seniority": "C-level / VP",
+   "region": "DACH",
+   "breakdown": [
+    {
+     "factor": "Segment",
+     "points": 3,
+     "max": 30,
+     "why": "Outside target segments"
+    },
+    {
+     "factor": "Function",
+     "points": 30,
+     "max": 30,
+     "why": "Procure-to-Pay owner"
+    },
+    {
+     "factor": "Seniority",
+     "points": 20,
+     "max": 20,
+     "why": "C-level / VP"
+    },
+    {
+     "factor": "Region",
+     "points": 10,
+     "max": 10,
+     "why": "DACH"
+    },
+    {
+     "factor": "Event signal",
+     "points": 10,
+     "max": 10,
+     "why": "Speaking on stage: public, on-topic, easy opener"
+    }
+   ],
+   "reference": {
+    "id": "kloeckner",
+    "customer": "Kloeckner Metals",
+    "story": "Supplier order confirmations on autopilot"
+   },
+   "flags": []
+  },
+  {
+   "event_id": "bme-2026",
+   "event_name": "BME Symposium Einkauf & Logistik",
+   "role": "speaker",
+   "company": "KRONES",
+   "company_type": "buyer",
+   "segment": "manufacturing",
+   "country": "DE",
+   "domain": "krones.com",
+   "source_url": "https://a.storyblok.com/f/104752/x/f35c82985f/bme-symposium-2026-premail.pdf",
+   "kind": "contact",
+   "name": "Linda Zimmerer",
+   "title": "Business Development – Sustainability & Risk Management, Corporate Procurement",
+   "id": "linda-zimmerer-krones-bme-2026",
+   "score": 72,
+   "tier": "B",
+   "persona": "Procure-to-Pay owner",
+   "seniority": "Individual contributor",
+   "region": "DACH",
+   "breakdown": [
+    {
+     "factor": "Segment",
+     "points": 18,
+     "max": 30,
+     "why": "Manufacturing with high PO / SO volume"
+    },
+    {
+     "factor": "Function",
+     "points": 30,
+     "max": 30,
+     "why": "Procure-to-Pay owner"
+    },
+    {
+     "factor": "Seniority",
+     "points": 4,
+     "max": 20,
+     "why": "Individual contributor"
+    },
+    {
+     "factor": "Region",
+     "points": 10,
+     "max": 10,
+     "why": "DACH"
+    },
+    {
+     "factor": "Event signal",
+     "points": 10,
+     "max": 10,
+     "why": "Speaking on stage: public, on-topic, easy opener"
+    }
+   ],
+   "reference": {
+    "id": "kloeckner",
+    "customer": "Kloeckner Metals",
+    "story": "Supplier order confirmations on autopilot"
+   },
+   "flags": []
+  },
+  {
+   "event_id": "bme-2026",
+   "event_name": "BME Symposium Einkauf & Logistik",
+   "role": "speaker",
+   "company": "BKW Energie",
+   "company_type": "buyer",
+   "segment": "other",
+   "country": "CH",
+   "domain": "bkw.ch",
+   "source_url": "https://a.storyblok.com/f/104752/x/f35c82985f/bme-symposium-2026-premail.pdf",
+   "kind": "contact",
+   "name": "Jochen Starrach",
+   "title": "Head of Group Procurement, Logistics & Fleet Services",
+   "id": "jochen-starrach-bkw-energie-bme-2026",
+   "score": 70,
+   "tier": "B",
+   "persona": "Procure-to-Pay owner",
+   "seniority": "Head / Director",
+   "region": "DACH",
+   "breakdown": [
+    {
+     "factor": "Segment",
+     "points": 3,
+     "max": 30,
+     "why": "Outside target segments"
+    },
+    {
+     "factor": "Function",
+     "points": 30,
+     "max": 30,
+     "why": "Procure-to-Pay owner"
+    },
+    {
+     "factor": "Seniority",
+     "points": 17,
+     "max": 20,
+     "why": "Head / Director"
+    },
+    {
+     "factor": "Region",
+     "points": 10,
+     "max": 10,
+     "why": "DACH"
+    },
+    {
+     "factor": "Event signal",
+     "points": 10,
+     "max": 10,
+     "why": "Speaking on stage: public, on-topic, easy opener"
+    }
+   ],
+   "reference": {
+    "id": "kloeckner",
+    "customer": "Kloeckner Metals",
+    "story": "Supplier order confirmations on autopilot"
+   },
+   "flags": []
+  },
+  {
+   "event_id": "emsc-2026",
+   "event_name": "European Manufacturing & Supply Chain Summit",
+   "role": "speaker",
+   "company": "Beaufort",
+   "company_type": "buyer",
+   "segment": "other",
+   "country": "",
+   "domain": "",
+   "source_url": "https://www.luminik.io/events/ems-scms-summit-munich/",
+   "kind": "contact",
+   "name": "Nanda Kishore",
+   "title": "Director Supply Chain & Procurement Europe & APAC",
+   "id": "nanda-kishore-beaufort-emsc-2026",
+   "score": 62,
+   "tier": "C",
+   "persona": "Procure-to-Pay owner",
+   "seniority": "Head / Director",
+   "region": "Other",
+   "breakdown": [
+    {
+     "factor": "Segment",
+     "points": 3,
+     "max": 30,
+     "why": "Outside target segments"
+    },
+    {
+     "factor": "Function",
+     "points": 30,
+     "max": 30,
+     "why": "Procure-to-Pay owner"
+    },
+    {
+     "factor": "Seniority",
+     "points": 17,
+     "max": 20,
+     "why": "Head / Director"
+    },
+    {
+     "factor": "Region",
+     "points": 2,
+     "max": 10,
+     "why": "Other"
+    },
+    {
+     "factor": "Event signal",
+     "points": 10,
+     "max": 10,
+     "why": "Speaking on stage: public, on-topic, easy opener"
+    }
+   ],
+   "reference": {
+    "id": "kloeckner",
+    "customer": "Kloeckner Metals",
+    "story": "Supplier order confirmations on autopilot"
+   },
+   "flags": [
+    "No domain: company dedupe in HubSpot by name only"
+   ]
+  },
+  {
+   "event_id": "bvl-cx-2026",
+   "event_name": "BVL Supply Chain CX 2026",
+   "role": "speaker",
+   "company": "IKEA",
+   "company_type": "buyer",
+   "segment": "retail",
+   "country": "SE",
+   "domain": "ikea.com",
+   "source_url": "https://www.luminik.io/events/bvl-supply-chain-cx-berlin-f1773cb8328b/attendees/",
+   "kind": "contact",
+   "name": "Caner Can",
+   "title": "Intralogistics Developer",
+   "id": "caner-can-ikea-bvl-cx-2026",
+   "score": 61,
+   "tier": "C",
+   "persona": "Supply chain / logistics leader",
+   "seniority": "Individual contributor",
+   "region": "Europe",
+   "breakdown": [
+    {
+     "factor": "Segment",
+     "points": 14,
+     "max": 30,
+     "why": "Retail: replenishment-heavy, adjacent fit"
+    },
+    {
+     "factor": "Function",
+     "points": 27,
+     "max": 30,
+     "why": "Supply chain / logistics leader"
+    },
+    {
+     "factor": "Seniority",
+     "points": 4,
+     "max": 20,
+     "why": "Individual contributor"
+    },
+    {
+     "factor": "Region",
+     "points": 6,
+     "max": 10,
+     "why": "Europe"
+    },
+    {
+     "factor": "Event signal",
+     "points": 10,
+     "max": 10,
+     "why": "Speaking on stage: public, on-topic, easy opener"
+    }
+   ],
+   "reference": {
+    "id": "oatly",
+    "customer": "Oatly",
+    "story": "Scaling order intake without scaling headcount"
+   },
+   "flags": []
+  },
+  {
+   "event_id": "bvl-cx-2026",
+   "event_name": "BVL Supply Chain CX 2026",
+   "role": "speaker",
+   "company": "HHLA",
+   "company_type": "buyer",
+   "segment": "logistics",
+   "country": "DE",
+   "domain": "hhla.de",
+   "source_url": "https://www.luminik.io/events/bvl-supply-chain-cx-berlin-f1773cb8328b/attendees/",
+   "kind": "contact",
+   "name": "Johannes Berg",
+   "title": "Director Corporate Affairs",
+   "id": "johannes-berg-hhla-bvl-cx-2026",
+   "score": 58,
+   "tier": "C",
+   "persona": "Unclassified",
+   "seniority": "Head / Director",
+   "region": "DACH",
+   "breakdown": [
+    {
+     "factor": "Segment",
+     "points": 21,
+     "max": 30,
+     "why": "Logistics provider (Müller – Die Lila Logistik is a customer)"
+    },
+    {
+     "factor": "Function",
+     "points": 0,
+     "max": 30,
+     "why": "No P2P / O2C / supply chain function in title"
+    },
+    {
+     "factor": "Seniority",
+     "points": 17,
+     "max": 20,
+     "why": "Head / Director"
+    },
+    {
+     "factor": "Region",
+     "points": 10,
+     "max": 10,
+     "why": "DACH"
+    },
+    {
+     "factor": "Event signal",
+     "points": 10,
+     "max": 10,
+     "why": "Speaking on stage: public, on-topic, easy opener"
+    }
+   ],
+   "reference": {
+    "id": "bofrost",
+    "customer": "bofrost*",
+    "story": "Faster fleet management, expert knowledge kept in the system"
+   },
+   "flags": []
+  },
+  {
+   "event_id": "emsc-2026",
+   "event_name": "European Manufacturing & Supply Chain Summit",
+   "role": "speaker",
+   "company": "Electrolux Group",
+   "company_type": "buyer",
+   "segment": "manufacturing",
+   "country": "SE",
+   "domain": "electroluxgroup.com",
+   "source_url": "https://www.luminik.io/events/ems-scms-summit-munich/",
+   "kind": "contact",
+   "name": "Alfonso Zoia",
+   "title": "Head of Industrial Manufacturing Engineering",
+   "id": "alfonso-zoia-electrolux-group-emsc-2026",
+   "score": 51,
+   "tier": "C",
+   "persona": "Unclassified",
+   "seniority": "Head / Director",
+   "region": "Europe",
+   "breakdown": [
+    {
+     "factor": "Segment",
+     "points": 18,
+     "max": 30,
+     "why": "Manufacturing with high PO / SO volume"
+    },
+    {
+     "factor": "Function",
+     "points": 0,
+     "max": 30,
+     "why": "No P2P / O2C / supply chain function in title"
+    },
+    {
+     "factor": "Seniority",
+     "points": 17,
+     "max": 20,
+     "why": "Head / Director"
+    },
+    {
+     "factor": "Region",
+     "points": 6,
+     "max": 10,
+     "why": "Europe"
+    },
+    {
+     "factor": "Event signal",
+     "points": 10,
+     "max": 10,
+     "why": "Speaking on stage: public, on-topic, easy opener"
+    }
+   ],
+   "reference": {
+    "id": "kloeckner",
+    "customer": "Kloeckner Metals",
+    "story": "Supplier order confirmations on autopilot"
+   },
+   "flags": []
+  },
+  {
+   "event_id": "bme-2026",
+   "event_name": "BME Symposium Einkauf & Logistik",
+   "role": "speaker",
+   "company": "ZF Friedrichshafen",
+   "company_type": "buyer",
+   "segment": "manufacturing",
+   "country": "DE",
+   "domain": "zf.com",
+   "source_url": "https://a.storyblok.com/f/104752/x/f35c82985f/bme-symposium-2026-premail.pdf",
+   "kind": "contact",
+   "name": "Alexander Schupp",
+   "title": "Analyst Raw Material Intelligence",
+   "id": "alexander-schupp-zf-friedrichshafen-bme-2026",
+   "score": 42,
+   "tier": "C",
+   "persona": "Unclassified",
+   "seniority": "Individual contributor",
+   "region": "DACH",
+   "breakdown": [
+    {
+     "factor": "Segment",
+     "points": 18,
+     "max": 30,
+     "why": "Manufacturing with high PO / SO volume"
+    },
+    {
+     "factor": "Function",
+     "points": 0,
+     "max": 30,
+     "why": "No P2P / O2C / supply chain function in title"
+    },
+    {
+     "factor": "Seniority",
+     "points": 4,
+     "max": 20,
+     "why": "Individual contributor"
+    },
+    {
+     "factor": "Region",
+     "points": 10,
+     "max": 10,
+     "why": "DACH"
+    },
+    {
+     "factor": "Event signal",
+     "points": 10,
+     "max": 10,
+     "why": "Speaking on stage: public, on-topic, easy opener"
+    }
+   ],
+   "reference": {
+    "id": "kloeckner",
+    "customer": "Kloeckner Metals",
+    "story": "Supplier order confirmations on autopilot"
+   },
+   "flags": []
+  },
+  {
+   "event_id": "bvl-cx-2026",
+   "event_name": "BVL Supply Chain CX 2026",
+   "role": "speaker",
+   "company": "Kaufland",
+   "company_type": "buyer",
+   "segment": "retail",
+   "country": "DE",
+   "domain": "kaufland.de",
+   "source_url": "https://www.luminik.io/events/bvl-supply-chain-cx-berlin-f1773cb8328b/attendees/",
+   "kind": "contact",
+   "name": "Tobias Hartmann",
+   "title": "",
+   "id": "tobias-hartmann-kaufland-bvl-cx-2026",
+   "score": 38,
+   "tier": "C",
+   "persona": "Unclassified",
+   "seniority": "Individual contributor",
+   "region": "DACH",
+   "breakdown": [
+    {
+     "factor": "Segment",
+     "points": 14,
+     "max": 30,
+     "why": "Retail: replenishment-heavy, adjacent fit"
+    },
+    {
+     "factor": "Function",
+     "points": 0,
+     "max": 30,
+     "why": "No P2P / O2C / supply chain function in title"
+    },
+    {
+     "factor": "Seniority",
+     "points": 4,
+     "max": 20,
+     "why": "Individual contributor"
+    },
+    {
+     "factor": "Region",
+     "points": 10,
+     "max": 10,
+     "why": "DACH"
+    },
+    {
+     "factor": "Event signal",
+     "points": 10,
+     "max": 10,
+     "why": "Speaking on stage: public, on-topic, easy opener"
+    }
+   ],
+   "reference": {
+    "id": "oatly",
+    "customer": "Oatly",
+    "story": "Scaling order intake without scaling headcount"
+   },
+   "flags": [
+    "Title missing: enrich before outreach"
+   ]
+  }
+ ],
+ "partners": [
+  {
+   "event_id": "logimat-2027",
+   "event_name": "LogiMAT 2027",
+   "role": "2026 exhibitor",
+   "company": "SWAN",
+   "company_type": "integrator",
+   "segment": "other",
+   "country": "DE",
+   "domain": "swan.de",
+   "source_url": "https://www.verkehrsrundschau.de/downloadfile/3755170/logimat-programm-2026.58020901.pdf",
+   "kind": "account",
+   "name": "SWAN",
+   "title": "2026 exhibitor at LogiMAT 2027",
+   "id": "swan-logimat-2027",
+   "reason": "SAP / logistics integrator: channel partner, not a buyer"
+  },
+  {
+   "event_id": "logimat-2027",
+   "event_name": "LogiMAT 2027",
+   "role": "2026 exhibitor",
+   "company": "Körber Supply Chain Consulting",
+   "company_type": "integrator",
+   "segment": "other",
+   "country": "DE",
+   "domain": "",
+   "source_url": "https://www.verkehrsrundschau.de/downloadfile/3755170/logimat-programm-2026.58020901.pdf",
+   "kind": "account",
+   "name": "Körber Supply Chain Consulting",
+   "title": "2026 exhibitor at LogiMAT 2027",
+   "id": "korber-supply-chain-consulting-logimat-2027",
+   "reason": "SAP / logistics integrator: channel partner, not a buyer"
+  },
+  {
+   "event_id": "logimat-2027",
+   "event_name": "LogiMAT 2027",
+   "role": "2026 exhibitor",
+   "company": "FIS Informationssysteme und Consulting",
+   "company_type": "integrator",
+   "segment": "other",
+   "country": "DE",
+   "domain": "fis-gmbh.de",
+   "source_url": "https://www.verkehrsrundschau.de/downloadfile/3755170/logimat-programm-2026.58020901.pdf",
+   "kind": "account",
+   "name": "FIS Informationssysteme und Consulting",
+   "title": "2026 exhibitor at LogiMAT 2027",
+   "id": "fis-informationssysteme-und-consulting-logimat-2027",
+   "reason": "SAP / logistics integrator: channel partner, not a buyer"
+  },
+  {
+   "event_id": "logimat-2027",
+   "event_name": "LogiMAT 2027",
+   "role": "2026 exhibitor",
+   "company": "Westernacher Consulting",
+   "company_type": "integrator",
+   "segment": "other",
+   "country": "DE",
+   "domain": "westernacher-consulting.com",
+   "source_url": "https://www.verkehrsrundschau.de/downloadfile/3755170/logimat-programm-2026.58020901.pdf",
+   "kind": "account",
+   "name": "Westernacher Consulting",
+   "title": "2026 exhibitor at LogiMAT 2027",
+   "id": "westernacher-consulting-logimat-2027",
+   "reason": "SAP / logistics integrator: channel partner, not a buyer"
+  }
+ ],
+ "excluded": [
+  {
+   "event_id": "bme-2026",
+   "event_name": "BME Symposium Einkauf & Logistik",
+   "role": "speaker",
+   "company": "University of Mannheim",
+   "company_type": "academia",
+   "segment": "other",
+   "country": "DE",
+   "domain": "",
+   "source_url": "https://a.storyblok.com/f/104752/x/f35c82985f/bme-symposium-2026-premail.pdf",
+   "kind": "contact",
+   "name": "Christian Bode",
+   "title": "Endowed Chair of Procurement",
+   "id": "christian-bode-university-of-mannheim-bme-2026",
+   "reason": "Academic speaker"
+  },
+  {
+   "event_id": "bme-2026",
+   "event_name": "BME Symposium Einkauf & Logistik",
+   "role": "speaker",
+   "company": "IBM Infrastructure",
+   "company_type": "vendor",
+   "segment": "other",
+   "country": "US",
+   "domain": "ibm.com",
+   "source_url": "https://a.storyblok.com/f/104752/x/f35c82985f/bme-symposium-2026-premail.pdf",
+   "kind": "contact",
+   "name": "Matthias Graefe",
+   "title": "Director of Supply Chain Transformation",
+   "id": "matthias-graefe-ibm-infrastructure-bme-2026",
+   "reason": "Sells software or equipment; competitor or partner, not a buyer"
+  },
+  {
+   "event_id": "bme-2026",
+   "event_name": "BME Symposium Einkauf & Logistik",
+   "role": "speaker",
+   "company": "BME e.V.",
+   "company_type": "association",
+   "segment": "other",
+   "country": "DE",
+   "domain": "",
+   "source_url": "https://a.storyblok.com/f/104752/x/f35c82985f/bme-symposium-2026-premail.pdf",
+   "kind": "contact",
+   "name": "Lars Kleeberg",
+   "title": "Hauptgeschäftsführer",
+   "id": "lars-kleeberg-bme-e-v-bme-2026",
+   "reason": "Event organiser or association"
+  },
+  {
+   "event_id": "bme-2026",
+   "event_name": "BME Symposium Einkauf & Logistik",
+   "role": "speaker",
+   "company": "SBB",
+   "company_type": "public",
+   "segment": "other",
+   "country": "CH",
+   "domain": "sbb.ch",
+   "source_url": "https://a.storyblok.com/f/104752/x/f35c82985f/bme-symposium-2026-premail.pdf",
+   "kind": "contact",
+   "name": "Simon Roth",
+   "title": "Head of Group Procurement",
+   "id": "simon-roth-sbb-bme-2026",
+   "reason": "Public-sector or state-owned; long procurement cycles, outside current focus"
+  },
+  {
+   "event_id": "bme-2026",
+   "event_name": "BME Symposium Einkauf & Logistik",
+   "role": "speaker",
+   "company": "KfW Bankengruppe",
+   "company_type": "public",
+   "segment": "other",
+   "country": "DE",
+   "domain": "kfw.de",
+   "source_url": "https://a.storyblok.com/f/104752/x/f35c82985f/bme-symposium-2026-premail.pdf",
+   "kind": "contact",
+   "name": "Martin Müller-Raidt",
+   "title": "Direktor Beschaffung",
+   "id": "martin-muller-raidt-kfw-bankengruppe-bme-2026",
+   "reason": "Public-sector or state-owned; long procurement cycles, outside current focus"
+  },
+  {
+   "event_id": "bvl-cx-2026",
+   "event_name": "BVL Supply Chain CX 2026",
+   "role": "speaker",
+   "company": "McKinsey",
+   "company_type": "consultancy",
+   "segment": "other",
+   "country": "US",
+   "domain": "mckinsey.com",
+   "source_url": "https://www.luminik.io/events/bvl-supply-chain-cx-berlin-f1773cb8328b/attendees/",
+   "kind": "contact",
+   "name": "Knut Alicke",
+   "title": "Senior Advisor",
+   "id": "knut-alicke-mckinsey-bvl-cx-2026",
+   "reason": "Consultancy; possible referral source, not a buyer"
+  },
+  {
+   "event_id": "bvl-cx-2026",
+   "event_name": "BVL Supply Chain CX 2026",
+   "role": "speaker",
+   "company": "traide AI",
+   "company_type": "vendor",
+   "segment": "other",
+   "country": "DE",
+   "domain": "",
+   "source_url": "https://www.luminik.io/events/bvl-supply-chain-cx-berlin-f1773cb8328b/attendees/",
+   "kind": "contact",
+   "name": "Leonie Althaus",
+   "title": "Co-Founder & CEO",
+   "id": "leonie-althaus-traide-ai-bvl-cx-2026",
+   "reason": "Sells software or equipment; competitor or partner, not a buyer"
+  },
+  {
+   "event_id": "bvl-cx-2026",
+   "event_name": "BVL Supply Chain CX 2026",
+   "role": "speaker",
+   "company": "Universität St.Gallen",
+   "company_type": "academia",
+   "segment": "other",
+   "country": "CH",
+   "domain": "",
+   "source_url": "https://www.luminik.io/events/bvl-supply-chain-cx-berlin-f1773cb8328b/attendees/",
+   "kind": "contact",
+   "name": "Julia Arlinghaus",
+   "title": "Director, Institute of Production and Supply Chain Management",
+   "id": "julia-arlinghaus-universitat-st-gallen-bvl-cx-2026",
+   "reason": "Academic speaker"
+  },
+  {
+   "event_id": "bvl-cx-2026",
+   "event_name": "BVL Supply Chain CX 2026",
+   "role": "speaker",
+   "company": "BVL",
+   "company_type": "association",
+   "segment": "other",
+   "country": "DE",
+   "domain": "",
+   "source_url": "https://www.luminik.io/events/bvl-supply-chain-cx-berlin-f1773cb8328b/attendees/",
+   "kind": "contact",
+   "name": "Markus Bangen",
+   "title": "Board and CEO",
+   "id": "markus-bangen-bvl-bvl-cx-2026",
+   "reason": "Event organiser or association"
+  },
+  {
+   "event_id": "bvl-cx-2026",
+   "event_name": "BVL Supply Chain CX 2026",
+   "role": "sponsor",
+   "company": "AEB SE",
+   "company_type": "vendor",
+   "segment": "other",
+   "country": "DE",
+   "domain": "aeb.com",
+   "source_url": "https://www.luminik.io/events/bvl-supply-chain-cx-berlin-f1773cb8328b/attendees/",
+   "kind": "account",
+   "name": "AEB SE",
+   "title": "Sponsor at BVL Supply Chain CX 2026",
+   "id": "aeb-se-bvl-cx-2026",
+   "reason": "Sells software or equipment; competitor or partner, not a buyer"
+  },
+  {
+   "event_id": "bvl-cx-2026",
+   "event_name": "BVL Supply Chain CX 2026",
+   "role": "sponsor",
+   "company": "TMG Consultants",
+   "company_type": "consultancy",
+   "segment": "other",
+   "country": "DE",
+   "domain": "",
+   "source_url": "https://www.luminik.io/events/bvl-supply-chain-cx-berlin-f1773cb8328b/attendees/",
+   "kind": "account",
+   "name": "TMG Consultants",
+   "title": "Sponsor at BVL Supply Chain CX 2026",
+   "id": "tmg-consultants-bvl-cx-2026",
+   "reason": "Consultancy; possible referral source, not a buyer"
+  },
+  {
+   "event_id": "bvl-cx-2026",
+   "event_name": "BVL Supply Chain CX 2026",
+   "role": "sponsor",
+   "company": "TÜV Rheinland",
+   "company_type": "vendor",
+   "segment": "other",
+   "country": "DE",
+   "domain": "",
+   "source_url": "https://www.luminik.io/events/bvl-supply-chain-cx-berlin-f1773cb8328b/attendees/",
+   "kind": "account",
+   "name": "TÜV Rheinland",
+   "title": "Sponsor at BVL Supply Chain CX 2026",
+   "id": "tuv-rheinland-bvl-cx-2026",
+   "reason": "Sells software or equipment; competitor or partner, not a buyer"
+  },
+  {
+   "event_id": "bvl-cx-2026",
+   "event_name": "BVL Supply Chain CX 2026",
+   "role": "sponsor",
+   "company": "XPROMA",
+   "company_type": "consultancy",
+   "segment": "other",
+   "country": "DE",
+   "domain": "",
+   "source_url": "https://www.luminik.io/events/bvl-supply-chain-cx-berlin-f1773cb8328b/attendees/",
+   "kind": "account",
+   "name": "XPROMA",
+   "title": "Sponsor at BVL Supply Chain CX 2026",
+   "id": "xproma-bvl-cx-2026",
+   "reason": "Consultancy; possible referral source, not a buyer"
+  },
+  {
+   "event_id": "logimat-2027",
+   "event_name": "LogiMAT 2027",
+   "role": "2026 exhibitor",
+   "company": "PSI Software",
+   "company_type": "vendor",
+   "segment": "other",
+   "country": "DE",
+   "domain": "psi.de",
+   "source_url": "https://www.verkehrsrundschau.de/downloadfile/3755170/logimat-programm-2026.58020901.pdf",
+   "kind": "account",
+   "name": "PSI Software",
+   "title": "2026 exhibitor at LogiMAT 2027",
+   "id": "psi-software-logimat-2027",
+   "reason": "Sells software or equipment; competitor or partner, not a buyer"
+  },
+  {
+   "event_id": "logimat-2027",
+   "event_name": "LogiMAT 2027",
+   "role": "2026 exhibitor",
+   "company": "io-consultants",
+   "company_type": "consultancy",
+   "segment": "other",
+   "country": "DE",
+   "domain": "",
+   "source_url": "https://www.verkehrsrundschau.de/downloadfile/3755170/logimat-programm-2026.58020901.pdf",
+   "kind": "account",
+   "name": "io-consultants",
+   "title": "2026 exhibitor at LogiMAT 2027",
+   "id": "io-consultants-logimat-2027",
+   "reason": "Consultancy; possible referral source, not a buyer"
+  },
+  {
+   "event_id": "logimat-2027",
+   "event_name": "LogiMAT 2027",
+   "role": "2026 exhibitor",
+   "company": "ecovium",
+   "company_type": "vendor",
+   "segment": "other",
+   "country": "DE",
+   "domain": "",
+   "source_url": "https://www.verkehrsrundschau.de/downloadfile/3755170/logimat-programm-2026.58020901.pdf",
+   "kind": "account",
+   "name": "ecovium",
+   "title": "2026 exhibitor at LogiMAT 2027",
+   "id": "ecovium-logimat-2027",
+   "reason": "Sells software or equipment; competitor or partner, not a buyer"
+  }
+ ]
+}

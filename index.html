@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Event Lead Cockpit</title>
+  <meta name="description" content="Leads sourced from 10 upcoming supply chain events, scored against GeneralMind's ICP, reviewed and pushed to HubSpot.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:wght@500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="bar">
+    <div class="bar-title">
+      <h1>Event lead cockpit</h1>
+      <p class="bar-sub">Leads from 10 upcoming events, scored against GeneralMind's ICP. Review them, then push the approved ones to HubSpot.</p>
+    </div>
+    <div class="bar-actions">
+      <span id="crmMode" class="mode" title="HubSpot connection">Checking HubSpot…</span>
+      <button id="pushBtn" class="btn btn-primary" disabled>Push approved to HubSpot</button>
+    </div>
+  </header>
+
+  <main class="layout">
+    <aside class="events" aria-label="Events">
+      <div class="events-head">
+        <h2>Events</h2>
+        <button id="allEvents" class="link-btn" aria-pressed="true">All events</button>
+      </div>
+      <ol id="eventList" class="event-list"></ol>
+    </aside>
+
+    <section class="work" aria-label="Leads">
+      <div id="eventBrief" class="event-brief" hidden></div>
+
+      <div class="summary" id="summary"></div>
+
+      <div class="controls">
+        <div class="tabs" role="tablist" aria-label="Record type">
+          <button role="tab" class="tab" data-view="leads" aria-selected="true">Leads</button>
+          <button role="tab" class="tab" data-view="partners" aria-selected="false">Partners</button>
+          <button role="tab" class="tab" data-view="excluded" aria-selected="false">Filtered out</button>
+        </div>
+        <div class="filters">
+          <div class="chips" id="tierChips" role="group" aria-label="Tier">
+            <button class="chip" data-tier="A" aria-pressed="true">A</button>
+            <button class="chip" data-tier="B" aria-pressed="true">B</button>
+            <button class="chip" data-tier="C" aria-pressed="true">C</button>
+          </div>
+          <label class="select">
+            <span class="sr-only">Review status</span>
+            <select id="statusFilter">
+              <option value="all">Any status</option>
+              <option value="pending">To review</option>
+              <option value="approved">Approved</option>
+              <option value="rejected">Rejected</option>
+              <option value="synced">In HubSpot</option>
+            </select>
+          </label>
+          <label class="search">
+            <span class="sr-only">Search</span>
+            <input id="search" type="search" placeholder="Search name, company, title">
+          </label>
+        </div>
+      </div>
+
+      <div id="tableWrap" class="table-wrap"></div>
+    </section>
+
+    <aside id="drawer" class="drawer" aria-label="Lead detail" hidden></aside>
+  </main>
+
+  <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+
+  <script src="app.js"></script>
+</body>
+</html>
