@@ -235,3 +235,40 @@ tbody tr:last-child td { border-bottom: 0; }
   .score-bar { display: none; }
 }
 @media (prefers-reduced-motion: reduce) { * { transition: none !important; animation: none !important; } }
+
+/* ---------- evidence, rules, watchlist ---------- */
+.bar-sub a { color: #d7e6df; }
+.noscript { margin: 16px 24px; padding: 12px 14px; background: var(--brass-soft); border-radius: var(--radius-m); }
+.ev { display: inline-block; margin-top: 4px; font-size: 12px; padding: 1px 7px; border-radius: 3px; border: 1px solid var(--line); color: var(--ink-2); background: var(--surface); }
+.ev-strong { border-color: #9cc6b8; color: var(--pine); background: var(--pine-soft); }
+.ev-company { border-color: #dcc79b; color: var(--brass); background: var(--brass-soft); }
+.muted { color: var(--ink-3); font-size: 12.5px; }
+.tier-reason { margin: 8px 0 4px; }
+.drawer h3 { font-size: 15px; margin: 20px 0 8px; padding-top: 14px; border-top: 1px solid var(--line-2); }
+.drawer .flags { margin: 10px 0 0; font-size: 13px; }
+.col-persona { max-width: 300px; }
+.co .s, .col-event .s { color: var(--ink-3); font-size: 12.5px; }
+
+.rules { margin: -4px 0 14px; color: var(--ink-2); }
+.rules summary { cursor: pointer; font-weight: 500; color: var(--pine); width: max-content; }
+.rules dl { display: grid; grid-template-columns: 54px 1fr; gap: 8px 10px; margin: 10px 0 0; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius-m); padding: 12px 14px; }
+.rules dt { margin: 0; }
+.rules dd { margin: 0; max-width: 80ch; }
+.rules .rules-note { color: var(--ink-3); font-size: 12.5px; padding-top: 2px; }
+
+.watch { margin: 14px 20px 0; padding-top: 12px; border-top: 1px solid var(--line); font-size: 13px; color: var(--ink-2); }
+.watch summary { cursor: pointer; font-weight: 500; color: var(--ink); }
+.watch ul { list-style: none; margin: 8px 0 0; padding: 0; }
+.watch li { padding: 6px 0; }
+.watch li span { color: var(--ink-3); }
+
+.intro { padding: 12px 16px 4px; color: var(--ink-2); max-width: 90ch; }
+tr.static { cursor: default; }
+.mode[data-mode="offline"] { border-color: #7a3a33; color: #f0c9c3; }
+
+@media (max-width: 820px) {
+  .watch { margin: 8px 16px 0; }
+  td.col-persona { max-width: none; }
+}
+
+.layout.has-drawer .col-persona { display: none; }

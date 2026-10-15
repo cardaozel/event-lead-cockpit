@@ -1,26 +1,28 @@
 (() => {
   "use strict";
 
-  const STORE_KEY = "elc-review-v1";
+  const STORE_KEY = "elc-review-v2";
   const FACTOR_COLOR = {
     Segment: "var(--s-segment)",
     Function: "var(--s-function)",
     Seniority: "var(--s-seniority)",
     Region: "var(--s-region)",
-    "Event signal": "var(--s-signal)",
+    Evidence: "var(--s-signal)",
   };
   const SEGMENT_LABEL = {
     metal: "Metal", food: "Food & beverage", distribution: "Distribution",
     manufacturing: "Manufacturing", retail: "Retail", logistics: "Logistics", other: "Other",
   };
-  const LIST_STATUS = {
-    published: "Speakers published",
-    pending: "List not published yet",
-    "vendor-heavy": "Mostly vendors on stage",
-    "visitor-led": "Buyers attend as visitors",
+  const ROLE_LABEL = {
+    "speaker:organiser": "Speaker, organiser source",
+    "speaker:third-party": "Speaker, third-party listing",
+    "speaking company": "Speaking company",
+    exhibitor: "Exhibitor",
+    "exhibitor staff": "Exhibitor staff",
+    sponsor: "Sponsor",
   };
   const TYPE_LABEL = {
-    vendor: "Vendor", consultancy: "Consultancy", academia: "Academia",
+    vendor: "Vendor", consultancy: "Consultancy", academia: "Academia / think tank",
     association: "Association", public: "Public sector", integrator: "Integrator",
   };
 
@@ -33,7 +35,7 @@
     query: "",
     selectedId: null,
     review: loadReview(),
-    crm: { mode: "unknown", keyRequired: false },
+    crm: { mode: "checking", keyRequired: false },
   };
 
   const $ = (id) => document.getElementById(id);
@@ -47,41 +49,42 @@
   }
   const statusOf = (id) => state.review[id] || "pending";
 
+  const parseDay = (d) => new Date(d + "T00:00:00");
   function fmtRange(a, b) {
-    const s = new Date(a + "T00:00:00"), e = new Date(b + "T00:00:00");
+    const s = parseDay(a), e = parseDay(b);
     const m = (d) => d.toLocaleString("en-GB", { month: "short" });
-    const sameMonth = s.getMonth() === e.getMonth() && s.getFullYear() === e.getFullYear();
-    const left = sameMonth ? `${s.getDate()}` : `${s.getDate()} ${m(s)}`;
+    const left = s.getMonth() === e.getMonth() ? `${s.getDate()}` : `${s.getDate()} ${m(s)}`;
     return `${left}–${e.getDate()} ${m(e)} ${e.getFullYear()}`;
   }
   function daysUntil(d) {
-    const ms = new Date(d + "T00:00:00") - new Date(new Date().toDateString());
-    return Math.round(ms / 86400000);
+    return Math.round((parseDay(d) - new Date(new Date().toDateString())) / 86400000);
   }
 
   // ---------- events rail ----------
   function renderEvents() {
-    const list = $("eventList");
-    list.innerHTML = state.data.events.map((e) => {
+    $("eventList").innerHTML = state.data.events.map((e) => {
       const c = e.counts, total = Math.max(c.leads, 1);
-      const d = new Date(e.start + "T00:00:00");
+      const d = parseDay(e.start);
       const until = daysUntil(e.start);
-      const when = until <= 0 ? "now" : until < 45 ? `in ${until} days` : "";
-      const bar = c.leads
+      const when = until <= 0 ? "on now" : until < 45 ? `in ${until} days` : "";
+      const what = [c.people ? `${c.people} ${c.people === 1 ? "person" : "people"}` : "", c.accounts ? `${c.accounts} ${c.accounts === 1 ? "company" : "companies"}` : ""].filter(Boolean).join(", ");
+      const yieldLine = c.leads
         ? `<span class="yield-bar" aria-hidden="true">${["A", "B", "C"].map((t) => `<span class="y-${t}" style="width:${(c[t] / total) * 100}%"></span>`).join("")}</span>
-           <span>${c.leads} leads${c.A ? `, ${c.A} A` : ""}</span>`
-        : `<span class="status-tag" data-s="${e.list_status}">${LIST_STATUS[e.list_status]}</span>`;
+           <span>${what}${c.A ? `, ${c.A} A` : ""}</span>`
+        : `<span class="status-tag">No names published yet</span>`;
       return `<li class="event-item">
         <button type="button" data-event="${e.id}" aria-current="${state.eventId === e.id}">
           <span class="event-date"><b>${d.getDate()}</b><small>${d.toLocaleString("en-GB", { month: "short" })} ${String(d.getFullYear()).slice(2)}</small></span>
           <span>
             <span class="event-name">${esc(e.name)}</span>
             <span class="event-meta">${esc(e.city)}${when ? `, ${when}` : ""}</span>
-            <span class="event-yield">${bar}</span>
+            <span class="event-yield">${yieldLine}</span>
           </span>
         </button></li>`;
     }).join("");
     $("allEvents").setAttribute("aria-pressed", String(!state.eventId));
+    $("watchList").innerHTML = state.data.watchlist.map((w) =>
+      `<li><b>${esc(w.name)}</b>, ${esc(w.city)}, ${parseDay(w.start).toLocaleString("en-GB", { month: "short", year: "numeric" })}<br><span>${esc(w.status)}</span></li>`).join("");
   }
 
   function renderBrief() {
@@ -91,57 +94,77 @@
     box.hidden = false;
     box.innerHTML = `
       <h2>${esc(e.name)}</h2>
-      <p class="when">${fmtRange(e.start, e.end)}, ${esc(e.city)}. ${esc(e.format)}. <a href="${esc(e.url)}" target="_blank" rel="noopener">Event site</a></p>
+      <p class="when">${fmtRange(e.start, e.end)}, ${esc(e.city)}. ${esc(e.format)}. <a href="${esc(e.url)}" target="_blank" rel="noopener">Event page</a></p>
       <dl>
         <dt>Why this event</dt><dd>${esc(e.why)}</dd>
         <dt>Who attends</dt><dd>${esc(e.audience)}</dd>
-        <dt>Lead source</dt><dd>${esc(LIST_STATUS[e.list_status])}. ${esc(e.list_note)}</dd>
+        <dt>Evidence</dt><dd>${esc(e.evidence_summary)}</dd>
       </dl>`;
   }
 
+  function renderRules() {
+    $("rulesList").innerHTML = Object.entries(state.data.tier_rules).map(([t, txt]) =>
+      `<dt><span class="tier tier-${t}">${t}</span></dt><dd>${esc(txt)}</dd>`).join("") +
+      `<dt class="rules-note">Score</dt><dd>0 to 100, for ranking within a tier: segment ${state.data.weights.segment}, function ${state.data.weights.function}, seniority ${state.data.weights.seniority}, region ${state.data.weights.region}, evidence ${state.data.weights.evidence}.</dd>`;
+  }
+
   // ---------- filtering ----------
-  function inEvent(r) { return !state.eventId || r.event_id === state.eventId; }
+  const inEvent = (r) => !state.eventId || r.event_id === state.eventId;
   function matchesQuery(r) {
     if (!state.query) return true;
     const q = state.query.toLowerCase();
     return [r.name, r.company, r.title, r.persona].some((v) => (v || "").toLowerCase().includes(q));
   }
-  function visibleLeads() {
-    return state.data.leads.filter((l) =>
-      inEvent(l) && state.tiers.has(l.tier) && matchesQuery(l) &&
-      (state.status === "all" || statusOf(l.id) === state.status));
-  }
+  const visibleLeads = () => state.data.leads.filter((l) =>
+    inEvent(l) && state.tiers.has(l.tier) && matchesQuery(l) &&
+    (state.status === "all" || statusOf(l.id) === state.status));
 
   function renderSummary() {
     const leads = state.data.leads.filter(inEvent);
     const by = (s) => leads.filter((l) => statusOf(l.id) === s).length;
-    const a = leads.filter((l) => l.tier === "A").length;
+    const t = (x) => leads.filter((l) => l.tier === x).length;
     $("summary").innerHTML = `
       <span><b>${leads.length}</b>leads</span>
-      <span><b>${a}</b>tier A</span>
+      <span><b>${t("A")}</b>A</span><span><b>${t("B")}</b>B</span><span><b>${t("C")}</b>C</span>
       <span><b>${by("pending")}</b>to review</span>
       <span><b>${by("approved")}</b>approved</span>
       <span><b>${by("synced")}</b>in HubSpot</span>`;
-    const approved = state.data.leads.filter((l) => statusOf(l.id) === "approved").length;
-    const btn = $("pushBtn");
-    btn.disabled = approved === 0;
-    btn.textContent = approved ? `Push ${approved} approved to HubSpot` : "Push approved to HubSpot";
+    renderPushButton();
 
     const n = (arr) => arr.filter(inEvent).length;
-    document.querySelectorAll(".tab").forEach((t) => {
-      const v = t.dataset.view;
-      const count = v === "leads" ? n(state.data.leads) : n(state.data[v]);
-      t.innerHTML = `${{ leads: "Leads", partners: "Partners", excluded: "Filtered out" }[v]}<span class="n">${count}</span>`;
-      t.setAttribute("aria-selected", String(state.view === v));
+    document.querySelectorAll(".tab").forEach((tab) => {
+      const v = tab.dataset.view;
+      const count = n(state.data[v]);
+      tab.hidden = v === "partners" && state.data.partners.length === 0;
+      tab.innerHTML = `${{ leads: "Leads", partners: "Partners", excluded: "Filtered out" }[v]}<span class="n">${count}</span>`;
+      tab.setAttribute("aria-selected", String(state.view === v));
     });
     document.querySelector(".filters").style.visibility = state.view === "leads" ? "visible" : "hidden";
   }
 
-  // ---------- table ----------
-  function scoreBar(l) {
-    return `<span class="score-bar" aria-hidden="true">${l.breakdown.map((b) =>
-      `<span style="width:${b.points}%;background:${FACTOR_COLOR[b.factor]}"></span>`).join("")}</span>`;
+  function renderPushButton() {
+    const approved = state.data.leads.filter((l) => statusOf(l.id) === "approved").length;
+    const btn = $("pushBtn");
+    const mode = state.crm.mode;
+    if (mode === "live") {
+      btn.textContent = approved ? `Push ${approved} approved to HubSpot` : "Approve leads to push them";
+      btn.disabled = approved === 0;
+    } else if (mode === "dry-run") {
+      btn.textContent = approved ? `Preview push of ${approved} (dry run)` : "Approve leads to preview a push";
+      btn.disabled = approved === 0;
+    } else if (mode === "checking") {
+      btn.textContent = "Push approved to HubSpot";
+      btn.disabled = true;
+    } else {
+      btn.textContent = "HubSpot not reachable here";
+      btn.disabled = true;
+    }
   }
+
+  // ---------- table ----------
+  const scoreBar = (l) => `<span class="score-bar" aria-hidden="true">${l.breakdown.map((b) =>
+    `<span style="width:${b.points}%;background:${FACTOR_COLOR[b.factor]}"></span>`).join("")}</span>`;
+
   function reviewCell(l) {
     const s = statusOf(l.id);
     if (s === "synced") return `<span class="synced">In HubSpot</span>`;
@@ -159,22 +182,24 @@
     if (!rows.length) {
       const ev = state.data.events.find((e) => e.id === state.eventId);
       wrap.innerHTML = ev && !ev.counts.leads
-        ? `<div class="empty"><b>No people sourced for this event yet.</b><p>${esc(ev.list_note)}</p></div>`
+        ? `<div class="empty"><b>No names published for this event yet.</b><p>${esc(ev.evidence_summary)}</p></div>`
         : `<div class="empty"><b>No leads match these filters.</b><p>Turn a tier back on or clear the search.</p></div>`;
       return;
     }
     wrap.innerHTML = `<table>
       <thead><tr>
-        <th class="col-score">Score</th><th>Person</th><th>Company</th>
-        ${state.eventId ? "" : "<th class=\"col-event\">Event</th>"}<th>Persona</th><th class="col-review">Review</th>
+        <th class="col-score">Tier and score</th><th>Person or company</th><th>Company</th>
+        ${state.eventId ? "" : `<th class="col-event">Event</th>`}<th>Why this tier</th><th class="col-review">Review</th>
       </tr></thead>
       <tbody>${rows.map((l) => `
         <tr data-id="${l.id}" aria-selected="${state.selectedId === l.id}" tabindex="0">
           <td class="col-score"><span class="score"><span class="tier tier-${l.tier}" title="Tier ${l.tier}">${l.tier}</span><span class="score-num">${l.score}</span>${scoreBar(l)}</span></td>
-          <td class="col-person person"><b>${esc(l.name)}</b><div class="t">${esc(l.title || "Title not published")}</div></td>
-          <td class="col-co co">${esc(l.company)}<div class="s">${SEGMENT_LABEL[l.segment]}, ${esc(l.country)}</div></td>
-          ${state.eventId ? "" : `<td class="col-event persona">${esc(l.event_name)}</td>`}
-          <td class="col-persona persona">${esc(l.persona)}</td>
+          <td class="col-person person"><b>${esc(l.name)}</b>
+            <div class="t">${esc(l.kind === "person" ? (l.title || "Title not published") : (l.title || "Company-level record"))}</div>
+            <span class="ev ev-${l.evidence_strength}">${ROLE_LABEL[l.evidence_level]}</span></td>
+          <td class="col-co co">${esc(l.company)}<div class="s">${SEGMENT_LABEL[l.segment]}${l.country ? `, ${esc(l.country)}` : ""}</div></td>
+          ${state.eventId ? "" : `<td class="col-event persona">${esc(l.event_name)}${l.also_at ? `<div class="s">Also: ${esc(l.also_at.join(", "))}</div>` : ""}</td>`}
+          <td class="col-persona persona">${esc(l.tier_reason)}</td>
           <td class="col-review">${reviewCell(l)}</td>
         </tr>`).join("")}</tbody></table>`;
   }
@@ -185,12 +210,12 @@
       ? "SAP and logistics integrators. Not buyers, but they sit inside target accounts' ERP projects: a channel to work with, not a list to sell to."
       : "Kept out of the pipeline on purpose. Vendors, consultancies, academics and organisers fill most conference stages; pushing them to HubSpot would pollute the CRM.";
     if (!rows.length) { wrap.innerHTML = `<div class="empty"><p>${intro}</p><p>None for this event.</p></div>`; return; }
-    wrap.innerHTML = `<div class="empty" style="text-align:left;padding:14px 16px 4px"><p style="margin:0">${intro}</p></div>
-      <table><thead><tr><th>Name</th><th>Company</th><th>Type</th><th>Reason</th><th>Event</th></tr></thead>
-      <tbody>${rows.map((r) => `<tr style="cursor:default">
+    wrap.innerHTML = `<div class="intro">${intro}</div>
+      <table><thead><tr><th>Name</th><th>Company</th><th>Type</th><th>Reason</th><th class="col-event">Event</th></tr></thead>
+      <tbody>${rows.map((r) => `<tr class="static">
         <td class="person"><b>${esc(r.name)}</b><div class="t">${esc(r.title)}</div></td>
         <td>${esc(r.company)}</td><td class="persona">${TYPE_LABEL[r.company_type] || esc(r.company_type)}</td>
-        <td class="persona">${esc(r.reason)}</td><td class="persona">${esc(r.event_name)}</td></tr>`).join("")}</tbody></table>`;
+        <td class="persona">${esc(r.reason)}</td><td class="persona col-event">${esc(r.event_name)}</td></tr>`).join("")}</tbody></table>`;
   }
 
   // ---------- drawer ----------
@@ -201,12 +226,31 @@
     if (!l) { d.hidden = true; return; }
     d.hidden = false;
     const s = statusOf(l.id);
+    const isPerson = l.kind === "person";
     d.innerHTML = `
       <button class="btn drawer-close" id="closeDrawer">Close</button>
       <h2>${esc(l.name)}</h2>
-      <p class="sub">${esc(l.title || "Title not published")}<br>${esc(l.company)}</p>
+      <p class="sub">${isPerson ? esc(l.title || "Title not published") + "<br>" : ""}${esc(l.company)}</p>
+
+      <h3>1. Is ${isPerson ? "this person" : "this company"} at the event?</h3>
+      <dl class="facts">
+        <dt>Event</dt><dd>${esc(l.event_name)}${l.also_at ? `<br>Also: ${esc(l.also_at.join(", "))}` : ""}</dd>
+        <dt>Shown as</dt><dd><span class="ev ev-${l.evidence_strength}">${ROLE_LABEL[l.evidence_level]}</span></dd>
+        <dt>Source</dt><dd><a href="${esc(l.source_url)}" target="_blank" rel="noopener">${esc(l.source_label)}</a><br><span class="muted">Checked ${esc(l.checked_on)}</span></dd>
+      </dl>
+
+      <h3>2. Is the ${isPerson ? "role" : "company"} right?</h3>
+      <dl class="facts">
+        ${isPerson ? `<dt>Title</dt><dd>${esc(l.title || "Not published")}</dd>` : ""}
+        <dt>Company</dt><dd>${esc(l.company)}, ${SEGMENT_LABEL[l.segment]}${l.country ? `, ${esc(l.country)}` : ""}</dd>
+        <dt>Domain</dt><dd>${esc(l.domain || "Unknown")}</dd>
+        <dt>Check</dt><dd><a href="${esc(l.linkedin_check)}" target="_blank" rel="noopener">${isPerson ? "Find on LinkedIn" : "Company on LinkedIn"}</a><br><span class="muted">Search link only; not verified yet</span></dd>
+      </dl>
+      ${l.flags.length ? `<ul class="flags">${l.flags.map((f) => `<li>${esc(f)}</li>`).join("")}</ul>` : ""}
+
+      <h3>3. Why does it fit GeneralMind?</h3>
       <div class="big-score"><span class="tier tier-${l.tier}">${l.tier}</span><span class="n">${l.score}</span><span class="of">of 100</span></div>
-      <h3>Why this score</h3>
+      <p class="tier-reason">${esc(l.tier_reason)}</p>
       <ul class="factors">${l.breakdown.map((b) => `
         <li><span>${b.factor}</span>
           <span class="factor-track"><span style="width:${(b.points / b.max) * 100}%;background:${FACTOR_COLOR[b.factor]}"></span></span>
@@ -214,15 +258,6 @@
           <span class="why">${esc(b.why)}</span></li>`).join("")}
       </ul>
       ${l.reference ? `<h3>Suggested opener</h3><div class="opener"><b>${esc(l.reference.customer)}</b>${esc(l.reference.story)}</div>` : ""}
-      ${l.flags.length ? `<h3>Before outreach</h3><ul class="flags">${l.flags.map((f) => `<li>${esc(f)}</li>`).join("")}</ul>` : ""}
-      <h3>Source</h3>
-      <dl class="facts">
-        <dt>Event</dt><dd>${esc(l.event_name)}</dd>
-        <dt>Role</dt><dd>${esc(l.role)}</dd>
-        <dt>Segment</dt><dd>${SEGMENT_LABEL[l.segment]}</dd>
-        <dt>Domain</dt><dd>${esc(l.domain || "Unknown")}</dd>
-        <dt>Listing</dt><dd>${l.source_url ? `<a href="${esc(l.source_url)}" target="_blank" rel="noopener">Public speaker list</a>` : "Unknown"}</dd>
-      </dl>
       <div class="drawer-actions">${s === "synced" ? `<span class="synced">In HubSpot</span>` : reviewCell(l)}</div>`;
   }
 
@@ -232,15 +267,14 @@
 
   // ---------- review + push ----------
   function setReview(id, act) {
-    state.review[id] = statusOf(id) === act ? undefined : act;
-    if (!state.review[id]) delete state.review[id];
+    if (statusOf(id) === act) delete state.review[id]; else state.review[id] = act;
     saveReview(); renderAll();
   }
 
   function toast(msg) {
     const t = $("toast");
     t.textContent = msg; t.hidden = false;
-    clearTimeout(toast._t); toast._t = setTimeout(() => (t.hidden = true), 5200);
+    clearTimeout(toast._t); toast._t = setTimeout(() => (t.hidden = true), 6500);
   }
 
   async function checkCrm() {
@@ -250,11 +284,15 @@
       if (!r.ok) throw new Error();
       state.crm = await r.json();
       el.dataset.mode = state.crm.mode;
-      el.textContent = state.crm.mode === "live" ? "HubSpot connected" : "HubSpot dry run (no token)";
+      el.textContent = state.crm.mode === "live"
+        ? `HubSpot connected${state.crm.keyRequired ? ", push key required" : ""}`
+        : "HubSpot dry run: no token set";
     } catch {
+      state.crm = { mode: "offline", keyRequired: false };
       el.dataset.mode = "offline";
-      el.textContent = "HubSpot API unavailable here";
+      el.textContent = "HubSpot not reachable here";
     }
+    renderPushButton();
   }
 
   function pushKey() {
@@ -265,7 +303,7 @@
     const ids = state.data.leads.filter((l) => statusOf(l.id) === "approved").map((l) => l.id);
     if (!ids.length) return;
     const btn = $("pushBtn");
-    btn.disabled = true; btn.textContent = `Pushing ${ids.length}…`;
+    btn.disabled = true; btn.textContent = `Sending ${ids.length}…`;
     try {
       let key = pushKey();
       if (state.crm.keyRequired && !key) {
@@ -280,20 +318,23 @@
           body: JSON.stringify({ ids: ids.slice(i, i + 25) }),
         });
         const body = await r.json();
-        if (r.status === 401) { try { sessionStorage.removeItem("elc-push-key"); } catch { /* ignore */ } throw new Error("Push key wrong. Try again."); }
+        if (r.status === 401) { try { sessionStorage.removeItem("elc-push-key"); } catch { /* ignore */ } throw new Error("the push key was wrong. Try again."); }
         if (!r.ok) throw new Error(body.error || `HTTP ${r.status}`);
-        results.push(...body.results);
         if (body.mode === "dry-run") {
-          toast(`Dry run: ${ids.length} leads would be created in HubSpot. Add HUBSPOT_TOKEN in Vercel to push for real.`);
-          console.table(body.results.map((x) => ({ id: x.id, ...x.would_create.company, contact: x.would_create.contact && x.would_create.contact.lastname })));
+          const companies = new Set(body.results.map((x) => x.would_create.company.name)).size;
+          const contacts = body.results.filter((x) => x.would_create.contact).length;
+          toast(`Dry run, nothing written. A live push would create or update ${companies} companies and ${contacts} contacts, each with a note holding the score, tier reason and source.`);
           return;
         }
+        results.push(...body.results);
       }
       const ok = results.filter((x) => x.status === "synced");
       ok.forEach((x) => (state.review[x.id] = "synced"));
       saveReview();
-      const failed = results.length - ok.length;
-      toast(failed ? `Pushed ${ok.length} to HubSpot. ${failed} failed: ${results.find((x) => x.error).error}` : `Pushed ${ok.length} leads to HubSpot.`);
+      const failed = results.filter((x) => x.status === "error");
+      toast(failed.length
+        ? `Pushed ${ok.length} to HubSpot. ${failed.length} failed: ${failed[0].error}`
+        : `Pushed ${ok.length} to HubSpot.`);
     } catch (err) {
       toast(`Push failed: ${err.message}`);
     } finally {
@@ -319,7 +360,7 @@
       const c = ev.target.closest("[data-tier]");
       if (!c) return;
       const t = c.dataset.tier;
-      state.tiers.has(t) ? state.tiers.delete(t) : state.tiers.add(t);
+      if (state.tiers.has(t)) state.tiers.delete(t); else state.tiers.add(t);
       c.setAttribute("aria-pressed", String(state.tiers.has(t)));
       renderAll();
     });
@@ -330,13 +371,13 @@
       const act = ev.target.closest("[data-act]");
       if (act) { ev.stopPropagation(); setReview(act.dataset.id, act.dataset.act); return; }
       if (ev.target.id === "closeDrawer") { state.selectedId = null; renderAll(); return; }
+      if (ev.target.closest("a")) return;
       const row = ev.target.closest("tr[data-id]");
       if (row) { state.selectedId = row.dataset.id; renderTable(); renderDrawer(); }
     });
     $("tableWrap").addEventListener("keydown", (ev) => {
       const row = ev.target.closest("tr[data-id]");
-      if (!row) return;
-      if (ev.key === "Enter") { state.selectedId = row.dataset.id; renderTable(); renderDrawer(); }
+      if (row && ev.key === "Enter") { state.selectedId = row.dataset.id; renderTable(); renderDrawer(); }
     });
     document.addEventListener("keydown", (ev) => {
       if (ev.key === "Escape" && state.selectedId) { state.selectedId = null; renderAll(); }
@@ -349,10 +390,10 @@
       const r = await fetch("data/cockpit.json", { cache: "no-store" });
       state.data = await r.json();
     } catch {
-      $("tableWrap").innerHTML = `<div class="empty"><b>Could not load data/cockpit.json.</b><p>Run python3 scripts/build.py and reload.</p></div>`;
+      $("tableWrap").innerHTML = `<div class="empty"><b>Could not load the lead data.</b><p>The <a href="evidence.html">evidence table</a> has the same records.</p></div>`;
       return;
     }
-    bind(); renderAll(); checkCrm();
+    bind(); renderRules(); renderAll(); checkCrm();
   }
 
   init();

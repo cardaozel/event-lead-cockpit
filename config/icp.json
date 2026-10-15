@@ -1,75 +1,321 @@
 {
-  "_note": "GeneralMind ICP. Edit weights and keywords here, then run `python3 scripts/build.py`. Total of weights = 100.",
-  "weights": {
-    "segment": 30,
-    "function": 30,
-    "seniority": 20,
-    "region": 10,
-    "signal": 10
+ "_note": "GeneralMind ICP. Edit here, then run `python3 scripts/build.py`. The score (0-100) ranks leads; the tier (A/B/C) comes from the written rules in `tier_rules`, so every tier has a one-sentence reason.",
+ "weights": {
+  "segment": 30,
+  "function": 30,
+  "seniority": 20,
+  "region": 10,
+  "evidence": 10
+ },
+ "tier_rules": {
+  "A": "Strong ICP + relevant senior role + strong event evidence. Core segment (metal, food, distribution, logistics) with a P2P, O2C or supply chain leader at Head level or above, named as a speaker. Manufacturing qualifies only at the top: VP or C-level, DACH-based, named by the organiser.",
+  "B": "Good company or role fit, but a weaker buying signal or weaker evidence: company-level presence only, adjacent or junior role, manufacturing below the A bar, or retail.",
+  "C": "Weak ICP fit or low relevance: outside target segments, or no buying-relevant function in the published title."
+ },
+ "strong_segments": [
+  "metal",
+  "food",
+  "distribution",
+  "logistics",
+  "manufacturing"
+ ],
+ "relevant_personas": [
+  "Procure-to-Pay owner",
+  "Order-to-Cash owner",
+  "Supply chain / logistics leader"
+ ],
+ "partial_personas": [
+  "Transformation / digital lead",
+  "Executive sponsor"
+ ],
+ "senior_levels": [
+  "C-level / VP",
+  "Head / Director"
+ ],
+ "evidence_levels": {
+  "speaker:organiser": {
+   "label": "Speaker, named by the organiser",
+   "strength": "strong",
+   "points": 1.0
   },
-  "tiers": { "A": 88, "B": 70 },
-
-  "buyer_types": ["buyer"],
-  "partner_types": ["integrator"],
-  "excluded_types": {
-    "vendor": "Sells software or equipment; competitor or partner, not a buyer",
-    "consultancy": "Consultancy; possible referral source, not a buyer",
-    "academia": "Academic speaker",
-    "association": "Event organiser or association",
-    "public": "Public-sector or state-owned; long procurement cycles, outside current focus"
+  "speaker:third-party": {
+   "label": "Speaker, named on a third-party listing of the programme",
+   "strength": "strong",
+   "points": 0.8
   },
-
-  "segments": {
-    "metal":         { "points": 1.0,  "label": "Metal distribution / processing (Kloeckner lookalike)" },
-    "food":          { "points": 1.0,  "label": "Food & beverage (Oatly, bofrost* lookalike)" },
-    "distribution":  { "points": 0.9,  "label": "Wholesale / B2B distribution" },
-    "manufacturing": { "points": 0.6, "label": "Manufacturing with high PO / SO volume" },
-    "retail":        { "points": 0.45, "label": "Retail: replenishment-heavy, adjacent fit" },
-    "logistics":     { "points": 0.7,  "label": "Logistics provider (Müller – Die Lila Logistik is a customer)" },
-    "other":         { "points": 0.1,  "label": "Outside target segments" }
+  "speaking company": {
+   "label": "Company named as speaking; person not named yet",
+   "strength": "company",
+   "points": 0.6
   },
-
-  "functions": [
-    { "persona": "Procure-to-Pay owner", "points": 1.0,
-      "keywords": ["procurement", "purchasing", "einkauf", "beschaffung", "materialwirtschaft", "cpo", "sourcing", "accounts payable"] },
-    { "persona": "Order-to-Cash owner", "points": 1.0,
-      "keywords": ["order management", "customer service", "sales operations", "order-to-cash", "kundenservice", "auftragsabwicklung", "collections"] },
-    { "persona": "Supply chain / logistics leader", "points": 0.9,
-      "keywords": ["supply chain", "logistics", "logistik", "replenishment", "planning", "operations", "fleet", "opex", "plant"] },
-    { "persona": "Transformation / digital lead", "points": 0.7,
-      "keywords": ["digital", "digitalisierung", "transformation", "excellence", "innovation", "technology"] },
-    { "persona": "Executive sponsor", "points": 0.6,
-      "keywords": ["ceo", "coo", "geschäftsführer", "managing director", "board"] }
-  ],
-
-  "seniority": [
-    { "level": "C-level / VP", "points": 1.0,
-      "keywords": ["chief", "cpo", "ceo", "coo", "vice president", "vp ", "svp", "evp", "geschäftsführer", "board", "deputy ceo"] },
-    { "level": "Head / Director", "points": 0.85,
-      "keywords": ["head", "director", "leiter", "leiterin", "leitung", "lead"] },
-    { "level": "Manager", "points": 0.5,
-      "keywords": ["manager", "managerin"] },
-    { "level": "Individual contributor", "points": 0.2,
-      "keywords": [] }
-  ],
-
-  "regions": {
-    "DACH":   { "countries": ["DE", "AT", "CH"], "points": 1.0 },
-    "Europe": { "countries": ["PL", "NL", "SE", "FR", "IT", "ES", "BE", "DK", "CZ"], "points": 0.6 },
-    "Other":  { "countries": [], "points": 0.2 }
+  "exhibitor": {
+   "label": "Exhibiting company, confirmed on its own website",
+   "strength": "company",
+   "points": 0.6
   },
-
-  "references": {
-    "_note": "Public GeneralMind customer stories (generalmind.com/case-studies). Used to pick the outreach opener per lead.",
-    "kloeckner": { "customer": "Kloeckner Metals", "story": "Supplier order confirmations on autopilot", "fits_personas": ["Procure-to-Pay owner"], "fits_segments": ["metal", "distribution", "manufacturing"] },
-    "oatly":     { "customer": "Oatly", "story": "Scaling order intake without scaling headcount", "fits_personas": ["Order-to-Cash owner", "Executive sponsor", "Supply chain / logistics leader"], "fits_segments": ["food", "distribution", "retail"] },
-    "bofrost":   { "customer": "bofrost*", "story": "Faster fleet management, expert knowledge kept in the system", "fits_personas": ["Supply chain / logistics leader"], "fits_segments": ["logistics", "food", "retail"] },
-    "tmd":       { "customer": "TMD Friction", "story": "Manufacturing customer (featured on case-study page)", "fits_personas": ["Transformation / digital lead", "Supply chain / logistics leader"], "fits_segments": ["manufacturing"] }
+  "exhibitor staff": {
+   "label": "Named on the exhibitor's own event page",
+   "strength": "company",
+   "points": 0.6
   },
-
-  "signals": {
-    "speaker": { "points": 1.0, "label": "Speaking on stage: public, on-topic, easy opener" },
-    "sponsor": { "points": 0.6, "label": "Sponsoring the event" },
-    "2026 exhibitor": { "points": 0.4, "label": "Exhibited at the previous edition" }
+  "sponsor": {
+   "label": "Sponsoring company",
+   "strength": "company",
+   "points": 0.5
   }
+ },
+ "buyer_types": [
+  "buyer"
+ ],
+ "partner_types": [
+  "integrator"
+ ],
+ "excluded_types": {
+  "vendor": "Sells software, services or equipment: competitor or partner, not a buyer",
+  "consultancy": "Consultancy or analyst: possible referral source, not a buyer",
+  "academia": "Academic or think-tank speaker",
+  "association": "Event organiser or industry association",
+  "public": "Public-sector or state-owned: long procurement cycles, outside current focus"
+ },
+ "segments": {
+  "metal": {
+   "points": 1.0,
+   "label": "Metal distribution / processing (Kloeckner Metals lookalike)",
+   "short": "metal distribution"
+  },
+  "food": {
+   "points": 1.0,
+   "label": "Food & beverage (Oatly, bofrost* lookalike)",
+   "short": "food & beverage"
+  },
+  "distribution": {
+   "points": 0.9,
+   "label": "B2B distribution / wholesale",
+   "short": "B2B distribution"
+  },
+  "logistics": {
+   "points": 0.7,
+   "label": "Logistics provider (Müller – Die Lila Logistik is a customer)",
+   "short": "logistics"
+  },
+  "manufacturing": {
+   "points": 0.6,
+   "label": "Manufacturing with high PO / SO volume (TMD Friction is a customer)",
+   "short": "manufacturing"
+  },
+  "retail": {
+   "points": 0.45,
+   "label": "Retail: replenishment-heavy, adjacent fit",
+   "short": "retail"
+  },
+  "other": {
+   "points": 0.1,
+   "label": "Outside target segments",
+   "short": "outside target segments"
+  }
+ },
+ "functions": [
+  {
+   "persona": "Procure-to-Pay owner",
+   "points": 1.0,
+   "keywords": [
+    "procurement",
+    "purchasing",
+    "einkauf",
+    "beschaffung",
+    "materialwirtschaft",
+    "cpo",
+    "sourcing",
+    "accounts payable"
+   ]
+  },
+  {
+   "persona": "Order-to-Cash owner",
+   "points": 1.0,
+   "keywords": [
+    "order management",
+    "customer service",
+    "customer experience",
+    "sales operations",
+    "order-to-cash",
+    "kundenservice",
+    "auftragsabwicklung",
+    "collections"
+   ]
+  },
+  {
+   "persona": "Supply chain / logistics leader",
+   "points": 0.9,
+   "keywords": [
+    "supply chain",
+    "logistics",
+    "logistik",
+    "replenishment",
+    "planning",
+    "operations",
+    "fleet",
+    "opex",
+    "plant",
+    "value chain"
+   ]
+  },
+  {
+   "persona": "Transformation / digital lead",
+   "points": 0.7,
+   "keywords": [
+    "digital",
+    "digitalisierung",
+    "transformation",
+    "excellence",
+    "innovation",
+    "technology"
+   ]
+  },
+  {
+   "persona": "Executive sponsor",
+   "points": 0.6,
+   "keywords": [
+    "ceo",
+    "coo",
+    "geschäftsführer",
+    "managing director",
+    "board",
+    "president"
+   ]
+  }
+ ],
+ "seniority": [
+  {
+   "level": "C-level / VP",
+   "points": 1.0,
+   "keywords": [
+    "chief",
+    "cpo",
+    "ceo",
+    "coo",
+    "vice president",
+    "vp ",
+    "svp",
+    "evp",
+    "geschäftsführer",
+    "board",
+    "deputy ceo",
+    "managing director",
+    "president"
+   ]
+  },
+  {
+   "level": "Head / Director",
+   "points": 0.85,
+   "keywords": [
+    "head",
+    "director",
+    "leiter",
+    "leiterin",
+    "leitung",
+    "lead"
+   ]
+  },
+  {
+   "level": "Manager",
+   "points": 0.5,
+   "keywords": [
+    "manager",
+    "managerin"
+   ]
+  },
+  {
+   "level": "Individual contributor",
+   "points": 0.2,
+   "keywords": []
+  }
+ ],
+ "regions": {
+  "DACH": {
+   "countries": [
+    "DE",
+    "AT",
+    "CH"
+   ],
+   "points": 1.0
+  },
+  "Europe": {
+   "countries": [
+    "PL",
+    "NL",
+    "SE",
+    "FR",
+    "IT",
+    "ES",
+    "BE",
+    "DK",
+    "CZ",
+    "GB",
+    "LU"
+   ],
+   "points": 0.6
+  },
+  "Other": {
+   "countries": [],
+   "points": 0.2
+  }
+ },
+ "references": {
+  "_note": "Public GeneralMind customer stories (generalmind.com/case-studies). Used to pick the outreach opener per lead.",
+  "kloeckner": {
+   "customer": "Kloeckner Metals",
+   "story": "Supplier order confirmations on autopilot",
+   "fits_personas": [
+    "Procure-to-Pay owner"
+   ],
+   "fits_segments": [
+    "metal",
+    "distribution",
+    "manufacturing"
+   ]
+  },
+  "oatly": {
+   "customer": "Oatly",
+   "story": "Scaling order intake without scaling headcount",
+   "fits_personas": [
+    "Order-to-Cash owner",
+    "Executive sponsor",
+    "Supply chain / logistics leader"
+   ],
+   "fits_segments": [
+    "food",
+    "distribution",
+    "retail"
+   ]
+  },
+  "bofrost": {
+   "customer": "bofrost*",
+   "story": "Faster fleet management, expert knowledge kept in the system",
+   "fits_personas": [
+    "Supply chain / logistics leader"
+   ],
+   "fits_segments": [
+    "logistics",
+    "food",
+    "retail"
+   ]
+  },
+  "tmd": {
+   "customer": "TMD Friction",
+   "story": "Manufacturing customer featured on GeneralMind's case-study page",
+   "fits_personas": [
+    "Transformation / digital lead",
+    "Supply chain / logistics leader"
+   ],
+   "fits_segments": [
+    "manufacturing"
+   ]
+  }
+ },
+ "core_segments": [
+  "metal",
+  "food",
+  "distribution",
+  "logistics"
+ ]
 }

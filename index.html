@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Event Lead Cockpit</title>
-  <meta name="description" content="Leads sourced from 10 upcoming supply chain events, scored against GeneralMind's ICP, reviewed and pushed to HubSpot.">
+  <meta name="description" content="People and companies publicly confirmed at 10 upcoming events, scored against GeneralMind's ICP, reviewed and pushed to HubSpot.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:wght@500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
@@ -14,13 +14,17 @@
   <header class="bar">
     <div class="bar-title">
       <h1>Event lead cockpit</h1>
-      <p class="bar-sub">Leads from 10 upcoming events, scored against GeneralMind's ICP. Review them, then push the approved ones to HubSpot.</p>
+      <p class="bar-sub">People and companies publicly confirmed at 10 upcoming events, scored against GeneralMind's ICP. Every record links to its source. <a href="evidence.html">Open the evidence table</a></p>
     </div>
     <div class="bar-actions">
-      <span id="crmMode" class="mode" title="HubSpot connection">Checking HubSpot…</span>
+      <span id="crmMode" class="mode" title="HubSpot connection">HubSpot: checking connection</span>
       <button id="pushBtn" class="btn btn-primary" disabled>Push approved to HubSpot</button>
     </div>
   </header>
+
+  <noscript>
+    <p class="noscript">This cockpit needs JavaScript. The same records, sources and tier reasons are in the <a href="evidence.html">evidence table</a>.</p>
+  </noscript>
 
   <main class="layout">
     <aside class="events" aria-label="Events">
@@ -29,12 +33,21 @@
         <button id="allEvents" class="link-btn" aria-pressed="true">All events</button>
       </div>
       <ol id="eventList" class="event-list"></ol>
+      <details class="watch">
+        <summary>Watchlist: lists not published yet</summary>
+        <ul id="watchList"></ul>
+      </details>
     </aside>
 
     <section class="work" aria-label="Leads">
       <div id="eventBrief" class="event-brief" hidden></div>
 
       <div class="summary" id="summary"></div>
+
+      <details class="rules" id="rules">
+        <summary>How tiers are decided</summary>
+        <dl id="rulesList"></dl>
+      </details>
 
       <div class="controls">
         <div class="tabs" role="tablist" aria-label="Record type">

@@ -1,69 +1,650 @@
 {
-  "_note": "Enrichment seed. In production this comes from an enrichment provider (Clay / Apollo / Dealfront) keyed on domain. Here it is a hand-built seed so the scoring logic can be shown end to end. type: buyer | vendor | integrator | consultancy | academia | association | public.",
-  "companies": {
-    "Bayer Consumer Health":       {"type": "buyer", "segment": "manufacturing", "country": "DE", "domain": "bayer.com"},
-    "Bayer":                       {"type": "buyer", "segment": "manufacturing", "country": "DE", "domain": "bayer.com"},
-    "PALFINGER":                   {"type": "buyer", "segment": "manufacturing", "country": "AT", "domain": "palfinger.com"},
-    "University of Mannheim":      {"type": "academia", "segment": "other", "country": "DE"},
-    "Rodenstock":                  {"type": "buyer", "segment": "manufacturing", "country": "DE", "domain": "rodenstock.com"},
-    "Brose Fahrzeugteile":         {"type": "buyer", "segment": "manufacturing", "country": "DE", "domain": "brose.com"},
-    "Volkswagen Poznań":           {"type": "buyer", "segment": "manufacturing", "country": "PL", "domain": "volkswagen-poznan.pl"},
-    "ADAC SE":                     {"type": "buyer", "segment": "other", "country": "DE", "domain": "adac.de"},
-    "IBM Infrastructure":          {"type": "vendor", "segment": "other", "country": "US", "domain": "ibm.com"},
-    "TKMS":                        {"type": "buyer", "segment": "manufacturing", "country": "DE", "domain": "tkms.com"},
-    "KNDS Deutschland":            {"type": "buyer", "segment": "manufacturing", "country": "DE", "domain": "knds.de"},
-    "Fritz Winter Eisengießerei":  {"type": "buyer", "segment": "metal", "country": "DE", "domain": "fritzwinter.de"},
-    "BME e.V.":                    {"type": "association", "segment": "other", "country": "DE"},
-    "Heidelberger Druckmaschinen": {"type": "buyer", "segment": "manufacturing", "country": "DE", "domain": "heidelberg.com"},
-    "duisport":                    {"type": "buyer", "segment": "logistics", "country": "DE", "domain": "duisport.de"},
-    "KOSTAL Gruppe":               {"type": "buyer", "segment": "manufacturing", "country": "DE", "domain": "kostal.com"},
-    "Hensoldt":                    {"type": "buyer", "segment": "manufacturing", "country": "DE", "domain": "hensoldt.net"},
-    "A.S. Création Tapeten":       {"type": "buyer", "segment": "manufacturing", "country": "DE", "domain": "as-creation.com"},
-    "Kirsch Pharma":               {"type": "buyer", "segment": "distribution", "country": "DE", "domain": "kirsch-pharma.com"},
-    "SBB":                         {"type": "public", "segment": "other", "country": "CH", "domain": "sbb.ch"},
-    "Mibelle Group":               {"type": "buyer", "segment": "manufacturing", "country": "CH", "domain": "mibellegroup.com"},
-    "Villeroy & Boch":             {"type": "buyer", "segment": "manufacturing", "country": "DE", "domain": "villeroy-boch.com"},
-    "ZF Friedrichshafen":          {"type": "buyer", "segment": "manufacturing", "country": "DE", "domain": "zf.com"},
-    "ALDI Nord":                   {"type": "buyer", "segment": "retail", "country": "DE", "domain": "aldi-nord.de"},
-    "BKW Energie":                 {"type": "buyer", "segment": "other", "country": "CH", "domain": "bkw.ch"},
-    "MENCK":                       {"type": "buyer", "segment": "manufacturing", "country": "DE", "domain": "menck.com"},
-    "Ypsomed":                     {"type": "buyer", "segment": "manufacturing", "country": "CH", "domain": "ypsomed.com"},
-    "Nestlé Deutschland":          {"type": "buyer", "segment": "food", "country": "DE", "domain": "nestle.de"},
-    "QIAGEN":                      {"type": "buyer", "segment": "manufacturing", "country": "DE", "domain": "qiagen.com"},
-    "Apollo Tyres":                {"type": "buyer", "segment": "manufacturing", "country": "IN", "domain": "apollotyres.com"},
-    "thyssenkrupp Automotive":     {"type": "buyer", "segment": "manufacturing", "country": "DE", "domain": "thyssenkrupp.com"},
-    "Lufthansa Group":             {"type": "buyer", "segment": "other", "country": "DE", "domain": "lufthansagroup.com"},
-    "Alfred Ritter (Ritter Sport)":{"type": "buyer", "segment": "food", "country": "DE", "domain": "ritter-sport.com"},
-    "KRONES":                      {"type": "buyer", "segment": "manufacturing", "country": "DE", "domain": "krones.com"},
-    "KfW Bankengruppe":            {"type": "public", "segment": "other", "country": "DE", "domain": "kfw.de"},
-    "McKinsey":                    {"type": "consultancy", "segment": "other", "country": "US", "domain": "mckinsey.com"},
-    "traide AI":                   {"type": "vendor", "segment": "other", "country": "DE"},
-    "Universität St.Gallen":       {"type": "academia", "segment": "other", "country": "CH"},
-    "BVL":                         {"type": "association", "segment": "other", "country": "DE"},
-    "Voith Turbo":                 {"type": "buyer", "segment": "manufacturing", "country": "DE", "domain": "voith.com"},
-    "HHLA":                        {"type": "buyer", "segment": "logistics", "country": "DE", "domain": "hhla.de"},
-    "Brenntag":                    {"type": "buyer", "segment": "distribution", "country": "DE", "domain": "brenntag.com"},
-    "SSI SCHÄFER":                 {"type": "buyer", "segment": "manufacturing", "country": "DE", "domain": "ssi-schaefer.com"},
-    "BLG LOGISTICS":               {"type": "buyer", "segment": "logistics", "country": "DE", "domain": "blg-logistics.com"},
-    "IKEA":                        {"type": "buyer", "segment": "retail", "country": "SE", "domain": "ikea.com"},
-    "Kaufland":                    {"type": "buyer", "segment": "retail", "country": "DE", "domain": "kaufland.de"},
-    "Jungheinrich":                {"type": "buyer", "segment": "manufacturing", "country": "DE", "domain": "jungheinrich.com"},
-    "Electrolux Group":            {"type": "buyer", "segment": "manufacturing", "country": "SE", "domain": "electroluxgroup.com"},
-    "Henkel":                      {"type": "buyer", "segment": "manufacturing", "country": "DE", "domain": "henkel.com"},
-    "Mondelēz International":      {"type": "buyer", "segment": "food", "country": "US", "domain": "mondelezinternational.com"},
-    "Beaufort":                    {"type": "buyer", "segment": "other", "country": ""},
-    "Robert Bosch":                {"type": "buyer", "segment": "manufacturing", "country": "DE", "domain": "bosch.com"},
-    "AGRANA":                      {"type": "buyer", "segment": "food", "country": "AT", "domain": "agrana.com"},
-    "AEB SE":                      {"type": "vendor", "segment": "other", "country": "DE", "domain": "aeb.com"},
-    "TMG Consultants":             {"type": "consultancy", "segment": "other", "country": "DE"},
-    "TÜV Rheinland":               {"type": "vendor", "segment": "other", "country": "DE"},
-    "XPROMA":                      {"type": "consultancy", "segment": "other", "country": "DE"},
-    "PSI Software":                {"type": "vendor", "segment": "other", "country": "DE", "domain": "psi.de"},
-    "SWAN":                        {"type": "integrator", "segment": "other", "country": "DE", "domain": "swan.de"},
-    "Körber Supply Chain Consulting": {"type": "integrator", "segment": "other", "country": "DE"},
-    "FIS Informationssysteme und Consulting": {"type": "integrator", "segment": "other", "country": "DE", "domain": "fis-gmbh.de"},
-    "Westernacher Consulting":     {"type": "integrator", "segment": "other", "country": "DE", "domain": "westernacher-consulting.com"},
-    "io-consultants":              {"type": "consultancy", "segment": "other", "country": "DE"},
-    "ecovium":                     {"type": "vendor", "segment": "other", "country": "DE"}
+ "_note": "Enrichment seed. In production this comes from an enrichment provider (Clay / Apollo / Dealfront) keyed on domain. Here it is a hand-built seed so the scoring logic can be shown end to end. type: buyer | vendor | integrator | consultancy | academia | association | public.",
+ "companies": {
+  "Bayer Consumer Health": {
+   "type": "buyer",
+   "segment": "manufacturing",
+   "country": "DE",
+   "domain": "bayer.com"
+  },
+  "Bayer": {
+   "type": "buyer",
+   "segment": "manufacturing",
+   "country": "DE",
+   "domain": "bayer.com"
+  },
+  "PALFINGER": {
+   "type": "buyer",
+   "segment": "manufacturing",
+   "country": "AT",
+   "domain": "palfinger.com"
+  },
+  "University of Mannheim": {
+   "type": "academia",
+   "segment": "other",
+   "country": "DE"
+  },
+  "Rodenstock": {
+   "type": "buyer",
+   "segment": "manufacturing",
+   "country": "DE",
+   "domain": "rodenstock.com"
+  },
+  "Brose Fahrzeugteile": {
+   "type": "buyer",
+   "segment": "manufacturing",
+   "country": "DE",
+   "domain": "brose.com"
+  },
+  "Volkswagen Poznań": {
+   "type": "buyer",
+   "segment": "manufacturing",
+   "country": "PL",
+   "domain": "volkswagen-poznan.pl"
+  },
+  "ADAC SE": {
+   "type": "buyer",
+   "segment": "other",
+   "country": "DE",
+   "domain": "adac.de"
+  },
+  "IBM Infrastructure": {
+   "type": "vendor",
+   "segment": "other",
+   "country": "US",
+   "domain": "ibm.com"
+  },
+  "TKMS": {
+   "type": "buyer",
+   "segment": "manufacturing",
+   "country": "DE",
+   "domain": "tkms.com"
+  },
+  "KNDS Deutschland": {
+   "type": "buyer",
+   "segment": "manufacturing",
+   "country": "DE",
+   "domain": "knds.de"
+  },
+  "Fritz Winter Eisengießerei": {
+   "type": "buyer",
+   "segment": "metal",
+   "country": "DE",
+   "domain": "fritzwinter.de"
+  },
+  "BME e.V.": {
+   "type": "association",
+   "segment": "other",
+   "country": "DE"
+  },
+  "Heidelberger Druckmaschinen": {
+   "type": "buyer",
+   "segment": "manufacturing",
+   "country": "DE",
+   "domain": "heidelberg.com"
+  },
+  "duisport": {
+   "type": "buyer",
+   "segment": "logistics",
+   "country": "DE",
+   "domain": "duisport.de"
+  },
+  "KOSTAL Gruppe": {
+   "type": "buyer",
+   "segment": "manufacturing",
+   "country": "DE",
+   "domain": "kostal.com"
+  },
+  "Hensoldt": {
+   "type": "buyer",
+   "segment": "manufacturing",
+   "country": "DE",
+   "domain": "hensoldt.net"
+  },
+  "A.S. Création Tapeten": {
+   "type": "buyer",
+   "segment": "manufacturing",
+   "country": "DE",
+   "domain": "as-creation.com"
+  },
+  "Kirsch Pharma": {
+   "type": "buyer",
+   "segment": "distribution",
+   "country": "DE",
+   "domain": "kirsch-pharma.com"
+  },
+  "SBB": {
+   "type": "public",
+   "segment": "other",
+   "country": "CH",
+   "domain": "sbb.ch"
+  },
+  "Mibelle Group": {
+   "type": "buyer",
+   "segment": "manufacturing",
+   "country": "CH",
+   "domain": "mibellegroup.com"
+  },
+  "Villeroy & Boch": {
+   "type": "buyer",
+   "segment": "manufacturing",
+   "country": "DE",
+   "domain": "villeroy-boch.com"
+  },
+  "ZF Friedrichshafen": {
+   "type": "buyer",
+   "segment": "manufacturing",
+   "country": "DE",
+   "domain": "zf.com"
+  },
+  "ALDI Nord": {
+   "type": "buyer",
+   "segment": "retail",
+   "country": "DE",
+   "domain": "aldi-nord.de"
+  },
+  "BKW Energie": {
+   "type": "buyer",
+   "segment": "other",
+   "country": "CH",
+   "domain": "bkw.ch"
+  },
+  "MENCK": {
+   "type": "buyer",
+   "segment": "manufacturing",
+   "country": "DE",
+   "domain": "menck.com"
+  },
+  "Ypsomed": {
+   "type": "buyer",
+   "segment": "manufacturing",
+   "country": "CH",
+   "domain": "ypsomed.com"
+  },
+  "Nestlé Deutschland": {
+   "type": "buyer",
+   "segment": "food",
+   "country": "DE",
+   "domain": "nestle.de"
+  },
+  "QIAGEN": {
+   "type": "buyer",
+   "segment": "manufacturing",
+   "country": "DE",
+   "domain": "qiagen.com"
+  },
+  "Apollo Tyres": {
+   "type": "buyer",
+   "segment": "manufacturing",
+   "country": "IN",
+   "domain": "apollotyres.com"
+  },
+  "thyssenkrupp Automotive": {
+   "type": "buyer",
+   "segment": "manufacturing",
+   "country": "DE",
+   "domain": "thyssenkrupp.com"
+  },
+  "Lufthansa Group": {
+   "type": "buyer",
+   "segment": "other",
+   "country": "DE",
+   "domain": "lufthansagroup.com"
+  },
+  "Alfred Ritter (Ritter Sport)": {
+   "type": "buyer",
+   "segment": "food",
+   "country": "DE",
+   "domain": "ritter-sport.com"
+  },
+  "KRONES": {
+   "type": "buyer",
+   "segment": "manufacturing",
+   "country": "DE",
+   "domain": "krones.com"
+  },
+  "KfW Bankengruppe": {
+   "type": "public",
+   "segment": "other",
+   "country": "DE",
+   "domain": "kfw.de"
+  },
+  "McKinsey": {
+   "type": "consultancy",
+   "segment": "other",
+   "country": "US",
+   "domain": "mckinsey.com"
+  },
+  "traide AI": {
+   "type": "vendor",
+   "segment": "other",
+   "country": "DE"
+  },
+  "Universität St.Gallen": {
+   "type": "academia",
+   "segment": "other",
+   "country": "CH"
+  },
+  "BVL": {
+   "type": "association",
+   "segment": "other",
+   "country": "DE"
+  },
+  "Voith Turbo": {
+   "type": "buyer",
+   "segment": "manufacturing",
+   "country": "DE",
+   "domain": "voith.com"
+  },
+  "HHLA": {
+   "type": "buyer",
+   "segment": "logistics",
+   "country": "DE",
+   "domain": "hhla.de"
+  },
+  "Brenntag": {
+   "type": "buyer",
+   "segment": "distribution",
+   "country": "DE",
+   "domain": "brenntag.com"
+  },
+  "SSI SCHÄFER": {
+   "type": "buyer",
+   "segment": "manufacturing",
+   "country": "DE",
+   "domain": "ssi-schaefer.com"
+  },
+  "BLG LOGISTICS": {
+   "type": "buyer",
+   "segment": "logistics",
+   "country": "DE",
+   "domain": "blg-logistics.com"
+  },
+  "IKEA": {
+   "type": "buyer",
+   "segment": "retail",
+   "country": "SE",
+   "domain": "ikea.com"
+  },
+  "Kaufland": {
+   "type": "buyer",
+   "segment": "retail",
+   "country": "DE",
+   "domain": "kaufland.de"
+  },
+  "Jungheinrich": {
+   "type": "buyer",
+   "segment": "manufacturing",
+   "country": "DE",
+   "domain": "jungheinrich.com"
+  },
+  "Electrolux Group": {
+   "type": "buyer",
+   "segment": "manufacturing",
+   "country": "SE",
+   "domain": "electroluxgroup.com"
+  },
+  "Henkel": {
+   "type": "buyer",
+   "segment": "manufacturing",
+   "country": "DE",
+   "domain": "henkel.com"
+  },
+  "Mondelēz International": {
+   "type": "buyer",
+   "segment": "food",
+   "country": "US",
+   "domain": "mondelezinternational.com"
+  },
+  "Beaufort": {
+   "type": "buyer",
+   "segment": "other",
+   "country": ""
+  },
+  "Robert Bosch": {
+   "type": "buyer",
+   "segment": "manufacturing",
+   "country": "DE",
+   "domain": "bosch.com"
+  },
+  "AGRANA": {
+   "type": "buyer",
+   "segment": "food",
+   "country": "AT",
+   "domain": "agrana.com"
+  },
+  "AEB SE": {
+   "type": "vendor",
+   "segment": "other",
+   "country": "DE",
+   "domain": "aeb.com"
+  },
+  "TMG Consultants": {
+   "type": "consultancy",
+   "segment": "other",
+   "country": "DE"
+  },
+  "TÜV Rheinland": {
+   "type": "vendor",
+   "segment": "other",
+   "country": "DE"
+  },
+  "XPROMA": {
+   "type": "consultancy",
+   "segment": "other",
+   "country": "DE"
+  },
+  "PSI Software": {
+   "type": "vendor",
+   "segment": "other",
+   "country": "DE",
+   "domain": "psi.de"
+  },
+  "SWAN": {
+   "type": "integrator",
+   "segment": "other",
+   "country": "DE",
+   "domain": "swan.de"
+  },
+  "Körber Supply Chain Consulting": {
+   "type": "integrator",
+   "segment": "other",
+   "country": "DE"
+  },
+  "FIS Informationssysteme und Consulting": {
+   "type": "integrator",
+   "segment": "other",
+   "country": "DE",
+   "domain": "fis-gmbh.de"
+  },
+  "Westernacher Consulting": {
+   "type": "integrator",
+   "segment": "other",
+   "country": "DE",
+   "domain": "westernacher-consulting.com"
+  },
+  "io-consultants": {
+   "type": "consultancy",
+   "segment": "other",
+   "country": "DE"
+  },
+  "ecovium": {
+   "type": "vendor",
+   "segment": "other",
+   "country": "DE"
+  },
+  "BSH Hausgeräte": {
+   "type": "buyer",
+   "segment": "manufacturing",
+   "country": "DE",
+   "domain": "bsh-group.com"
+  },
+  "Samsung SDS": {
+   "type": "vendor",
+   "segment": "other",
+   "country": "KR"
+  },
+  "Bayer Pharmaceuticals": {
+   "type": "buyer",
+   "segment": "manufacturing",
+   "country": "DE",
+   "domain": "bayer.com"
+  },
+  "MANN+HUMMEL": {
+   "type": "buyer",
+   "segment": "manufacturing",
+   "country": "DE",
+   "domain": "mann-hummel.com"
+  },
+  "Persan": {
+   "type": "buyer",
+   "segment": "manufacturing",
+   "country": "ES",
+   "domain": "persan.es"
+  },
+  "Zycus": {
+   "type": "vendor",
+   "segment": "other",
+   "country": "US"
+  },
+  "European Council on Foreign Relations": {
+   "type": "academia",
+   "segment": "other",
+   "country": "DE"
+  },
+  "TARGUS Management Consulting": {
+   "type": "consultancy",
+   "segment": "other",
+   "country": "DE"
+  },
+  "Slimstock": {
+   "type": "vendor",
+   "segment": "other",
+   "country": "NL"
+  },
+  "EcoVadis": {
+   "type": "vendor",
+   "segment": "other",
+   "country": "FR"
+  },
+  "Wacker Chemie": {
+   "type": "buyer",
+   "segment": "manufacturing",
+   "country": "DE",
+   "domain": "wacker.com"
+  },
+  "Siemens Energy": {
+   "type": "buyer",
+   "segment": "manufacturing",
+   "country": "DE",
+   "domain": "siemens-energy.com"
+  },
+  "Intel Germany": {
+   "type": "buyer",
+   "segment": "manufacturing",
+   "country": "DE",
+   "domain": "intel.de"
+  },
+  "SPARETECH": {
+   "type": "vendor",
+   "segment": "other",
+   "country": "DE"
+  },
+  "GEP": {
+   "type": "vendor",
+   "segment": "other",
+   "country": "US"
+  },
+  "Bertelsmann": {
+   "type": "buyer",
+   "segment": "other",
+   "country": "DE",
+   "domain": "bertelsmann.com"
+  },
+  "Lytica": {
+   "type": "vendor",
+   "segment": "other",
+   "country": "CA"
+  },
+  "Novonesis": {
+   "type": "buyer",
+   "segment": "manufacturing",
+   "country": "DK",
+   "domain": "novonesis.com"
+  },
+  "BeNeering": {
+   "type": "vendor",
+   "segment": "other",
+   "country": "DE"
+  },
+  "ORO Labs": {
+   "type": "vendor",
+   "segment": "other",
+   "country": "US"
+  },
+  "Grupo Fertiberia": {
+   "type": "buyer",
+   "segment": "manufacturing",
+   "country": "ES",
+   "domain": "fertiberia.com"
+  },
+  "Vaillant Group": {
+   "type": "buyer",
+   "segment": "manufacturing",
+   "country": "DE",
+   "domain": "vaillant-group.com"
+  },
+  "Raben Group": {
+   "type": "buyer",
+   "segment": "logistics",
+   "country": "NL",
+   "domain": "raben-group.com"
+  },
+  "Mithra Ai": {
+   "type": "vendor",
+   "segment": "other",
+   "country": ""
+  },
+  "BYK-Chemie": {
+   "type": "buyer",
+   "segment": "manufacturing",
+   "country": "DE",
+   "domain": "byk.com"
+  },
+  "Schneider Electric": {
+   "type": "buyer",
+   "segment": "manufacturing",
+   "country": "FR",
+   "domain": "se.com"
+  },
+  "Thales Deutschland": {
+   "type": "buyer",
+   "segment": "manufacturing",
+   "country": "DE",
+   "domain": "thalesgroup.com"
+  },
+  "Jaguar Land Rover": {
+   "type": "buyer",
+   "segment": "manufacturing",
+   "country": "GB",
+   "domain": "jaguarlandrover.com"
+  },
+  "Mastercard": {
+   "type": "vendor",
+   "segment": "other",
+   "country": "US"
+  },
+  "Flender": {
+   "type": "buyer",
+   "segment": "manufacturing",
+   "country": "DE",
+   "domain": "flender.com"
+  },
+  "EUROMETAL": {
+   "type": "association",
+   "segment": "other",
+   "country": "LU"
+  },
+  "Metals Consulting International": {
+   "type": "consultancy",
+   "segment": "other",
+   "country": ""
+  },
+  "PwC Germany": {
+   "type": "consultancy",
+   "segment": "other",
+   "country": "DE"
+  },
+  "Frankstahl": {
+   "type": "buyer",
+   "segment": "metal",
+   "country": "AT",
+   "domain": "frankstahl.com"
+  },
+  "Fagor Arrasate": {
+   "type": "vendor",
+   "segment": "other",
+   "country": "ES"
+  },
+  "Dubrink": {
+   "type": "consultancy",
+   "segment": "other",
+   "country": "NL"
+  },
+  "Primex Steel Trading": {
+   "type": "buyer",
+   "segment": "metal",
+   "country": "DE"
+  },
+  "CRU": {
+   "type": "consultancy",
+   "segment": "other",
+   "country": "GB"
+  },
+  "EMW Stahl Service": {
+   "type": "buyer",
+   "segment": "metal",
+   "country": "DE",
+   "domain": "emw-stahl.de"
+  },
+  "Vanilla Steel": {
+   "type": "vendor",
+   "segment": "other",
+   "country": "DE"
+  },
+  "GSK": {
+   "type": "buyer",
+   "segment": "manufacturing",
+   "country": "GB",
+   "domain": "gsk.com"
+  },
+  "AstraZeneca": {
+   "type": "buyer",
+   "segment": "manufacturing",
+   "country": "GB",
+   "domain": "astrazeneca.com"
+  },
+  "Sanofi": {
+   "type": "buyer",
+   "segment": "manufacturing",
+   "country": "FR",
+   "domain": "sanofi.com"
+  },
+  "Roche": {
+   "type": "buyer",
+   "segment": "manufacturing",
+   "country": "CH",
+   "domain": "roche.com"
+  },
+  "Merck": {
+   "type": "buyer",
+   "segment": "manufacturing",
+   "country": "DE",
+   "note": "Source does not say whether Merck KGaA or MSD; confirm before outreach"
+  },
+  "Johnson & Johnson": {
+   "type": "buyer",
+   "segment": "manufacturing",
+   "country": "US",
+   "domain": "jnj.com"
+  },
+  "Arla Foods Ingredients": {
+   "type": "buyer",
+   "segment": "food",
+   "country": "DK",
+   "domain": "arlafoodsingredients.com"
+  },
+  "Bouwhuis Enthoven": {
+   "type": "buyer",
+   "segment": "distribution",
+   "country": "NL",
+   "domain": "bouwhuis.com"
+  },
+  "Marcegaglia": {
+   "type": "buyer",
+   "segment": "metal",
+   "country": "IT",
+   "domain": "marcegaglia.com"
   }
+ }
 }
