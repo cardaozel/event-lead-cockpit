@@ -41,6 +41,10 @@ all three does not make it into the cockpit.
 
 ![Lead detail: the three questions](docs/lead-detail.png)
 
+The cockpit also works on a phone, with a fixed push bar at the bottom:
+
+<img src="docs/mobile.png" alt="Cockpit on a phone" width="260">
+
 ## The ten events
 
 | Date | Event | City | What the source confirms | Leads (A / B / C) |
