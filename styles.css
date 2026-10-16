@@ -386,3 +386,18 @@ tr.static { cursor: default; }
 .drawer { position: sticky; top: 86px; }
 @media (max-width: 1180px) { .layout.has-drawer .drawer { position: fixed; top: 0; } }
 .toast { position: fixed; }
+
+/* ---------- phone fixes ---------- */
+@media (max-width: 1180px) {
+  .layout.has-drawer .drawer { background: rgba(18, 23, 39, 0.97); backdrop-filter: blur(30px) saturate(160%); -webkit-backdrop-filter: blur(30px) saturate(160%); }
+}
+@media (max-width: 820px) {
+  .layout.has-drawer .drawer { width: 100vw; padding: 18px 16px 40px; }
+  .event-item { flex: 0 0 250px; }
+  .event-item button { grid-template-columns: 46px 1fr; padding: 10px; }
+  .event-yield { flex-wrap: nowrap; white-space: nowrap; }
+  .yield-bar { width: 56px; }
+  .filters { display: grid; grid-template-columns: auto 1fr; }
+  .search { grid-column: 1 / -1; }
+  .stat-total { font-size: 26px; }
+}
