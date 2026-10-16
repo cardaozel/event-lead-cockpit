@@ -645,6 +645,81 @@
    "segment": "metal",
    "country": "IT",
    "domain": "marcegaglia.com"
+  },
+  "Women in Logistics": {
+   "type": "association",
+   "segment": "other",
+   "country": "DE"
+  },
+  "Covestro": {
+   "type": "buyer",
+   "segment": "manufacturing",
+   "country": "DE",
+   "domain": "covestro.com"
+  },
+  "Miele": {
+   "type": "buyer",
+   "segment": "manufacturing",
+   "country": "DE",
+   "domain": "miele.com"
+  },
+  "Beiersdorf": {
+   "type": "buyer",
+   "segment": "manufacturing",
+   "country": "DE",
+   "domain": "beiersdorf.com"
+  },
+  "Zalando": {
+   "type": "buyer",
+   "segment": "retail",
+   "country": "DE",
+   "domain": "zalando.com"
+  },
+  "Boehringer Ingelheim": {
+   "type": "buyer",
+   "segment": "manufacturing",
+   "country": "DE",
+   "domain": "boehringer-ingelheim.com"
+  },
+  "Ingredion": {
+   "type": "buyer",
+   "segment": "food",
+   "country": "US",
+   "domain": "ingredion.com"
+  },
+  "E.G.O. Europe": {
+   "type": "buyer",
+   "segment": "manufacturing",
+   "country": "DE",
+   "domain": "egoproducts.com"
+  },
+  "Shell": {
+   "type": "buyer",
+   "segment": "other",
+   "country": "GB",
+   "domain": "shell.com"
+  },
+  "Georgsmarienhütte Holding": {
+   "type": "buyer",
+   "segment": "metal",
+   "country": "DE",
+   "domain": "gmh-gruppe.de"
+  },
+  "Salzgitter Flachstahl": {
+   "type": "buyer",
+   "segment": "metal",
+   "country": "DE",
+   "domain": "salzgitter-flachstahl.de"
+  },
+  "European Parliament": {
+   "type": "public",
+   "segment": "other",
+   "country": "BE"
+  },
+  "Deutsche Bahn": {
+   "type": "public",
+   "segment": "other",
+   "country": "DE"
   }
  }
 }

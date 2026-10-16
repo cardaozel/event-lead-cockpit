@@ -70,9 +70,9 @@ python3 -m http.server 8000       # open http://localhost:8000 (HubSpot push nee
 ## Honest limits of this build
 
 - Attendee lists are not public. Speakers and sponsors are used as the attending-leads proxy.
-- Two of the ten events (DSAG, Swiss Supply Chain & Logistics) have not named speakers yet; three
-  more give company-level evidence only. Five high-fit 2027 events sit on a watchlist until their
-  lists are published.
+- All ten events have public evidence. Seven name individual speakers; three (EuroBLECH,
+  LogiPharma, Fi Europe) give company-level evidence only. Seven more high-fit events sit on a
+  watchlist until their lists are published.
 - Titles come from event listings and are not yet verified against LinkedIn.
 - Enrichment is a hand-built seed. In production this is an enrichment provider keyed on domain.
 - Review state is saved in the viewer's browser. In production it lives in a shared store.

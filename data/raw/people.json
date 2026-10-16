@@ -46,6 +46,16 @@
    "url": "https://www.marcegaglia.com/officialwebsite/en/marcegaglia-a-euroblech-2026-lacciaio-prende-forma-ad-hannover/",
    "publisher": "company",
    "label": "Marcegaglia EuroBLECH announcement"
+  },
+  "sclt": {
+   "url": "https://www.key-notion.com/supply-chain-logistics-transformation-summit-munich-2026",
+   "publisher": "organiser",
+   "label": "Summit speaker list (organiser)"
+  },
+  "zstahl": {
+   "url": "https://live.handelsblatt.com/event/handelsblatt-jahrestagung-zukunft-stahl/",
+   "publisher": "organiser",
+   "label": "Handelsblatt Live event page"
   }
  },
  "records": [
@@ -1137,6 +1147,159 @@
    "name": "Marcegaglia",
    "title": "Hall 17, Stand B66",
    "company": "Marcegaglia"
+  },
+  {
+   "event": "sclt-munich-2026",
+   "src": "sclt",
+   "kind": "person",
+   "role": "speaker",
+   "name": "Peter Seitel",
+   "title": "Director Production Services (summit chair)",
+   "company": "Merck"
+  },
+  {
+   "event": "sclt-munich-2026",
+   "src": "sclt",
+   "kind": "person",
+   "role": "speaker",
+   "name": "Ceylan Uensal",
+   "title": "Managing Director",
+   "company": "Women in Logistics"
+  },
+  {
+   "event": "sclt-munich-2026",
+   "src": "sclt",
+   "kind": "person",
+   "role": "speaker",
+   "name": "Anna-Leona Breidbach",
+   "title": "Head of Center of Excellence EMLA, Supply Chain & Logistics",
+   "company": "Covestro"
+  },
+  {
+   "event": "sclt-munich-2026",
+   "src": "sclt",
+   "kind": "person",
+   "role": "speaker",
+   "name": "Immanuel Söllner",
+   "title": "Director Supply Chain Planning Southeastern Europe",
+   "company": "Miele"
+  },
+  {
+   "event": "sclt-munich-2026",
+   "src": "sclt",
+   "kind": "person",
+   "role": "speaker",
+   "name": "Florian Kaesen",
+   "title": "Director Supply Chain",
+   "company": "Intel Germany"
+  },
+  {
+   "event": "sclt-munich-2026",
+   "src": "sclt",
+   "kind": "person",
+   "role": "speaker",
+   "name": "Candy Weiß-Thieme",
+   "title": "Global Supply Chain Director E-Commerce",
+   "company": "Beiersdorf"
+  },
+  {
+   "event": "sclt-munich-2026",
+   "src": "sclt",
+   "kind": "person",
+   "role": "speaker",
+   "name": "Pavel Sinelnik",
+   "title": "D2C Supply Chain Development Director",
+   "company": "Electrolux Group"
+  },
+  {
+   "event": "sclt-munich-2026",
+   "src": "sclt",
+   "kind": "person",
+   "role": "speaker",
+   "name": "Morgan Lasrado",
+   "title": "Principal, Programs & Portfolios",
+   "company": "Zalando"
+  },
+  {
+   "event": "sclt-munich-2026",
+   "src": "sclt",
+   "kind": "person",
+   "role": "speaker",
+   "name": "Ashish Chandra Saxena",
+   "title": "Global Capability Owner, Customer Targeting & Engagement Planning",
+   "company": "Boehringer Ingelheim"
+  },
+  {
+   "event": "sclt-munich-2026",
+   "src": "sclt",
+   "kind": "person",
+   "role": "speaker",
+   "name": "Guilherme Pereira",
+   "title": "Global Principal, Digital Technology Solutions – Supply Chain & Operations",
+   "company": "Ingredion"
+  },
+  {
+   "event": "sclt-munich-2026",
+   "src": "sclt",
+   "kind": "person",
+   "role": "speaker",
+   "name": "Andreas Walz",
+   "title": "Head of Supply Chain and Logistics",
+   "company": "E.G.O. Europe"
+  },
+  {
+   "event": "sclt-munich-2026",
+   "src": "sclt",
+   "kind": "person",
+   "role": "speaker",
+   "name": "Enno Ogniwek",
+   "title": "Senior Supply Chain Strategy Manager",
+   "company": "Shell"
+  },
+  {
+   "event": "sclt-munich-2026",
+   "src": "sclt",
+   "kind": "person",
+   "role": "speaker",
+   "name": "Arjun Varma",
+   "title": "Group Head – Supply Chain Strategy & Transformation",
+   "company": "Apollo Tyres"
+  },
+  {
+   "event": "zukunft-stahl-2027",
+   "src": "zstahl",
+   "kind": "person",
+   "role": "speaker",
+   "name": "Alexander Becker",
+   "title": "CEO",
+   "company": "Georgsmarienhütte Holding"
+  },
+  {
+   "event": "zukunft-stahl-2027",
+   "src": "zstahl",
+   "kind": "person",
+   "role": "speaker",
+   "name": "Heike Denecke-Arnold",
+   "title": "Chair of the Management Board",
+   "company": "Salzgitter Flachstahl"
+  },
+  {
+   "event": "zukunft-stahl-2027",
+   "src": "zstahl",
+   "kind": "person",
+   "role": "speaker",
+   "name": "Bernd Lange",
+   "title": "Chair of the Committee on International Trade",
+   "company": "European Parliament"
+  },
+  {
+   "event": "zukunft-stahl-2027",
+   "src": "zstahl",
+   "kind": "person",
+   "role": "speaker",
+   "name": "Bernhard Osburg",
+   "title": "Board Member for Freight Transport",
+   "company": "Deutsche Bahn"
   }
  ]
 }

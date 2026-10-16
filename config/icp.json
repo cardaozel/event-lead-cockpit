@@ -80,8 +80,8 @@
  "segments": {
   "metal": {
    "points": 1.0,
-   "label": "Metal distribution / processing (Kloeckner Metals lookalike)",
-   "short": "metal distribution"
+   "label": "Metal & steel: distribution, processing, production (Kloeckner Metals lookalike)",
+   "short": "metal & steel"
   },
   "food": {
    "points": 1.0,
