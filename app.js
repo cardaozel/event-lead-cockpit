@@ -215,8 +215,8 @@
     const s = statusOf(l.id);
     if (s === "synced") return syncedCell(l.id);
     return `<span class="review">
-      <button class="btn btn-approve" data-act="approved" data-id="${l.id}" aria-pressed="${s === "approved"}">Approve</button>
-      <button class="btn btn-reject" data-act="rejected" data-id="${l.id}" aria-pressed="${s === "rejected"}">Reject</button>
+      <button class="btn btn-approve" data-act="approved" data-id="${l.id}" aria-pressed="${s === "approved"}">${s === "approved" ? "Approved ✓" : "Approve"}</button>
+      <button class="btn btn-reject" data-act="rejected" data-id="${l.id}" aria-pressed="${s === "rejected"}">${s === "rejected" ? "Rejected" : "Reject"}</button>
     </span>`;
   }
 
@@ -317,14 +317,18 @@
 
   // ---------- review + push ----------
   function setReview(id, act) {
-    if (statusOf(id) === act) delete state.review[id]; else state.review[id] = act;
+    const undo = statusOf(id) === act;
+    if (undo) delete state.review[id]; else state.review[id] = act;
     saveReview(); renderAll();
+    const ready = state.data.leads.filter((l) => statusOf(l.id) === "approved").length;
+    if (!undo && act === "approved") toast(`Approved. ${ready} ready to push to HubSpot.`, 2200);
+    else if (!undo && act === "rejected") toast("Rejected. It will not be pushed.", 1800);
   }
 
-  function toast(msg) {
+  function toast(msg, ms = 6500) {
     const t = $("toast");
     t.textContent = msg; t.hidden = false;
-    clearTimeout(toast._t); toast._t = setTimeout(() => (t.hidden = true), 6500);
+    clearTimeout(toast._t); toast._t = setTimeout(() => (t.hidden = true), ms);
   }
 
   async function checkCrm() {
