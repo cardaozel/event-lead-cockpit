@@ -157,7 +157,9 @@
     const btn = $("pushBtn");
     const mode = state.crm.mode;
     if (mode === "live") {
-      btn.textContent = approved ? `Push ${approved} approved to HubSpot` : "Approve leads to push them";
+      const ap = state.data.leads.filter((l) => statusOf(l.id) === "approved");
+      const np = ap.filter((l) => l.kind === "person").length;
+      btn.textContent = approved ? `Push ${approved} to HubSpot (${np} contacts, ${approved - np} companies)` : "Approve leads to push them";
       btn.disabled = approved === 0;
     } else if (mode === "dry-run") {
       btn.textContent = approved ? `Preview push of ${approved} (dry run)` : "Approve leads to preview a push";
@@ -206,7 +208,8 @@
           <td class="col-score"><span class="score"><span class="tier tier-${l.tier}" title="Tier ${l.tier}">${l.tier}</span><span class="score-num">${l.score}</span>${scoreBar(l)}</span></td>
           <td class="col-person person"><b>${esc(l.name)}</b>
             <div class="t">${esc(l.kind === "person" ? (l.title || "Title not published") : (l.title || "Company-level record"))}</div>
-            <span class="ev ev-${l.evidence_strength}">${ROLE_LABEL[l.evidence_level]}</span></td>
+            <span class="ev ev-${l.evidence_strength}">${ROLE_LABEL[l.evidence_level]}</span>
+            <span class="hs-target">${l.kind === "person" ? "HubSpot: contact + company" : "HubSpot: company only"}</span></td>
           <td class="col-co co">${esc(l.company)}<div class="s">${SEGMENT_LABEL[l.segment]}${l.country ? `, ${esc(l.country)}` : ""}</div></td>
           ${state.eventId ? "" : `<td class="col-event persona">${esc(l.event_name)}${l.also_at ? `<div class="s">Also: ${esc(l.also_at.join(", "))}</div>` : ""}</td>`}
           <td class="col-persona persona">${esc(l.tier_reason)}</td>
@@ -246,6 +249,9 @@
       <dl class="facts">
         <dt>Event</dt><dd>${esc(l.event_name)}${l.also_at ? `<br>Also: ${esc(l.also_at.join(", "))}` : ""}</dd>
         <dt>Shown as</dt><dd><span class="ev ev-${l.evidence_strength}">${ROLE_LABEL[l.evidence_level]}</span></dd>
+        <dt>In HubSpot</dt><dd>${isPerson
+          ? "Becomes a <b>contact</b>, linked to its <b>company</b>, with a note"
+          : "Becomes a <b>company</b> only, with a note. No person is named in the source, so no contact is created"}</dd>
         <dt>Source</dt><dd><a href="${esc(l.source_url)}" target="_blank" rel="noopener">${esc(l.source_label)}</a><br><span class="muted">Checked ${esc(l.checked_on)}</span></dd>
       </dl>
 
@@ -354,7 +360,9 @@
           : (() => {
               const created = ok.filter((x) => (x.contact ? x.contact.created : x.company.created)).length;
               const kept = ok.filter((x) => x.note === "already there").length;
-              return `Pushed ${ok.length} to HubSpot: ${created} new, ${ok.length - created} matched existing records` +
+              const contacts = ok.filter((x) => x.contact).length;
+              const companiesOnly = ok.length - contacts;
+              return `Pushed ${ok.length} to HubSpot (${contacts} as contact + company, ${companiesOnly} as company only): ${created} new, ${ok.length - created} matched existing records` +
                 (kept ? `, ${kept} notes already there (not duplicated).` : ", each with a note holding score, tier reason and source.");
             })());
     } catch (err) {

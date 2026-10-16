@@ -272,3 +272,5 @@ tr.static { cursor: default; }
 }
 
 .layout.has-drawer .col-persona { display: none; }
+
+.hs-target { display: block; margin-top: 4px; font-size: 12px; color: var(--ink-3); }
