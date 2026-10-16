@@ -720,6 +720,66 @@
    "type": "public",
    "segment": "other",
    "country": "DE"
+  },
+  "Aurubis": {
+   "type": "buyer",
+   "segment": "metal",
+   "country": "DE",
+   "domain": "aurubis.com"
+  },
+  "Bosch Mobility Aftermarket": {
+   "type": "buyer",
+   "segment": "distribution",
+   "country": "DE",
+   "domain": "bosch.com"
+  },
+  "Wuppermann Stahl": {
+   "type": "buyer",
+   "segment": "metal",
+   "country": "DE",
+   "domain": "wuppermann.com"
+  },
+  "KION Group": {
+   "type": "buyer",
+   "segment": "manufacturing",
+   "country": "DE",
+   "domain": "kiongroup.com"
+  },
+  "MC-Bauchemie": {
+   "type": "buyer",
+   "segment": "manufacturing",
+   "country": "DE",
+   "domain": "mc-bauchemie.de"
+  },
+  "Renault Deutschland": {
+   "type": "buyer",
+   "segment": "distribution",
+   "country": "DE",
+   "domain": "renault.de"
+  },
+  "Siemens": {
+   "type": "buyer",
+   "segment": "manufacturing",
+   "country": "DE",
+   "domain": "siemens.com"
+  },
+  "Autodoc": {
+   "type": "buyer",
+   "segment": "retail",
+   "country": "DE",
+   "domain": "autodoc.de"
+  },
+  "REWE Markt": {
+   "type": "buyer",
+   "segment": "retail",
+   "country": "DE",
+   "domain": "rewe.de"
+  },
+  "L'Oréal": {
+   "type": "buyer",
+   "segment": "manufacturing",
+   "country": "FR",
+   "domain": "loreal.com"
   }
  }
 }

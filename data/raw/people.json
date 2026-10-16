@@ -8,19 +8,14 @@
    "label": "BME programme PDF"
   },
   "bvl": {
-   "url": "https://www.luminik.io/events/bvl-supply-chain-cx-berlin-f1773cb8328b/attendees/",
-   "publisher": "third-party",
-   "label": "Third-party listing of BVL speakers and sponsors"
+   "url": "https://cx.bvl.de/en/speaker",
+   "publisher": "organiser",
+   "label": "BVL Supply Chain CX 2026 speaker page (organiser)"
   },
   "emsc": {
-   "url": "https://www.luminik.io/events/ems-scms-summit-munich/",
-   "publisher": "third-party",
-   "label": "Third-party listing of summit speakers"
-  },
-  "epsce": {
-   "url": "https://www.bme.de/veranstaltungen/grossveranstaltungen/european-procurement-supply-chain-excellence-summit/summit-speakers/",
+   "url": "https://ems-scms.com/live/en/page/home",
    "publisher": "organiser",
-   "label": "BME EP&SCE speaker page"
+   "label": "Summit organiser page (speakers sneak peek)"
   },
   "eurometal": {
    "url": "https://eurometal.net/?p=43431",
@@ -49,13 +44,23 @@
   },
   "sclt": {
    "url": "https://www.key-notion.com/supply-chain-logistics-transformation-summit-munich-2026",
-   "publisher": "organiser",
-   "label": "Summit speaker list (organiser)"
+   "publisher": "organiser-undated",
+   "label": "Organiser event page (speaker list not dated)"
   },
   "zstahl": {
    "url": "https://live.handelsblatt.com/event/handelsblatt-jahrestagung-zukunft-stahl/",
    "publisher": "organiser",
    "label": "Handelsblatt Live event page"
+  },
+  "bvl3p": {
+   "url": "https://www.luminik.io/events/bvl-supply-chain-cx-berlin-f1773cb8328b/attendees/",
+   "publisher": "third-party",
+   "label": "Third-party listing of BVL sponsors"
+  },
+  "emsc3p": {
+   "url": "https://www.luminik.io/events/ems-scms-summit-munich/",
+   "publisher": "third-party",
+   "label": "Third-party listing of summit speakers"
   }
  },
  "records": [
@@ -425,8 +430,8 @@
    "kind": "person",
    "role": "speaker",
    "name": "Markus Bangen",
-   "title": "Board and CEO",
-   "company": "BVL"
+   "title": "CEO",
+   "company": "duisport"
   },
   {
    "event": "bvl-cx-2026",
@@ -488,7 +493,7 @@
    "kind": "person",
    "role": "speaker",
    "name": "Tobias Hartmann",
-   "title": "",
+   "title": "Team Lead SCM International",
    "company": "Kaufland"
   },
   {
@@ -529,7 +534,7 @@
   },
   {
    "event": "emsc-2026",
-   "src": "emsc",
+   "src": "emsc3p",
    "kind": "person",
    "role": "speaker",
    "name": "Nanda Kishore",
@@ -556,7 +561,7 @@
   },
   {
    "event": "bvl-cx-2026",
-   "src": "bvl",
+   "src": "bvl3p",
    "kind": "account",
    "role": "sponsor",
    "name": "AEB SE",
@@ -565,7 +570,7 @@
   },
   {
    "event": "bvl-cx-2026",
-   "src": "bvl",
+   "src": "bvl3p",
    "kind": "account",
    "role": "sponsor",
    "name": "TMG Consultants",
@@ -574,7 +579,7 @@
   },
   {
    "event": "bvl-cx-2026",
-   "src": "bvl",
+   "src": "bvl3p",
    "kind": "account",
    "role": "sponsor",
    "name": "TÜV Rheinland",
@@ -583,390 +588,12 @@
   },
   {
    "event": "bvl-cx-2026",
-   "src": "bvl",
+   "src": "bvl3p",
    "kind": "account",
    "role": "sponsor",
    "name": "XPROMA",
    "title": "",
    "company": "XPROMA"
-  },
-  {
-   "event": "epsce-2027",
-   "src": "epsce",
-   "kind": "person",
-   "role": "speaker",
-   "name": "Lutz Berg",
-   "title": "Executive Vice President, Head of Global Purchasing",
-   "company": "BSH Hausgeräte"
-  },
-  {
-   "event": "epsce-2027",
-   "src": "epsce",
-   "kind": "person",
-   "role": "speaker",
-   "name": "Ulrich Bosch",
-   "title": "Senior Solution Consultant",
-   "company": "Samsung SDS"
-  },
-  {
-   "event": "epsce-2027",
-   "src": "epsce",
-   "kind": "person",
-   "role": "speaker",
-   "name": "David Buhmann",
-   "title": "CPO",
-   "company": "Bayer Pharmaceuticals"
-  },
-  {
-   "event": "epsce-2027",
-   "src": "epsce",
-   "kind": "person",
-   "role": "speaker",
-   "name": "Samuel Cochon",
-   "title": "Chief Procurement Officer",
-   "company": "MANN+HUMMEL"
-  },
-  {
-   "event": "epsce-2027",
-   "src": "epsce",
-   "kind": "person",
-   "role": "speaker",
-   "name": "Ana Dias",
-   "title": "Chief Procurement Officer",
-   "company": "Persan"
-  },
-  {
-   "event": "epsce-2027",
-   "src": "epsce",
-   "kind": "person",
-   "role": "speaker",
-   "name": "Sebastian Engl",
-   "title": "Head of Corporate Procurement Business Development",
-   "company": "KRONES"
-  },
-  {
-   "event": "epsce-2027",
-   "src": "epsce",
-   "kind": "person",
-   "role": "speaker",
-   "name": "Dirk Fischbach",
-   "title": "Regional Sales Manager, EMEA",
-   "company": "Zycus"
-  },
-  {
-   "event": "epsce-2027",
-   "src": "epsce",
-   "kind": "person",
-   "role": "speaker",
-   "name": "Tobias Gehrke",
-   "title": "Senior Policy Fellow, Geoeconomics",
-   "company": "European Council on Foreign Relations"
-  },
-  {
-   "event": "epsce-2027",
-   "src": "epsce",
-   "kind": "person",
-   "role": "speaker",
-   "name": "Thomas Germer",
-   "title": "CPO",
-   "company": "ADAC SE"
-  },
-  {
-   "event": "epsce-2027",
-   "src": "epsce",
-   "kind": "person",
-   "role": "speaker",
-   "name": "Martin Göttert",
-   "title": "Principal",
-   "company": "TARGUS Management Consulting"
-  },
-  {
-   "event": "epsce-2027",
-   "src": "epsce",
-   "kind": "person",
-   "role": "speaker",
-   "name": "Mieke Grashuis",
-   "title": "Customer Success Manager",
-   "company": "Slimstock"
-  },
-  {
-   "event": "epsce-2027",
-   "src": "epsce",
-   "kind": "person",
-   "role": "speaker",
-   "name": "Ben Grudda",
-   "title": "Head of SRM Business",
-   "company": "Samsung SDS"
-  },
-  {
-   "event": "epsce-2027",
-   "src": "epsce",
-   "kind": "person",
-   "role": "speaker",
-   "name": "Stephanie Herre",
-   "title": "Sales Manager",
-   "company": "EcoVadis"
-  },
-  {
-   "event": "epsce-2027",
-   "src": "epsce",
-   "kind": "person",
-   "role": "speaker",
-   "name": "Erk Thorsten Heyen",
-   "title": "Senior VP Procurement & Logistics (CPO)",
-   "company": "Wacker Chemie"
-  },
-  {
-   "event": "epsce-2027",
-   "src": "epsce",
-   "kind": "person",
-   "role": "speaker",
-   "name": "Arnd Hirschberg",
-   "title": "Senior Strategist",
-   "company": "Siemens Energy"
-  },
-  {
-   "event": "epsce-2027",
-   "src": "epsce",
-   "kind": "person",
-   "role": "speaker",
-   "name": "Florian Kaesen",
-   "title": "Director Value Chain Integration",
-   "company": "Intel Germany"
-  },
-  {
-   "event": "epsce-2027",
-   "src": "epsce",
-   "kind": "person",
-   "role": "speaker",
-   "name": "Oliver Kahrs",
-   "title": "Supply Chain Optimisation Expert",
-   "company": "Slimstock"
-  },
-  {
-   "event": "epsce-2027",
-   "src": "epsce",
-   "kind": "person",
-   "role": "speaker",
-   "name": "Lars Kleeberg",
-   "title": "Chief Executive Officer",
-   "company": "BME e.V."
-  },
-  {
-   "event": "epsce-2027",
-   "src": "epsce",
-   "kind": "person",
-   "role": "speaker",
-   "name": "Henning Lombeck",
-   "title": "Senior Account Executive",
-   "company": "SPARETECH"
-  },
-  {
-   "event": "epsce-2027",
-   "src": "epsce",
-   "kind": "person",
-   "role": "speaker",
-   "name": "Darren Lynch",
-   "title": "VP Supply Chain and Procurement",
-   "company": "GEP"
-  },
-  {
-   "event": "epsce-2027",
-   "src": "epsce",
-   "kind": "person",
-   "role": "speaker",
-   "name": "Sebastian Michel-Wildner",
-   "title": "Senior Director, Group IT Sourcing",
-   "company": "Bertelsmann"
-  },
-  {
-   "event": "epsce-2027",
-   "src": "epsce",
-   "kind": "person",
-   "role": "speaker",
-   "name": "Monika Mutscher",
-   "title": "Regional Sales Manager",
-   "company": "Zycus"
-  },
-  {
-   "event": "epsce-2027",
-   "src": "epsce",
-   "kind": "person",
-   "role": "speaker",
-   "name": "Steffen Müller",
-   "title": "Head of Corporate Procurement",
-   "company": "KRONES"
-  },
-  {
-   "event": "epsce-2027",
-   "src": "epsce",
-   "kind": "person",
-   "role": "speaker",
-   "name": "Varun Narayanan",
-   "title": "Vice President, Business Transformation",
-   "company": "Lytica"
-  },
-  {
-   "event": "epsce-2027",
-   "src": "epsce",
-   "kind": "person",
-   "role": "speaker",
-   "name": "Louise Noer",
-   "title": "Senior Director, Head of Global Indirect Procurement",
-   "company": "Novonesis"
-  },
-  {
-   "event": "epsce-2027",
-   "src": "epsce",
-   "kind": "person",
-   "role": "speaker",
-   "name": "Naomi Oiknin",
-   "title": "Senior Solution Consultant",
-   "company": "Samsung SDS"
-  },
-  {
-   "event": "epsce-2027",
-   "src": "epsce",
-   "kind": "person",
-   "role": "speaker",
-   "name": "Natalia Parmenova",
-   "title": "Chief Revenue Officer",
-   "company": "BeNeering"
-  },
-  {
-   "event": "epsce-2027",
-   "src": "epsce",
-   "kind": "person",
-   "role": "speaker",
-   "name": "Christopher Parsons",
-   "title": "Senior Manager",
-   "company": "ORO Labs"
-  },
-  {
-   "event": "epsce-2027",
-   "src": "epsce",
-   "kind": "person",
-   "role": "speaker",
-   "name": "Vanessa Pepperell",
-   "title": "CPO, Global Procurement Director",
-   "company": "Grupo Fertiberia"
-  },
-  {
-   "event": "epsce-2027",
-   "src": "epsce",
-   "kind": "person",
-   "role": "speaker",
-   "name": "Emmanuelle Piketty",
-   "title": "Group Director Procurement / CPO",
-   "company": "Vaillant Group"
-  },
-  {
-   "event": "epsce-2027",
-   "src": "epsce",
-   "kind": "person",
-   "role": "speaker",
-   "name": "Ewald Raben",
-   "title": "CEO",
-   "company": "Raben Group"
-  },
-  {
-   "event": "epsce-2027",
-   "src": "epsce",
-   "kind": "person",
-   "role": "speaker",
-   "name": "Rasa Raoufi",
-   "title": "Co-founder",
-   "company": "Mithra Ai"
-  },
-  {
-   "event": "epsce-2027",
-   "src": "epsce",
-   "kind": "person",
-   "role": "speaker",
-   "name": "Thomas Schamberg",
-   "title": "Global Head of Supply Chain Management",
-   "company": "BYK-Chemie"
-  },
-  {
-   "event": "epsce-2027",
-   "src": "epsce",
-   "kind": "person",
-   "role": "speaker",
-   "name": "Saulo Spaolanse",
-   "title": "Global SVP, Customer Experience, Global Supply Chain",
-   "company": "Schneider Electric"
-  },
-  {
-   "event": "epsce-2027",
-   "src": "epsce",
-   "kind": "person",
-   "role": "speaker",
-   "name": "Tim Teubler",
-   "title": "CPO",
-   "company": "Thales Deutschland"
-  },
-  {
-   "event": "epsce-2027",
-   "src": "epsce",
-   "kind": "person",
-   "role": "speaker",
-   "name": "Görkan Ülker",
-   "title": "Procurement Director, Body, Chassis and Aftermarket",
-   "company": "Jaguar Land Rover"
-  },
-  {
-   "event": "epsce-2027",
-   "src": "epsce",
-   "kind": "person",
-   "role": "speaker",
-   "name": "Marcel Urban",
-   "title": "Partner",
-   "company": "TARGUS Management Consulting"
-  },
-  {
-   "event": "epsce-2027",
-   "src": "epsce",
-   "kind": "person",
-   "role": "speaker",
-   "name": "Renold Vasili",
-   "title": "Director Business Development",
-   "company": "Mastercard"
-  },
-  {
-   "event": "epsce-2027",
-   "src": "epsce",
-   "kind": "person",
-   "role": "speaker",
-   "name": "Florian Vollmer",
-   "title": "Head of Procurement Sustainability & Risk Management",
-   "company": "Bayer"
-  },
-  {
-   "event": "epsce-2027",
-   "src": "epsce",
-   "kind": "person",
-   "role": "speaker",
-   "name": "Yannick Weibring",
-   "title": "Procurement Functional Excellence",
-   "company": "Flender"
-  },
-  {
-   "event": "epsce-2027",
-   "src": "epsce",
-   "kind": "person",
-   "role": "speaker",
-   "name": "Frank Welge",
-   "title": "Partner",
-   "company": "TARGUS Management Consulting"
-  },
-  {
-   "event": "epsce-2027",
-   "src": "epsce",
-   "kind": "person",
-   "role": "speaker",
-   "name": "Eelco Wever",
-   "title": "Managing Director",
-   "company": "Slimstock"
   },
   {
    "event": "eurometal-std-2026",
@@ -1300,6 +927,141 @@
    "name": "Bernhard Osburg",
    "title": "Board Member for Freight Transport",
    "company": "Deutsche Bahn"
+  },
+  {
+   "event": "bvl-cx-2026",
+   "src": "bvl",
+   "kind": "person",
+   "role": "speaker",
+   "name": "Cristina-Maria Danila",
+   "title": "Head of Global Supply Chain & Logistics",
+   "company": "Covestro"
+  },
+  {
+   "event": "bvl-cx-2026",
+   "src": "bvl",
+   "kind": "person",
+   "role": "speaker",
+   "name": "Giancarlo Di Benedetto",
+   "title": "Global Category Manager Logistics",
+   "company": "Aurubis"
+  },
+  {
+   "event": "bvl-cx-2026",
+   "src": "bvl",
+   "kind": "person",
+   "role": "speaker",
+   "name": "Martin Heider",
+   "title": "Leiter Einkauf logistischer Dienstleistungen Deutschland",
+   "company": "Henkel"
+  },
+  {
+   "event": "bvl-cx-2026",
+   "src": "bvl",
+   "kind": "person",
+   "role": "speaker",
+   "name": "Matthias Hülsmann",
+   "title": "Senior Vice President (E2E) Logistics",
+   "company": "Bosch Mobility Aftermarket"
+  },
+  {
+   "event": "bvl-cx-2026",
+   "src": "bvl",
+   "kind": "person",
+   "role": "speaker",
+   "name": "Andreas Kersch",
+   "title": "Managing Director",
+   "company": "Wuppermann Stahl"
+  },
+  {
+   "event": "bvl-cx-2026",
+   "src": "bvl",
+   "kind": "person",
+   "role": "speaker",
+   "name": "Andreas Koetz",
+   "title": "Leiter Zentrales Supply Chain Management",
+   "company": "ZF Friedrichshafen"
+  },
+  {
+   "event": "bvl-cx-2026",
+   "src": "bvl",
+   "kind": "person",
+   "role": "speaker",
+   "name": "Bart Meers",
+   "title": "Global Executive Head of Logistics, Warehousing",
+   "company": "BSH Hausgeräte"
+  },
+  {
+   "event": "bvl-cx-2026",
+   "src": "bvl",
+   "kind": "person",
+   "role": "speaker",
+   "name": "Christine Mezger-Behan",
+   "title": "Senior Vice President Supply Chain Operations",
+   "company": "KION Group"
+  },
+  {
+   "event": "bvl-cx-2026",
+   "src": "bvl",
+   "kind": "person",
+   "role": "speaker",
+   "name": "Benjamin Stauch",
+   "title": "Head of Operational Order Management",
+   "company": "MC-Bauchemie"
+  },
+  {
+   "event": "bvl-cx-2026",
+   "src": "bvl",
+   "kind": "person",
+   "role": "speaker",
+   "name": "Oliver Schieritz",
+   "title": "Direktor Kundenservice & Aftersales",
+   "company": "Renault Deutschland"
+  },
+  {
+   "event": "bvl-cx-2026",
+   "src": "bvl",
+   "kind": "person",
+   "role": "speaker",
+   "name": "Aigul Zhalgassova",
+   "title": "Global Transport Management",
+   "company": "Siemens"
+  },
+  {
+   "event": "bvl-cx-2026",
+   "src": "bvl",
+   "kind": "person",
+   "role": "speaker",
+   "name": "Igor Perzel",
+   "title": "Director Operations",
+   "company": "Autodoc"
+  },
+  {
+   "event": "bvl-cx-2026",
+   "src": "bvl",
+   "kind": "person",
+   "role": "speaker",
+   "name": "Peter Maly",
+   "title": "Member of the Management Board",
+   "company": "REWE Markt"
+  },
+  {
+   "event": "bvl-cx-2026",
+   "src": "bvl",
+   "kind": "person",
+   "role": "speaker",
+   "name": "Julien Weiß",
+   "title": "Automation & Design Leader, IKEA Intralogistics Development",
+   "company": "IKEA"
+  },
+  {
+   "event": "emsc-2026",
+   "src": "emsc",
+   "kind": "person",
+   "role": "speaker",
+   "name": "Sandrine Torandell",
+   "title": "Operations Director",
+   "company": "L'Oréal"
   }
  ]
 }

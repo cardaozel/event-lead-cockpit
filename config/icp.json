@@ -62,6 +62,11 @@
    "label": "Sponsoring company",
    "strength": "company",
    "points": 0.5
+  },
+  "speaker:organiser-undated": {
+   "label": "Speaker on the organiser's event page, list not dated",
+   "strength": "medium",
+   "points": 0.7
   }
  },
  "buyer_types": [
@@ -95,12 +100,12 @@
   },
   "logistics": {
    "points": 0.7,
-   "label": "Logistics provider (Müller – Die Lila Logistik is a customer)",
+   "label": "Logistics and fleet-heavy operations (bofrost* fleet story)",
    "short": "logistics"
   },
   "manufacturing": {
    "points": 0.6,
-   "label": "Manufacturing with high PO / SO volume (TMD Friction is a customer)",
+   "label": "Manufacturing with high PO / SO volume",
    "short": "manufacturing"
   },
   "retail": {
@@ -213,7 +218,9 @@
     "leiter",
     "leiterin",
     "leitung",
-    "lead"
+    "lead",
+    "direktor",
+    "direktorin"
    ]
   },
   {
@@ -261,12 +268,13 @@
   }
  },
  "references": {
-  "_note": "Public GeneralMind customer stories (generalmind.com/case-studies). Used to pick the outreach opener per lead.",
+  "_note": "Public GeneralMind customer stories shown on generalmind.com/case-studies (Kloeckner Metals, Oatly, bofrost*). Used to pick the outreach opener per lead.",
   "kloeckner": {
    "customer": "Kloeckner Metals",
    "story": "Supplier order confirmations on autopilot",
    "fits_personas": [
-    "Procure-to-Pay owner"
+    "Procure-to-Pay owner",
+    "Transformation / digital lead"
    ],
    "fits_segments": [
     "metal",
@@ -298,17 +306,6 @@
     "logistics",
     "food",
     "retail"
-   ]
-  },
-  "tmd": {
-   "customer": "TMD Friction",
-   "story": "Manufacturing customer featured on GeneralMind's case-study page",
-   "fits_personas": [
-    "Transformation / digital lead",
-    "Supply chain / logistics leader"
-   ],
-   "fits_segments": [
-    "manufacturing"
    ]
   }
  },

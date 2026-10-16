@@ -71,7 +71,7 @@ def pick_reference(persona, segment, refs):
 
 def evidence_key(rec, source):
     if rec["role"] == "speaker":
-        return "speaker:organiser" if source["publisher"] == "organiser" else "speaker:third-party"
+        return {"organiser": "speaker:organiser", "organiser-undated": "speaker:organiser-undated"}.get(source["publisher"], "speaker:third-party")
     return rec["role"]
 
 
@@ -99,7 +99,7 @@ def tier_for(rec, company, persona, seniority, evidence, ev_key, region, icp):
     if strong_seg and (relevant or partial):
         gaps = []
         if not strong_ev:
-            gaps.append("evidence is company-level only")
+            gaps.append("evidence is company-level only" if evidence["strength"] == "company" else "the evidence is weaker (" + evidence["label"].lower() + ")")
         if partial:
             gaps.append(f"the role is adjacent ({persona.lower()})")
         elif not senior:
@@ -157,6 +157,8 @@ def flags_for(rec, company, source):
         f.append("Title not published: confirm role before outreach")
     if rec["kind"] == "person":
         f.append("Confirm current title and employer on LinkedIn")
+    if source["publisher"] == "organiser-undated":
+        f.append("Speaker list on the organiser page is not dated: confirm this person is on the 2026 agenda")
     if source["publisher"] == "third-party":
         f.append("Source is a third-party listing: confirm on the organiser's agenda")
     if not company.get("domain"):

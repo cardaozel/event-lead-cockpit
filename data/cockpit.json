@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-16T01:14:31+00:00",
+ "generated_at": "2026-10-16T02:40:10+00:00",
  "checked_on": "2026-10-16",
  "weights": {
   "segment": 30,
@@ -45,21 +45,21 @@
    "end": "2026-10-22",
    "city": "Berlin",
    "country": "DE",
-   "url": "https://www.visitberlin.de/en/event/bvl-supply-chain-cx",
+   "url": "https://cx.bvl.de/en/speaker",
    "format": "Congress + expo",
    "audience": "Supply chain and logistics decision makers, about 2,500 participants",
    "why": "Germany's main supply chain congress, in GeneralMind's home city. Strong shipper-side operations audience.",
-   "evidence_summary": "Named speakers from a third-party listing of the official programme. Verify against the BVL agenda before outreach.",
+   "evidence_summary": "Speakers named with titles on the organiser's 2026 speaker page. I captured the buyer-side speakers; most of the roughly 140 names are vendors, consultants and service providers.",
    "date_source": "https://www.visitberlin.de/en/event/bvl-supply-chain-cx",
    "counts": {
-    "leads": 8,
-    "people": 8,
+    "leads": 23,
+    "people": 23,
     "accounts": 0,
-    "A": 0,
-    "B": 6,
-    "C": 2,
+    "A": 4,
+    "B": 15,
+    "C": 4,
     "partners": 0,
-    "excluded": 8
+    "excluded": 7
    }
   },
   {
@@ -69,17 +69,17 @@
    "end": "2026-11-04",
    "city": "Munich",
    "country": "DE",
-   "url": "https://www.bciglobal.com/22nd-annual-european-manufacturing-supply-chain-summit-2026",
+   "url": "https://ems-scms.com/live/en/page/home",
    "format": "Executive summit",
    "audience": "About 300 senior manufacturing, supply chain and procurement leaders",
    "why": "Small, senior, manufacturer-heavy room with food and beverage companies on stage (Mondelez, AGRANA), matching the Oatly reference.",
-   "evidence_summary": "Named featured speakers from a third-party listing. Full delegate list is sold by the organiser.",
+   "evidence_summary": "Speakers named on the organiser's 2026 page ('speakers sneak peek'); one more on a third-party listing.",
    "date_source": "https://www.bciglobal.com/22nd-annual-european-manufacturing-supply-chain-summit-2026",
    "counts": {
-    "leads": 6,
-    "people": 6,
+    "leads": 7,
+    "people": 7,
     "accounts": 0,
-    "A": 2,
+    "A": 3,
     "B": 2,
     "C": 2,
     "partners": 0,
@@ -97,7 +97,7 @@
    "format": "Executive summit",
    "audience": "Supply chain, planning and logistics heads from large manufacturers and consumer goods companies",
    "why": "A transformation-focused room: the people on stage run supply chain planning and digitalisation programmes, the budget GeneralMind's autopilot competes for.",
-   "evidence_summary": "Named speakers with titles on the organiser's page.",
+   "evidence_summary": "Speakers named on the organiser's page for the November 2026 edition; the list itself carries no year, so treat as unconfirmed until the agenda is out.",
    "date_source": "https://www.key-notion.com/supply-chain-logistics-transformation-summit-munich-2026",
    "counts": {
     "leads": 12,
@@ -241,17 +241,17 @@
    "format": "Executive summit",
    "audience": "European CPOs and supply chain heads",
    "why": "International procurement leaders in Berlin, with a large speaker list published six months ahead.",
-   "evidence_summary": "Named speakers on the organiser's 2027 page. The page intro still mentions 2026, so confirm each name is on the 2027 programme before outreach.",
+   "evidence_summary": "No names used. The organiser's 2027 page still shows the April 2026 lineup, so the cockpit waits for an edition-specific speaker list.",
    "date_source": "https://www.bme.de/veranstaltungen/grossveranstaltungen/european-procurement-supply-chain-excellence-summit/facts",
    "counts": {
-    "leads": 19,
-    "people": 19,
+    "leads": 0,
+    "people": 0,
     "accounts": 0,
-    "A": 6,
-    "B": 11,
-    "C": 2,
+    "A": 0,
+    "B": 0,
+    "C": 0,
     "partners": 0,
-    "excluded": 20
+    "excluded": 0
    }
   }
  ],
@@ -456,21 +456,20 @@
    "event_id": "emsc-2026",
    "event_name": "European Manufacturing & Supply Chain Summit",
    "role": "speaker",
-   "evidence_level": "speaker:third-party",
-   "evidence_label": "Speaker, named on a third-party listing of the programme",
+   "evidence_level": "speaker:organiser",
+   "evidence_label": "Speaker, named by the organiser",
    "evidence_strength": "strong",
-   "source_url": "https://www.luminik.io/events/ems-scms-summit-munich/",
-   "source_label": "Third-party listing of summit speakers",
-   "source_publisher": "third-party",
+   "source_url": "https://ems-scms.com/live/en/page/home",
+   "source_label": "Summit organiser page (speakers sneak peek)",
+   "source_publisher": "organiser",
    "checked_on": "2026-10-16",
    "linkedin_check": "https://www.linkedin.com/search/results/people/?keywords=Yelli+Ayala+AGRANA",
    "flags": [
-    "Confirm current title and employer on LinkedIn",
-    "Source is a third-party listing: confirm on the organiser's agenda"
+    "Confirm current title and employer on LinkedIn"
    ],
-   "score": 95,
+   "score": 97,
    "tier": "A",
-   "tier_reason": "Core segment (food & beverage), supply chain / logistics leader at C-level / VP level, speaker, named on a third-party listing of the programme.",
+   "tier_reason": "Core segment (food & beverage), supply chain / logistics leader at C-level / VP level, speaker, named by the organiser.",
    "persona": "Supply chain / logistics leader",
    "seniority": "C-level / VP",
    "region": "DACH",
@@ -501,9 +500,9 @@
     },
     {
      "factor": "Evidence",
-     "points": 8,
+     "points": 10,
      "max": 10,
-     "why": "Speaker, named on a third-party listing of the programme"
+     "why": "Speaker, named by the organiser"
     }
    ],
    "reference": {
@@ -554,6 +553,142 @@
      "points": 27,
      "max": 30,
      "why": "Supply chain / logistics leader"
+    },
+    {
+     "factor": "Seniority",
+     "points": 17,
+     "max": 20,
+     "why": "Head / Director"
+    },
+    {
+     "factor": "Region",
+     "points": 10,
+     "max": 10,
+     "why": "DACH"
+    },
+    {
+     "factor": "Evidence",
+     "points": 10,
+     "max": 10,
+     "why": "Speaker, named by the organiser"
+    }
+   ],
+   "reference": {
+    "id": "oatly",
+    "customer": "Oatly",
+    "story": "Scaling order intake without scaling headcount"
+   }
+  },
+  {
+   "id": "matthias-hulsmann-bosch-mobility-aftermarket-bvl-cx-2026",
+   "kind": "person",
+   "name": "Matthias Hülsmann",
+   "title": "Senior Vice President (E2E) Logistics",
+   "company": "Bosch Mobility Aftermarket",
+   "company_type": "buyer",
+   "segment": "distribution",
+   "country": "DE",
+   "domain": "bosch.com",
+   "event_id": "bvl-cx-2026",
+   "event_name": "BVL Supply Chain CX 2026",
+   "role": "speaker",
+   "evidence_level": "speaker:organiser",
+   "evidence_label": "Speaker, named by the organiser",
+   "evidence_strength": "strong",
+   "source_url": "https://cx.bvl.de/en/speaker",
+   "source_label": "BVL Supply Chain CX 2026 speaker page (organiser)",
+   "source_publisher": "organiser",
+   "checked_on": "2026-10-16",
+   "linkedin_check": "https://www.linkedin.com/search/results/people/?keywords=Matthias+H%C3%BClsmann+Bosch+Mobility+Aftermarket",
+   "flags": [
+    "Confirm current title and employer on LinkedIn"
+   ],
+   "score": 94,
+   "tier": "A",
+   "tier_reason": "Core segment (B2B distribution), supply chain / logistics leader at C-level / VP level, speaker, named by the organiser.",
+   "persona": "Supply chain / logistics leader",
+   "seniority": "C-level / VP",
+   "region": "DACH",
+   "breakdown": [
+    {
+     "factor": "Segment",
+     "points": 27,
+     "max": 30,
+     "why": "B2B distribution / wholesale"
+    },
+    {
+     "factor": "Function",
+     "points": 27,
+     "max": 30,
+     "why": "Supply chain / logistics leader"
+    },
+    {
+     "factor": "Seniority",
+     "points": 20,
+     "max": 20,
+     "why": "C-level / VP"
+    },
+    {
+     "factor": "Region",
+     "points": 10,
+     "max": 10,
+     "why": "DACH"
+    },
+    {
+     "factor": "Evidence",
+     "points": 10,
+     "max": 10,
+     "why": "Speaker, named by the organiser"
+    }
+   ],
+   "reference": {
+    "id": "oatly",
+    "customer": "Oatly",
+    "story": "Scaling order intake without scaling headcount"
+   }
+  },
+  {
+   "id": "oliver-schieritz-renault-deutschland-bvl-cx-2026",
+   "kind": "person",
+   "name": "Oliver Schieritz",
+   "title": "Direktor Kundenservice & Aftersales",
+   "company": "Renault Deutschland",
+   "company_type": "buyer",
+   "segment": "distribution",
+   "country": "DE",
+   "domain": "renault.de",
+   "event_id": "bvl-cx-2026",
+   "event_name": "BVL Supply Chain CX 2026",
+   "role": "speaker",
+   "evidence_level": "speaker:organiser",
+   "evidence_label": "Speaker, named by the organiser",
+   "evidence_strength": "strong",
+   "source_url": "https://cx.bvl.de/en/speaker",
+   "source_label": "BVL Supply Chain CX 2026 speaker page (organiser)",
+   "source_publisher": "organiser",
+   "checked_on": "2026-10-16",
+   "linkedin_check": "https://www.linkedin.com/search/results/people/?keywords=Oliver+Schieritz+Renault+Deutschland",
+   "flags": [
+    "Confirm current title and employer on LinkedIn"
+   ],
+   "score": 94,
+   "tier": "A",
+   "tier_reason": "Core segment (B2B distribution), order-to-cash owner at Head / Director level, speaker, named by the organiser.",
+   "persona": "Order-to-Cash owner",
+   "seniority": "Head / Director",
+   "region": "DACH",
+   "breakdown": [
+    {
+     "factor": "Segment",
+     "points": 27,
+     "max": 30,
+     "why": "B2B distribution / wholesale"
+    },
+    {
+     "factor": "Function",
+     "points": 30,
+     "max": 30,
+     "why": "Order-to-Cash owner"
     },
     {
      "factor": "Seniority",
@@ -683,211 +818,7 @@
      "factor": "Segment",
      "points": 18,
      "max": 30,
-     "why": "Manufacturing with high PO / SO volume (TMD Friction is a customer)"
-    },
-    {
-     "factor": "Function",
-     "points": 30,
-     "max": 30,
-     "why": "Procure-to-Pay owner"
-    },
-    {
-     "factor": "Seniority",
-     "points": 20,
-     "max": 20,
-     "why": "C-level / VP"
-    },
-    {
-     "factor": "Region",
-     "points": 10,
-     "max": 10,
-     "why": "DACH"
-    },
-    {
-     "factor": "Evidence",
-     "points": 10,
-     "max": 10,
-     "why": "Speaker, named by the organiser"
-    }
-   ],
-   "reference": {
-    "id": "kloeckner",
-    "customer": "Kloeckner Metals",
-    "story": "Supplier order confirmations on autopilot"
-   }
-  },
-  {
-   "id": "david-buhmann-bayer-pharmaceuticals-epsce-2027",
-   "kind": "person",
-   "name": "David Buhmann",
-   "title": "CPO",
-   "company": "Bayer Pharmaceuticals",
-   "company_type": "buyer",
-   "segment": "manufacturing",
-   "country": "DE",
-   "domain": "bayer.com",
-   "event_id": "epsce-2027",
-   "event_name": "European Procurement & Supply Chain Excellence Summit",
-   "role": "speaker",
-   "evidence_level": "speaker:organiser",
-   "evidence_label": "Speaker, named by the organiser",
-   "evidence_strength": "strong",
-   "source_url": "https://www.bme.de/veranstaltungen/grossveranstaltungen/european-procurement-supply-chain-excellence-summit/summit-speakers/",
-   "source_label": "BME EP&SCE speaker page",
-   "source_publisher": "organiser",
-   "checked_on": "2026-10-16",
-   "linkedin_check": "https://www.linkedin.com/search/results/people/?keywords=David+Buhmann+Bayer+Pharmaceuticals",
-   "flags": [
-    "Confirm current title and employer on LinkedIn"
-   ],
-   "score": 88,
-   "tier": "A",
-   "tier_reason": "Manufacturing at the top of the buying chain: procure-to-pay owner at VP or C-level, DACH-based, named by the organiser.",
-   "persona": "Procure-to-Pay owner",
-   "seniority": "C-level / VP",
-   "region": "DACH",
-   "breakdown": [
-    {
-     "factor": "Segment",
-     "points": 18,
-     "max": 30,
-     "why": "Manufacturing with high PO / SO volume (TMD Friction is a customer)"
-    },
-    {
-     "factor": "Function",
-     "points": 30,
-     "max": 30,
-     "why": "Procure-to-Pay owner"
-    },
-    {
-     "factor": "Seniority",
-     "points": 20,
-     "max": 20,
-     "why": "C-level / VP"
-    },
-    {
-     "factor": "Region",
-     "points": 10,
-     "max": 10,
-     "why": "DACH"
-    },
-    {
-     "factor": "Evidence",
-     "points": 10,
-     "max": 10,
-     "why": "Speaker, named by the organiser"
-    }
-   ],
-   "reference": {
-    "id": "kloeckner",
-    "customer": "Kloeckner Metals",
-    "story": "Supplier order confirmations on autopilot"
-   }
-  },
-  {
-   "id": "emmanuelle-piketty-vaillant-group-epsce-2027",
-   "kind": "person",
-   "name": "Emmanuelle Piketty",
-   "title": "Group Director Procurement / CPO",
-   "company": "Vaillant Group",
-   "company_type": "buyer",
-   "segment": "manufacturing",
-   "country": "DE",
-   "domain": "vaillant-group.com",
-   "event_id": "epsce-2027",
-   "event_name": "European Procurement & Supply Chain Excellence Summit",
-   "role": "speaker",
-   "evidence_level": "speaker:organiser",
-   "evidence_label": "Speaker, named by the organiser",
-   "evidence_strength": "strong",
-   "source_url": "https://www.bme.de/veranstaltungen/grossveranstaltungen/european-procurement-supply-chain-excellence-summit/summit-speakers/",
-   "source_label": "BME EP&SCE speaker page",
-   "source_publisher": "organiser",
-   "checked_on": "2026-10-16",
-   "linkedin_check": "https://www.linkedin.com/search/results/people/?keywords=Emmanuelle+Piketty+Vaillant+Group",
-   "flags": [
-    "Confirm current title and employer on LinkedIn"
-   ],
-   "score": 88,
-   "tier": "A",
-   "tier_reason": "Manufacturing at the top of the buying chain: procure-to-pay owner at VP or C-level, DACH-based, named by the organiser.",
-   "persona": "Procure-to-Pay owner",
-   "seniority": "C-level / VP",
-   "region": "DACH",
-   "breakdown": [
-    {
-     "factor": "Segment",
-     "points": 18,
-     "max": 30,
-     "why": "Manufacturing with high PO / SO volume (TMD Friction is a customer)"
-    },
-    {
-     "factor": "Function",
-     "points": 30,
-     "max": 30,
-     "why": "Procure-to-Pay owner"
-    },
-    {
-     "factor": "Seniority",
-     "points": 20,
-     "max": 20,
-     "why": "C-level / VP"
-    },
-    {
-     "factor": "Region",
-     "points": 10,
-     "max": 10,
-     "why": "DACH"
-    },
-    {
-     "factor": "Evidence",
-     "points": 10,
-     "max": 10,
-     "why": "Speaker, named by the organiser"
-    }
-   ],
-   "reference": {
-    "id": "kloeckner",
-    "customer": "Kloeckner Metals",
-    "story": "Supplier order confirmations on autopilot"
-   }
-  },
-  {
-   "id": "erk-thorsten-heyen-wacker-chemie-epsce-2027",
-   "kind": "person",
-   "name": "Erk Thorsten Heyen",
-   "title": "Senior VP Procurement & Logistics (CPO)",
-   "company": "Wacker Chemie",
-   "company_type": "buyer",
-   "segment": "manufacturing",
-   "country": "DE",
-   "domain": "wacker.com",
-   "event_id": "epsce-2027",
-   "event_name": "European Procurement & Supply Chain Excellence Summit",
-   "role": "speaker",
-   "evidence_level": "speaker:organiser",
-   "evidence_label": "Speaker, named by the organiser",
-   "evidence_strength": "strong",
-   "source_url": "https://www.bme.de/veranstaltungen/grossveranstaltungen/european-procurement-supply-chain-excellence-summit/summit-speakers/",
-   "source_label": "BME EP&SCE speaker page",
-   "source_publisher": "organiser",
-   "checked_on": "2026-10-16",
-   "linkedin_check": "https://www.linkedin.com/search/results/people/?keywords=Erk+Thorsten+Heyen+Wacker+Chemie",
-   "flags": [
-    "Confirm current title and employer on LinkedIn"
-   ],
-   "score": 88,
-   "tier": "A",
-   "tier_reason": "Manufacturing at the top of the buying chain: procure-to-pay owner at VP or C-level, DACH-based, named by the organiser.",
-   "persona": "Procure-to-Pay owner",
-   "seniority": "C-level / VP",
-   "region": "DACH",
-   "breakdown": [
-    {
-     "factor": "Segment",
-     "points": 18,
-     "max": 30,
-     "why": "Manufacturing with high PO / SO volume (TMD Friction is a customer)"
+     "why": "Manufacturing with high PO / SO volume"
     },
     {
      "factor": "Function",
@@ -955,7 +886,7 @@
      "factor": "Segment",
      "points": 18,
      "max": 30,
-     "why": "Manufacturing with high PO / SO volume (TMD Friction is a customer)"
+     "why": "Manufacturing with high PO / SO volume"
     },
     {
      "factor": "Function",
@@ -1023,7 +954,7 @@
      "factor": "Segment",
      "points": 18,
      "max": 30,
-     "why": "Manufacturing with high PO / SO volume (TMD Friction is a customer)"
+     "why": "Manufacturing with high PO / SO volume"
     },
     {
      "factor": "Function",
@@ -1091,7 +1022,7 @@
      "factor": "Segment",
      "points": 18,
      "max": 30,
-     "why": "Manufacturing with high PO / SO volume (TMD Friction is a customer)"
+     "why": "Manufacturing with high PO / SO volume"
     },
     {
      "factor": "Function",
@@ -1159,75 +1090,7 @@
      "factor": "Segment",
      "points": 18,
      "max": 30,
-     "why": "Manufacturing with high PO / SO volume (TMD Friction is a customer)"
-    },
-    {
-     "factor": "Function",
-     "points": 30,
-     "max": 30,
-     "why": "Procure-to-Pay owner"
-    },
-    {
-     "factor": "Seniority",
-     "points": 20,
-     "max": 20,
-     "why": "C-level / VP"
-    },
-    {
-     "factor": "Region",
-     "points": 10,
-     "max": 10,
-     "why": "DACH"
-    },
-    {
-     "factor": "Evidence",
-     "points": 10,
-     "max": 10,
-     "why": "Speaker, named by the organiser"
-    }
-   ],
-   "reference": {
-    "id": "kloeckner",
-    "customer": "Kloeckner Metals",
-    "story": "Supplier order confirmations on autopilot"
-   }
-  },
-  {
-   "id": "lutz-berg-bsh-hausgerate-epsce-2027",
-   "kind": "person",
-   "name": "Lutz Berg",
-   "title": "Executive Vice President, Head of Global Purchasing",
-   "company": "BSH Hausgeräte",
-   "company_type": "buyer",
-   "segment": "manufacturing",
-   "country": "DE",
-   "domain": "bsh-group.com",
-   "event_id": "epsce-2027",
-   "event_name": "European Procurement & Supply Chain Excellence Summit",
-   "role": "speaker",
-   "evidence_level": "speaker:organiser",
-   "evidence_label": "Speaker, named by the organiser",
-   "evidence_strength": "strong",
-   "source_url": "https://www.bme.de/veranstaltungen/grossveranstaltungen/european-procurement-supply-chain-excellence-summit/summit-speakers/",
-   "source_label": "BME EP&SCE speaker page",
-   "source_publisher": "organiser",
-   "checked_on": "2026-10-16",
-   "linkedin_check": "https://www.linkedin.com/search/results/people/?keywords=Lutz+Berg+BSH+Hausger%C3%A4te",
-   "flags": [
-    "Confirm current title and employer on LinkedIn"
-   ],
-   "score": 88,
-   "tier": "A",
-   "tier_reason": "Manufacturing at the top of the buying chain: procure-to-pay owner at VP or C-level, DACH-based, named by the organiser.",
-   "persona": "Procure-to-Pay owner",
-   "seniority": "C-level / VP",
-   "region": "DACH",
-   "breakdown": [
-    {
-     "factor": "Segment",
-     "points": 18,
-     "max": 30,
-     "why": "Manufacturing with high PO / SO volume (TMD Friction is a customer)"
+     "why": "Manufacturing with high PO / SO volume"
     },
     {
      "factor": "Function",
@@ -1295,7 +1158,7 @@
      "factor": "Segment",
      "points": 18,
      "max": 30,
-     "why": "Manufacturing with high PO / SO volume (TMD Friction is a customer)"
+     "why": "Manufacturing with high PO / SO volume"
     },
     {
      "factor": "Function",
@@ -1363,75 +1226,7 @@
      "factor": "Segment",
      "points": 18,
      "max": 30,
-     "why": "Manufacturing with high PO / SO volume (TMD Friction is a customer)"
-    },
-    {
-     "factor": "Function",
-     "points": 30,
-     "max": 30,
-     "why": "Procure-to-Pay owner"
-    },
-    {
-     "factor": "Seniority",
-     "points": 20,
-     "max": 20,
-     "why": "C-level / VP"
-    },
-    {
-     "factor": "Region",
-     "points": 10,
-     "max": 10,
-     "why": "DACH"
-    },
-    {
-     "factor": "Evidence",
-     "points": 10,
-     "max": 10,
-     "why": "Speaker, named by the organiser"
-    }
-   ],
-   "reference": {
-    "id": "kloeckner",
-    "customer": "Kloeckner Metals",
-    "story": "Supplier order confirmations on autopilot"
-   }
-  },
-  {
-   "id": "samuel-cochon-mann-hummel-epsce-2027",
-   "kind": "person",
-   "name": "Samuel Cochon",
-   "title": "Chief Procurement Officer",
-   "company": "MANN+HUMMEL",
-   "company_type": "buyer",
-   "segment": "manufacturing",
-   "country": "DE",
-   "domain": "mann-hummel.com",
-   "event_id": "epsce-2027",
-   "event_name": "European Procurement & Supply Chain Excellence Summit",
-   "role": "speaker",
-   "evidence_level": "speaker:organiser",
-   "evidence_label": "Speaker, named by the organiser",
-   "evidence_strength": "strong",
-   "source_url": "https://www.bme.de/veranstaltungen/grossveranstaltungen/european-procurement-supply-chain-excellence-summit/summit-speakers/",
-   "source_label": "BME EP&SCE speaker page",
-   "source_publisher": "organiser",
-   "checked_on": "2026-10-16",
-   "linkedin_check": "https://www.linkedin.com/search/results/people/?keywords=Samuel+Cochon+MANN%2BHUMMEL",
-   "flags": [
-    "Confirm current title and employer on LinkedIn"
-   ],
-   "score": 88,
-   "tier": "A",
-   "tier_reason": "Manufacturing at the top of the buying chain: procure-to-pay owner at VP or C-level, DACH-based, named by the organiser.",
-   "persona": "Procure-to-Pay owner",
-   "seniority": "C-level / VP",
-   "region": "DACH",
-   "breakdown": [
-    {
-     "factor": "Segment",
-     "points": 18,
-     "max": 30,
-     "why": "Manufacturing with high PO / SO volume (TMD Friction is a customer)"
+     "why": "Manufacturing with high PO / SO volume"
     },
     {
      "factor": "Function",
@@ -1499,7 +1294,7 @@
      "factor": "Segment",
      "points": 18,
      "max": 30,
-     "why": "Manufacturing with high PO / SO volume (TMD Friction is a customer)"
+     "why": "Manufacturing with high PO / SO volume"
     },
     {
      "factor": "Function",
@@ -1567,7 +1362,7 @@
      "factor": "Segment",
      "points": 18,
      "max": 30,
-     "why": "Manufacturing with high PO / SO volume (TMD Friction is a customer)"
+     "why": "Manufacturing with high PO / SO volume"
     },
     {
      "factor": "Function",
@@ -1635,7 +1430,7 @@
      "factor": "Segment",
      "points": 21,
      "max": 30,
-     "why": "Logistics provider (Müller – Die Lila Logistik is a customer)"
+     "why": "Logistics and fleet-heavy operations (bofrost* fleet story)"
     },
     {
      "factor": "Function",
@@ -1703,75 +1498,7 @@
      "factor": "Segment",
      "points": 18,
      "max": 30,
-     "why": "Manufacturing with high PO / SO volume (TMD Friction is a customer)"
-    },
-    {
-     "factor": "Function",
-     "points": 30,
-     "max": 30,
-     "why": "Procure-to-Pay owner"
-    },
-    {
-     "factor": "Seniority",
-     "points": 20,
-     "max": 20,
-     "why": "C-level / VP"
-    },
-    {
-     "factor": "Region",
-     "points": 10,
-     "max": 10,
-     "why": "DACH"
-    },
-    {
-     "factor": "Evidence",
-     "points": 10,
-     "max": 10,
-     "why": "Speaker, named by the organiser"
-    }
-   ],
-   "reference": {
-    "id": "kloeckner",
-    "customer": "Kloeckner Metals",
-    "story": "Supplier order confirmations on autopilot"
-   }
-  },
-  {
-   "id": "tim-teubler-thales-deutschland-epsce-2027",
-   "kind": "person",
-   "name": "Tim Teubler",
-   "title": "CPO",
-   "company": "Thales Deutschland",
-   "company_type": "buyer",
-   "segment": "manufacturing",
-   "country": "DE",
-   "domain": "thalesgroup.com",
-   "event_id": "epsce-2027",
-   "event_name": "European Procurement & Supply Chain Excellence Summit",
-   "role": "speaker",
-   "evidence_level": "speaker:organiser",
-   "evidence_label": "Speaker, named by the organiser",
-   "evidence_strength": "strong",
-   "source_url": "https://www.bme.de/veranstaltungen/grossveranstaltungen/european-procurement-supply-chain-excellence-summit/summit-speakers/",
-   "source_label": "BME EP&SCE speaker page",
-   "source_publisher": "organiser",
-   "checked_on": "2026-10-16",
-   "linkedin_check": "https://www.linkedin.com/search/results/people/?keywords=Tim+Teubler+Thales+Deutschland",
-   "flags": [
-    "Confirm current title and employer on LinkedIn"
-   ],
-   "score": 88,
-   "tier": "A",
-   "tier_reason": "Manufacturing at the top of the buying chain: procure-to-pay owner at VP or C-level, DACH-based, named by the organiser.",
-   "persona": "Procure-to-Pay owner",
-   "seniority": "C-level / VP",
-   "region": "DACH",
-   "breakdown": [
-    {
-     "factor": "Segment",
-     "points": 18,
-     "max": 30,
-     "why": "Manufacturing with high PO / SO volume (TMD Friction is a customer)"
+     "why": "Manufacturing with high PO / SO volume"
     },
     {
      "factor": "Function",
@@ -1839,7 +1566,7 @@
      "factor": "Segment",
      "points": 18,
      "max": 30,
-     "why": "Manufacturing with high PO / SO volume (TMD Friction is a customer)"
+     "why": "Manufacturing with high PO / SO volume"
     },
     {
      "factor": "Function",
@@ -1870,6 +1597,210 @@
     "id": "kloeckner",
     "customer": "Kloeckner Metals",
     "story": "Supplier order confirmations on autopilot"
+   }
+  },
+  {
+   "id": "kiril-kirilov-mondelez-international-emsc-2026",
+   "kind": "person",
+   "name": "Kiril Kirilov",
+   "title": "Plant Director",
+   "company": "Mondelēz International",
+   "company_type": "buyer",
+   "segment": "food",
+   "country": "US",
+   "domain": "mondelezinternational.com",
+   "event_id": "emsc-2026",
+   "event_name": "European Manufacturing & Supply Chain Summit",
+   "role": "speaker",
+   "evidence_level": "speaker:organiser",
+   "evidence_label": "Speaker, named by the organiser",
+   "evidence_strength": "strong",
+   "source_url": "https://ems-scms.com/live/en/page/home",
+   "source_label": "Summit organiser page (speakers sneak peek)",
+   "source_publisher": "organiser",
+   "checked_on": "2026-10-16",
+   "linkedin_check": "https://www.linkedin.com/search/results/people/?keywords=Kiril+Kirilov+Mondel%C4%93z+International",
+   "flags": [
+    "Confirm current title and employer on LinkedIn"
+   ],
+   "score": 86,
+   "tier": "A",
+   "tier_reason": "Core segment (food & beverage), supply chain / logistics leader at Head / Director level, speaker, named by the organiser.",
+   "persona": "Supply chain / logistics leader",
+   "seniority": "Head / Director",
+   "region": "Other",
+   "breakdown": [
+    {
+     "factor": "Segment",
+     "points": 30,
+     "max": 30,
+     "why": "Food & beverage (Oatly, bofrost* lookalike)"
+    },
+    {
+     "factor": "Function",
+     "points": 27,
+     "max": 30,
+     "why": "Supply chain / logistics leader"
+    },
+    {
+     "factor": "Seniority",
+     "points": 17,
+     "max": 20,
+     "why": "Head / Director"
+    },
+    {
+     "factor": "Region",
+     "points": 2,
+     "max": 10,
+     "why": "Other"
+    },
+    {
+     "factor": "Evidence",
+     "points": 10,
+     "max": 10,
+     "why": "Speaker, named by the organiser"
+    }
+   ],
+   "reference": {
+    "id": "oatly",
+    "customer": "Oatly",
+    "story": "Scaling order intake without scaling headcount"
+   }
+  },
+  {
+   "id": "christine-mezger-behan-kion-group-bvl-cx-2026",
+   "kind": "person",
+   "name": "Christine Mezger-Behan",
+   "title": "Senior Vice President Supply Chain Operations",
+   "company": "KION Group",
+   "company_type": "buyer",
+   "segment": "manufacturing",
+   "country": "DE",
+   "domain": "kiongroup.com",
+   "event_id": "bvl-cx-2026",
+   "event_name": "BVL Supply Chain CX 2026",
+   "role": "speaker",
+   "evidence_level": "speaker:organiser",
+   "evidence_label": "Speaker, named by the organiser",
+   "evidence_strength": "strong",
+   "source_url": "https://cx.bvl.de/en/speaker",
+   "source_label": "BVL Supply Chain CX 2026 speaker page (organiser)",
+   "source_publisher": "organiser",
+   "checked_on": "2026-10-16",
+   "linkedin_check": "https://www.linkedin.com/search/results/people/?keywords=Christine+Mezger-Behan+KION+Group",
+   "flags": [
+    "Confirm current title and employer on LinkedIn"
+   ],
+   "score": 85,
+   "tier": "A",
+   "tier_reason": "Manufacturing at the top of the buying chain: supply chain / logistics leader at VP or C-level, DACH-based, named by the organiser.",
+   "persona": "Supply chain / logistics leader",
+   "seniority": "C-level / VP",
+   "region": "DACH",
+   "breakdown": [
+    {
+     "factor": "Segment",
+     "points": 18,
+     "max": 30,
+     "why": "Manufacturing with high PO / SO volume"
+    },
+    {
+     "factor": "Function",
+     "points": 27,
+     "max": 30,
+     "why": "Supply chain / logistics leader"
+    },
+    {
+     "factor": "Seniority",
+     "points": 20,
+     "max": 20,
+     "why": "C-level / VP"
+    },
+    {
+     "factor": "Region",
+     "points": 10,
+     "max": 10,
+     "why": "DACH"
+    },
+    {
+     "factor": "Evidence",
+     "points": 10,
+     "max": 10,
+     "why": "Speaker, named by the organiser"
+    }
+   ],
+   "reference": {
+    "id": "oatly",
+    "customer": "Oatly",
+    "story": "Scaling order intake without scaling headcount"
+   }
+  },
+  {
+   "id": "felix-becker-voith-turbo-bvl-cx-2026",
+   "kind": "person",
+   "name": "Felix Becker",
+   "title": "Vice President Global Supply Chain",
+   "company": "Voith Turbo",
+   "company_type": "buyer",
+   "segment": "manufacturing",
+   "country": "DE",
+   "domain": "voith.com",
+   "event_id": "bvl-cx-2026",
+   "event_name": "BVL Supply Chain CX 2026",
+   "role": "speaker",
+   "evidence_level": "speaker:organiser",
+   "evidence_label": "Speaker, named by the organiser",
+   "evidence_strength": "strong",
+   "source_url": "https://cx.bvl.de/en/speaker",
+   "source_label": "BVL Supply Chain CX 2026 speaker page (organiser)",
+   "source_publisher": "organiser",
+   "checked_on": "2026-10-16",
+   "linkedin_check": "https://www.linkedin.com/search/results/people/?keywords=Felix+Becker+Voith+Turbo",
+   "flags": [
+    "Confirm current title and employer on LinkedIn"
+   ],
+   "score": 85,
+   "tier": "A",
+   "tier_reason": "Manufacturing at the top of the buying chain: supply chain / logistics leader at VP or C-level, DACH-based, named by the organiser.",
+   "persona": "Supply chain / logistics leader",
+   "seniority": "C-level / VP",
+   "region": "DACH",
+   "breakdown": [
+    {
+     "factor": "Segment",
+     "points": 18,
+     "max": 30,
+     "why": "Manufacturing with high PO / SO volume"
+    },
+    {
+     "factor": "Function",
+     "points": 27,
+     "max": 30,
+     "why": "Supply chain / logistics leader"
+    },
+    {
+     "factor": "Seniority",
+     "points": 20,
+     "max": 20,
+     "why": "C-level / VP"
+    },
+    {
+     "factor": "Region",
+     "points": 10,
+     "max": 10,
+     "why": "DACH"
+    },
+    {
+     "factor": "Evidence",
+     "points": 10,
+     "max": 10,
+     "why": "Speaker, named by the organiser"
+    }
+   ],
+   "reference": {
+    "id": "oatly",
+    "customer": "Oatly",
+    "story": "Scaling order intake without scaling headcount"
    }
   },
   {
@@ -1907,7 +1838,7 @@
      "factor": "Segment",
      "points": 18,
      "max": 30,
-     "why": "Manufacturing with high PO / SO volume (TMD Friction is a customer)"
+     "why": "Manufacturing with high PO / SO volume"
     },
     {
      "factor": "Function",
@@ -1935,48 +1866,47 @@
     }
    ],
    "reference": {
-    "id": "tmd",
-    "customer": "TMD Friction",
-    "story": "Manufacturing customer featured on GeneralMind's case-study page"
+    "id": "oatly",
+    "customer": "Oatly",
+    "story": "Scaling order intake without scaling headcount"
    }
   },
   {
-   "id": "kiril-kirilov-mondelez-international-emsc-2026",
+   "id": "winfried-rockensteiner-robert-bosch-emsc-2026",
    "kind": "person",
-   "name": "Kiril Kirilov",
-   "title": "Plant Director",
-   "company": "Mondelēz International",
+   "name": "Winfried Rockensteiner",
+   "title": "Global Vice President Logistics, Bosch Powertrain Solutions",
+   "company": "Robert Bosch",
    "company_type": "buyer",
-   "segment": "food",
-   "country": "US",
-   "domain": "mondelezinternational.com",
+   "segment": "manufacturing",
+   "country": "DE",
+   "domain": "bosch.com",
    "event_id": "emsc-2026",
    "event_name": "European Manufacturing & Supply Chain Summit",
    "role": "speaker",
-   "evidence_level": "speaker:third-party",
-   "evidence_label": "Speaker, named on a third-party listing of the programme",
+   "evidence_level": "speaker:organiser",
+   "evidence_label": "Speaker, named by the organiser",
    "evidence_strength": "strong",
-   "source_url": "https://www.luminik.io/events/ems-scms-summit-munich/",
-   "source_label": "Third-party listing of summit speakers",
-   "source_publisher": "third-party",
+   "source_url": "https://ems-scms.com/live/en/page/home",
+   "source_label": "Summit organiser page (speakers sneak peek)",
+   "source_publisher": "organiser",
    "checked_on": "2026-10-16",
-   "linkedin_check": "https://www.linkedin.com/search/results/people/?keywords=Kiril+Kirilov+Mondel%C4%93z+International",
+   "linkedin_check": "https://www.linkedin.com/search/results/people/?keywords=Winfried+Rockensteiner+Robert+Bosch",
    "flags": [
-    "Confirm current title and employer on LinkedIn",
-    "Source is a third-party listing: confirm on the organiser's agenda"
+    "Confirm current title and employer on LinkedIn"
    ],
-   "score": 84,
+   "score": 85,
    "tier": "A",
-   "tier_reason": "Core segment (food & beverage), supply chain / logistics leader at Head / Director level, speaker, named on a third-party listing of the programme.",
+   "tier_reason": "Manufacturing at the top of the buying chain: supply chain / logistics leader at VP or C-level, DACH-based, named by the organiser.",
    "persona": "Supply chain / logistics leader",
-   "seniority": "Head / Director",
-   "region": "Other",
+   "seniority": "C-level / VP",
+   "region": "DACH",
    "breakdown": [
     {
      "factor": "Segment",
-     "points": 30,
+     "points": 18,
      "max": 30,
-     "why": "Food & beverage (Oatly, bofrost* lookalike)"
+     "why": "Manufacturing with high PO / SO volume"
     },
     {
      "factor": "Function",
@@ -1986,21 +1916,21 @@
     },
     {
      "factor": "Seniority",
-     "points": 17,
+     "points": 20,
      "max": 20,
-     "why": "Head / Director"
+     "why": "C-level / VP"
     },
     {
      "factor": "Region",
-     "points": 2,
+     "points": 10,
      "max": 10,
-     "why": "Other"
+     "why": "DACH"
     },
     {
      "factor": "Evidence",
-     "points": 8,
+     "points": 10,
      "max": 10,
-     "why": "Speaker, named on a third-party listing of the programme"
+     "why": "Speaker, named by the organiser"
     }
    ],
    "reference": {
@@ -2030,6 +1960,74 @@
    "source_publisher": "organiser",
    "checked_on": "2026-10-16",
    "linkedin_check": "https://www.linkedin.com/search/results/people/?keywords=Alexander+Becker+Georgsmarienh%C3%BCtte+Holding",
+   "flags": [
+    "Confirm current title and employer on LinkedIn"
+   ],
+   "score": 88,
+   "tier": "B",
+   "tier_reason": "Good fit (metal & steel, executive sponsor), but the role is adjacent (executive sponsor).",
+   "persona": "Executive sponsor",
+   "seniority": "C-level / VP",
+   "region": "DACH",
+   "breakdown": [
+    {
+     "factor": "Segment",
+     "points": 30,
+     "max": 30,
+     "why": "Metal & steel: distribution, processing, production (Kloeckner Metals lookalike)"
+    },
+    {
+     "factor": "Function",
+     "points": 18,
+     "max": 30,
+     "why": "Executive sponsor"
+    },
+    {
+     "factor": "Seniority",
+     "points": 20,
+     "max": 20,
+     "why": "C-level / VP"
+    },
+    {
+     "factor": "Region",
+     "points": 10,
+     "max": 10,
+     "why": "DACH"
+    },
+    {
+     "factor": "Evidence",
+     "points": 10,
+     "max": 10,
+     "why": "Speaker, named by the organiser"
+    }
+   ],
+   "reference": {
+    "id": "oatly",
+    "customer": "Oatly",
+    "story": "Scaling order intake without scaling headcount"
+   }
+  },
+  {
+   "id": "andreas-kersch-wuppermann-stahl-bvl-cx-2026",
+   "kind": "person",
+   "name": "Andreas Kersch",
+   "title": "Managing Director",
+   "company": "Wuppermann Stahl",
+   "company_type": "buyer",
+   "segment": "metal",
+   "country": "DE",
+   "domain": "wuppermann.com",
+   "event_id": "bvl-cx-2026",
+   "event_name": "BVL Supply Chain CX 2026",
+   "role": "speaker",
+   "evidence_level": "speaker:organiser",
+   "evidence_label": "Speaker, named by the organiser",
+   "evidence_strength": "strong",
+   "source_url": "https://cx.bvl.de/en/speaker",
+   "source_label": "BVL Supply Chain CX 2026 speaker page (organiser)",
+   "source_publisher": "organiser",
+   "checked_on": "2026-10-16",
+   "linkedin_check": "https://www.linkedin.com/search/results/people/?keywords=Andreas+Kersch+Wuppermann+Stahl",
    "flags": [
     "Confirm current title and employer on LinkedIn"
    ],
@@ -2215,6 +2213,142 @@
    }
   },
   {
+   "id": "giancarlo-di-benedetto-aurubis-bvl-cx-2026",
+   "kind": "person",
+   "name": "Giancarlo Di Benedetto",
+   "title": "Global Category Manager Logistics",
+   "company": "Aurubis",
+   "company_type": "buyer",
+   "segment": "metal",
+   "country": "DE",
+   "domain": "aurubis.com",
+   "event_id": "bvl-cx-2026",
+   "event_name": "BVL Supply Chain CX 2026",
+   "role": "speaker",
+   "evidence_level": "speaker:organiser",
+   "evidence_label": "Speaker, named by the organiser",
+   "evidence_strength": "strong",
+   "source_url": "https://cx.bvl.de/en/speaker",
+   "source_label": "BVL Supply Chain CX 2026 speaker page (organiser)",
+   "source_publisher": "organiser",
+   "checked_on": "2026-10-16",
+   "linkedin_check": "https://www.linkedin.com/search/results/people/?keywords=Giancarlo+Di+Benedetto+Aurubis",
+   "flags": [
+    "Confirm current title and employer on LinkedIn"
+   ],
+   "score": 87,
+   "tier": "B",
+   "tier_reason": "Good fit (metal & steel, supply chain / logistics leader), but the role is relevant but manager.",
+   "persona": "Supply chain / logistics leader",
+   "seniority": "Manager",
+   "region": "DACH",
+   "breakdown": [
+    {
+     "factor": "Segment",
+     "points": 30,
+     "max": 30,
+     "why": "Metal & steel: distribution, processing, production (Kloeckner Metals lookalike)"
+    },
+    {
+     "factor": "Function",
+     "points": 27,
+     "max": 30,
+     "why": "Supply chain / logistics leader"
+    },
+    {
+     "factor": "Seniority",
+     "points": 10,
+     "max": 20,
+     "why": "Manager"
+    },
+    {
+     "factor": "Region",
+     "points": 10,
+     "max": 10,
+     "why": "DACH"
+    },
+    {
+     "factor": "Evidence",
+     "points": 10,
+     "max": 10,
+     "why": "Speaker, named by the organiser"
+    }
+   ],
+   "reference": {
+    "id": "oatly",
+    "customer": "Oatly",
+    "story": "Scaling order intake without scaling headcount"
+   }
+  },
+  {
+   "id": "benjamin-stauch-mc-bauchemie-bvl-cx-2026",
+   "kind": "person",
+   "name": "Benjamin Stauch",
+   "title": "Head of Operational Order Management",
+   "company": "MC-Bauchemie",
+   "company_type": "buyer",
+   "segment": "manufacturing",
+   "country": "DE",
+   "domain": "mc-bauchemie.de",
+   "event_id": "bvl-cx-2026",
+   "event_name": "BVL Supply Chain CX 2026",
+   "role": "speaker",
+   "evidence_level": "speaker:organiser",
+   "evidence_label": "Speaker, named by the organiser",
+   "evidence_strength": "strong",
+   "source_url": "https://cx.bvl.de/en/speaker",
+   "source_label": "BVL Supply Chain CX 2026 speaker page (organiser)",
+   "source_publisher": "organiser",
+   "checked_on": "2026-10-16",
+   "linkedin_check": "https://www.linkedin.com/search/results/people/?keywords=Benjamin+Stauch+MC-Bauchemie",
+   "flags": [
+    "Confirm current title and employer on LinkedIn"
+   ],
+   "score": 85,
+   "tier": "B",
+   "tier_reason": "Good fit (manufacturing, order-to-cash owner), but manufacturing below the A bar (below VP level).",
+   "persona": "Order-to-Cash owner",
+   "seniority": "Head / Director",
+   "region": "DACH",
+   "breakdown": [
+    {
+     "factor": "Segment",
+     "points": 18,
+     "max": 30,
+     "why": "Manufacturing with high PO / SO volume"
+    },
+    {
+     "factor": "Function",
+     "points": 30,
+     "max": 30,
+     "why": "Order-to-Cash owner"
+    },
+    {
+     "factor": "Seniority",
+     "points": 17,
+     "max": 20,
+     "why": "Head / Director"
+    },
+    {
+     "factor": "Region",
+     "points": 10,
+     "max": 10,
+     "why": "DACH"
+    },
+    {
+     "factor": "Evidence",
+     "points": 10,
+     "max": 10,
+     "why": "Speaker, named by the organiser"
+    }
+   ],
+   "reference": {
+    "id": "oatly",
+    "customer": "Oatly",
+    "story": "Scaling order intake without scaling headcount"
+   }
+  },
+  {
    "id": "christian-gotz-brose-fahrzeugteile-bme-2026",
    "kind": "person",
    "name": "Christian Götz",
@@ -2249,75 +2383,7 @@
      "factor": "Segment",
      "points": 18,
      "max": 30,
-     "why": "Manufacturing with high PO / SO volume (TMD Friction is a customer)"
-    },
-    {
-     "factor": "Function",
-     "points": 30,
-     "max": 30,
-     "why": "Procure-to-Pay owner"
-    },
-    {
-     "factor": "Seniority",
-     "points": 17,
-     "max": 20,
-     "why": "Head / Director"
-    },
-    {
-     "factor": "Region",
-     "points": 10,
-     "max": 10,
-     "why": "DACH"
-    },
-    {
-     "factor": "Evidence",
-     "points": 10,
-     "max": 10,
-     "why": "Speaker, named by the organiser"
-    }
-   ],
-   "reference": {
-    "id": "kloeckner",
-    "customer": "Kloeckner Metals",
-    "story": "Supplier order confirmations on autopilot"
-   }
-  },
-  {
-   "id": "florian-vollmer-bayer-epsce-2027",
-   "kind": "person",
-   "name": "Florian Vollmer",
-   "title": "Head of Procurement Sustainability & Risk Management",
-   "company": "Bayer",
-   "company_type": "buyer",
-   "segment": "manufacturing",
-   "country": "DE",
-   "domain": "bayer.com",
-   "event_id": "epsce-2027",
-   "event_name": "European Procurement & Supply Chain Excellence Summit",
-   "role": "speaker",
-   "evidence_level": "speaker:organiser",
-   "evidence_label": "Speaker, named by the organiser",
-   "evidence_strength": "strong",
-   "source_url": "https://www.bme.de/veranstaltungen/grossveranstaltungen/european-procurement-supply-chain-excellence-summit/summit-speakers/",
-   "source_label": "BME EP&SCE speaker page",
-   "source_publisher": "organiser",
-   "checked_on": "2026-10-16",
-   "linkedin_check": "https://www.linkedin.com/search/results/people/?keywords=Florian+Vollmer+Bayer",
-   "flags": [
-    "Confirm current title and employer on LinkedIn"
-   ],
-   "score": 85,
-   "tier": "B",
-   "tier_reason": "Good fit (manufacturing, procure-to-pay owner), but manufacturing below the A bar (below VP level).",
-   "persona": "Procure-to-Pay owner",
-   "seniority": "Head / Director",
-   "region": "DACH",
-   "breakdown": [
-    {
-     "factor": "Segment",
-     "points": 18,
-     "max": 30,
-     "why": "Manufacturing with high PO / SO volume (TMD Friction is a customer)"
+     "why": "Manufacturing with high PO / SO volume"
     },
     {
      "factor": "Function",
@@ -2385,7 +2451,7 @@
      "factor": "Segment",
      "points": 18,
      "max": 30,
-     "why": "Manufacturing with high PO / SO volume (TMD Friction is a customer)"
+     "why": "Manufacturing with high PO / SO volume"
     },
     {
      "factor": "Function",
@@ -2453,7 +2519,7 @@
      "factor": "Segment",
      "points": 18,
      "max": 30,
-     "why": "Manufacturing with high PO / SO volume (TMD Friction is a customer)"
+     "why": "Manufacturing with high PO / SO volume"
     },
     {
      "factor": "Function",
@@ -2484,6 +2550,74 @@
     "id": "kloeckner",
     "customer": "Kloeckner Metals",
     "story": "Supplier order confirmations on autopilot"
+   }
+  },
+  {
+   "id": "jens-birgersson-brenntag-bvl-cx-2026",
+   "kind": "person",
+   "name": "Jens Birgersson",
+   "title": "CEO and Chairman of the Management Board",
+   "company": "Brenntag",
+   "company_type": "buyer",
+   "segment": "distribution",
+   "country": "DE",
+   "domain": "brenntag.com",
+   "event_id": "bvl-cx-2026",
+   "event_name": "BVL Supply Chain CX 2026",
+   "role": "speaker",
+   "evidence_level": "speaker:organiser",
+   "evidence_label": "Speaker, named by the organiser",
+   "evidence_strength": "strong",
+   "source_url": "https://cx.bvl.de/en/speaker",
+   "source_label": "BVL Supply Chain CX 2026 speaker page (organiser)",
+   "source_publisher": "organiser",
+   "checked_on": "2026-10-16",
+   "linkedin_check": "https://www.linkedin.com/search/results/people/?keywords=Jens+Birgersson+Brenntag",
+   "flags": [
+    "Confirm current title and employer on LinkedIn"
+   ],
+   "score": 85,
+   "tier": "B",
+   "tier_reason": "Good fit (B2B distribution, executive sponsor), but the role is adjacent (executive sponsor).",
+   "persona": "Executive sponsor",
+   "seniority": "C-level / VP",
+   "region": "DACH",
+   "breakdown": [
+    {
+     "factor": "Segment",
+     "points": 27,
+     "max": 30,
+     "why": "B2B distribution / wholesale"
+    },
+    {
+     "factor": "Function",
+     "points": 18,
+     "max": 30,
+     "why": "Executive sponsor"
+    },
+    {
+     "factor": "Seniority",
+     "points": 20,
+     "max": 20,
+     "why": "C-level / VP"
+    },
+    {
+     "factor": "Region",
+     "points": 10,
+     "max": 10,
+     "why": "DACH"
+    },
+    {
+     "factor": "Evidence",
+     "points": 10,
+     "max": 10,
+     "why": "Speaker, named by the organiser"
+    }
+   ],
+   "reference": {
+    "id": "oatly",
+    "customer": "Oatly",
+    "story": "Scaling order intake without scaling headcount"
    }
   },
   {
@@ -2521,7 +2655,7 @@
      "factor": "Segment",
      "points": 18,
      "max": 30,
-     "why": "Manufacturing with high PO / SO volume (TMD Friction is a customer)"
+     "why": "Manufacturing with high PO / SO volume"
     },
     {
      "factor": "Function",
@@ -2589,7 +2723,75 @@
      "factor": "Segment",
      "points": 18,
      "max": 30,
-     "why": "Manufacturing with high PO / SO volume (TMD Friction is a customer)"
+     "why": "Manufacturing with high PO / SO volume"
+    },
+    {
+     "factor": "Function",
+     "points": 30,
+     "max": 30,
+     "why": "Procure-to-Pay owner"
+    },
+    {
+     "factor": "Seniority",
+     "points": 17,
+     "max": 20,
+     "why": "Head / Director"
+    },
+    {
+     "factor": "Region",
+     "points": 10,
+     "max": 10,
+     "why": "DACH"
+    },
+    {
+     "factor": "Evidence",
+     "points": 10,
+     "max": 10,
+     "why": "Speaker, named by the organiser"
+    }
+   ],
+   "reference": {
+    "id": "kloeckner",
+    "customer": "Kloeckner Metals",
+    "story": "Supplier order confirmations on autopilot"
+   }
+  },
+  {
+   "id": "martin-heider-henkel-bvl-cx-2026",
+   "kind": "person",
+   "name": "Martin Heider",
+   "title": "Leiter Einkauf logistischer Dienstleistungen Deutschland",
+   "company": "Henkel",
+   "company_type": "buyer",
+   "segment": "manufacturing",
+   "country": "DE",
+   "domain": "henkel.com",
+   "event_id": "bvl-cx-2026",
+   "event_name": "BVL Supply Chain CX 2026",
+   "role": "speaker",
+   "evidence_level": "speaker:organiser",
+   "evidence_label": "Speaker, named by the organiser",
+   "evidence_strength": "strong",
+   "source_url": "https://cx.bvl.de/en/speaker",
+   "source_label": "BVL Supply Chain CX 2026 speaker page (organiser)",
+   "source_publisher": "organiser",
+   "checked_on": "2026-10-16",
+   "linkedin_check": "https://www.linkedin.com/search/results/people/?keywords=Martin+Heider+Henkel",
+   "flags": [
+    "Confirm current title and employer on LinkedIn"
+   ],
+   "score": 85,
+   "tier": "B",
+   "tier_reason": "Good fit (manufacturing, procure-to-pay owner), but manufacturing below the A bar (below VP level).",
+   "persona": "Procure-to-Pay owner",
+   "seniority": "Head / Director",
+   "region": "DACH",
+   "breakdown": [
+    {
+     "factor": "Segment",
+     "points": 18,
+     "max": 30,
+     "why": "Manufacturing with high PO / SO volume"
     },
     {
      "factor": "Function",
@@ -2657,7 +2859,7 @@
      "factor": "Segment",
      "points": 18,
      "max": 30,
-     "why": "Manufacturing with high PO / SO volume (TMD Friction is a customer)"
+     "why": "Manufacturing with high PO / SO volume"
     },
     {
      "factor": "Function",
@@ -2691,573 +2893,26 @@
    }
   },
   {
-   "id": "sebastian-engl-krones-epsce-2027",
+   "id": "andreas-koetz-zf-friedrichshafen-bvl-cx-2026",
    "kind": "person",
-   "name": "Sebastian Engl",
-   "title": "Head of Corporate Procurement Business Development",
-   "company": "KRONES",
+   "name": "Andreas Koetz",
+   "title": "Leiter Zentrales Supply Chain Management",
+   "company": "ZF Friedrichshafen",
    "company_type": "buyer",
    "segment": "manufacturing",
    "country": "DE",
-   "domain": "krones.com",
-   "event_id": "epsce-2027",
-   "event_name": "European Procurement & Supply Chain Excellence Summit",
-   "role": "speaker",
-   "evidence_level": "speaker:organiser",
-   "evidence_label": "Speaker, named by the organiser",
-   "evidence_strength": "strong",
-   "source_url": "https://www.bme.de/veranstaltungen/grossveranstaltungen/european-procurement-supply-chain-excellence-summit/summit-speakers/",
-   "source_label": "BME EP&SCE speaker page",
-   "source_publisher": "organiser",
-   "checked_on": "2026-10-16",
-   "linkedin_check": "https://www.linkedin.com/search/results/people/?keywords=Sebastian+Engl+KRONES",
-   "flags": [
-    "Confirm current title and employer on LinkedIn"
-   ],
-   "score": 85,
-   "tier": "B",
-   "tier_reason": "Good fit (manufacturing, procure-to-pay owner), but manufacturing below the A bar (below VP level).",
-   "persona": "Procure-to-Pay owner",
-   "seniority": "Head / Director",
-   "region": "DACH",
-   "breakdown": [
-    {
-     "factor": "Segment",
-     "points": 18,
-     "max": 30,
-     "why": "Manufacturing with high PO / SO volume (TMD Friction is a customer)"
-    },
-    {
-     "factor": "Function",
-     "points": 30,
-     "max": 30,
-     "why": "Procure-to-Pay owner"
-    },
-    {
-     "factor": "Seniority",
-     "points": 17,
-     "max": 20,
-     "why": "Head / Director"
-    },
-    {
-     "factor": "Region",
-     "points": 10,
-     "max": 10,
-     "why": "DACH"
-    },
-    {
-     "factor": "Evidence",
-     "points": 10,
-     "max": 10,
-     "why": "Speaker, named by the organiser"
-    }
-   ],
-   "reference": {
-    "id": "kloeckner",
-    "customer": "Kloeckner Metals",
-    "story": "Supplier order confirmations on autopilot"
-   }
-  },
-  {
-   "id": "steffen-muller-krones-epsce-2027",
-   "kind": "person",
-   "name": "Steffen Müller",
-   "title": "Head of Corporate Procurement",
-   "company": "KRONES",
-   "company_type": "buyer",
-   "segment": "manufacturing",
-   "country": "DE",
-   "domain": "krones.com",
-   "event_id": "epsce-2027",
-   "event_name": "European Procurement & Supply Chain Excellence Summit",
-   "role": "speaker",
-   "evidence_level": "speaker:organiser",
-   "evidence_label": "Speaker, named by the organiser",
-   "evidence_strength": "strong",
-   "source_url": "https://www.bme.de/veranstaltungen/grossveranstaltungen/european-procurement-supply-chain-excellence-summit/summit-speakers/",
-   "source_label": "BME EP&SCE speaker page",
-   "source_publisher": "organiser",
-   "checked_on": "2026-10-16",
-   "linkedin_check": "https://www.linkedin.com/search/results/people/?keywords=Steffen+M%C3%BCller+KRONES",
-   "flags": [
-    "Confirm current title and employer on LinkedIn"
-   ],
-   "score": 85,
-   "tier": "B",
-   "tier_reason": "Good fit (manufacturing, procure-to-pay owner), but manufacturing below the A bar (below VP level).",
-   "persona": "Procure-to-Pay owner",
-   "seniority": "Head / Director",
-   "region": "DACH",
-   "breakdown": [
-    {
-     "factor": "Segment",
-     "points": 18,
-     "max": 30,
-     "why": "Manufacturing with high PO / SO volume (TMD Friction is a customer)"
-    },
-    {
-     "factor": "Function",
-     "points": 30,
-     "max": 30,
-     "why": "Procure-to-Pay owner"
-    },
-    {
-     "factor": "Seniority",
-     "points": 17,
-     "max": 20,
-     "why": "Head / Director"
-    },
-    {
-     "factor": "Region",
-     "points": 10,
-     "max": 10,
-     "why": "DACH"
-    },
-    {
-     "factor": "Evidence",
-     "points": 10,
-     "max": 10,
-     "why": "Speaker, named by the organiser"
-    }
-   ],
-   "reference": {
-    "id": "kloeckner",
-    "customer": "Kloeckner Metals",
-    "story": "Supplier order confirmations on autopilot"
-   }
-  },
-  {
-   "id": "ana-dias-persan-epsce-2027",
-   "kind": "person",
-   "name": "Ana Dias",
-   "title": "Chief Procurement Officer",
-   "company": "Persan",
-   "company_type": "buyer",
-   "segment": "manufacturing",
-   "country": "ES",
-   "domain": "persan.es",
-   "event_id": "epsce-2027",
-   "event_name": "European Procurement & Supply Chain Excellence Summit",
-   "role": "speaker",
-   "evidence_level": "speaker:organiser",
-   "evidence_label": "Speaker, named by the organiser",
-   "evidence_strength": "strong",
-   "source_url": "https://www.bme.de/veranstaltungen/grossveranstaltungen/european-procurement-supply-chain-excellence-summit/summit-speakers/",
-   "source_label": "BME EP&SCE speaker page",
-   "source_publisher": "organiser",
-   "checked_on": "2026-10-16",
-   "linkedin_check": "https://www.linkedin.com/search/results/people/?keywords=Ana+Dias+Persan",
-   "flags": [
-    "Confirm current title and employer on LinkedIn"
-   ],
-   "score": 84,
-   "tier": "B",
-   "tier_reason": "Good fit (manufacturing, procure-to-pay owner), but manufacturing below the A bar (outside DACH).",
-   "persona": "Procure-to-Pay owner",
-   "seniority": "C-level / VP",
-   "region": "Europe",
-   "breakdown": [
-    {
-     "factor": "Segment",
-     "points": 18,
-     "max": 30,
-     "why": "Manufacturing with high PO / SO volume (TMD Friction is a customer)"
-    },
-    {
-     "factor": "Function",
-     "points": 30,
-     "max": 30,
-     "why": "Procure-to-Pay owner"
-    },
-    {
-     "factor": "Seniority",
-     "points": 20,
-     "max": 20,
-     "why": "C-level / VP"
-    },
-    {
-     "factor": "Region",
-     "points": 6,
-     "max": 10,
-     "why": "Europe"
-    },
-    {
-     "factor": "Evidence",
-     "points": 10,
-     "max": 10,
-     "why": "Speaker, named by the organiser"
-    }
-   ],
-   "reference": {
-    "id": "kloeckner",
-    "customer": "Kloeckner Metals",
-    "story": "Supplier order confirmations on autopilot"
-   }
-  },
-  {
-   "id": "saulo-spaolanse-schneider-electric-epsce-2027",
-   "kind": "person",
-   "name": "Saulo Spaolanse",
-   "title": "Global SVP, Customer Experience, Global Supply Chain",
-   "company": "Schneider Electric",
-   "company_type": "buyer",
-   "segment": "manufacturing",
-   "country": "FR",
-   "domain": "se.com",
-   "event_id": "epsce-2027",
-   "event_name": "European Procurement & Supply Chain Excellence Summit",
-   "role": "speaker",
-   "evidence_level": "speaker:organiser",
-   "evidence_label": "Speaker, named by the organiser",
-   "evidence_strength": "strong",
-   "source_url": "https://www.bme.de/veranstaltungen/grossveranstaltungen/european-procurement-supply-chain-excellence-summit/summit-speakers/",
-   "source_label": "BME EP&SCE speaker page",
-   "source_publisher": "organiser",
-   "checked_on": "2026-10-16",
-   "linkedin_check": "https://www.linkedin.com/search/results/people/?keywords=Saulo+Spaolanse+Schneider+Electric",
-   "flags": [
-    "Confirm current title and employer on LinkedIn"
-   ],
-   "score": 84,
-   "tier": "B",
-   "tier_reason": "Good fit (manufacturing, order-to-cash owner), but manufacturing below the A bar (outside DACH).",
-   "persona": "Order-to-Cash owner",
-   "seniority": "C-level / VP",
-   "region": "Europe",
-   "breakdown": [
-    {
-     "factor": "Segment",
-     "points": 18,
-     "max": 30,
-     "why": "Manufacturing with high PO / SO volume (TMD Friction is a customer)"
-    },
-    {
-     "factor": "Function",
-     "points": 30,
-     "max": 30,
-     "why": "Order-to-Cash owner"
-    },
-    {
-     "factor": "Seniority",
-     "points": 20,
-     "max": 20,
-     "why": "C-level / VP"
-    },
-    {
-     "factor": "Region",
-     "points": 6,
-     "max": 10,
-     "why": "Europe"
-    },
-    {
-     "factor": "Evidence",
-     "points": 10,
-     "max": 10,
-     "why": "Speaker, named by the organiser"
-    }
-   ],
-   "reference": {
-    "id": "oatly",
-    "customer": "Oatly",
-    "story": "Scaling order intake without scaling headcount"
-   }
-  },
-  {
-   "id": "vanessa-pepperell-grupo-fertiberia-epsce-2027",
-   "kind": "person",
-   "name": "Vanessa Pepperell",
-   "title": "CPO, Global Procurement Director",
-   "company": "Grupo Fertiberia",
-   "company_type": "buyer",
-   "segment": "manufacturing",
-   "country": "ES",
-   "domain": "fertiberia.com",
-   "event_id": "epsce-2027",
-   "event_name": "European Procurement & Supply Chain Excellence Summit",
-   "role": "speaker",
-   "evidence_level": "speaker:organiser",
-   "evidence_label": "Speaker, named by the organiser",
-   "evidence_strength": "strong",
-   "source_url": "https://www.bme.de/veranstaltungen/grossveranstaltungen/european-procurement-supply-chain-excellence-summit/summit-speakers/",
-   "source_label": "BME EP&SCE speaker page",
-   "source_publisher": "organiser",
-   "checked_on": "2026-10-16",
-   "linkedin_check": "https://www.linkedin.com/search/results/people/?keywords=Vanessa+Pepperell+Grupo+Fertiberia",
-   "flags": [
-    "Confirm current title and employer on LinkedIn"
-   ],
-   "score": 84,
-   "tier": "B",
-   "tier_reason": "Good fit (manufacturing, procure-to-pay owner), but manufacturing below the A bar (outside DACH).",
-   "persona": "Procure-to-Pay owner",
-   "seniority": "C-level / VP",
-   "region": "Europe",
-   "breakdown": [
-    {
-     "factor": "Segment",
-     "points": 18,
-     "max": 30,
-     "why": "Manufacturing with high PO / SO volume (TMD Friction is a customer)"
-    },
-    {
-     "factor": "Function",
-     "points": 30,
-     "max": 30,
-     "why": "Procure-to-Pay owner"
-    },
-    {
-     "factor": "Seniority",
-     "points": 20,
-     "max": 20,
-     "why": "C-level / VP"
-    },
-    {
-     "factor": "Region",
-     "points": 6,
-     "max": 10,
-     "why": "Europe"
-    },
-    {
-     "factor": "Evidence",
-     "points": 10,
-     "max": 10,
-     "why": "Speaker, named by the organiser"
-    }
-   ],
-   "reference": {
-    "id": "kloeckner",
-    "customer": "Kloeckner Metals",
-    "story": "Supplier order confirmations on autopilot"
-   }
-  },
-  {
-   "id": "felix-becker-voith-turbo-bvl-cx-2026",
-   "kind": "person",
-   "name": "Felix Becker",
-   "title": "Vice President Global Supply Chain",
-   "company": "Voith Turbo",
-   "company_type": "buyer",
-   "segment": "manufacturing",
-   "country": "DE",
-   "domain": "voith.com",
+   "domain": "zf.com",
    "event_id": "bvl-cx-2026",
    "event_name": "BVL Supply Chain CX 2026",
    "role": "speaker",
-   "evidence_level": "speaker:third-party",
-   "evidence_label": "Speaker, named on a third-party listing of the programme",
-   "evidence_strength": "strong",
-   "source_url": "https://www.luminik.io/events/bvl-supply-chain-cx-berlin-f1773cb8328b/attendees/",
-   "source_label": "Third-party listing of BVL speakers and sponsors",
-   "source_publisher": "third-party",
-   "checked_on": "2026-10-16",
-   "linkedin_check": "https://www.linkedin.com/search/results/people/?keywords=Felix+Becker+Voith+Turbo",
-   "flags": [
-    "Confirm current title and employer on LinkedIn",
-    "Source is a third-party listing: confirm on the organiser's agenda"
-   ],
-   "score": 83,
-   "tier": "B",
-   "tier_reason": "Good fit (manufacturing, supply chain / logistics leader), but manufacturing below the A bar (named only on a third-party listing).",
-   "persona": "Supply chain / logistics leader",
-   "seniority": "C-level / VP",
-   "region": "DACH",
-   "breakdown": [
-    {
-     "factor": "Segment",
-     "points": 18,
-     "max": 30,
-     "why": "Manufacturing with high PO / SO volume (TMD Friction is a customer)"
-    },
-    {
-     "factor": "Function",
-     "points": 27,
-     "max": 30,
-     "why": "Supply chain / logistics leader"
-    },
-    {
-     "factor": "Seniority",
-     "points": 20,
-     "max": 20,
-     "why": "C-level / VP"
-    },
-    {
-     "factor": "Region",
-     "points": 10,
-     "max": 10,
-     "why": "DACH"
-    },
-    {
-     "factor": "Evidence",
-     "points": 8,
-     "max": 10,
-     "why": "Speaker, named on a third-party listing of the programme"
-    }
-   ],
-   "reference": {
-    "id": "tmd",
-    "customer": "TMD Friction",
-    "story": "Manufacturing customer featured on GeneralMind's case-study page"
-   }
-  },
-  {
-   "id": "jens-birgersson-brenntag-bvl-cx-2026",
-   "kind": "person",
-   "name": "Jens Birgersson",
-   "title": "CEO and Chairman of the Management Board",
-   "company": "Brenntag",
-   "company_type": "buyer",
-   "segment": "distribution",
-   "country": "DE",
-   "domain": "brenntag.com",
-   "event_id": "bvl-cx-2026",
-   "event_name": "BVL Supply Chain CX 2026",
-   "role": "speaker",
-   "evidence_level": "speaker:third-party",
-   "evidence_label": "Speaker, named on a third-party listing of the programme",
-   "evidence_strength": "strong",
-   "source_url": "https://www.luminik.io/events/bvl-supply-chain-cx-berlin-f1773cb8328b/attendees/",
-   "source_label": "Third-party listing of BVL speakers and sponsors",
-   "source_publisher": "third-party",
-   "checked_on": "2026-10-16",
-   "linkedin_check": "https://www.linkedin.com/search/results/people/?keywords=Jens+Birgersson+Brenntag",
-   "flags": [
-    "Confirm current title and employer on LinkedIn",
-    "Source is a third-party listing: confirm on the organiser's agenda"
-   ],
-   "score": 83,
-   "tier": "B",
-   "tier_reason": "Good fit (B2B distribution, executive sponsor), but the role is adjacent (executive sponsor).",
-   "persona": "Executive sponsor",
-   "seniority": "C-level / VP",
-   "region": "DACH",
-   "breakdown": [
-    {
-     "factor": "Segment",
-     "points": 27,
-     "max": 30,
-     "why": "B2B distribution / wholesale"
-    },
-    {
-     "factor": "Function",
-     "points": 18,
-     "max": 30,
-     "why": "Executive sponsor"
-    },
-    {
-     "factor": "Seniority",
-     "points": 20,
-     "max": 20,
-     "why": "C-level / VP"
-    },
-    {
-     "factor": "Region",
-     "points": 10,
-     "max": 10,
-     "why": "DACH"
-    },
-    {
-     "factor": "Evidence",
-     "points": 8,
-     "max": 10,
-     "why": "Speaker, named on a third-party listing of the programme"
-    }
-   ],
-   "reference": {
-    "id": "oatly",
-    "customer": "Oatly",
-    "story": "Scaling order intake without scaling headcount"
-   }
-  },
-  {
-   "id": "winfried-rockensteiner-robert-bosch-emsc-2026",
-   "kind": "person",
-   "name": "Winfried Rockensteiner",
-   "title": "Global Vice President Logistics, Bosch Powertrain Solutions",
-   "company": "Robert Bosch",
-   "company_type": "buyer",
-   "segment": "manufacturing",
-   "country": "DE",
-   "domain": "bosch.com",
-   "event_id": "emsc-2026",
-   "event_name": "European Manufacturing & Supply Chain Summit",
-   "role": "speaker",
-   "evidence_level": "speaker:third-party",
-   "evidence_label": "Speaker, named on a third-party listing of the programme",
-   "evidence_strength": "strong",
-   "source_url": "https://www.luminik.io/events/ems-scms-summit-munich/",
-   "source_label": "Third-party listing of summit speakers",
-   "source_publisher": "third-party",
-   "checked_on": "2026-10-16",
-   "linkedin_check": "https://www.linkedin.com/search/results/people/?keywords=Winfried+Rockensteiner+Robert+Bosch",
-   "flags": [
-    "Confirm current title and employer on LinkedIn",
-    "Source is a third-party listing: confirm on the organiser's agenda"
-   ],
-   "score": 83,
-   "tier": "B",
-   "tier_reason": "Good fit (manufacturing, supply chain / logistics leader), but manufacturing below the A bar (named only on a third-party listing).",
-   "persona": "Supply chain / logistics leader",
-   "seniority": "C-level / VP",
-   "region": "DACH",
-   "breakdown": [
-    {
-     "factor": "Segment",
-     "points": 18,
-     "max": 30,
-     "why": "Manufacturing with high PO / SO volume (TMD Friction is a customer)"
-    },
-    {
-     "factor": "Function",
-     "points": 27,
-     "max": 30,
-     "why": "Supply chain / logistics leader"
-    },
-    {
-     "factor": "Seniority",
-     "points": 20,
-     "max": 20,
-     "why": "C-level / VP"
-    },
-    {
-     "factor": "Region",
-     "points": 10,
-     "max": 10,
-     "why": "DACH"
-    },
-    {
-     "factor": "Evidence",
-     "points": 8,
-     "max": 10,
-     "why": "Speaker, named on a third-party listing of the programme"
-    }
-   ],
-   "reference": {
-    "id": "tmd",
-    "customer": "TMD Friction",
-    "story": "Manufacturing customer featured on GeneralMind's case-study page"
-   }
-  },
-  {
-   "id": "andreas-walz-e-g-o-europe-sclt-munich-2026",
-   "kind": "person",
-   "name": "Andreas Walz",
-   "title": "Head of Supply Chain and Logistics",
-   "company": "E.G.O. Europe",
-   "company_type": "buyer",
-   "segment": "manufacturing",
-   "country": "DE",
-   "domain": "egoproducts.com",
-   "event_id": "sclt-munich-2026",
-   "event_name": "Supply Chain & Logistics Transformation Summit",
-   "role": "speaker",
    "evidence_level": "speaker:organiser",
    "evidence_label": "Speaker, named by the organiser",
    "evidence_strength": "strong",
-   "source_url": "https://www.key-notion.com/supply-chain-logistics-transformation-summit-munich-2026",
-   "source_label": "Summit speaker list (organiser)",
+   "source_url": "https://cx.bvl.de/en/speaker",
+   "source_label": "BVL Supply Chain CX 2026 speaker page (organiser)",
    "source_publisher": "organiser",
    "checked_on": "2026-10-16",
-   "linkedin_check": "https://www.linkedin.com/search/results/people/?keywords=Andreas+Walz+E.G.O.+Europe",
+   "linkedin_check": "https://www.linkedin.com/search/results/people/?keywords=Andreas+Koetz+ZF+Friedrichshafen",
    "flags": [
     "Confirm current title and employer on LinkedIn"
    ],
@@ -3272,7 +2927,7 @@
      "factor": "Segment",
      "points": 18,
      "max": 30,
-     "why": "Manufacturing with high PO / SO volume (TMD Friction is a customer)"
+     "why": "Manufacturing with high PO / SO volume"
     },
     {
      "factor": "Function",
@@ -3300,32 +2955,168 @@
     }
    ],
    "reference": {
-    "id": "tmd",
-    "customer": "TMD Friction",
-    "story": "Manufacturing customer featured on GeneralMind's case-study page"
+    "id": "oatly",
+    "customer": "Oatly",
+    "story": "Scaling order intake without scaling headcount"
    }
   },
   {
-   "id": "anna-leona-breidbach-covestro-sclt-munich-2026",
+   "id": "bart-meers-bsh-hausgerate-bvl-cx-2026",
    "kind": "person",
-   "name": "Anna-Leona Breidbach",
-   "title": "Head of Center of Excellence EMLA, Supply Chain & Logistics",
+   "name": "Bart Meers",
+   "title": "Global Executive Head of Logistics, Warehousing",
+   "company": "BSH Hausgeräte",
+   "company_type": "buyer",
+   "segment": "manufacturing",
+   "country": "DE",
+   "domain": "bsh-group.com",
+   "event_id": "bvl-cx-2026",
+   "event_name": "BVL Supply Chain CX 2026",
+   "role": "speaker",
+   "evidence_level": "speaker:organiser",
+   "evidence_label": "Speaker, named by the organiser",
+   "evidence_strength": "strong",
+   "source_url": "https://cx.bvl.de/en/speaker",
+   "source_label": "BVL Supply Chain CX 2026 speaker page (organiser)",
+   "source_publisher": "organiser",
+   "checked_on": "2026-10-16",
+   "linkedin_check": "https://www.linkedin.com/search/results/people/?keywords=Bart+Meers+BSH+Hausger%C3%A4te",
+   "flags": [
+    "Confirm current title and employer on LinkedIn"
+   ],
+   "score": 82,
+   "tier": "B",
+   "tier_reason": "Good fit (manufacturing, supply chain / logistics leader), but manufacturing below the A bar (below VP level).",
+   "persona": "Supply chain / logistics leader",
+   "seniority": "Head / Director",
+   "region": "DACH",
+   "breakdown": [
+    {
+     "factor": "Segment",
+     "points": 18,
+     "max": 30,
+     "why": "Manufacturing with high PO / SO volume"
+    },
+    {
+     "factor": "Function",
+     "points": 27,
+     "max": 30,
+     "why": "Supply chain / logistics leader"
+    },
+    {
+     "factor": "Seniority",
+     "points": 17,
+     "max": 20,
+     "why": "Head / Director"
+    },
+    {
+     "factor": "Region",
+     "points": 10,
+     "max": 10,
+     "why": "DACH"
+    },
+    {
+     "factor": "Evidence",
+     "points": 10,
+     "max": 10,
+     "why": "Speaker, named by the organiser"
+    }
+   ],
+   "reference": {
+    "id": "oatly",
+    "customer": "Oatly",
+    "story": "Scaling order intake without scaling headcount"
+   }
+  },
+  {
+   "id": "biljana-visnjicki-henkel-emsc-2026",
+   "kind": "person",
+   "name": "Biljana Visnjicki",
+   "title": "Director, Global Supply Chain Digital Transformation",
+   "company": "Henkel",
+   "company_type": "buyer",
+   "segment": "manufacturing",
+   "country": "DE",
+   "domain": "henkel.com",
+   "event_id": "emsc-2026",
+   "event_name": "European Manufacturing & Supply Chain Summit",
+   "role": "speaker",
+   "evidence_level": "speaker:organiser",
+   "evidence_label": "Speaker, named by the organiser",
+   "evidence_strength": "strong",
+   "source_url": "https://ems-scms.com/live/en/page/home",
+   "source_label": "Summit organiser page (speakers sneak peek)",
+   "source_publisher": "organiser",
+   "checked_on": "2026-10-16",
+   "linkedin_check": "https://www.linkedin.com/search/results/people/?keywords=Biljana+Visnjicki+Henkel",
+   "flags": [
+    "Confirm current title and employer on LinkedIn"
+   ],
+   "score": 82,
+   "tier": "B",
+   "tier_reason": "Good fit (manufacturing, supply chain / logistics leader), but manufacturing below the A bar (below VP level).",
+   "persona": "Supply chain / logistics leader",
+   "seniority": "Head / Director",
+   "region": "DACH",
+   "breakdown": [
+    {
+     "factor": "Segment",
+     "points": 18,
+     "max": 30,
+     "why": "Manufacturing with high PO / SO volume"
+    },
+    {
+     "factor": "Function",
+     "points": 27,
+     "max": 30,
+     "why": "Supply chain / logistics leader"
+    },
+    {
+     "factor": "Seniority",
+     "points": 17,
+     "max": 20,
+     "why": "Head / Director"
+    },
+    {
+     "factor": "Region",
+     "points": 10,
+     "max": 10,
+     "why": "DACH"
+    },
+    {
+     "factor": "Evidence",
+     "points": 10,
+     "max": 10,
+     "why": "Speaker, named by the organiser"
+    }
+   ],
+   "reference": {
+    "id": "oatly",
+    "customer": "Oatly",
+    "story": "Scaling order intake without scaling headcount"
+   }
+  },
+  {
+   "id": "cristina-maria-danila-covestro-bvl-cx-2026",
+   "kind": "person",
+   "name": "Cristina-Maria Danila",
+   "title": "Head of Global Supply Chain & Logistics",
    "company": "Covestro",
    "company_type": "buyer",
    "segment": "manufacturing",
    "country": "DE",
    "domain": "covestro.com",
-   "event_id": "sclt-munich-2026",
-   "event_name": "Supply Chain & Logistics Transformation Summit",
+   "event_id": "bvl-cx-2026",
+   "event_name": "BVL Supply Chain CX 2026",
    "role": "speaker",
    "evidence_level": "speaker:organiser",
    "evidence_label": "Speaker, named by the organiser",
    "evidence_strength": "strong",
-   "source_url": "https://www.key-notion.com/supply-chain-logistics-transformation-summit-munich-2026",
-   "source_label": "Summit speaker list (organiser)",
+   "source_url": "https://cx.bvl.de/en/speaker",
+   "source_label": "BVL Supply Chain CX 2026 speaker page (organiser)",
    "source_publisher": "organiser",
    "checked_on": "2026-10-16",
-   "linkedin_check": "https://www.linkedin.com/search/results/people/?keywords=Anna-Leona+Breidbach+Covestro",
+   "linkedin_check": "https://www.linkedin.com/search/results/people/?keywords=Cristina-Maria+Danila+Covestro",
    "flags": [
     "Confirm current title and employer on LinkedIn"
    ],
@@ -3340,7 +3131,7 @@
      "factor": "Segment",
      "points": 18,
      "max": 30,
-     "why": "Manufacturing with high PO / SO volume (TMD Friction is a customer)"
+     "why": "Manufacturing with high PO / SO volume"
     },
     {
      "factor": "Function",
@@ -3368,216 +3159,9 @@
     }
    ],
    "reference": {
-    "id": "tmd",
-    "customer": "TMD Friction",
-    "story": "Manufacturing customer featured on GeneralMind's case-study page"
-   }
-  },
-  {
-   "id": "candy-wei-thieme-beiersdorf-sclt-munich-2026",
-   "kind": "person",
-   "name": "Candy Weiß-Thieme",
-   "title": "Global Supply Chain Director E-Commerce",
-   "company": "Beiersdorf",
-   "company_type": "buyer",
-   "segment": "manufacturing",
-   "country": "DE",
-   "domain": "beiersdorf.com",
-   "event_id": "sclt-munich-2026",
-   "event_name": "Supply Chain & Logistics Transformation Summit",
-   "role": "speaker",
-   "evidence_level": "speaker:organiser",
-   "evidence_label": "Speaker, named by the organiser",
-   "evidence_strength": "strong",
-   "source_url": "https://www.key-notion.com/supply-chain-logistics-transformation-summit-munich-2026",
-   "source_label": "Summit speaker list (organiser)",
-   "source_publisher": "organiser",
-   "checked_on": "2026-10-16",
-   "linkedin_check": "https://www.linkedin.com/search/results/people/?keywords=Candy+Wei%C3%9F-Thieme+Beiersdorf",
-   "flags": [
-    "Confirm current title and employer on LinkedIn"
-   ],
-   "score": 82,
-   "tier": "B",
-   "tier_reason": "Good fit (manufacturing, supply chain / logistics leader), but manufacturing below the A bar (below VP level).",
-   "persona": "Supply chain / logistics leader",
-   "seniority": "Head / Director",
-   "region": "DACH",
-   "breakdown": [
-    {
-     "factor": "Segment",
-     "points": 18,
-     "max": 30,
-     "why": "Manufacturing with high PO / SO volume (TMD Friction is a customer)"
-    },
-    {
-     "factor": "Function",
-     "points": 27,
-     "max": 30,
-     "why": "Supply chain / logistics leader"
-    },
-    {
-     "factor": "Seniority",
-     "points": 17,
-     "max": 20,
-     "why": "Head / Director"
-    },
-    {
-     "factor": "Region",
-     "points": 10,
-     "max": 10,
-     "why": "DACH"
-    },
-    {
-     "factor": "Evidence",
-     "points": 10,
-     "max": 10,
-     "why": "Speaker, named by the organiser"
-    }
-   ],
-   "reference": {
-    "id": "tmd",
-    "customer": "TMD Friction",
-    "story": "Manufacturing customer featured on GeneralMind's case-study page"
-   }
-  },
-  {
-   "id": "florian-kaesen-intel-germany-sclt-munich-2026",
-   "kind": "person",
-   "name": "Florian Kaesen",
-   "title": "Director Supply Chain",
-   "company": "Intel Germany",
-   "company_type": "buyer",
-   "segment": "manufacturing",
-   "country": "DE",
-   "domain": "intel.de",
-   "event_id": "sclt-munich-2026",
-   "event_name": "Supply Chain & Logistics Transformation Summit",
-   "role": "speaker",
-   "evidence_level": "speaker:organiser",
-   "evidence_label": "Speaker, named by the organiser",
-   "evidence_strength": "strong",
-   "source_url": "https://www.key-notion.com/supply-chain-logistics-transformation-summit-munich-2026",
-   "source_label": "Summit speaker list (organiser)",
-   "source_publisher": "organiser",
-   "checked_on": "2026-10-16",
-   "linkedin_check": "https://www.linkedin.com/search/results/people/?keywords=Florian+Kaesen+Intel+Germany",
-   "flags": [
-    "Confirm current title and employer on LinkedIn"
-   ],
-   "score": 82,
-   "tier": "B",
-   "tier_reason": "Good fit (manufacturing, supply chain / logistics leader), but manufacturing below the A bar (below VP level).",
-   "persona": "Supply chain / logistics leader",
-   "seniority": "Head / Director",
-   "region": "DACH",
-   "breakdown": [
-    {
-     "factor": "Segment",
-     "points": 18,
-     "max": 30,
-     "why": "Manufacturing with high PO / SO volume (TMD Friction is a customer)"
-    },
-    {
-     "factor": "Function",
-     "points": 27,
-     "max": 30,
-     "why": "Supply chain / logistics leader"
-    },
-    {
-     "factor": "Seniority",
-     "points": 17,
-     "max": 20,
-     "why": "Head / Director"
-    },
-    {
-     "factor": "Region",
-     "points": 10,
-     "max": 10,
-     "why": "DACH"
-    },
-    {
-     "factor": "Evidence",
-     "points": 10,
-     "max": 10,
-     "why": "Speaker, named by the organiser"
-    }
-   ],
-   "reference": {
-    "id": "tmd",
-    "customer": "TMD Friction",
-    "story": "Manufacturing customer featured on GeneralMind's case-study page"
-   },
-   "also_at": [
-    "European Procurement & Supply Chain Excellence Summit"
-   ]
-  },
-  {
-   "id": "immanuel-sollner-miele-sclt-munich-2026",
-   "kind": "person",
-   "name": "Immanuel Söllner",
-   "title": "Director Supply Chain Planning Southeastern Europe",
-   "company": "Miele",
-   "company_type": "buyer",
-   "segment": "manufacturing",
-   "country": "DE",
-   "domain": "miele.com",
-   "event_id": "sclt-munich-2026",
-   "event_name": "Supply Chain & Logistics Transformation Summit",
-   "role": "speaker",
-   "evidence_level": "speaker:organiser",
-   "evidence_label": "Speaker, named by the organiser",
-   "evidence_strength": "strong",
-   "source_url": "https://www.key-notion.com/supply-chain-logistics-transformation-summit-munich-2026",
-   "source_label": "Summit speaker list (organiser)",
-   "source_publisher": "organiser",
-   "checked_on": "2026-10-16",
-   "linkedin_check": "https://www.linkedin.com/search/results/people/?keywords=Immanuel+S%C3%B6llner+Miele",
-   "flags": [
-    "Confirm current title and employer on LinkedIn"
-   ],
-   "score": 82,
-   "tier": "B",
-   "tier_reason": "Good fit (manufacturing, supply chain / logistics leader), but manufacturing below the A bar (below VP level).",
-   "persona": "Supply chain / logistics leader",
-   "seniority": "Head / Director",
-   "region": "DACH",
-   "breakdown": [
-    {
-     "factor": "Segment",
-     "points": 18,
-     "max": 30,
-     "why": "Manufacturing with high PO / SO volume (TMD Friction is a customer)"
-    },
-    {
-     "factor": "Function",
-     "points": 27,
-     "max": 30,
-     "why": "Supply chain / logistics leader"
-    },
-    {
-     "factor": "Seniority",
-     "points": 17,
-     "max": 20,
-     "why": "Head / Director"
-    },
-    {
-     "factor": "Region",
-     "points": 10,
-     "max": 10,
-     "why": "DACH"
-    },
-    {
-     "factor": "Evidence",
-     "points": 10,
-     "max": 10,
-     "why": "Speaker, named by the organiser"
-    }
-   ],
-   "reference": {
-    "id": "tmd",
-    "customer": "TMD Friction",
-    "story": "Manufacturing customer featured on GeneralMind's case-study page"
+    "id": "oatly",
+    "customer": "Oatly",
+    "story": "Scaling order intake without scaling headcount"
    }
   },
   {
@@ -3615,7 +3199,7 @@
      "factor": "Segment",
      "points": 18,
      "max": 30,
-     "why": "Manufacturing with high PO / SO volume (TMD Friction is a customer)"
+     "why": "Manufacturing with high PO / SO volume"
     },
     {
      "factor": "Function",
@@ -3643,213 +3227,9 @@
     }
    ],
    "reference": {
-    "id": "tmd",
-    "customer": "TMD Friction",
-    "story": "Manufacturing customer featured on GeneralMind's case-study page"
-   }
-  },
-  {
-   "id": "thomas-schamberg-byk-chemie-epsce-2027",
-   "kind": "person",
-   "name": "Thomas Schamberg",
-   "title": "Global Head of Supply Chain Management",
-   "company": "BYK-Chemie",
-   "company_type": "buyer",
-   "segment": "manufacturing",
-   "country": "DE",
-   "domain": "byk.com",
-   "event_id": "epsce-2027",
-   "event_name": "European Procurement & Supply Chain Excellence Summit",
-   "role": "speaker",
-   "evidence_level": "speaker:organiser",
-   "evidence_label": "Speaker, named by the organiser",
-   "evidence_strength": "strong",
-   "source_url": "https://www.bme.de/veranstaltungen/grossveranstaltungen/european-procurement-supply-chain-excellence-summit/summit-speakers/",
-   "source_label": "BME EP&SCE speaker page",
-   "source_publisher": "organiser",
-   "checked_on": "2026-10-16",
-   "linkedin_check": "https://www.linkedin.com/search/results/people/?keywords=Thomas+Schamberg+BYK-Chemie",
-   "flags": [
-    "Confirm current title and employer on LinkedIn"
-   ],
-   "score": 82,
-   "tier": "B",
-   "tier_reason": "Good fit (manufacturing, supply chain / logistics leader), but manufacturing below the A bar (below VP level).",
-   "persona": "Supply chain / logistics leader",
-   "seniority": "Head / Director",
-   "region": "DACH",
-   "breakdown": [
-    {
-     "factor": "Segment",
-     "points": 18,
-     "max": 30,
-     "why": "Manufacturing with high PO / SO volume (TMD Friction is a customer)"
-    },
-    {
-     "factor": "Function",
-     "points": 27,
-     "max": 30,
-     "why": "Supply chain / logistics leader"
-    },
-    {
-     "factor": "Seniority",
-     "points": 17,
-     "max": 20,
-     "why": "Head / Director"
-    },
-    {
-     "factor": "Region",
-     "points": 10,
-     "max": 10,
-     "why": "DACH"
-    },
-    {
-     "factor": "Evidence",
-     "points": 10,
-     "max": 10,
-     "why": "Speaker, named by the organiser"
-    }
-   ],
-   "reference": {
-    "id": "tmd",
-    "customer": "TMD Friction",
-    "story": "Manufacturing customer featured on GeneralMind's case-study page"
-   }
-  },
-  {
-   "id": "gorkan-ulker-jaguar-land-rover-epsce-2027",
-   "kind": "person",
-   "name": "Görkan Ülker",
-   "title": "Procurement Director, Body, Chassis and Aftermarket",
-   "company": "Jaguar Land Rover",
-   "company_type": "buyer",
-   "segment": "manufacturing",
-   "country": "GB",
-   "domain": "jaguarlandrover.com",
-   "event_id": "epsce-2027",
-   "event_name": "European Procurement & Supply Chain Excellence Summit",
-   "role": "speaker",
-   "evidence_level": "speaker:organiser",
-   "evidence_label": "Speaker, named by the organiser",
-   "evidence_strength": "strong",
-   "source_url": "https://www.bme.de/veranstaltungen/grossveranstaltungen/european-procurement-supply-chain-excellence-summit/summit-speakers/",
-   "source_label": "BME EP&SCE speaker page",
-   "source_publisher": "organiser",
-   "checked_on": "2026-10-16",
-   "linkedin_check": "https://www.linkedin.com/search/results/people/?keywords=G%C3%B6rkan+%C3%9Clker+Jaguar+Land+Rover",
-   "flags": [
-    "Confirm current title and employer on LinkedIn"
-   ],
-   "score": 81,
-   "tier": "B",
-   "tier_reason": "Good fit (manufacturing, procure-to-pay owner), but manufacturing below the A bar (below VP level, outside DACH).",
-   "persona": "Procure-to-Pay owner",
-   "seniority": "Head / Director",
-   "region": "Europe",
-   "breakdown": [
-    {
-     "factor": "Segment",
-     "points": 18,
-     "max": 30,
-     "why": "Manufacturing with high PO / SO volume (TMD Friction is a customer)"
-    },
-    {
-     "factor": "Function",
-     "points": 30,
-     "max": 30,
-     "why": "Procure-to-Pay owner"
-    },
-    {
-     "factor": "Seniority",
-     "points": 17,
-     "max": 20,
-     "why": "Head / Director"
-    },
-    {
-     "factor": "Region",
-     "points": 6,
-     "max": 10,
-     "why": "Europe"
-    },
-    {
-     "factor": "Evidence",
-     "points": 10,
-     "max": 10,
-     "why": "Speaker, named by the organiser"
-    }
-   ],
-   "reference": {
-    "id": "kloeckner",
-    "customer": "Kloeckner Metals",
-    "story": "Supplier order confirmations on autopilot"
-   }
-  },
-  {
-   "id": "louise-noer-novonesis-epsce-2027",
-   "kind": "person",
-   "name": "Louise Noer",
-   "title": "Senior Director, Head of Global Indirect Procurement",
-   "company": "Novonesis",
-   "company_type": "buyer",
-   "segment": "manufacturing",
-   "country": "DK",
-   "domain": "novonesis.com",
-   "event_id": "epsce-2027",
-   "event_name": "European Procurement & Supply Chain Excellence Summit",
-   "role": "speaker",
-   "evidence_level": "speaker:organiser",
-   "evidence_label": "Speaker, named by the organiser",
-   "evidence_strength": "strong",
-   "source_url": "https://www.bme.de/veranstaltungen/grossveranstaltungen/european-procurement-supply-chain-excellence-summit/summit-speakers/",
-   "source_label": "BME EP&SCE speaker page",
-   "source_publisher": "organiser",
-   "checked_on": "2026-10-16",
-   "linkedin_check": "https://www.linkedin.com/search/results/people/?keywords=Louise+Noer+Novonesis",
-   "flags": [
-    "Confirm current title and employer on LinkedIn"
-   ],
-   "score": 81,
-   "tier": "B",
-   "tier_reason": "Good fit (manufacturing, procure-to-pay owner), but manufacturing below the A bar (below VP level, outside DACH).",
-   "persona": "Procure-to-Pay owner",
-   "seniority": "Head / Director",
-   "region": "Europe",
-   "breakdown": [
-    {
-     "factor": "Segment",
-     "points": 18,
-     "max": 30,
-     "why": "Manufacturing with high PO / SO volume (TMD Friction is a customer)"
-    },
-    {
-     "factor": "Function",
-     "points": 30,
-     "max": 30,
-     "why": "Procure-to-Pay owner"
-    },
-    {
-     "factor": "Seniority",
-     "points": 17,
-     "max": 20,
-     "why": "Head / Director"
-    },
-    {
-     "factor": "Region",
-     "points": 6,
-     "max": 10,
-     "why": "Europe"
-    },
-    {
-     "factor": "Evidence",
-     "points": 10,
-     "max": 10,
-     "why": "Speaker, named by the organiser"
-    }
-   ],
-   "reference": {
-    "id": "kloeckner",
-    "customer": "Kloeckner Metals",
-    "story": "Supplier order confirmations on autopilot"
+    "id": "oatly",
+    "customer": "Oatly",
+    "story": "Scaling order intake without scaling headcount"
    }
   },
   {
@@ -3887,7 +3267,7 @@
      "factor": "Segment",
      "points": 18,
      "max": 30,
-     "why": "Manufacturing with high PO / SO volume (TMD Friction is a customer)"
+     "why": "Manufacturing with high PO / SO volume"
     },
     {
      "factor": "Function",
@@ -3921,33 +3301,33 @@
    }
   },
   {
-   "id": "biljana-visnjicki-henkel-emsc-2026",
+   "id": "andreas-walz-e-g-o-europe-sclt-munich-2026",
    "kind": "person",
-   "name": "Biljana Visnjicki",
-   "title": "Director, Global Supply Chain Digital Transformation",
-   "company": "Henkel",
+   "name": "Andreas Walz",
+   "title": "Head of Supply Chain and Logistics",
+   "company": "E.G.O. Europe",
    "company_type": "buyer",
    "segment": "manufacturing",
    "country": "DE",
-   "domain": "henkel.com",
-   "event_id": "emsc-2026",
-   "event_name": "European Manufacturing & Supply Chain Summit",
+   "domain": "egoproducts.com",
+   "event_id": "sclt-munich-2026",
+   "event_name": "Supply Chain & Logistics Transformation Summit",
    "role": "speaker",
-   "evidence_level": "speaker:third-party",
-   "evidence_label": "Speaker, named on a third-party listing of the programme",
-   "evidence_strength": "strong",
-   "source_url": "https://www.luminik.io/events/ems-scms-summit-munich/",
-   "source_label": "Third-party listing of summit speakers",
-   "source_publisher": "third-party",
+   "evidence_level": "speaker:organiser-undated",
+   "evidence_label": "Speaker on the organiser's event page, list not dated",
+   "evidence_strength": "medium",
+   "source_url": "https://www.key-notion.com/supply-chain-logistics-transformation-summit-munich-2026",
+   "source_label": "Organiser event page (speaker list not dated)",
+   "source_publisher": "organiser-undated",
    "checked_on": "2026-10-16",
-   "linkedin_check": "https://www.linkedin.com/search/results/people/?keywords=Biljana+Visnjicki+Henkel",
+   "linkedin_check": "https://www.linkedin.com/search/results/people/?keywords=Andreas+Walz+E.G.O.+Europe",
    "flags": [
     "Confirm current title and employer on LinkedIn",
-    "Source is a third-party listing: confirm on the organiser's agenda"
+    "Speaker list on the organiser page is not dated: confirm this person is on the 2026 agenda"
    ],
-   "score": 80,
+   "score": 79,
    "tier": "B",
-   "tier_reason": "Good fit (manufacturing, supply chain / logistics leader), but manufacturing below the A bar (below VP level, named only on a third-party listing).",
+   "tier_reason": "Good fit (manufacturing, supply chain / logistics leader), but the evidence is weaker (speaker on the organiser's event page, list not dated) and manufacturing below the A bar (below VP level, named only on a third-party listing).",
    "persona": "Supply chain / logistics leader",
    "seniority": "Head / Director",
    "region": "DACH",
@@ -3956,7 +3336,7 @@
      "factor": "Segment",
      "points": 18,
      "max": 30,
-     "why": "Manufacturing with high PO / SO volume (TMD Friction is a customer)"
+     "why": "Manufacturing with high PO / SO volume"
     },
     {
      "factor": "Function",
@@ -3978,38 +3358,586 @@
     },
     {
      "factor": "Evidence",
-     "points": 8,
+     "points": 7,
      "max": 10,
-     "why": "Speaker, named on a third-party listing of the programme"
+     "why": "Speaker on the organiser's event page, list not dated"
     }
    ],
    "reference": {
-    "id": "tmd",
-    "customer": "TMD Friction",
-    "story": "Manufacturing customer featured on GeneralMind's case-study page"
+    "id": "oatly",
+    "customer": "Oatly",
+    "story": "Scaling order intake without scaling headcount"
    }
   },
   {
-   "id": "pavel-sinelnik-electrolux-group-sclt-munich-2026",
+   "id": "anna-leona-breidbach-covestro-sclt-munich-2026",
    "kind": "person",
-   "name": "Pavel Sinelnik",
-   "title": "D2C Supply Chain Development Director",
-   "company": "Electrolux Group",
+   "name": "Anna-Leona Breidbach",
+   "title": "Head of Center of Excellence EMLA, Supply Chain & Logistics",
+   "company": "Covestro",
    "company_type": "buyer",
    "segment": "manufacturing",
-   "country": "SE",
-   "domain": "electroluxgroup.com",
+   "country": "DE",
+   "domain": "covestro.com",
    "event_id": "sclt-munich-2026",
    "event_name": "Supply Chain & Logistics Transformation Summit",
+   "role": "speaker",
+   "evidence_level": "speaker:organiser-undated",
+   "evidence_label": "Speaker on the organiser's event page, list not dated",
+   "evidence_strength": "medium",
+   "source_url": "https://www.key-notion.com/supply-chain-logistics-transformation-summit-munich-2026",
+   "source_label": "Organiser event page (speaker list not dated)",
+   "source_publisher": "organiser-undated",
+   "checked_on": "2026-10-16",
+   "linkedin_check": "https://www.linkedin.com/search/results/people/?keywords=Anna-Leona+Breidbach+Covestro",
+   "flags": [
+    "Confirm current title and employer on LinkedIn",
+    "Speaker list on the organiser page is not dated: confirm this person is on the 2026 agenda"
+   ],
+   "score": 79,
+   "tier": "B",
+   "tier_reason": "Good fit (manufacturing, supply chain / logistics leader), but the evidence is weaker (speaker on the organiser's event page, list not dated) and manufacturing below the A bar (below VP level, named only on a third-party listing).",
+   "persona": "Supply chain / logistics leader",
+   "seniority": "Head / Director",
+   "region": "DACH",
+   "breakdown": [
+    {
+     "factor": "Segment",
+     "points": 18,
+     "max": 30,
+     "why": "Manufacturing with high PO / SO volume"
+    },
+    {
+     "factor": "Function",
+     "points": 27,
+     "max": 30,
+     "why": "Supply chain / logistics leader"
+    },
+    {
+     "factor": "Seniority",
+     "points": 17,
+     "max": 20,
+     "why": "Head / Director"
+    },
+    {
+     "factor": "Region",
+     "points": 10,
+     "max": 10,
+     "why": "DACH"
+    },
+    {
+     "factor": "Evidence",
+     "points": 7,
+     "max": 10,
+     "why": "Speaker on the organiser's event page, list not dated"
+    }
+   ],
+   "reference": {
+    "id": "oatly",
+    "customer": "Oatly",
+    "story": "Scaling order intake without scaling headcount"
+   }
+  },
+  {
+   "id": "candy-wei-thieme-beiersdorf-sclt-munich-2026",
+   "kind": "person",
+   "name": "Candy Weiß-Thieme",
+   "title": "Global Supply Chain Director E-Commerce",
+   "company": "Beiersdorf",
+   "company_type": "buyer",
+   "segment": "manufacturing",
+   "country": "DE",
+   "domain": "beiersdorf.com",
+   "event_id": "sclt-munich-2026",
+   "event_name": "Supply Chain & Logistics Transformation Summit",
+   "role": "speaker",
+   "evidence_level": "speaker:organiser-undated",
+   "evidence_label": "Speaker on the organiser's event page, list not dated",
+   "evidence_strength": "medium",
+   "source_url": "https://www.key-notion.com/supply-chain-logistics-transformation-summit-munich-2026",
+   "source_label": "Organiser event page (speaker list not dated)",
+   "source_publisher": "organiser-undated",
+   "checked_on": "2026-10-16",
+   "linkedin_check": "https://www.linkedin.com/search/results/people/?keywords=Candy+Wei%C3%9F-Thieme+Beiersdorf",
+   "flags": [
+    "Confirm current title and employer on LinkedIn",
+    "Speaker list on the organiser page is not dated: confirm this person is on the 2026 agenda"
+   ],
+   "score": 79,
+   "tier": "B",
+   "tier_reason": "Good fit (manufacturing, supply chain / logistics leader), but the evidence is weaker (speaker on the organiser's event page, list not dated) and manufacturing below the A bar (below VP level, named only on a third-party listing).",
+   "persona": "Supply chain / logistics leader",
+   "seniority": "Head / Director",
+   "region": "DACH",
+   "breakdown": [
+    {
+     "factor": "Segment",
+     "points": 18,
+     "max": 30,
+     "why": "Manufacturing with high PO / SO volume"
+    },
+    {
+     "factor": "Function",
+     "points": 27,
+     "max": 30,
+     "why": "Supply chain / logistics leader"
+    },
+    {
+     "factor": "Seniority",
+     "points": 17,
+     "max": 20,
+     "why": "Head / Director"
+    },
+    {
+     "factor": "Region",
+     "points": 10,
+     "max": 10,
+     "why": "DACH"
+    },
+    {
+     "factor": "Evidence",
+     "points": 7,
+     "max": 10,
+     "why": "Speaker on the organiser's event page, list not dated"
+    }
+   ],
+   "reference": {
+    "id": "oatly",
+    "customer": "Oatly",
+    "story": "Scaling order intake without scaling headcount"
+   }
+  },
+  {
+   "id": "florian-kaesen-intel-germany-sclt-munich-2026",
+   "kind": "person",
+   "name": "Florian Kaesen",
+   "title": "Director Supply Chain",
+   "company": "Intel Germany",
+   "company_type": "buyer",
+   "segment": "manufacturing",
+   "country": "DE",
+   "domain": "intel.de",
+   "event_id": "sclt-munich-2026",
+   "event_name": "Supply Chain & Logistics Transformation Summit",
+   "role": "speaker",
+   "evidence_level": "speaker:organiser-undated",
+   "evidence_label": "Speaker on the organiser's event page, list not dated",
+   "evidence_strength": "medium",
+   "source_url": "https://www.key-notion.com/supply-chain-logistics-transformation-summit-munich-2026",
+   "source_label": "Organiser event page (speaker list not dated)",
+   "source_publisher": "organiser-undated",
+   "checked_on": "2026-10-16",
+   "linkedin_check": "https://www.linkedin.com/search/results/people/?keywords=Florian+Kaesen+Intel+Germany",
+   "flags": [
+    "Confirm current title and employer on LinkedIn",
+    "Speaker list on the organiser page is not dated: confirm this person is on the 2026 agenda"
+   ],
+   "score": 79,
+   "tier": "B",
+   "tier_reason": "Good fit (manufacturing, supply chain / logistics leader), but the evidence is weaker (speaker on the organiser's event page, list not dated) and manufacturing below the A bar (below VP level, named only on a third-party listing).",
+   "persona": "Supply chain / logistics leader",
+   "seniority": "Head / Director",
+   "region": "DACH",
+   "breakdown": [
+    {
+     "factor": "Segment",
+     "points": 18,
+     "max": 30,
+     "why": "Manufacturing with high PO / SO volume"
+    },
+    {
+     "factor": "Function",
+     "points": 27,
+     "max": 30,
+     "why": "Supply chain / logistics leader"
+    },
+    {
+     "factor": "Seniority",
+     "points": 17,
+     "max": 20,
+     "why": "Head / Director"
+    },
+    {
+     "factor": "Region",
+     "points": 10,
+     "max": 10,
+     "why": "DACH"
+    },
+    {
+     "factor": "Evidence",
+     "points": 7,
+     "max": 10,
+     "why": "Speaker on the organiser's event page, list not dated"
+    }
+   ],
+   "reference": {
+    "id": "oatly",
+    "customer": "Oatly",
+    "story": "Scaling order intake without scaling headcount"
+   }
+  },
+  {
+   "id": "immanuel-sollner-miele-sclt-munich-2026",
+   "kind": "person",
+   "name": "Immanuel Söllner",
+   "title": "Director Supply Chain Planning Southeastern Europe",
+   "company": "Miele",
+   "company_type": "buyer",
+   "segment": "manufacturing",
+   "country": "DE",
+   "domain": "miele.com",
+   "event_id": "sclt-munich-2026",
+   "event_name": "Supply Chain & Logistics Transformation Summit",
+   "role": "speaker",
+   "evidence_level": "speaker:organiser-undated",
+   "evidence_label": "Speaker on the organiser's event page, list not dated",
+   "evidence_strength": "medium",
+   "source_url": "https://www.key-notion.com/supply-chain-logistics-transformation-summit-munich-2026",
+   "source_label": "Organiser event page (speaker list not dated)",
+   "source_publisher": "organiser-undated",
+   "checked_on": "2026-10-16",
+   "linkedin_check": "https://www.linkedin.com/search/results/people/?keywords=Immanuel+S%C3%B6llner+Miele",
+   "flags": [
+    "Confirm current title and employer on LinkedIn",
+    "Speaker list on the organiser page is not dated: confirm this person is on the 2026 agenda"
+   ],
+   "score": 79,
+   "tier": "B",
+   "tier_reason": "Good fit (manufacturing, supply chain / logistics leader), but the evidence is weaker (speaker on the organiser's event page, list not dated) and manufacturing below the A bar (below VP level, named only on a third-party listing).",
+   "persona": "Supply chain / logistics leader",
+   "seniority": "Head / Director",
+   "region": "DACH",
+   "breakdown": [
+    {
+     "factor": "Segment",
+     "points": 18,
+     "max": 30,
+     "why": "Manufacturing with high PO / SO volume"
+    },
+    {
+     "factor": "Function",
+     "points": 27,
+     "max": 30,
+     "why": "Supply chain / logistics leader"
+    },
+    {
+     "factor": "Seniority",
+     "points": 17,
+     "max": 20,
+     "why": "Head / Director"
+    },
+    {
+     "factor": "Region",
+     "points": 10,
+     "max": 10,
+     "why": "DACH"
+    },
+    {
+     "factor": "Evidence",
+     "points": 7,
+     "max": 10,
+     "why": "Speaker on the organiser's event page, list not dated"
+    }
+   ],
+   "reference": {
+    "id": "oatly",
+    "customer": "Oatly",
+    "story": "Scaling order intake without scaling headcount"
+   }
+  },
+  {
+   "id": "jan-hinrich-brumloop-blg-logistics-bvl-cx-2026",
+   "kind": "person",
+   "name": "Jan-Hinrich Brumloop",
+   "title": "Head of Technology & Innovation",
+   "company": "BLG LOGISTICS",
+   "company_type": "buyer",
+   "segment": "logistics",
+   "country": "DE",
+   "domain": "blg-logistics.com",
+   "event_id": "bvl-cx-2026",
+   "event_name": "BVL Supply Chain CX 2026",
    "role": "speaker",
    "evidence_level": "speaker:organiser",
    "evidence_label": "Speaker, named by the organiser",
    "evidence_strength": "strong",
-   "source_url": "https://www.key-notion.com/supply-chain-logistics-transformation-summit-munich-2026",
-   "source_label": "Summit speaker list (organiser)",
+   "source_url": "https://cx.bvl.de/en/speaker",
+   "source_label": "BVL Supply Chain CX 2026 speaker page (organiser)",
    "source_publisher": "organiser",
    "checked_on": "2026-10-16",
-   "linkedin_check": "https://www.linkedin.com/search/results/people/?keywords=Pavel+Sinelnik+Electrolux+Group",
+   "linkedin_check": "https://www.linkedin.com/search/results/people/?keywords=Jan-Hinrich+Brumloop+BLG+LOGISTICS",
+   "flags": [
+    "Confirm current title and employer on LinkedIn"
+   ],
+   "score": 79,
+   "tier": "B",
+   "tier_reason": "Good fit (logistics, transformation / digital lead), but the role is adjacent (transformation / digital lead).",
+   "persona": "Transformation / digital lead",
+   "seniority": "Head / Director",
+   "region": "DACH",
+   "breakdown": [
+    {
+     "factor": "Segment",
+     "points": 21,
+     "max": 30,
+     "why": "Logistics and fleet-heavy operations (bofrost* fleet story)"
+    },
+    {
+     "factor": "Function",
+     "points": 21,
+     "max": 30,
+     "why": "Transformation / digital lead"
+    },
+    {
+     "factor": "Seniority",
+     "points": 17,
+     "max": 20,
+     "why": "Head / Director"
+    },
+    {
+     "factor": "Region",
+     "points": 10,
+     "max": 10,
+     "why": "DACH"
+    },
+    {
+     "factor": "Evidence",
+     "points": 10,
+     "max": 10,
+     "why": "Speaker, named by the organiser"
+    }
+   ],
+   "reference": {
+    "id": "kloeckner",
+    "customer": "Kloeckner Metals",
+    "story": "Supplier order confirmations on autopilot"
+   }
+  },
+  {
+   "id": "markus-bangen-duisport-bvl-cx-2026",
+   "kind": "person",
+   "name": "Markus Bangen",
+   "title": "CEO",
+   "company": "duisport",
+   "company_type": "buyer",
+   "segment": "logistics",
+   "country": "DE",
+   "domain": "duisport.de",
+   "event_id": "bvl-cx-2026",
+   "event_name": "BVL Supply Chain CX 2026",
+   "role": "speaker",
+   "evidence_level": "speaker:organiser",
+   "evidence_label": "Speaker, named by the organiser",
+   "evidence_strength": "strong",
+   "source_url": "https://cx.bvl.de/en/speaker",
+   "source_label": "BVL Supply Chain CX 2026 speaker page (organiser)",
+   "source_publisher": "organiser",
+   "checked_on": "2026-10-16",
+   "linkedin_check": "https://www.linkedin.com/search/results/people/?keywords=Markus+Bangen+duisport",
+   "flags": [
+    "Confirm current title and employer on LinkedIn"
+   ],
+   "score": 79,
+   "tier": "B",
+   "tier_reason": "Good fit (logistics, executive sponsor), but the role is adjacent (executive sponsor).",
+   "persona": "Executive sponsor",
+   "seniority": "C-level / VP",
+   "region": "DACH",
+   "breakdown": [
+    {
+     "factor": "Segment",
+     "points": 21,
+     "max": 30,
+     "why": "Logistics and fleet-heavy operations (bofrost* fleet story)"
+    },
+    {
+     "factor": "Function",
+     "points": 18,
+     "max": 30,
+     "why": "Executive sponsor"
+    },
+    {
+     "factor": "Seniority",
+     "points": 20,
+     "max": 20,
+     "why": "C-level / VP"
+    },
+    {
+     "factor": "Region",
+     "points": 10,
+     "max": 10,
+     "why": "DACH"
+    },
+    {
+     "factor": "Evidence",
+     "points": 10,
+     "max": 10,
+     "why": "Speaker, named by the organiser"
+    }
+   ],
+   "reference": {
+    "id": "oatly",
+    "customer": "Oatly",
+    "story": "Scaling order intake without scaling headcount"
+   }
+  },
+  {
+   "id": "martin-bohmer-ssi-schafer-bvl-cx-2026",
+   "kind": "person",
+   "name": "Martin Böhmer",
+   "title": "VP Global Technology",
+   "company": "SSI SCHÄFER",
+   "company_type": "buyer",
+   "segment": "manufacturing",
+   "country": "DE",
+   "domain": "ssi-schaefer.com",
+   "event_id": "bvl-cx-2026",
+   "event_name": "BVL Supply Chain CX 2026",
+   "role": "speaker",
+   "evidence_level": "speaker:organiser",
+   "evidence_label": "Speaker, named by the organiser",
+   "evidence_strength": "strong",
+   "source_url": "https://cx.bvl.de/en/speaker",
+   "source_label": "BVL Supply Chain CX 2026 speaker page (organiser)",
+   "source_publisher": "organiser",
+   "checked_on": "2026-10-16",
+   "linkedin_check": "https://www.linkedin.com/search/results/people/?keywords=Martin+B%C3%B6hmer+SSI+SCH%C3%84FER",
+   "flags": [
+    "Confirm current title and employer on LinkedIn"
+   ],
+   "score": 79,
+   "tier": "B",
+   "tier_reason": "Good fit (manufacturing, transformation / digital lead), but the role is adjacent (transformation / digital lead).",
+   "persona": "Transformation / digital lead",
+   "seniority": "C-level / VP",
+   "region": "DACH",
+   "breakdown": [
+    {
+     "factor": "Segment",
+     "points": 18,
+     "max": 30,
+     "why": "Manufacturing with high PO / SO volume"
+    },
+    {
+     "factor": "Function",
+     "points": 21,
+     "max": 30,
+     "why": "Transformation / digital lead"
+    },
+    {
+     "factor": "Seniority",
+     "points": 20,
+     "max": 20,
+     "why": "C-level / VP"
+    },
+    {
+     "factor": "Region",
+     "points": 10,
+     "max": 10,
+     "why": "DACH"
+    },
+    {
+     "factor": "Evidence",
+     "points": 10,
+     "max": 10,
+     "why": "Speaker, named by the organiser"
+    }
+   ],
+   "reference": {
+    "id": "kloeckner",
+    "customer": "Kloeckner Metals",
+    "story": "Supplier order confirmations on autopilot"
+   }
+  },
+  {
+   "id": "igor-perzel-autodoc-bvl-cx-2026",
+   "kind": "person",
+   "name": "Igor Perzel",
+   "title": "Director Operations",
+   "company": "Autodoc",
+   "company_type": "buyer",
+   "segment": "retail",
+   "country": "DE",
+   "domain": "autodoc.de",
+   "event_id": "bvl-cx-2026",
+   "event_name": "BVL Supply Chain CX 2026",
+   "role": "speaker",
+   "evidence_level": "speaker:organiser",
+   "evidence_label": "Speaker, named by the organiser",
+   "evidence_strength": "strong",
+   "source_url": "https://cx.bvl.de/en/speaker",
+   "source_label": "BVL Supply Chain CX 2026 speaker page (organiser)",
+   "source_publisher": "organiser",
+   "checked_on": "2026-10-16",
+   "linkedin_check": "https://www.linkedin.com/search/results/people/?keywords=Igor+Perzel+Autodoc",
+   "flags": [
+    "Confirm current title and employer on LinkedIn"
+   ],
+   "score": 78,
+   "tier": "B",
+   "tier_reason": "Relevant supply chain / logistics leader, but retail is an adjacent segment.",
+   "persona": "Supply chain / logistics leader",
+   "seniority": "Head / Director",
+   "region": "DACH",
+   "breakdown": [
+    {
+     "factor": "Segment",
+     "points": 14,
+     "max": 30,
+     "why": "Retail: replenishment-heavy, adjacent fit"
+    },
+    {
+     "factor": "Function",
+     "points": 27,
+     "max": 30,
+     "why": "Supply chain / logistics leader"
+    },
+    {
+     "factor": "Seniority",
+     "points": 17,
+     "max": 20,
+     "why": "Head / Director"
+    },
+    {
+     "factor": "Region",
+     "points": 10,
+     "max": 10,
+     "why": "DACH"
+    },
+    {
+     "factor": "Evidence",
+     "points": 10,
+     "max": 10,
+     "why": "Speaker, named by the organiser"
+    }
+   ],
+   "reference": {
+    "id": "oatly",
+    "customer": "Oatly",
+    "story": "Scaling order intake without scaling headcount"
+   }
+  },
+  {
+   "id": "sandrine-torandell-l-oreal-emsc-2026",
+   "kind": "person",
+   "name": "Sandrine Torandell",
+   "title": "Operations Director",
+   "company": "L'Oréal",
+   "company_type": "buyer",
+   "segment": "manufacturing",
+   "country": "FR",
+   "domain": "loreal.com",
+   "event_id": "emsc-2026",
+   "event_name": "European Manufacturing & Supply Chain Summit",
+   "role": "speaker",
+   "evidence_level": "speaker:organiser",
+   "evidence_label": "Speaker, named by the organiser",
+   "evidence_strength": "strong",
+   "source_url": "https://ems-scms.com/live/en/page/home",
+   "source_label": "Summit organiser page (speakers sneak peek)",
+   "source_publisher": "organiser",
+   "checked_on": "2026-10-16",
+   "linkedin_check": "https://www.linkedin.com/search/results/people/?keywords=Sandrine+Torandell+L%27Or%C3%A9al",
    "flags": [
     "Confirm current title and employer on LinkedIn"
    ],
@@ -4024,7 +3952,7 @@
      "factor": "Segment",
      "points": 18,
      "max": 30,
-     "why": "Manufacturing with high PO / SO volume (TMD Friction is a customer)"
+     "why": "Manufacturing with high PO / SO volume"
     },
     {
      "factor": "Function",
@@ -4052,9 +3980,9 @@
     }
    ],
    "reference": {
-    "id": "tmd",
-    "customer": "TMD Friction",
-    "story": "Manufacturing customer featured on GeneralMind's case-study page"
+    "id": "oatly",
+    "customer": "Oatly",
+    "story": "Scaling order intake without scaling headcount"
    }
   },
   {
@@ -4126,283 +4054,6 @@
    }
   },
   {
-   "id": "jan-hinrich-brumloop-blg-logistics-bvl-cx-2026",
-   "kind": "person",
-   "name": "Jan-Hinrich Brumloop",
-   "title": "Head of Technology & Innovation",
-   "company": "BLG LOGISTICS",
-   "company_type": "buyer",
-   "segment": "logistics",
-   "country": "DE",
-   "domain": "blg-logistics.com",
-   "event_id": "bvl-cx-2026",
-   "event_name": "BVL Supply Chain CX 2026",
-   "role": "speaker",
-   "evidence_level": "speaker:third-party",
-   "evidence_label": "Speaker, named on a third-party listing of the programme",
-   "evidence_strength": "strong",
-   "source_url": "https://www.luminik.io/events/bvl-supply-chain-cx-berlin-f1773cb8328b/attendees/",
-   "source_label": "Third-party listing of BVL speakers and sponsors",
-   "source_publisher": "third-party",
-   "checked_on": "2026-10-16",
-   "linkedin_check": "https://www.linkedin.com/search/results/people/?keywords=Jan-Hinrich+Brumloop+BLG+LOGISTICS",
-   "flags": [
-    "Confirm current title and employer on LinkedIn",
-    "Source is a third-party listing: confirm on the organiser's agenda"
-   ],
-   "score": 77,
-   "tier": "B",
-   "tier_reason": "Good fit (logistics, transformation / digital lead), but the role is adjacent (transformation / digital lead).",
-   "persona": "Transformation / digital lead",
-   "seniority": "Head / Director",
-   "region": "DACH",
-   "breakdown": [
-    {
-     "factor": "Segment",
-     "points": 21,
-     "max": 30,
-     "why": "Logistics provider (Müller – Die Lila Logistik is a customer)"
-    },
-    {
-     "factor": "Function",
-     "points": 21,
-     "max": 30,
-     "why": "Transformation / digital lead"
-    },
-    {
-     "factor": "Seniority",
-     "points": 17,
-     "max": 20,
-     "why": "Head / Director"
-    },
-    {
-     "factor": "Region",
-     "points": 10,
-     "max": 10,
-     "why": "DACH"
-    },
-    {
-     "factor": "Evidence",
-     "points": 8,
-     "max": 10,
-     "why": "Speaker, named on a third-party listing of the programme"
-    }
-   ],
-   "reference": {
-    "id": "tmd",
-    "customer": "TMD Friction",
-    "story": "Manufacturing customer featured on GeneralMind's case-study page"
-   }
-  },
-  {
-   "id": "martin-bohmer-ssi-schafer-bvl-cx-2026",
-   "kind": "person",
-   "name": "Martin Böhmer",
-   "title": "VP Global Technology",
-   "company": "SSI SCHÄFER",
-   "company_type": "buyer",
-   "segment": "manufacturing",
-   "country": "DE",
-   "domain": "ssi-schaefer.com",
-   "event_id": "bvl-cx-2026",
-   "event_name": "BVL Supply Chain CX 2026",
-   "role": "speaker",
-   "evidence_level": "speaker:third-party",
-   "evidence_label": "Speaker, named on a third-party listing of the programme",
-   "evidence_strength": "strong",
-   "source_url": "https://www.luminik.io/events/bvl-supply-chain-cx-berlin-f1773cb8328b/attendees/",
-   "source_label": "Third-party listing of BVL speakers and sponsors",
-   "source_publisher": "third-party",
-   "checked_on": "2026-10-16",
-   "linkedin_check": "https://www.linkedin.com/search/results/people/?keywords=Martin+B%C3%B6hmer+SSI+SCH%C3%84FER",
-   "flags": [
-    "Confirm current title and employer on LinkedIn",
-    "Source is a third-party listing: confirm on the organiser's agenda"
-   ],
-   "score": 77,
-   "tier": "B",
-   "tier_reason": "Good fit (manufacturing, transformation / digital lead), but the role is adjacent (transformation / digital lead).",
-   "persona": "Transformation / digital lead",
-   "seniority": "C-level / VP",
-   "region": "DACH",
-   "breakdown": [
-    {
-     "factor": "Segment",
-     "points": 18,
-     "max": 30,
-     "why": "Manufacturing with high PO / SO volume (TMD Friction is a customer)"
-    },
-    {
-     "factor": "Function",
-     "points": 21,
-     "max": 30,
-     "why": "Transformation / digital lead"
-    },
-    {
-     "factor": "Seniority",
-     "points": 20,
-     "max": 20,
-     "why": "C-level / VP"
-    },
-    {
-     "factor": "Region",
-     "points": 10,
-     "max": 10,
-     "why": "DACH"
-    },
-    {
-     "factor": "Evidence",
-     "points": 8,
-     "max": 10,
-     "why": "Speaker, named on a third-party listing of the programme"
-    }
-   ],
-   "reference": {
-    "id": "tmd",
-    "customer": "TMD Friction",
-    "story": "Manufacturing customer featured on GeneralMind's case-study page"
-   }
-  },
-  {
-   "id": "ewald-raben-raben-group-epsce-2027",
-   "kind": "person",
-   "name": "Ewald Raben",
-   "title": "CEO",
-   "company": "Raben Group",
-   "company_type": "buyer",
-   "segment": "logistics",
-   "country": "NL",
-   "domain": "raben-group.com",
-   "event_id": "epsce-2027",
-   "event_name": "European Procurement & Supply Chain Excellence Summit",
-   "role": "speaker",
-   "evidence_level": "speaker:organiser",
-   "evidence_label": "Speaker, named by the organiser",
-   "evidence_strength": "strong",
-   "source_url": "https://www.bme.de/veranstaltungen/grossveranstaltungen/european-procurement-supply-chain-excellence-summit/summit-speakers/",
-   "source_label": "BME EP&SCE speaker page",
-   "source_publisher": "organiser",
-   "checked_on": "2026-10-16",
-   "linkedin_check": "https://www.linkedin.com/search/results/people/?keywords=Ewald+Raben+Raben+Group",
-   "flags": [
-    "Confirm current title and employer on LinkedIn"
-   ],
-   "score": 75,
-   "tier": "B",
-   "tier_reason": "Good fit (logistics, executive sponsor), but the role is adjacent (executive sponsor).",
-   "persona": "Executive sponsor",
-   "seniority": "C-level / VP",
-   "region": "Europe",
-   "breakdown": [
-    {
-     "factor": "Segment",
-     "points": 21,
-     "max": 30,
-     "why": "Logistics provider (Müller – Die Lila Logistik is a customer)"
-    },
-    {
-     "factor": "Function",
-     "points": 18,
-     "max": 30,
-     "why": "Executive sponsor"
-    },
-    {
-     "factor": "Seniority",
-     "points": 20,
-     "max": 20,
-     "why": "C-level / VP"
-    },
-    {
-     "factor": "Region",
-     "points": 6,
-     "max": 10,
-     "why": "Europe"
-    },
-    {
-     "factor": "Evidence",
-     "points": 10,
-     "max": 10,
-     "why": "Speaker, named by the organiser"
-    }
-   ],
-   "reference": {
-    "id": "oatly",
-    "customer": "Oatly",
-    "story": "Scaling order intake without scaling headcount"
-   }
-  },
-  {
-   "id": "arjun-varma-apollo-tyres-sclt-munich-2026",
-   "kind": "person",
-   "name": "Arjun Varma",
-   "title": "Group Head – Supply Chain Strategy & Transformation",
-   "company": "Apollo Tyres",
-   "company_type": "buyer",
-   "segment": "manufacturing",
-   "country": "IN",
-   "domain": "apollotyres.com",
-   "event_id": "sclt-munich-2026",
-   "event_name": "Supply Chain & Logistics Transformation Summit",
-   "role": "speaker",
-   "evidence_level": "speaker:organiser",
-   "evidence_label": "Speaker, named by the organiser",
-   "evidence_strength": "strong",
-   "source_url": "https://www.key-notion.com/supply-chain-logistics-transformation-summit-munich-2026",
-   "source_label": "Summit speaker list (organiser)",
-   "source_publisher": "organiser",
-   "checked_on": "2026-10-16",
-   "linkedin_check": "https://www.linkedin.com/search/results/people/?keywords=Arjun+Varma+Apollo+Tyres",
-   "flags": [
-    "Confirm current title and employer on LinkedIn"
-   ],
-   "score": 74,
-   "tier": "B",
-   "tier_reason": "Good fit (manufacturing, supply chain / logistics leader), but manufacturing below the A bar (below VP level, outside DACH).",
-   "persona": "Supply chain / logistics leader",
-   "seniority": "Head / Director",
-   "region": "Other",
-   "breakdown": [
-    {
-     "factor": "Segment",
-     "points": 18,
-     "max": 30,
-     "why": "Manufacturing with high PO / SO volume (TMD Friction is a customer)"
-    },
-    {
-     "factor": "Function",
-     "points": 27,
-     "max": 30,
-     "why": "Supply chain / logistics leader"
-    },
-    {
-     "factor": "Seniority",
-     "points": 17,
-     "max": 20,
-     "why": "Head / Director"
-    },
-    {
-     "factor": "Region",
-     "points": 2,
-     "max": 10,
-     "why": "Other"
-    },
-    {
-     "factor": "Evidence",
-     "points": 10,
-     "max": 10,
-     "why": "Speaker, named by the organiser"
-    }
-   ],
-   "reference": {
-    "id": "tmd",
-    "customer": "TMD Friction",
-    "story": "Manufacturing customer featured on GeneralMind's case-study page"
-   },
-   "also_at": [
-    "BME Symposium Einkauf & Logistik"
-   ]
-  },
-  {
    "id": "tobias-harzer-jungheinrich-bvl-cx-2026",
    "kind": "person",
    "name": "Tobias Harzer",
@@ -4415,19 +4066,18 @@
    "event_id": "bvl-cx-2026",
    "event_name": "BVL Supply Chain CX 2026",
    "role": "speaker",
-   "evidence_level": "speaker:third-party",
-   "evidence_label": "Speaker, named on a third-party listing of the programme",
+   "evidence_level": "speaker:organiser",
+   "evidence_label": "Speaker, named by the organiser",
    "evidence_strength": "strong",
-   "source_url": "https://www.luminik.io/events/bvl-supply-chain-cx-berlin-f1773cb8328b/attendees/",
-   "source_label": "Third-party listing of BVL speakers and sponsors",
-   "source_publisher": "third-party",
+   "source_url": "https://cx.bvl.de/en/speaker",
+   "source_label": "BVL Supply Chain CX 2026 speaker page (organiser)",
+   "source_publisher": "organiser",
    "checked_on": "2026-10-16",
    "linkedin_check": "https://www.linkedin.com/search/results/people/?keywords=Tobias+Harzer+Jungheinrich",
    "flags": [
-    "Confirm current title and employer on LinkedIn",
-    "Source is a third-party listing: confirm on the organiser's agenda"
+    "Confirm current title and employer on LinkedIn"
    ],
-   "score": 74,
+   "score": 76,
    "tier": "B",
    "tier_reason": "Good fit (manufacturing, executive sponsor), but the role is adjacent (executive sponsor).",
    "persona": "Executive sponsor",
@@ -4438,7 +4088,7 @@
      "factor": "Segment",
      "points": 18,
      "max": 30,
-     "why": "Manufacturing with high PO / SO volume (TMD Friction is a customer)"
+     "why": "Manufacturing with high PO / SO volume"
     },
     {
      "factor": "Function",
@@ -4460,9 +4110,9 @@
     },
     {
      "factor": "Evidence",
-     "points": 8,
+     "points": 10,
      "max": 10,
-     "why": "Speaker, named on a third-party listing of the programme"
+     "why": "Speaker, named by the organiser"
     }
    ],
    "reference": {
@@ -4472,41 +4122,42 @@
    }
   },
   {
-   "id": "guilherme-pereira-ingredion-sclt-munich-2026",
+   "id": "pavel-sinelnik-electrolux-group-sclt-munich-2026",
    "kind": "person",
-   "name": "Guilherme Pereira",
-   "title": "Global Principal, Digital Technology Solutions – Supply Chain & Operations",
-   "company": "Ingredion",
+   "name": "Pavel Sinelnik",
+   "title": "D2C Supply Chain Development Director",
+   "company": "Electrolux Group",
    "company_type": "buyer",
-   "segment": "food",
-   "country": "US",
-   "domain": "ingredion.com",
+   "segment": "manufacturing",
+   "country": "SE",
+   "domain": "electroluxgroup.com",
    "event_id": "sclt-munich-2026",
    "event_name": "Supply Chain & Logistics Transformation Summit",
    "role": "speaker",
-   "evidence_level": "speaker:organiser",
-   "evidence_label": "Speaker, named by the organiser",
-   "evidence_strength": "strong",
+   "evidence_level": "speaker:organiser-undated",
+   "evidence_label": "Speaker on the organiser's event page, list not dated",
+   "evidence_strength": "medium",
    "source_url": "https://www.key-notion.com/supply-chain-logistics-transformation-summit-munich-2026",
-   "source_label": "Summit speaker list (organiser)",
-   "source_publisher": "organiser",
+   "source_label": "Organiser event page (speaker list not dated)",
+   "source_publisher": "organiser-undated",
    "checked_on": "2026-10-16",
-   "linkedin_check": "https://www.linkedin.com/search/results/people/?keywords=Guilherme+Pereira+Ingredion",
+   "linkedin_check": "https://www.linkedin.com/search/results/people/?keywords=Pavel+Sinelnik+Electrolux+Group",
    "flags": [
-    "Confirm current title and employer on LinkedIn"
+    "Confirm current title and employer on LinkedIn",
+    "Speaker list on the organiser page is not dated: confirm this person is on the 2026 agenda"
    ],
-   "score": 73,
+   "score": 75,
    "tier": "B",
-   "tier_reason": "Good fit (food & beverage, supply chain / logistics leader), but the role is relevant but individual contributor.",
+   "tier_reason": "Good fit (manufacturing, supply chain / logistics leader), but the evidence is weaker (speaker on the organiser's event page, list not dated) and manufacturing below the A bar (below VP level, outside DACH, named only on a third-party listing).",
    "persona": "Supply chain / logistics leader",
-   "seniority": "Individual contributor",
-   "region": "Other",
+   "seniority": "Head / Director",
+   "region": "Europe",
    "breakdown": [
     {
      "factor": "Segment",
-     "points": 30,
+     "points": 18,
      "max": 30,
-     "why": "Food & beverage (Oatly, bofrost* lookalike)"
+     "why": "Manufacturing with high PO / SO volume"
     },
     {
      "factor": "Function",
@@ -4516,15 +4167,83 @@
     },
     {
      "factor": "Seniority",
-     "points": 4,
+     "points": 17,
      "max": 20,
-     "why": "Individual contributor"
+     "why": "Head / Director"
     },
     {
      "factor": "Region",
-     "points": 2,
+     "points": 6,
      "max": 10,
-     "why": "Other"
+     "why": "Europe"
+    },
+    {
+     "factor": "Evidence",
+     "points": 7,
+     "max": 10,
+     "why": "Speaker on the organiser's event page, list not dated"
+    }
+   ],
+   "reference": {
+    "id": "oatly",
+    "customer": "Oatly",
+    "story": "Scaling order intake without scaling headcount"
+   }
+  },
+  {
+   "id": "julien-wei-ikea-bvl-cx-2026",
+   "kind": "person",
+   "name": "Julien Weiß",
+   "title": "Automation & Design Leader, IKEA Intralogistics Development",
+   "company": "IKEA",
+   "company_type": "buyer",
+   "segment": "retail",
+   "country": "SE",
+   "domain": "ikea.com",
+   "event_id": "bvl-cx-2026",
+   "event_name": "BVL Supply Chain CX 2026",
+   "role": "speaker",
+   "evidence_level": "speaker:organiser",
+   "evidence_label": "Speaker, named by the organiser",
+   "evidence_strength": "strong",
+   "source_url": "https://cx.bvl.de/en/speaker",
+   "source_label": "BVL Supply Chain CX 2026 speaker page (organiser)",
+   "source_publisher": "organiser",
+   "checked_on": "2026-10-16",
+   "linkedin_check": "https://www.linkedin.com/search/results/people/?keywords=Julien+Wei%C3%9F+IKEA",
+   "flags": [
+    "Confirm current title and employer on LinkedIn"
+   ],
+   "score": 74,
+   "tier": "B",
+   "tier_reason": "Relevant supply chain / logistics leader, but retail is an adjacent segment.",
+   "persona": "Supply chain / logistics leader",
+   "seniority": "Head / Director",
+   "region": "Europe",
+   "breakdown": [
+    {
+     "factor": "Segment",
+     "points": 14,
+     "max": 30,
+     "why": "Retail: replenishment-heavy, adjacent fit"
+    },
+    {
+     "factor": "Function",
+     "points": 27,
+     "max": 30,
+     "why": "Supply chain / logistics leader"
+    },
+    {
+     "factor": "Seniority",
+     "points": 17,
+     "max": 20,
+     "why": "Head / Director"
+    },
+    {
+     "factor": "Region",
+     "points": 6,
+     "max": 10,
+     "why": "Europe"
     },
     {
      "factor": "Evidence",
@@ -4574,7 +4293,7 @@
      "factor": "Segment",
      "points": 18,
      "max": 30,
-     "why": "Manufacturing with high PO / SO volume (TMD Friction is a customer)"
+     "why": "Manufacturing with high PO / SO volume"
     },
     {
      "factor": "Function",
@@ -4608,47 +4327,120 @@
    }
   },
   {
-   "id": "yannick-weibring-flender-epsce-2027",
+   "id": "arjun-varma-apollo-tyres-sclt-munich-2026",
    "kind": "person",
-   "name": "Yannick Weibring",
-   "title": "Procurement Functional Excellence",
-   "company": "Flender",
+   "name": "Arjun Varma",
+   "title": "Group Head – Supply Chain Strategy & Transformation",
+   "company": "Apollo Tyres",
    "company_type": "buyer",
    "segment": "manufacturing",
-   "country": "DE",
-   "domain": "flender.com",
-   "event_id": "epsce-2027",
-   "event_name": "European Procurement & Supply Chain Excellence Summit",
+   "country": "IN",
+   "domain": "apollotyres.com",
+   "event_id": "sclt-munich-2026",
+   "event_name": "Supply Chain & Logistics Transformation Summit",
    "role": "speaker",
-   "evidence_level": "speaker:organiser",
-   "evidence_label": "Speaker, named by the organiser",
-   "evidence_strength": "strong",
-   "source_url": "https://www.bme.de/veranstaltungen/grossveranstaltungen/european-procurement-supply-chain-excellence-summit/summit-speakers/",
-   "source_label": "BME EP&SCE speaker page",
-   "source_publisher": "organiser",
+   "evidence_level": "speaker:organiser-undated",
+   "evidence_label": "Speaker on the organiser's event page, list not dated",
+   "evidence_strength": "medium",
+   "source_url": "https://www.key-notion.com/supply-chain-logistics-transformation-summit-munich-2026",
+   "source_label": "Organiser event page (speaker list not dated)",
+   "source_publisher": "organiser-undated",
    "checked_on": "2026-10-16",
-   "linkedin_check": "https://www.linkedin.com/search/results/people/?keywords=Yannick+Weibring+Flender",
+   "linkedin_check": "https://www.linkedin.com/search/results/people/?keywords=Arjun+Varma+Apollo+Tyres",
    "flags": [
-    "Confirm current title and employer on LinkedIn"
+    "Confirm current title and employer on LinkedIn",
+    "Speaker list on the organiser page is not dated: confirm this person is on the 2026 agenda"
    ],
-   "score": 72,
+   "score": 71,
    "tier": "B",
-   "tier_reason": "Good fit (manufacturing, procure-to-pay owner), but the role is relevant but individual contributor.",
-   "persona": "Procure-to-Pay owner",
-   "seniority": "Individual contributor",
-   "region": "DACH",
+   "tier_reason": "Good fit (manufacturing, supply chain / logistics leader), but the evidence is weaker (speaker on the organiser's event page, list not dated) and manufacturing below the A bar (below VP level, outside DACH, named only on a third-party listing).",
+   "persona": "Supply chain / logistics leader",
+   "seniority": "Head / Director",
+   "region": "Other",
    "breakdown": [
     {
      "factor": "Segment",
      "points": 18,
      "max": 30,
-     "why": "Manufacturing with high PO / SO volume (TMD Friction is a customer)"
+     "why": "Manufacturing with high PO / SO volume"
     },
     {
      "factor": "Function",
+     "points": 27,
+     "max": 30,
+     "why": "Supply chain / logistics leader"
+    },
+    {
+     "factor": "Seniority",
+     "points": 17,
+     "max": 20,
+     "why": "Head / Director"
+    },
+    {
+     "factor": "Region",
+     "points": 2,
+     "max": 10,
+     "why": "Other"
+    },
+    {
+     "factor": "Evidence",
+     "points": 7,
+     "max": 10,
+     "why": "Speaker on the organiser's event page, list not dated"
+    }
+   ],
+   "reference": {
+    "id": "oatly",
+    "customer": "Oatly",
+    "story": "Scaling order intake without scaling headcount"
+   },
+   "also_at": [
+    "BME Symposium Einkauf & Logistik"
+   ]
+  },
+  {
+   "id": "guilherme-pereira-ingredion-sclt-munich-2026",
+   "kind": "person",
+   "name": "Guilherme Pereira",
+   "title": "Global Principal, Digital Technology Solutions – Supply Chain & Operations",
+   "company": "Ingredion",
+   "company_type": "buyer",
+   "segment": "food",
+   "country": "US",
+   "domain": "ingredion.com",
+   "event_id": "sclt-munich-2026",
+   "event_name": "Supply Chain & Logistics Transformation Summit",
+   "role": "speaker",
+   "evidence_level": "speaker:organiser-undated",
+   "evidence_label": "Speaker on the organiser's event page, list not dated",
+   "evidence_strength": "medium",
+   "source_url": "https://www.key-notion.com/supply-chain-logistics-transformation-summit-munich-2026",
+   "source_label": "Organiser event page (speaker list not dated)",
+   "source_publisher": "organiser-undated",
+   "checked_on": "2026-10-16",
+   "linkedin_check": "https://www.linkedin.com/search/results/people/?keywords=Guilherme+Pereira+Ingredion",
+   "flags": [
+    "Confirm current title and employer on LinkedIn",
+    "Speaker list on the organiser page is not dated: confirm this person is on the 2026 agenda"
+   ],
+   "score": 70,
+   "tier": "B",
+   "tier_reason": "Good fit (food & beverage, supply chain / logistics leader), but the evidence is weaker (speaker on the organiser's event page, list not dated) and the role is relevant but individual contributor.",
+   "persona": "Supply chain / logistics leader",
+   "seniority": "Individual contributor",
+   "region": "Other",
+   "breakdown": [
+    {
+     "factor": "Segment",
      "points": 30,
      "max": 30,
-     "why": "Procure-to-Pay owner"
+     "why": "Food & beverage (Oatly, bofrost* lookalike)"
+    },
+    {
+     "factor": "Function",
+     "points": 27,
+     "max": 30,
+     "why": "Supply chain / logistics leader"
     },
     {
      "factor": "Seniority",
@@ -4658,21 +4450,21 @@
     },
     {
      "factor": "Region",
-     "points": 10,
+     "points": 2,
      "max": 10,
-     "why": "DACH"
+     "why": "Other"
     },
     {
      "factor": "Evidence",
-     "points": 10,
+     "points": 7,
      "max": 10,
-     "why": "Speaker, named by the organiser"
+     "why": "Speaker on the organiser's event page, list not dated"
     }
    ],
    "reference": {
-    "id": "kloeckner",
-    "customer": "Kloeckner Metals",
-    "story": "Supplier order confirmations on autopilot"
+    "id": "oatly",
+    "customer": "Oatly",
+    "story": "Scaling order intake without scaling headcount"
    }
   },
   {
@@ -4688,20 +4480,21 @@
    "event_id": "sclt-munich-2026",
    "event_name": "Supply Chain & Logistics Transformation Summit",
    "role": "speaker",
-   "evidence_level": "speaker:organiser",
-   "evidence_label": "Speaker, named by the organiser",
-   "evidence_strength": "strong",
+   "evidence_level": "speaker:organiser-undated",
+   "evidence_label": "Speaker on the organiser's event page, list not dated",
+   "evidence_strength": "medium",
    "source_url": "https://www.key-notion.com/supply-chain-logistics-transformation-summit-munich-2026",
-   "source_label": "Summit speaker list (organiser)",
-   "source_publisher": "organiser",
+   "source_label": "Organiser event page (speaker list not dated)",
+   "source_publisher": "organiser-undated",
    "checked_on": "2026-10-16",
    "linkedin_check": "https://www.linkedin.com/search/results/people/?keywords=Ashish+Chandra+Saxena+Boehringer+Ingelheim",
    "flags": [
-    "Confirm current title and employer on LinkedIn"
+    "Confirm current title and employer on LinkedIn",
+    "Speaker list on the organiser page is not dated: confirm this person is on the 2026 agenda"
    ],
-   "score": 69,
+   "score": 66,
    "tier": "B",
-   "tier_reason": "Good fit (manufacturing, supply chain / logistics leader), but the role is relevant but individual contributor.",
+   "tier_reason": "Good fit (manufacturing, supply chain / logistics leader), but the evidence is weaker (speaker on the organiser's event page, list not dated) and the role is relevant but individual contributor.",
    "persona": "Supply chain / logistics leader",
    "seniority": "Individual contributor",
    "region": "DACH",
@@ -4710,7 +4503,7 @@
      "factor": "Segment",
      "points": 18,
      "max": 30,
-     "why": "Manufacturing with high PO / SO volume (TMD Friction is a customer)"
+     "why": "Manufacturing with high PO / SO volume"
     },
     {
      "factor": "Function",
@@ -4732,15 +4525,15 @@
     },
     {
      "factor": "Evidence",
-     "points": 10,
+     "points": 7,
      "max": 10,
-     "why": "Speaker, named by the organiser"
+     "why": "Speaker on the organiser's event page, list not dated"
     }
    ],
    "reference": {
-    "id": "tmd",
-    "customer": "TMD Friction",
-    "story": "Manufacturing customer featured on GeneralMind's case-study page"
+    "id": "oatly",
+    "customer": "Oatly",
+    "story": "Scaling order intake without scaling headcount"
    }
   },
   {
@@ -4756,19 +4549,18 @@
    "event_id": "bvl-cx-2026",
    "event_name": "BVL Supply Chain CX 2026",
    "role": "speaker",
-   "evidence_level": "speaker:third-party",
-   "evidence_label": "Speaker, named on a third-party listing of the programme",
+   "evidence_level": "speaker:organiser",
+   "evidence_label": "Speaker, named by the organiser",
    "evidence_strength": "strong",
-   "source_url": "https://www.luminik.io/events/bvl-supply-chain-cx-berlin-f1773cb8328b/attendees/",
-   "source_label": "Third-party listing of BVL speakers and sponsors",
-   "source_publisher": "third-party",
+   "source_url": "https://cx.bvl.de/en/speaker",
+   "source_label": "BVL Supply Chain CX 2026 speaker page (organiser)",
+   "source_publisher": "organiser",
    "checked_on": "2026-10-16",
    "linkedin_check": "https://www.linkedin.com/search/results/people/?keywords=Caner+Can+IKEA",
    "flags": [
-    "Confirm current title and employer on LinkedIn",
-    "Source is a third-party listing: confirm on the organiser's agenda"
+    "Confirm current title and employer on LinkedIn"
    ],
-   "score": 59,
+   "score": 61,
    "tier": "B",
    "tier_reason": "Relevant supply chain / logistics leader, but retail is an adjacent segment.",
    "persona": "Supply chain / logistics leader",
@@ -4801,9 +4593,9 @@
     },
     {
      "factor": "Evidence",
-     "points": 8,
+     "points": 10,
      "max": 10,
-     "why": "Speaker, named on a third-party listing of the programme"
+     "why": "Speaker, named by the organiser"
     }
    ],
    "reference": {
@@ -5046,7 +4838,7 @@
      "factor": "Segment",
      "points": 18,
      "max": 30,
-     "why": "Manufacturing with high PO / SO volume (TMD Friction is a customer)"
+     "why": "Manufacturing with high PO / SO volume"
     },
     {
      "factor": "Function",
@@ -5112,7 +4904,7 @@
      "factor": "Segment",
      "points": 18,
      "max": 30,
-     "why": "Manufacturing with high PO / SO volume (TMD Friction is a customer)"
+     "why": "Manufacturing with high PO / SO volume"
     },
     {
      "factor": "Function",
@@ -5178,7 +4970,7 @@
      "factor": "Segment",
      "points": 18,
      "max": 30,
-     "why": "Manufacturing with high PO / SO volume (TMD Friction is a customer)"
+     "why": "Manufacturing with high PO / SO volume"
     },
     {
      "factor": "Function",
@@ -5244,7 +5036,7 @@
      "factor": "Segment",
      "points": 18,
      "max": 30,
-     "why": "Manufacturing with high PO / SO volume (TMD Friction is a customer)"
+     "why": "Manufacturing with high PO / SO volume"
     },
     {
      "factor": "Function",
@@ -5310,7 +5102,7 @@
      "factor": "Segment",
      "points": 18,
      "max": 30,
-     "why": "Manufacturing with high PO / SO volume (TMD Friction is a customer)"
+     "why": "Manufacturing with high PO / SO volume"
     },
     {
      "factor": "Function",
@@ -5376,7 +5168,7 @@
      "factor": "Segment",
      "points": 18,
      "max": 30,
-     "why": "Manufacturing with high PO / SO volume (TMD Friction is a customer)"
+     "why": "Manufacturing with high PO / SO volume"
     },
     {
      "factor": "Function",
@@ -5543,10 +5335,75 @@
     "id": "kloeckner",
     "customer": "Kloeckner Metals",
     "story": "Supplier order confirmations on autopilot"
-   },
-   "also_at": [
-    "European Procurement & Supply Chain Excellence Summit"
-   ]
+   }
+  },
+  {
+   "id": "peter-maly-rewe-markt-bvl-cx-2026",
+   "kind": "person",
+   "name": "Peter Maly",
+   "title": "Member of the Management Board",
+   "company": "REWE Markt",
+   "company_type": "buyer",
+   "segment": "retail",
+   "country": "DE",
+   "domain": "rewe.de",
+   "event_id": "bvl-cx-2026",
+   "event_name": "BVL Supply Chain CX 2026",
+   "role": "speaker",
+   "evidence_level": "speaker:organiser",
+   "evidence_label": "Speaker, named by the organiser",
+   "evidence_strength": "strong",
+   "source_url": "https://cx.bvl.de/en/speaker",
+   "source_label": "BVL Supply Chain CX 2026 speaker page (organiser)",
+   "source_publisher": "organiser",
+   "checked_on": "2026-10-16",
+   "linkedin_check": "https://www.linkedin.com/search/results/people/?keywords=Peter+Maly+REWE+Markt",
+   "flags": [
+    "Confirm current title and employer on LinkedIn"
+   ],
+   "score": 72,
+   "tier": "C",
+   "tier_reason": "Retail is an adjacent segment and the title shows no buying-relevant function.",
+   "persona": "Executive sponsor",
+   "seniority": "C-level / VP",
+   "region": "DACH",
+   "breakdown": [
+    {
+     "factor": "Segment",
+     "points": 14,
+     "max": 30,
+     "why": "Retail: replenishment-heavy, adjacent fit"
+    },
+    {
+     "factor": "Function",
+     "points": 18,
+     "max": 30,
+     "why": "Executive sponsor"
+    },
+    {
+     "factor": "Seniority",
+     "points": 20,
+     "max": 20,
+     "why": "C-level / VP"
+    },
+    {
+     "factor": "Region",
+     "points": 10,
+     "max": 10,
+     "why": "DACH"
+    },
+    {
+     "factor": "Evidence",
+     "points": 10,
+     "max": 10,
+     "why": "Speaker, named by the organiser"
+    }
+   ],
+   "reference": {
+    "id": "oatly",
+    "customer": "Oatly",
+    "story": "Scaling order intake without scaling headcount"
+   }
   },
   {
    "id": "jochen-starrach-bkw-energie-bme-2026",
@@ -5569,74 +5426,6 @@
    "source_publisher": "organiser",
    "checked_on": "2026-10-16",
    "linkedin_check": "https://www.linkedin.com/search/results/people/?keywords=Jochen+Starrach+BKW+Energie",
-   "flags": [
-    "Confirm current title and employer on LinkedIn"
-   ],
-   "score": 70,
-   "tier": "C",
-   "tier_reason": "Company is outside the target segments.",
-   "persona": "Procure-to-Pay owner",
-   "seniority": "Head / Director",
-   "region": "DACH",
-   "breakdown": [
-    {
-     "factor": "Segment",
-     "points": 3,
-     "max": 30,
-     "why": "Outside target segments"
-    },
-    {
-     "factor": "Function",
-     "points": 30,
-     "max": 30,
-     "why": "Procure-to-Pay owner"
-    },
-    {
-     "factor": "Seniority",
-     "points": 17,
-     "max": 20,
-     "why": "Head / Director"
-    },
-    {
-     "factor": "Region",
-     "points": 10,
-     "max": 10,
-     "why": "DACH"
-    },
-    {
-     "factor": "Evidence",
-     "points": 10,
-     "max": 10,
-     "why": "Speaker, named by the organiser"
-    }
-   ],
-   "reference": {
-    "id": "kloeckner",
-    "customer": "Kloeckner Metals",
-    "story": "Supplier order confirmations on autopilot"
-   }
-  },
-  {
-   "id": "sebastian-michel-wildner-bertelsmann-epsce-2027",
-   "kind": "person",
-   "name": "Sebastian Michel-Wildner",
-   "title": "Senior Director, Group IT Sourcing",
-   "company": "Bertelsmann",
-   "company_type": "buyer",
-   "segment": "other",
-   "country": "DE",
-   "domain": "bertelsmann.com",
-   "event_id": "epsce-2027",
-   "event_name": "European Procurement & Supply Chain Excellence Summit",
-   "role": "speaker",
-   "evidence_level": "speaker:organiser",
-   "evidence_label": "Speaker, named by the organiser",
-   "evidence_strength": "strong",
-   "source_url": "https://www.bme.de/veranstaltungen/grossveranstaltungen/european-procurement-supply-chain-excellence-summit/summit-speakers/",
-   "source_label": "BME EP&SCE speaker page",
-   "source_publisher": "organiser",
-   "checked_on": "2026-10-16",
-   "linkedin_check": "https://www.linkedin.com/search/results/people/?keywords=Sebastian+Michel-Wildner+Bertelsmann",
    "flags": [
     "Confirm current title and employer on LinkedIn"
    ],
@@ -5823,74 +5612,6 @@
    }
   },
   {
-   "id": "enno-ogniwek-shell-sclt-munich-2026",
-   "kind": "person",
-   "name": "Enno Ogniwek",
-   "title": "Senior Supply Chain Strategy Manager",
-   "company": "Shell",
-   "company_type": "buyer",
-   "segment": "other",
-   "country": "GB",
-   "domain": "shell.com",
-   "event_id": "sclt-munich-2026",
-   "event_name": "Supply Chain & Logistics Transformation Summit",
-   "role": "speaker",
-   "evidence_level": "speaker:organiser",
-   "evidence_label": "Speaker, named by the organiser",
-   "evidence_strength": "strong",
-   "source_url": "https://www.key-notion.com/supply-chain-logistics-transformation-summit-munich-2026",
-   "source_label": "Summit speaker list (organiser)",
-   "source_publisher": "organiser",
-   "checked_on": "2026-10-16",
-   "linkedin_check": "https://www.linkedin.com/search/results/people/?keywords=Enno+Ogniwek+Shell",
-   "flags": [
-    "Confirm current title and employer on LinkedIn"
-   ],
-   "score": 56,
-   "tier": "C",
-   "tier_reason": "Company is outside the target segments.",
-   "persona": "Supply chain / logistics leader",
-   "seniority": "Manager",
-   "region": "Europe",
-   "breakdown": [
-    {
-     "factor": "Segment",
-     "points": 3,
-     "max": 30,
-     "why": "Outside target segments"
-    },
-    {
-     "factor": "Function",
-     "points": 27,
-     "max": 30,
-     "why": "Supply chain / logistics leader"
-    },
-    {
-     "factor": "Seniority",
-     "points": 10,
-     "max": 20,
-     "why": "Manager"
-    },
-    {
-     "factor": "Region",
-     "points": 6,
-     "max": 10,
-     "why": "Europe"
-    },
-    {
-     "factor": "Evidence",
-     "points": 10,
-     "max": 10,
-     "why": "Speaker, named by the organiser"
-    }
-   ],
-   "reference": {
-    "id": "oatly",
-    "customer": "Oatly",
-    "story": "Scaling order intake without scaling headcount"
-   }
-  },
-  {
    "id": "johannes-berg-hhla-bvl-cx-2026",
    "kind": "person",
    "name": "Johannes Berg",
@@ -5903,19 +5624,18 @@
    "event_id": "bvl-cx-2026",
    "event_name": "BVL Supply Chain CX 2026",
    "role": "speaker",
-   "evidence_level": "speaker:third-party",
-   "evidence_label": "Speaker, named on a third-party listing of the programme",
+   "evidence_level": "speaker:organiser",
+   "evidence_label": "Speaker, named by the organiser",
    "evidence_strength": "strong",
-   "source_url": "https://www.luminik.io/events/bvl-supply-chain-cx-berlin-f1773cb8328b/attendees/",
-   "source_label": "Third-party listing of BVL speakers and sponsors",
-   "source_publisher": "third-party",
+   "source_url": "https://cx.bvl.de/en/speaker",
+   "source_label": "BVL Supply Chain CX 2026 speaker page (organiser)",
+   "source_publisher": "organiser",
    "checked_on": "2026-10-16",
    "linkedin_check": "https://www.linkedin.com/search/results/people/?keywords=Johannes+Berg+HHLA",
    "flags": [
-    "Confirm current title and employer on LinkedIn",
-    "Source is a third-party listing: confirm on the organiser's agenda"
+    "Confirm current title and employer on LinkedIn"
    ],
-   "score": 56,
+   "score": 58,
    "tier": "C",
    "tier_reason": "No Procure-to-Pay, Order-to-Cash or supply chain function in the published title.",
    "persona": "Unclassified",
@@ -5926,77 +5646,7 @@
      "factor": "Segment",
      "points": 21,
      "max": 30,
-     "why": "Logistics provider (Müller – Die Lila Logistik is a customer)"
-    },
-    {
-     "factor": "Function",
-     "points": 0,
-     "max": 30,
-     "why": "No P2P / O2C / supply chain function in title"
-    },
-    {
-     "factor": "Seniority",
-     "points": 17,
-     "max": 20,
-     "why": "Head / Director"
-    },
-    {
-     "factor": "Region",
-     "points": 10,
-     "max": 10,
-     "why": "DACH"
-    },
-    {
-     "factor": "Evidence",
-     "points": 8,
-     "max": 10,
-     "why": "Speaker, named on a third-party listing of the programme"
-    }
-   ],
-   "reference": {
-    "id": "bofrost",
-    "customer": "bofrost*",
-    "story": "Faster fleet management, expert knowledge kept in the system"
-   }
-  },
-  {
-   "id": "peter-seitel-merck-sclt-munich-2026",
-   "kind": "person",
-   "name": "Peter Seitel",
-   "title": "Director Production Services (summit chair)",
-   "company": "Merck",
-   "company_type": "buyer",
-   "segment": "manufacturing",
-   "country": "DE",
-   "domain": "",
-   "event_id": "sclt-munich-2026",
-   "event_name": "Supply Chain & Logistics Transformation Summit",
-   "role": "speaker",
-   "evidence_level": "speaker:organiser",
-   "evidence_label": "Speaker, named by the organiser",
-   "evidence_strength": "strong",
-   "source_url": "https://www.key-notion.com/supply-chain-logistics-transformation-summit-munich-2026",
-   "source_label": "Summit speaker list (organiser)",
-   "source_publisher": "organiser",
-   "checked_on": "2026-10-16",
-   "linkedin_check": "https://www.linkedin.com/search/results/people/?keywords=Peter+Seitel+Merck",
-   "flags": [
-    "Confirm current title and employer on LinkedIn",
-    "No company domain: HubSpot dedupe falls back to company name",
-    "Source does not say whether Merck KGaA or MSD; confirm before outreach"
-   ],
-   "score": 55,
-   "tier": "C",
-   "tier_reason": "No Procure-to-Pay, Order-to-Cash or supply chain function in the published title.",
-   "persona": "Unclassified",
-   "seniority": "Head / Director",
-   "region": "DACH",
-   "breakdown": [
-    {
-     "factor": "Segment",
-     "points": 18,
-     "max": 30,
-     "why": "Manufacturing with high PO / SO volume (TMD Friction is a customer)"
+     "why": "Logistics and fleet-heavy operations (bofrost* fleet story)"
     },
     {
      "factor": "Function",
@@ -6024,9 +5674,9 @@
     }
    ],
    "reference": {
-    "id": "kloeckner",
-    "customer": "Kloeckner Metals",
-    "story": "Supplier order confirmations on autopilot"
+    "id": "bofrost",
+    "customer": "bofrost*",
+    "story": "Faster fleet management, expert knowledge kept in the system"
    }
   },
   {
@@ -6166,6 +5816,146 @@
    }
   },
   {
+   "id": "enno-ogniwek-shell-sclt-munich-2026",
+   "kind": "person",
+   "name": "Enno Ogniwek",
+   "title": "Senior Supply Chain Strategy Manager",
+   "company": "Shell",
+   "company_type": "buyer",
+   "segment": "other",
+   "country": "GB",
+   "domain": "shell.com",
+   "event_id": "sclt-munich-2026",
+   "event_name": "Supply Chain & Logistics Transformation Summit",
+   "role": "speaker",
+   "evidence_level": "speaker:organiser-undated",
+   "evidence_label": "Speaker on the organiser's event page, list not dated",
+   "evidence_strength": "medium",
+   "source_url": "https://www.key-notion.com/supply-chain-logistics-transformation-summit-munich-2026",
+   "source_label": "Organiser event page (speaker list not dated)",
+   "source_publisher": "organiser-undated",
+   "checked_on": "2026-10-16",
+   "linkedin_check": "https://www.linkedin.com/search/results/people/?keywords=Enno+Ogniwek+Shell",
+   "flags": [
+    "Confirm current title and employer on LinkedIn",
+    "Speaker list on the organiser page is not dated: confirm this person is on the 2026 agenda"
+   ],
+   "score": 53,
+   "tier": "C",
+   "tier_reason": "Company is outside the target segments.",
+   "persona": "Supply chain / logistics leader",
+   "seniority": "Manager",
+   "region": "Europe",
+   "breakdown": [
+    {
+     "factor": "Segment",
+     "points": 3,
+     "max": 30,
+     "why": "Outside target segments"
+    },
+    {
+     "factor": "Function",
+     "points": 27,
+     "max": 30,
+     "why": "Supply chain / logistics leader"
+    },
+    {
+     "factor": "Seniority",
+     "points": 10,
+     "max": 20,
+     "why": "Manager"
+    },
+    {
+     "factor": "Region",
+     "points": 6,
+     "max": 10,
+     "why": "Europe"
+    },
+    {
+     "factor": "Evidence",
+     "points": 7,
+     "max": 10,
+     "why": "Speaker on the organiser's event page, list not dated"
+    }
+   ],
+   "reference": {
+    "id": "oatly",
+    "customer": "Oatly",
+    "story": "Scaling order intake without scaling headcount"
+   }
+  },
+  {
+   "id": "peter-seitel-merck-sclt-munich-2026",
+   "kind": "person",
+   "name": "Peter Seitel",
+   "title": "Director Production Services (summit chair)",
+   "company": "Merck",
+   "company_type": "buyer",
+   "segment": "manufacturing",
+   "country": "DE",
+   "domain": "",
+   "event_id": "sclt-munich-2026",
+   "event_name": "Supply Chain & Logistics Transformation Summit",
+   "role": "speaker",
+   "evidence_level": "speaker:organiser-undated",
+   "evidence_label": "Speaker on the organiser's event page, list not dated",
+   "evidence_strength": "medium",
+   "source_url": "https://www.key-notion.com/supply-chain-logistics-transformation-summit-munich-2026",
+   "source_label": "Organiser event page (speaker list not dated)",
+   "source_publisher": "organiser-undated",
+   "checked_on": "2026-10-16",
+   "linkedin_check": "https://www.linkedin.com/search/results/people/?keywords=Peter+Seitel+Merck",
+   "flags": [
+    "Confirm current title and employer on LinkedIn",
+    "Speaker list on the organiser page is not dated: confirm this person is on the 2026 agenda",
+    "No company domain: HubSpot dedupe falls back to company name",
+    "Source does not say whether Merck KGaA or MSD; confirm before outreach"
+   ],
+   "score": 52,
+   "tier": "C",
+   "tier_reason": "No Procure-to-Pay, Order-to-Cash or supply chain function in the published title.",
+   "persona": "Unclassified",
+   "seniority": "Head / Director",
+   "region": "DACH",
+   "breakdown": [
+    {
+     "factor": "Segment",
+     "points": 18,
+     "max": 30,
+     "why": "Manufacturing with high PO / SO volume"
+    },
+    {
+     "factor": "Function",
+     "points": 0,
+     "max": 30,
+     "why": "No P2P / O2C / supply chain function in title"
+    },
+    {
+     "factor": "Seniority",
+     "points": 17,
+     "max": 20,
+     "why": "Head / Director"
+    },
+    {
+     "factor": "Region",
+     "points": 10,
+     "max": 10,
+     "why": "DACH"
+    },
+    {
+     "factor": "Evidence",
+     "points": 7,
+     "max": 10,
+     "why": "Speaker on the organiser's event page, list not dated"
+    }
+   ],
+   "reference": {
+    "id": "kloeckner",
+    "customer": "Kloeckner Metals",
+    "story": "Supplier order confirmations on autopilot"
+   }
+  },
+  {
    "id": "alfonso-zoia-electrolux-group-emsc-2026",
    "kind": "person",
    "name": "Alfonso Zoia",
@@ -6178,19 +5968,18 @@
    "event_id": "emsc-2026",
    "event_name": "European Manufacturing & Supply Chain Summit",
    "role": "speaker",
-   "evidence_level": "speaker:third-party",
-   "evidence_label": "Speaker, named on a third-party listing of the programme",
+   "evidence_level": "speaker:organiser",
+   "evidence_label": "Speaker, named by the organiser",
    "evidence_strength": "strong",
-   "source_url": "https://www.luminik.io/events/ems-scms-summit-munich/",
-   "source_label": "Third-party listing of summit speakers",
-   "source_publisher": "third-party",
+   "source_url": "https://ems-scms.com/live/en/page/home",
+   "source_label": "Summit organiser page (speakers sneak peek)",
+   "source_publisher": "organiser",
    "checked_on": "2026-10-16",
    "linkedin_check": "https://www.linkedin.com/search/results/people/?keywords=Alfonso+Zoia+Electrolux+Group",
    "flags": [
-    "Confirm current title and employer on LinkedIn",
-    "Source is a third-party listing: confirm on the organiser's agenda"
+    "Confirm current title and employer on LinkedIn"
    ],
-   "score": 49,
+   "score": 51,
    "tier": "C",
    "tier_reason": "No Procure-to-Pay, Order-to-Cash or supply chain function in the published title.",
    "persona": "Unclassified",
@@ -6201,7 +5990,7 @@
      "factor": "Segment",
      "points": 18,
      "max": 30,
-     "why": "Manufacturing with high PO / SO volume (TMD Friction is a customer)"
+     "why": "Manufacturing with high PO / SO volume"
     },
     {
      "factor": "Function",
@@ -6223,9 +6012,145 @@
     },
     {
      "factor": "Evidence",
-     "points": 8,
+     "points": 10,
      "max": 10,
-     "why": "Speaker, named on a third-party listing of the programme"
+     "why": "Speaker, named by the organiser"
+    }
+   ],
+   "reference": {
+    "id": "kloeckner",
+    "customer": "Kloeckner Metals",
+    "story": "Supplier order confirmations on autopilot"
+   }
+  },
+  {
+   "id": "tobias-hartmann-kaufland-bvl-cx-2026",
+   "kind": "person",
+   "name": "Tobias Hartmann",
+   "title": "Team Lead SCM International",
+   "company": "Kaufland",
+   "company_type": "buyer",
+   "segment": "retail",
+   "country": "DE",
+   "domain": "kaufland.de",
+   "event_id": "bvl-cx-2026",
+   "event_name": "BVL Supply Chain CX 2026",
+   "role": "speaker",
+   "evidence_level": "speaker:organiser",
+   "evidence_label": "Speaker, named by the organiser",
+   "evidence_strength": "strong",
+   "source_url": "https://cx.bvl.de/en/speaker",
+   "source_label": "BVL Supply Chain CX 2026 speaker page (organiser)",
+   "source_publisher": "organiser",
+   "checked_on": "2026-10-16",
+   "linkedin_check": "https://www.linkedin.com/search/results/people/?keywords=Tobias+Hartmann+Kaufland",
+   "flags": [
+    "Confirm current title and employer on LinkedIn"
+   ],
+   "score": 51,
+   "tier": "C",
+   "tier_reason": "Retail is an adjacent segment and the title shows no buying-relevant function.",
+   "persona": "Unclassified",
+   "seniority": "Head / Director",
+   "region": "DACH",
+   "breakdown": [
+    {
+     "factor": "Segment",
+     "points": 14,
+     "max": 30,
+     "why": "Retail: replenishment-heavy, adjacent fit"
+    },
+    {
+     "factor": "Function",
+     "points": 0,
+     "max": 30,
+     "why": "No P2P / O2C / supply chain function in title"
+    },
+    {
+     "factor": "Seniority",
+     "points": 17,
+     "max": 20,
+     "why": "Head / Director"
+    },
+    {
+     "factor": "Region",
+     "points": 10,
+     "max": 10,
+     "why": "DACH"
+    },
+    {
+     "factor": "Evidence",
+     "points": 10,
+     "max": 10,
+     "why": "Speaker, named by the organiser"
+    }
+   ],
+   "reference": {
+    "id": "oatly",
+    "customer": "Oatly",
+    "story": "Scaling order intake without scaling headcount"
+   }
+  },
+  {
+   "id": "aigul-zhalgassova-siemens-bvl-cx-2026",
+   "kind": "person",
+   "name": "Aigul Zhalgassova",
+   "title": "Global Transport Management",
+   "company": "Siemens",
+   "company_type": "buyer",
+   "segment": "manufacturing",
+   "country": "DE",
+   "domain": "siemens.com",
+   "event_id": "bvl-cx-2026",
+   "event_name": "BVL Supply Chain CX 2026",
+   "role": "speaker",
+   "evidence_level": "speaker:organiser",
+   "evidence_label": "Speaker, named by the organiser",
+   "evidence_strength": "strong",
+   "source_url": "https://cx.bvl.de/en/speaker",
+   "source_label": "BVL Supply Chain CX 2026 speaker page (organiser)",
+   "source_publisher": "organiser",
+   "checked_on": "2026-10-16",
+   "linkedin_check": "https://www.linkedin.com/search/results/people/?keywords=Aigul+Zhalgassova+Siemens",
+   "flags": [
+    "Confirm current title and employer on LinkedIn"
+   ],
+   "score": 42,
+   "tier": "C",
+   "tier_reason": "No Procure-to-Pay, Order-to-Cash or supply chain function in the published title.",
+   "persona": "Unclassified",
+   "seniority": "Individual contributor",
+   "region": "DACH",
+   "breakdown": [
+    {
+     "factor": "Segment",
+     "points": 18,
+     "max": 30,
+     "why": "Manufacturing with high PO / SO volume"
+    },
+    {
+     "factor": "Function",
+     "points": 0,
+     "max": 30,
+     "why": "No P2P / O2C / supply chain function in title"
+    },
+    {
+     "factor": "Seniority",
+     "points": 4,
+     "max": 20,
+     "why": "Individual contributor"
+    },
+    {
+     "factor": "Region",
+     "points": 10,
+     "max": 10,
+     "why": "DACH"
+    },
+    {
+     "factor": "Evidence",
+     "points": 10,
+     "max": 10,
+     "why": "Speaker, named by the organiser"
     }
    ],
    "reference": {
@@ -6269,75 +6194,7 @@
      "factor": "Segment",
      "points": 18,
      "max": 30,
-     "why": "Manufacturing with high PO / SO volume (TMD Friction is a customer)"
-    },
-    {
-     "factor": "Function",
-     "points": 0,
-     "max": 30,
-     "why": "No P2P / O2C / supply chain function in title"
-    },
-    {
-     "factor": "Seniority",
-     "points": 4,
-     "max": 20,
-     "why": "Individual contributor"
-    },
-    {
-     "factor": "Region",
-     "points": 10,
-     "max": 10,
-     "why": "DACH"
-    },
-    {
-     "factor": "Evidence",
-     "points": 10,
-     "max": 10,
-     "why": "Speaker, named by the organiser"
-    }
-   ],
-   "reference": {
-    "id": "kloeckner",
-    "customer": "Kloeckner Metals",
-    "story": "Supplier order confirmations on autopilot"
-   }
-  },
-  {
-   "id": "arnd-hirschberg-siemens-energy-epsce-2027",
-   "kind": "person",
-   "name": "Arnd Hirschberg",
-   "title": "Senior Strategist",
-   "company": "Siemens Energy",
-   "company_type": "buyer",
-   "segment": "manufacturing",
-   "country": "DE",
-   "domain": "siemens-energy.com",
-   "event_id": "epsce-2027",
-   "event_name": "European Procurement & Supply Chain Excellence Summit",
-   "role": "speaker",
-   "evidence_level": "speaker:organiser",
-   "evidence_label": "Speaker, named by the organiser",
-   "evidence_strength": "strong",
-   "source_url": "https://www.bme.de/veranstaltungen/grossveranstaltungen/european-procurement-supply-chain-excellence-summit/summit-speakers/",
-   "source_label": "BME EP&SCE speaker page",
-   "source_publisher": "organiser",
-   "checked_on": "2026-10-16",
-   "linkedin_check": "https://www.linkedin.com/search/results/people/?keywords=Arnd+Hirschberg+Siemens+Energy",
-   "flags": [
-    "Confirm current title and employer on LinkedIn"
-   ],
-   "score": 42,
-   "tier": "C",
-   "tier_reason": "No Procure-to-Pay, Order-to-Cash or supply chain function in the published title.",
-   "persona": "Unclassified",
-   "seniority": "Individual contributor",
-   "region": "DACH",
-   "breakdown": [
-    {
-     "factor": "Segment",
-     "points": 18,
-     "max": 30,
-     "why": "Manufacturing with high PO / SO volume (TMD Friction is a customer)"
+     "why": "Manufacturing with high PO / SO volume"
     },
     {
      "factor": "Function",
@@ -6383,88 +6240,19 @@
    "event_id": "sclt-munich-2026",
    "event_name": "Supply Chain & Logistics Transformation Summit",
    "role": "speaker",
-   "evidence_level": "speaker:organiser",
-   "evidence_label": "Speaker, named by the organiser",
-   "evidence_strength": "strong",
+   "evidence_level": "speaker:organiser-undated",
+   "evidence_label": "Speaker on the organiser's event page, list not dated",
+   "evidence_strength": "medium",
    "source_url": "https://www.key-notion.com/supply-chain-logistics-transformation-summit-munich-2026",
-   "source_label": "Summit speaker list (organiser)",
-   "source_publisher": "organiser",
+   "source_label": "Organiser event page (speaker list not dated)",
+   "source_publisher": "organiser-undated",
    "checked_on": "2026-10-16",
    "linkedin_check": "https://www.linkedin.com/search/results/people/?keywords=Morgan+Lasrado+Zalando",
    "flags": [
-    "Confirm current title and employer on LinkedIn"
-   ],
-   "score": 38,
-   "tier": "C",
-   "tier_reason": "Retail is an adjacent segment and the title shows no buying-relevant function.",
-   "persona": "Unclassified",
-   "seniority": "Individual contributor",
-   "region": "DACH",
-   "breakdown": [
-    {
-     "factor": "Segment",
-     "points": 14,
-     "max": 30,
-     "why": "Retail: replenishment-heavy, adjacent fit"
-    },
-    {
-     "factor": "Function",
-     "points": 0,
-     "max": 30,
-     "why": "No P2P / O2C / supply chain function in title"
-    },
-    {
-     "factor": "Seniority",
-     "points": 4,
-     "max": 20,
-     "why": "Individual contributor"
-    },
-    {
-     "factor": "Region",
-     "points": 10,
-     "max": 10,
-     "why": "DACH"
-    },
-    {
-     "factor": "Evidence",
-     "points": 10,
-     "max": 10,
-     "why": "Speaker, named by the organiser"
-    }
-   ],
-   "reference": {
-    "id": "oatly",
-    "customer": "Oatly",
-    "story": "Scaling order intake without scaling headcount"
-   }
-  },
-  {
-   "id": "tobias-hartmann-kaufland-bvl-cx-2026",
-   "kind": "person",
-   "name": "Tobias Hartmann",
-   "title": "",
-   "company": "Kaufland",
-   "company_type": "buyer",
-   "segment": "retail",
-   "country": "DE",
-   "domain": "kaufland.de",
-   "event_id": "bvl-cx-2026",
-   "event_name": "BVL Supply Chain CX 2026",
-   "role": "speaker",
-   "evidence_level": "speaker:third-party",
-   "evidence_label": "Speaker, named on a third-party listing of the programme",
-   "evidence_strength": "strong",
-   "source_url": "https://www.luminik.io/events/bvl-supply-chain-cx-berlin-f1773cb8328b/attendees/",
-   "source_label": "Third-party listing of BVL speakers and sponsors",
-   "source_publisher": "third-party",
-   "checked_on": "2026-10-16",
-   "linkedin_check": "https://www.linkedin.com/search/results/people/?keywords=Tobias+Hartmann+Kaufland",
-   "flags": [
-    "Title not published: confirm role before outreach",
     "Confirm current title and employer on LinkedIn",
-    "Source is a third-party listing: confirm on the organiser's agenda"
+    "Speaker list on the organiser page is not dated: confirm this person is on the 2026 agenda"
    ],
-   "score": 36,
+   "score": 35,
    "tier": "C",
    "tier_reason": "Retail is an adjacent segment and the title shows no buying-relevant function.",
    "persona": "Unclassified",
@@ -6497,9 +6285,9 @@
     },
     {
      "factor": "Evidence",
-     "points": 8,
+     "points": 7,
      "max": 10,
-     "why": "Speaker, named on a third-party listing of the programme"
+     "why": "Speaker on the organiser's event page, list not dated"
     }
    ],
    "reference": {
@@ -6524,17 +6312,16 @@
    "event_id": "bvl-cx-2026",
    "event_name": "BVL Supply Chain CX 2026",
    "role": "speaker",
-   "evidence_level": "speaker:third-party",
-   "evidence_label": "Speaker, named on a third-party listing of the programme",
+   "evidence_level": "speaker:organiser",
+   "evidence_label": "Speaker, named by the organiser",
    "evidence_strength": "strong",
-   "source_url": "https://www.luminik.io/events/bvl-supply-chain-cx-berlin-f1773cb8328b/attendees/",
-   "source_label": "Third-party listing of BVL speakers and sponsors",
-   "source_publisher": "third-party",
+   "source_url": "https://cx.bvl.de/en/speaker",
+   "source_label": "BVL Supply Chain CX 2026 speaker page (organiser)",
+   "source_publisher": "organiser",
    "checked_on": "2026-10-16",
    "linkedin_check": "https://www.linkedin.com/search/results/people/?keywords=Knut+Alicke+McKinsey",
    "flags": [
-    "Confirm current title and employer on LinkedIn",
-    "Source is a third-party listing: confirm on the organiser's agenda"
+    "Confirm current title and employer on LinkedIn"
    ],
    "reason": "Consultancy or analyst: possible referral source, not a buyer"
   },
@@ -6551,17 +6338,16 @@
    "event_id": "bvl-cx-2026",
    "event_name": "BVL Supply Chain CX 2026",
    "role": "speaker",
-   "evidence_level": "speaker:third-party",
-   "evidence_label": "Speaker, named on a third-party listing of the programme",
+   "evidence_level": "speaker:organiser",
+   "evidence_label": "Speaker, named by the organiser",
    "evidence_strength": "strong",
-   "source_url": "https://www.luminik.io/events/bvl-supply-chain-cx-berlin-f1773cb8328b/attendees/",
-   "source_label": "Third-party listing of BVL speakers and sponsors",
-   "source_publisher": "third-party",
+   "source_url": "https://cx.bvl.de/en/speaker",
+   "source_label": "BVL Supply Chain CX 2026 speaker page (organiser)",
+   "source_publisher": "organiser",
    "checked_on": "2026-10-16",
    "linkedin_check": "https://www.linkedin.com/search/results/people/?keywords=Leonie+Althaus+traide+AI",
    "flags": [
     "Confirm current title and employer on LinkedIn",
-    "Source is a third-party listing: confirm on the organiser's agenda",
     "No company domain: HubSpot dedupe falls back to company name"
    ],
    "reason": "Sells software, services or equipment: competitor or partner, not a buyer"
@@ -6579,48 +6365,19 @@
    "event_id": "bvl-cx-2026",
    "event_name": "BVL Supply Chain CX 2026",
    "role": "speaker",
-   "evidence_level": "speaker:third-party",
-   "evidence_label": "Speaker, named on a third-party listing of the programme",
+   "evidence_level": "speaker:organiser",
+   "evidence_label": "Speaker, named by the organiser",
    "evidence_strength": "strong",
-   "source_url": "https://www.luminik.io/events/bvl-supply-chain-cx-berlin-f1773cb8328b/attendees/",
-   "source_label": "Third-party listing of BVL speakers and sponsors",
-   "source_publisher": "third-party",
+   "source_url": "https://cx.bvl.de/en/speaker",
+   "source_label": "BVL Supply Chain CX 2026 speaker page (organiser)",
+   "source_publisher": "organiser",
    "checked_on": "2026-10-16",
    "linkedin_check": "https://www.linkedin.com/search/results/people/?keywords=Julia+Arlinghaus+Universit%C3%A4t+St.Gallen",
    "flags": [
     "Confirm current title and employer on LinkedIn",
-    "Source is a third-party listing: confirm on the organiser's agenda",
     "No company domain: HubSpot dedupe falls back to company name"
    ],
    "reason": "Academic or think-tank speaker"
-  },
-  {
-   "id": "markus-bangen-bvl-bvl-cx-2026",
-   "kind": "person",
-   "name": "Markus Bangen",
-   "title": "Board and CEO",
-   "company": "BVL",
-   "company_type": "association",
-   "segment": "other",
-   "country": "DE",
-   "domain": "",
-   "event_id": "bvl-cx-2026",
-   "event_name": "BVL Supply Chain CX 2026",
-   "role": "speaker",
-   "evidence_level": "speaker:third-party",
-   "evidence_label": "Speaker, named on a third-party listing of the programme",
-   "evidence_strength": "strong",
-   "source_url": "https://www.luminik.io/events/bvl-supply-chain-cx-berlin-f1773cb8328b/attendees/",
-   "source_label": "Third-party listing of BVL speakers and sponsors",
-   "source_publisher": "third-party",
-   "checked_on": "2026-10-16",
-   "linkedin_check": "https://www.linkedin.com/search/results/people/?keywords=Markus+Bangen+BVL",
-   "flags": [
-    "Confirm current title and employer on LinkedIn",
-    "Source is a third-party listing: confirm on the organiser's agenda",
-    "No company domain: HubSpot dedupe falls back to company name"
-   ],
-   "reason": "Event organiser or industry association"
   },
   {
    "id": "aeb-se-aeb-se-bvl-cx-2026",
@@ -6639,7 +6396,7 @@
    "evidence_label": "Sponsoring company",
    "evidence_strength": "company",
    "source_url": "https://www.luminik.io/events/bvl-supply-chain-cx-berlin-f1773cb8328b/attendees/",
-   "source_label": "Third-party listing of BVL speakers and sponsors",
+   "source_label": "Third-party listing of BVL sponsors",
    "source_publisher": "third-party",
    "checked_on": "2026-10-16",
    "linkedin_check": "https://www.linkedin.com/search/results/companies/?keywords=AEB+SE",
@@ -6665,7 +6422,7 @@
    "evidence_label": "Sponsoring company",
    "evidence_strength": "company",
    "source_url": "https://www.luminik.io/events/bvl-supply-chain-cx-berlin-f1773cb8328b/attendees/",
-   "source_label": "Third-party listing of BVL speakers and sponsors",
+   "source_label": "Third-party listing of BVL sponsors",
    "source_publisher": "third-party",
    "checked_on": "2026-10-16",
    "linkedin_check": "https://www.linkedin.com/search/results/companies/?keywords=TMG+Consultants",
@@ -6692,7 +6449,7 @@
    "evidence_label": "Sponsoring company",
    "evidence_strength": "company",
    "source_url": "https://www.luminik.io/events/bvl-supply-chain-cx-berlin-f1773cb8328b/attendees/",
-   "source_label": "Third-party listing of BVL speakers and sponsors",
+   "source_label": "Third-party listing of BVL sponsors",
    "source_publisher": "third-party",
    "checked_on": "2026-10-16",
    "linkedin_check": "https://www.linkedin.com/search/results/companies/?keywords=T%C3%9CV+Rheinland",
@@ -6719,7 +6476,7 @@
    "evidence_label": "Sponsoring company",
    "evidence_strength": "company",
    "source_url": "https://www.luminik.io/events/bvl-supply-chain-cx-berlin-f1773cb8328b/attendees/",
-   "source_label": "Third-party listing of BVL speakers and sponsors",
+   "source_label": "Third-party listing of BVL sponsors",
    "source_publisher": "third-party",
    "checked_on": "2026-10-16",
    "linkedin_check": "https://www.linkedin.com/search/results/companies/?keywords=XPROMA",
@@ -6742,16 +6499,17 @@
    "event_id": "sclt-munich-2026",
    "event_name": "Supply Chain & Logistics Transformation Summit",
    "role": "speaker",
-   "evidence_level": "speaker:organiser",
-   "evidence_label": "Speaker, named by the organiser",
-   "evidence_strength": "strong",
+   "evidence_level": "speaker:organiser-undated",
+   "evidence_label": "Speaker on the organiser's event page, list not dated",
+   "evidence_strength": "medium",
    "source_url": "https://www.key-notion.com/supply-chain-logistics-transformation-summit-munich-2026",
-   "source_label": "Summit speaker list (organiser)",
-   "source_publisher": "organiser",
+   "source_label": "Organiser event page (speaker list not dated)",
+   "source_publisher": "organiser-undated",
    "checked_on": "2026-10-16",
    "linkedin_check": "https://www.linkedin.com/search/results/people/?keywords=Ceylan+Uensal+Women+in+Logistics",
    "flags": [
     "Confirm current title and employer on LinkedIn",
+    "Speaker list on the organiser page is not dated: confirm this person is on the 2026 agenda",
     "No company domain: HubSpot dedupe falls back to company name"
    ],
    "reason": "Event organiser or industry association"
@@ -6834,10 +6592,7 @@
     "Confirm current title and employer on LinkedIn",
     "No company domain: HubSpot dedupe falls back to company name"
    ],
-   "reason": "Event organiser or industry association",
-   "also_at": [
-    "European Procurement & Supply Chain Excellence Summit"
-   ]
+   "reason": "Event organiser or industry association"
   },
   {
    "id": "simon-roth-sbb-bme-2026",
@@ -7133,546 +6888,6 @@
     "No company domain: HubSpot dedupe falls back to company name"
    ],
    "reason": "Public-sector or state-owned: long procurement cycles, outside current focus"
-  },
-  {
-   "id": "ulrich-bosch-samsung-sds-epsce-2027",
-   "kind": "person",
-   "name": "Ulrich Bosch",
-   "title": "Senior Solution Consultant",
-   "company": "Samsung SDS",
-   "company_type": "vendor",
-   "segment": "other",
-   "country": "KR",
-   "domain": "",
-   "event_id": "epsce-2027",
-   "event_name": "European Procurement & Supply Chain Excellence Summit",
-   "role": "speaker",
-   "evidence_level": "speaker:organiser",
-   "evidence_label": "Speaker, named by the organiser",
-   "evidence_strength": "strong",
-   "source_url": "https://www.bme.de/veranstaltungen/grossveranstaltungen/european-procurement-supply-chain-excellence-summit/summit-speakers/",
-   "source_label": "BME EP&SCE speaker page",
-   "source_publisher": "organiser",
-   "checked_on": "2026-10-16",
-   "linkedin_check": "https://www.linkedin.com/search/results/people/?keywords=Ulrich+Bosch+Samsung+SDS",
-   "flags": [
-    "Confirm current title and employer on LinkedIn",
-    "No company domain: HubSpot dedupe falls back to company name"
-   ],
-   "reason": "Sells software, services or equipment: competitor or partner, not a buyer"
-  },
-  {
-   "id": "dirk-fischbach-zycus-epsce-2027",
-   "kind": "person",
-   "name": "Dirk Fischbach",
-   "title": "Regional Sales Manager, EMEA",
-   "company": "Zycus",
-   "company_type": "vendor",
-   "segment": "other",
-   "country": "US",
-   "domain": "",
-   "event_id": "epsce-2027",
-   "event_name": "European Procurement & Supply Chain Excellence Summit",
-   "role": "speaker",
-   "evidence_level": "speaker:organiser",
-   "evidence_label": "Speaker, named by the organiser",
-   "evidence_strength": "strong",
-   "source_url": "https://www.bme.de/veranstaltungen/grossveranstaltungen/european-procurement-supply-chain-excellence-summit/summit-speakers/",
-   "source_label": "BME EP&SCE speaker page",
-   "source_publisher": "organiser",
-   "checked_on": "2026-10-16",
-   "linkedin_check": "https://www.linkedin.com/search/results/people/?keywords=Dirk+Fischbach+Zycus",
-   "flags": [
-    "Confirm current title and employer on LinkedIn",
-    "No company domain: HubSpot dedupe falls back to company name"
-   ],
-   "reason": "Sells software, services or equipment: competitor or partner, not a buyer"
-  },
-  {
-   "id": "tobias-gehrke-european-council-on-foreign-relations-epsce-2027",
-   "kind": "person",
-   "name": "Tobias Gehrke",
-   "title": "Senior Policy Fellow, Geoeconomics",
-   "company": "European Council on Foreign Relations",
-   "company_type": "academia",
-   "segment": "other",
-   "country": "DE",
-   "domain": "",
-   "event_id": "epsce-2027",
-   "event_name": "European Procurement & Supply Chain Excellence Summit",
-   "role": "speaker",
-   "evidence_level": "speaker:organiser",
-   "evidence_label": "Speaker, named by the organiser",
-   "evidence_strength": "strong",
-   "source_url": "https://www.bme.de/veranstaltungen/grossveranstaltungen/european-procurement-supply-chain-excellence-summit/summit-speakers/",
-   "source_label": "BME EP&SCE speaker page",
-   "source_publisher": "organiser",
-   "checked_on": "2026-10-16",
-   "linkedin_check": "https://www.linkedin.com/search/results/people/?keywords=Tobias+Gehrke+European+Council+on+Foreign+Relations",
-   "flags": [
-    "Confirm current title and employer on LinkedIn",
-    "No company domain: HubSpot dedupe falls back to company name"
-   ],
-   "reason": "Academic or think-tank speaker"
-  },
-  {
-   "id": "martin-gottert-targus-management-consulting-epsce-2027",
-   "kind": "person",
-   "name": "Martin Göttert",
-   "title": "Principal",
-   "company": "TARGUS Management Consulting",
-   "company_type": "consultancy",
-   "segment": "other",
-   "country": "DE",
-   "domain": "",
-   "event_id": "epsce-2027",
-   "event_name": "European Procurement & Supply Chain Excellence Summit",
-   "role": "speaker",
-   "evidence_level": "speaker:organiser",
-   "evidence_label": "Speaker, named by the organiser",
-   "evidence_strength": "strong",
-   "source_url": "https://www.bme.de/veranstaltungen/grossveranstaltungen/european-procurement-supply-chain-excellence-summit/summit-speakers/",
-   "source_label": "BME EP&SCE speaker page",
-   "source_publisher": "organiser",
-   "checked_on": "2026-10-16",
-   "linkedin_check": "https://www.linkedin.com/search/results/people/?keywords=Martin+G%C3%B6ttert+TARGUS+Management+Consulting",
-   "flags": [
-    "Confirm current title and employer on LinkedIn",
-    "No company domain: HubSpot dedupe falls back to company name"
-   ],
-   "reason": "Consultancy or analyst: possible referral source, not a buyer"
-  },
-  {
-   "id": "mieke-grashuis-slimstock-epsce-2027",
-   "kind": "person",
-   "name": "Mieke Grashuis",
-   "title": "Customer Success Manager",
-   "company": "Slimstock",
-   "company_type": "vendor",
-   "segment": "other",
-   "country": "NL",
-   "domain": "",
-   "event_id": "epsce-2027",
-   "event_name": "European Procurement & Supply Chain Excellence Summit",
-   "role": "speaker",
-   "evidence_level": "speaker:organiser",
-   "evidence_label": "Speaker, named by the organiser",
-   "evidence_strength": "strong",
-   "source_url": "https://www.bme.de/veranstaltungen/grossveranstaltungen/european-procurement-supply-chain-excellence-summit/summit-speakers/",
-   "source_label": "BME EP&SCE speaker page",
-   "source_publisher": "organiser",
-   "checked_on": "2026-10-16",
-   "linkedin_check": "https://www.linkedin.com/search/results/people/?keywords=Mieke+Grashuis+Slimstock",
-   "flags": [
-    "Confirm current title and employer on LinkedIn",
-    "No company domain: HubSpot dedupe falls back to company name"
-   ],
-   "reason": "Sells software, services or equipment: competitor or partner, not a buyer"
-  },
-  {
-   "id": "ben-grudda-samsung-sds-epsce-2027",
-   "kind": "person",
-   "name": "Ben Grudda",
-   "title": "Head of SRM Business",
-   "company": "Samsung SDS",
-   "company_type": "vendor",
-   "segment": "other",
-   "country": "KR",
-   "domain": "",
-   "event_id": "epsce-2027",
-   "event_name": "European Procurement & Supply Chain Excellence Summit",
-   "role": "speaker",
-   "evidence_level": "speaker:organiser",
-   "evidence_label": "Speaker, named by the organiser",
-   "evidence_strength": "strong",
-   "source_url": "https://www.bme.de/veranstaltungen/grossveranstaltungen/european-procurement-supply-chain-excellence-summit/summit-speakers/",
-   "source_label": "BME EP&SCE speaker page",
-   "source_publisher": "organiser",
-   "checked_on": "2026-10-16",
-   "linkedin_check": "https://www.linkedin.com/search/results/people/?keywords=Ben+Grudda+Samsung+SDS",
-   "flags": [
-    "Confirm current title and employer on LinkedIn",
-    "No company domain: HubSpot dedupe falls back to company name"
-   ],
-   "reason": "Sells software, services or equipment: competitor or partner, not a buyer"
-  },
-  {
-   "id": "stephanie-herre-ecovadis-epsce-2027",
-   "kind": "person",
-   "name": "Stephanie Herre",
-   "title": "Sales Manager",
-   "company": "EcoVadis",
-   "company_type": "vendor",
-   "segment": "other",
-   "country": "FR",
-   "domain": "",
-   "event_id": "epsce-2027",
-   "event_name": "European Procurement & Supply Chain Excellence Summit",
-   "role": "speaker",
-   "evidence_level": "speaker:organiser",
-   "evidence_label": "Speaker, named by the organiser",
-   "evidence_strength": "strong",
-   "source_url": "https://www.bme.de/veranstaltungen/grossveranstaltungen/european-procurement-supply-chain-excellence-summit/summit-speakers/",
-   "source_label": "BME EP&SCE speaker page",
-   "source_publisher": "organiser",
-   "checked_on": "2026-10-16",
-   "linkedin_check": "https://www.linkedin.com/search/results/people/?keywords=Stephanie+Herre+EcoVadis",
-   "flags": [
-    "Confirm current title and employer on LinkedIn",
-    "No company domain: HubSpot dedupe falls back to company name"
-   ],
-   "reason": "Sells software, services or equipment: competitor or partner, not a buyer"
-  },
-  {
-   "id": "oliver-kahrs-slimstock-epsce-2027",
-   "kind": "person",
-   "name": "Oliver Kahrs",
-   "title": "Supply Chain Optimisation Expert",
-   "company": "Slimstock",
-   "company_type": "vendor",
-   "segment": "other",
-   "country": "NL",
-   "domain": "",
-   "event_id": "epsce-2027",
-   "event_name": "European Procurement & Supply Chain Excellence Summit",
-   "role": "speaker",
-   "evidence_level": "speaker:organiser",
-   "evidence_label": "Speaker, named by the organiser",
-   "evidence_strength": "strong",
-   "source_url": "https://www.bme.de/veranstaltungen/grossveranstaltungen/european-procurement-supply-chain-excellence-summit/summit-speakers/",
-   "source_label": "BME EP&SCE speaker page",
-   "source_publisher": "organiser",
-   "checked_on": "2026-10-16",
-   "linkedin_check": "https://www.linkedin.com/search/results/people/?keywords=Oliver+Kahrs+Slimstock",
-   "flags": [
-    "Confirm current title and employer on LinkedIn",
-    "No company domain: HubSpot dedupe falls back to company name"
-   ],
-   "reason": "Sells software, services or equipment: competitor or partner, not a buyer"
-  },
-  {
-   "id": "henning-lombeck-sparetech-epsce-2027",
-   "kind": "person",
-   "name": "Henning Lombeck",
-   "title": "Senior Account Executive",
-   "company": "SPARETECH",
-   "company_type": "vendor",
-   "segment": "other",
-   "country": "DE",
-   "domain": "",
-   "event_id": "epsce-2027",
-   "event_name": "European Procurement & Supply Chain Excellence Summit",
-   "role": "speaker",
-   "evidence_level": "speaker:organiser",
-   "evidence_label": "Speaker, named by the organiser",
-   "evidence_strength": "strong",
-   "source_url": "https://www.bme.de/veranstaltungen/grossveranstaltungen/european-procurement-supply-chain-excellence-summit/summit-speakers/",
-   "source_label": "BME EP&SCE speaker page",
-   "source_publisher": "organiser",
-   "checked_on": "2026-10-16",
-   "linkedin_check": "https://www.linkedin.com/search/results/people/?keywords=Henning+Lombeck+SPARETECH",
-   "flags": [
-    "Confirm current title and employer on LinkedIn",
-    "No company domain: HubSpot dedupe falls back to company name"
-   ],
-   "reason": "Sells software, services or equipment: competitor or partner, not a buyer"
-  },
-  {
-   "id": "darren-lynch-gep-epsce-2027",
-   "kind": "person",
-   "name": "Darren Lynch",
-   "title": "VP Supply Chain and Procurement",
-   "company": "GEP",
-   "company_type": "vendor",
-   "segment": "other",
-   "country": "US",
-   "domain": "",
-   "event_id": "epsce-2027",
-   "event_name": "European Procurement & Supply Chain Excellence Summit",
-   "role": "speaker",
-   "evidence_level": "speaker:organiser",
-   "evidence_label": "Speaker, named by the organiser",
-   "evidence_strength": "strong",
-   "source_url": "https://www.bme.de/veranstaltungen/grossveranstaltungen/european-procurement-supply-chain-excellence-summit/summit-speakers/",
-   "source_label": "BME EP&SCE speaker page",
-   "source_publisher": "organiser",
-   "checked_on": "2026-10-16",
-   "linkedin_check": "https://www.linkedin.com/search/results/people/?keywords=Darren+Lynch+GEP",
-   "flags": [
-    "Confirm current title and employer on LinkedIn",
-    "No company domain: HubSpot dedupe falls back to company name"
-   ],
-   "reason": "Sells software, services or equipment: competitor or partner, not a buyer"
-  },
-  {
-   "id": "monika-mutscher-zycus-epsce-2027",
-   "kind": "person",
-   "name": "Monika Mutscher",
-   "title": "Regional Sales Manager",
-   "company": "Zycus",
-   "company_type": "vendor",
-   "segment": "other",
-   "country": "US",
-   "domain": "",
-   "event_id": "epsce-2027",
-   "event_name": "European Procurement & Supply Chain Excellence Summit",
-   "role": "speaker",
-   "evidence_level": "speaker:organiser",
-   "evidence_label": "Speaker, named by the organiser",
-   "evidence_strength": "strong",
-   "source_url": "https://www.bme.de/veranstaltungen/grossveranstaltungen/european-procurement-supply-chain-excellence-summit/summit-speakers/",
-   "source_label": "BME EP&SCE speaker page",
-   "source_publisher": "organiser",
-   "checked_on": "2026-10-16",
-   "linkedin_check": "https://www.linkedin.com/search/results/people/?keywords=Monika+Mutscher+Zycus",
-   "flags": [
-    "Confirm current title and employer on LinkedIn",
-    "No company domain: HubSpot dedupe falls back to company name"
-   ],
-   "reason": "Sells software, services or equipment: competitor or partner, not a buyer"
-  },
-  {
-   "id": "varun-narayanan-lytica-epsce-2027",
-   "kind": "person",
-   "name": "Varun Narayanan",
-   "title": "Vice President, Business Transformation",
-   "company": "Lytica",
-   "company_type": "vendor",
-   "segment": "other",
-   "country": "CA",
-   "domain": "",
-   "event_id": "epsce-2027",
-   "event_name": "European Procurement & Supply Chain Excellence Summit",
-   "role": "speaker",
-   "evidence_level": "speaker:organiser",
-   "evidence_label": "Speaker, named by the organiser",
-   "evidence_strength": "strong",
-   "source_url": "https://www.bme.de/veranstaltungen/grossveranstaltungen/european-procurement-supply-chain-excellence-summit/summit-speakers/",
-   "source_label": "BME EP&SCE speaker page",
-   "source_publisher": "organiser",
-   "checked_on": "2026-10-16",
-   "linkedin_check": "https://www.linkedin.com/search/results/people/?keywords=Varun+Narayanan+Lytica",
-   "flags": [
-    "Confirm current title and employer on LinkedIn",
-    "No company domain: HubSpot dedupe falls back to company name"
-   ],
-   "reason": "Sells software, services or equipment: competitor or partner, not a buyer"
-  },
-  {
-   "id": "naomi-oiknin-samsung-sds-epsce-2027",
-   "kind": "person",
-   "name": "Naomi Oiknin",
-   "title": "Senior Solution Consultant",
-   "company": "Samsung SDS",
-   "company_type": "vendor",
-   "segment": "other",
-   "country": "KR",
-   "domain": "",
-   "event_id": "epsce-2027",
-   "event_name": "European Procurement & Supply Chain Excellence Summit",
-   "role": "speaker",
-   "evidence_level": "speaker:organiser",
-   "evidence_label": "Speaker, named by the organiser",
-   "evidence_strength": "strong",
-   "source_url": "https://www.bme.de/veranstaltungen/grossveranstaltungen/european-procurement-supply-chain-excellence-summit/summit-speakers/",
-   "source_label": "BME EP&SCE speaker page",
-   "source_publisher": "organiser",
-   "checked_on": "2026-10-16",
-   "linkedin_check": "https://www.linkedin.com/search/results/people/?keywords=Naomi+Oiknin+Samsung+SDS",
-   "flags": [
-    "Confirm current title and employer on LinkedIn",
-    "No company domain: HubSpot dedupe falls back to company name"
-   ],
-   "reason": "Sells software, services or equipment: competitor or partner, not a buyer"
-  },
-  {
-   "id": "natalia-parmenova-beneering-epsce-2027",
-   "kind": "person",
-   "name": "Natalia Parmenova",
-   "title": "Chief Revenue Officer",
-   "company": "BeNeering",
-   "company_type": "vendor",
-   "segment": "other",
-   "country": "DE",
-   "domain": "",
-   "event_id": "epsce-2027",
-   "event_name": "European Procurement & Supply Chain Excellence Summit",
-   "role": "speaker",
-   "evidence_level": "speaker:organiser",
-   "evidence_label": "Speaker, named by the organiser",
-   "evidence_strength": "strong",
-   "source_url": "https://www.bme.de/veranstaltungen/grossveranstaltungen/european-procurement-supply-chain-excellence-summit/summit-speakers/",
-   "source_label": "BME EP&SCE speaker page",
-   "source_publisher": "organiser",
-   "checked_on": "2026-10-16",
-   "linkedin_check": "https://www.linkedin.com/search/results/people/?keywords=Natalia+Parmenova+BeNeering",
-   "flags": [
-    "Confirm current title and employer on LinkedIn",
-    "No company domain: HubSpot dedupe falls back to company name"
-   ],
-   "reason": "Sells software, services or equipment: competitor or partner, not a buyer"
-  },
-  {
-   "id": "christopher-parsons-oro-labs-epsce-2027",
-   "kind": "person",
-   "name": "Christopher Parsons",
-   "title": "Senior Manager",
-   "company": "ORO Labs",
-   "company_type": "vendor",
-   "segment": "other",
-   "country": "US",
-   "domain": "",
-   "event_id": "epsce-2027",
-   "event_name": "European Procurement & Supply Chain Excellence Summit",
-   "role": "speaker",
-   "evidence_level": "speaker:organiser",
-   "evidence_label": "Speaker, named by the organiser",
-   "evidence_strength": "strong",
-   "source_url": "https://www.bme.de/veranstaltungen/grossveranstaltungen/european-procurement-supply-chain-excellence-summit/summit-speakers/",
-   "source_label": "BME EP&SCE speaker page",
-   "source_publisher": "organiser",
-   "checked_on": "2026-10-16",
-   "linkedin_check": "https://www.linkedin.com/search/results/people/?keywords=Christopher+Parsons+ORO+Labs",
-   "flags": [
-    "Confirm current title and employer on LinkedIn",
-    "No company domain: HubSpot dedupe falls back to company name"
-   ],
-   "reason": "Sells software, services or equipment: competitor or partner, not a buyer"
-  },
-  {
-   "id": "rasa-raoufi-mithra-ai-epsce-2027",
-   "kind": "person",
-   "name": "Rasa Raoufi",
-   "title": "Co-founder",
-   "company": "Mithra Ai",
-   "company_type": "vendor",
-   "segment": "other",
-   "country": "",
-   "domain": "",
-   "event_id": "epsce-2027",
-   "event_name": "European Procurement & Supply Chain Excellence Summit",
-   "role": "speaker",
-   "evidence_level": "speaker:organiser",
-   "evidence_label": "Speaker, named by the organiser",
-   "evidence_strength": "strong",
-   "source_url": "https://www.bme.de/veranstaltungen/grossveranstaltungen/european-procurement-supply-chain-excellence-summit/summit-speakers/",
-   "source_label": "BME EP&SCE speaker page",
-   "source_publisher": "organiser",
-   "checked_on": "2026-10-16",
-   "linkedin_check": "https://www.linkedin.com/search/results/people/?keywords=Rasa+Raoufi+Mithra+Ai",
-   "flags": [
-    "Confirm current title and employer on LinkedIn",
-    "No company domain: HubSpot dedupe falls back to company name"
-   ],
-   "reason": "Sells software, services or equipment: competitor or partner, not a buyer"
-  },
-  {
-   "id": "marcel-urban-targus-management-consulting-epsce-2027",
-   "kind": "person",
-   "name": "Marcel Urban",
-   "title": "Partner",
-   "company": "TARGUS Management Consulting",
-   "company_type": "consultancy",
-   "segment": "other",
-   "country": "DE",
-   "domain": "",
-   "event_id": "epsce-2027",
-   "event_name": "European Procurement & Supply Chain Excellence Summit",
-   "role": "speaker",
-   "evidence_level": "speaker:organiser",
-   "evidence_label": "Speaker, named by the organiser",
-   "evidence_strength": "strong",
-   "source_url": "https://www.bme.de/veranstaltungen/grossveranstaltungen/european-procurement-supply-chain-excellence-summit/summit-speakers/",
-   "source_label": "BME EP&SCE speaker page",
-   "source_publisher": "organiser",
-   "checked_on": "2026-10-16",
-   "linkedin_check": "https://www.linkedin.com/search/results/people/?keywords=Marcel+Urban+TARGUS+Management+Consulting",
-   "flags": [
-    "Confirm current title and employer on LinkedIn",
-    "No company domain: HubSpot dedupe falls back to company name"
-   ],
-   "reason": "Consultancy or analyst: possible referral source, not a buyer"
-  },
-  {
-   "id": "renold-vasili-mastercard-epsce-2027",
-   "kind": "person",
-   "name": "Renold Vasili",
-   "title": "Director Business Development",
-   "company": "Mastercard",
-   "company_type": "vendor",
-   "segment": "other",
-   "country": "US",
-   "domain": "",
-   "event_id": "epsce-2027",
-   "event_name": "European Procurement & Supply Chain Excellence Summit",
-   "role": "speaker",
-   "evidence_level": "speaker:organiser",
-   "evidence_label": "Speaker, named by the organiser",
-   "evidence_strength": "strong",
-   "source_url": "https://www.bme.de/veranstaltungen/grossveranstaltungen/european-procurement-supply-chain-excellence-summit/summit-speakers/",
-   "source_label": "BME EP&SCE speaker page",
-   "source_publisher": "organiser",
-   "checked_on": "2026-10-16",
-   "linkedin_check": "https://www.linkedin.com/search/results/people/?keywords=Renold+Vasili+Mastercard",
-   "flags": [
-    "Confirm current title and employer on LinkedIn",
-    "No company domain: HubSpot dedupe falls back to company name"
-   ],
-   "reason": "Sells software, services or equipment: competitor or partner, not a buyer"
-  },
-  {
-   "id": "frank-welge-targus-management-consulting-epsce-2027",
-   "kind": "person",
-   "name": "Frank Welge",
-   "title": "Partner",
-   "company": "TARGUS Management Consulting",
-   "company_type": "consultancy",
-   "segment": "other",
-   "country": "DE",
-   "domain": "",
-   "event_id": "epsce-2027",
-   "event_name": "European Procurement & Supply Chain Excellence Summit",
-   "role": "speaker",
-   "evidence_level": "speaker:organiser",
-   "evidence_label": "Speaker, named by the organiser",
-   "evidence_strength": "strong",
-   "source_url": "https://www.bme.de/veranstaltungen/grossveranstaltungen/european-procurement-supply-chain-excellence-summit/summit-speakers/",
-   "source_label": "BME EP&SCE speaker page",
-   "source_publisher": "organiser",
-   "checked_on": "2026-10-16",
-   "linkedin_check": "https://www.linkedin.com/search/results/people/?keywords=Frank+Welge+TARGUS+Management+Consulting",
-   "flags": [
-    "Confirm current title and employer on LinkedIn",
-    "No company domain: HubSpot dedupe falls back to company name"
-   ],
-   "reason": "Consultancy or analyst: possible referral source, not a buyer"
-  },
-  {
-   "id": "eelco-wever-slimstock-epsce-2027",
-   "kind": "person",
-   "name": "Eelco Wever",
-   "title": "Managing Director",
-   "company": "Slimstock",
-   "company_type": "vendor",
-   "segment": "other",
-   "country": "NL",
-   "domain": "",
-   "event_id": "epsce-2027",
-   "event_name": "European Procurement & Supply Chain Excellence Summit",
-   "role": "speaker",
-   "evidence_level": "speaker:organiser",
-   "evidence_label": "Speaker, named by the organiser",
-   "evidence_strength": "strong",
-   "source_url": "https://www.bme.de/veranstaltungen/grossveranstaltungen/european-procurement-supply-chain-excellence-summit/summit-speakers/",
-   "source_label": "BME EP&SCE speaker page",
-   "source_publisher": "organiser",
-   "checked_on": "2026-10-16",
-   "linkedin_check": "https://www.linkedin.com/search/results/people/?keywords=Eelco+Wever+Slimstock",
-   "flags": [
-    "Confirm current title and employer on LinkedIn",
-    "No company domain: HubSpot dedupe falls back to company name"
-   ],
-   "reason": "Sells software, services or equipment: competitor or partner, not a buyer"
   }
  ]
 }

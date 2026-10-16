@@ -26,8 +26,8 @@ api/hubspot.js            Vercel function: upsert company (by domain) and contac
 ```
 
 **Evidence.** Each record answers three questions: is this person or company at the event
-(speaker named by the organiser, speaker on a third-party listing, speaking company, exhibitor,
-exhibitor staff, sponsor: exactly what the source states; nobody is called an attendee), is the role
+(speaker named by the organiser, speaker on an undated organiser list, speaker on a third-party
+listing, speaking company, exhibitor, exhibitor staff, sponsor: exactly what the source states; nobody is called an attendee), is the role
 right (published title plus a LinkedIn check link, not yet verified), and why it fits (score and tier
 reason). [`evidence.html`](https://event-lead-cockpit.vercel.app/evidence.html) lists all of it as a
 plain table that needs no JavaScript.
@@ -39,14 +39,13 @@ signal (company-level only, adjacent or junior role, manufacturing below the A b
 C: outside target segments or no buying-relevant function. The 0–100 score ranks within a tier.
 
 **Routing.** Every record lands in one bucket: *leads* (buyer-side people and accounts),
-*partners* (SAP / logistics integrators: channel, not pipeline) or *filtered out* (vendors,
+*partners* (SAP / logistics integrators: channel, not pipeline) or *excluded* (vendors,
 consultancies, academics, organisers, public sector). Conference stages are full of sellers;
 keeping them out of the CRM is half the value.
 
-**Scoring (0–100).** Segment fit 30, function 30, seniority 20, region 10, event signal 10.
-Segment weights follow GeneralMind's public customers: metal distribution (Kloeckner Metals),
-food & beverage (Oatly, bofrost*), distribution, logistics (Müller – Die Lila Logistik),
-manufacturing (TMD Friction). Function weights favour Procure-to-Pay and Order-to-Cash owners. Each lead carries the closest
+**Scoring (0–100).** Segment fit 30, function 30, seniority 20, region 10, evidence 10.
+Segment weights follow the customer stories on GeneralMind's site: metal distribution (Kloeckner
+Metals), food & beverage (Oatly, bofrost*), then distribution, logistics and manufacturing. Function weights favour Procure-to-Pay and Order-to-Cash owners. Each lead carries the closest
 customer story as a suggested opener. People speaking at two events are merged into one lead.
 
 **HubSpot.** The browser sends lead IDs only; the function reads lead data from the bundled
@@ -70,9 +69,12 @@ python3 -m http.server 8000       # open http://localhost:8000 (HubSpot push nee
 ## Honest limits of this build
 
 - Attendee lists are not public. Speakers and sponsors are used as the attending-leads proxy.
-- All ten events have public evidence. Seven name individual speakers; three (EuroBLECH,
-  LogiPharma, Fi Europe) give company-level evidence only. Seven more high-fit events sit on a
-  watchlist until their lists are published.
+- Nine of the ten events have public evidence for the upcoming edition: six name speakers, three
+  (EuroBLECH, LogiPharma, Fi Europe) give company-level evidence only. EP&SCE 2027 has no names on
+  purpose: its organiser page still shows the 2026 lineup, so nothing is sourced until the 2027 list
+  is published. Seven more events sit on a watchlist.
+- The Munich transformation summit's speaker list sits on the page for the November 2026 edition
+  but carries no year, so those leads are flagged for confirmation and capped at tier B.
 - Titles come from event listings and are not yet verified against LinkedIn.
 - Enrichment is a hand-built seed. In production this is an enrichment provider keyed on domain.
 - Review state is saved in the viewer's browser. In production it lives in a shared store.
