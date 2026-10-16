@@ -15,6 +15,7 @@
   };
   const ROLE_LABEL = {
     "speaker:organiser": "Speaker, organiser source",
+    "speaker:organiser-undated": "Speaker, undated organiser list",
     "speaker:third-party": "Speaker, third-party listing",
     "speaking company": "Speaking company",
     exhibitor: "Exhibitor",
@@ -225,7 +226,7 @@
     "Executive sponsor": "Exec sponsor", "Account (buyer not named)": "No buyer named", "Unclassified": "Role off-target",
   };
   const SEN_SHORT = { "C-level / VP": "VP+", "Head / Director": "Head / Dir", "Manager": "Manager", "Individual contributor": "IC" };
-  const EV_SHORT = { "speaker:organiser": "Organiser source", "speaker:third-party": "3rd-party source", "speaking company": "Company only", exhibitor: "Company only", "exhibitor staff": "Exhibitor staff", sponsor: "Company only" };
+  const EV_SHORT = { "speaker:organiser": "Organiser source", "speaker:organiser-undated": "Undated list", "speaker:third-party": "3rd-party source", "speaking company": "Company only", exhibitor: "Company only", "exhibitor staff": "Exhibitor staff", sponsor: "Company only" };
   function reasonTags(l) {
     const weak = new Set();
     if (l.segment === "other" || l.segment === "retail") weak.add("seg");
@@ -271,7 +272,7 @@
           <td class="col-score"><span class="score"><span class="tier tier-${l.tier}" title="Tier ${l.tier}">${l.tier}</span><span class="score-num">${l.score}</span>${scoreBar(l)}</span></td>
           <td class="col-person person"><b>${esc(l.name)}</b>
             <div class="t">${esc(l.kind === "person" ? (l.title || "Title not published") : (l.title || "Company-level record"))}</div>
-            <span class="ev ev-${l.evidence_strength}">${ROLE_LABEL[l.evidence_level]}</span>
+            <span class="ev ev-${l.evidence_strength === "medium" ? "company" : l.evidence_strength}">${ROLE_LABEL[l.evidence_level]}</span>
             <span class="hs-target">${l.kind === "person" ? "HubSpot: contact + company" : "HubSpot: company only"}</span></td>
           <td class="col-co co">${esc(l.company)}<div class="s">${SEGMENT_LABEL[l.segment]}${l.country ? `, ${esc(l.country)}` : ""}</div></td>
           ${state.eventId ? "" : `<td class="col-event"><span class="event-pill">${esc(l.event_name)}</span>${l.also_at ? l.also_at.map((x) => `<span class="event-pill also">+ ${esc(x)}</span>`).join("") : ""}</td>`}
@@ -311,7 +312,7 @@
       <h3>1. Is ${isPerson ? "this person" : "this company"} at the event?</h3>
       <dl class="facts">
         <dt>Event</dt><dd>${esc(l.event_name)}${l.also_at ? `<br>Also: ${esc(l.also_at.join(", "))}` : ""}</dd>
-        <dt>Shown as</dt><dd><span class="ev ev-${l.evidence_strength}">${ROLE_LABEL[l.evidence_level]}</span></dd>
+        <dt>Shown as</dt><dd><span class="ev ev-${l.evidence_strength === "medium" ? "company" : l.evidence_strength}">${ROLE_LABEL[l.evidence_level]}</span></dd>
         <dt>In HubSpot</dt><dd>${isPerson
           ? "Becomes a <b>contact</b>, linked to its <b>company</b>, with a note"
           : "Becomes a <b>company</b> only, with a note. No person is named in the source, so no contact is created"}</dd>
