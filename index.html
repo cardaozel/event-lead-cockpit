@@ -15,8 +15,9 @@
   <header class="bar">
     <div class="bar-title">
       <h1>Event lead cockpit</h1>
-      <p class="bar-sub">People and companies publicly confirmed at 10 upcoming events, scored against GeneralMind's ICP. Every record links to its source. <a href="evidence.html">Open the evidence table</a></p>
+      <p class="bar-sub" id="barSub">Upcoming events, scored against GeneralMind's ICP. Every record links to its source.</p>
     </div>
+    <a class="btn btn-ghost evidence-link" href="evidence.html">Evidence table</a>
     <div class="bar-actions">
       <span id="crmMode" class="mode" title="HubSpot connection">HubSpot: checking connection</span>
       <button id="pushBtn" class="btn btn-primary" disabled>Push approved to HubSpot</button>
@@ -30,8 +31,23 @@
   <main class="layout">
     <aside class="events" aria-label="Events">
       <div class="events-head">
-        <h2>Events</h2>
-        <button id="allEvents" class="link-btn" aria-pressed="true">All events</button>
+        <h2>Events <span class="count" id="eventCount"></span></h2>
+        <button id="evFilterBtn" class="filter-btn" aria-expanded="false" aria-controls="evFilter">
+          <svg width="14" height="14" viewBox="0 0 16 16" aria-hidden="true"><path d="M2 3h12M4.5 8h7M7 13h2" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+          Filter<span class="filter-dot" id="evFilterDot" hidden></span>
+        </button>
+      </div>
+      <div class="ev-filter" id="evFilter" hidden>
+        <label>Country<select id="fCountry"></select></label>
+        <label>City<select id="fCity"></select></label>
+        <label>When<select id="fWhen">
+          <option value="all">Any date</option>
+          <option value="30">Next 30 days</option>
+          <option value="90">Next 3 months</option>
+          <option value="2026">Rest of 2026</option>
+          <option value="2027">2027</option>
+        </select></label>
+        <button class="link-btn" id="fClear">Clear filters</button>
       </div>
       <ol id="eventList" class="event-list"></ol>
       <details class="watch">
@@ -54,7 +70,7 @@
         <div class="tabs" role="tablist" aria-label="Record type">
           <button role="tab" class="tab" data-view="leads" aria-selected="true">Leads</button>
           <button role="tab" class="tab" data-view="partners" aria-selected="false">Partners</button>
-          <button role="tab" class="tab" data-view="excluded" aria-selected="false">Filtered out</button>
+          <button role="tab" class="tab" data-view="excluded" aria-selected="false" title="Vendors, consultants, academics and organisers: not buyers, so never pushed to HubSpot">Excluded</button>
         </div>
         <div class="filters">
           <div class="chips" id="tierChips" role="group" aria-label="Tier">

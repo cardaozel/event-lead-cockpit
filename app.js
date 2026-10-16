@@ -34,6 +34,7 @@
     status: "all",
     query: "",
     selectedId: null,
+    evf: { country: "all", city: "all", when: "all" },
     review: loadReview(),
     links: loadLinks(),
     crm: { mode: "checking", keyRequired: false },
@@ -75,9 +76,38 @@
     return Math.round((parseDay(d) - new Date(new Date().toDateString())) / 86400000);
   }
 
+  // ---------- event filter ----------
+  function eventMatches(e) {
+    const f = state.evf;
+    if (f.country !== "all" && e.country !== f.country) return false;
+    if (f.city !== "all" && e.city !== f.city) return false;
+    if (f.when === "30" || f.when === "90") { const d = daysUntil(e.start); if (d > Number(f.when)) return false; }
+    if (f.when === "2026" && !e.start.startsWith("2026")) return false;
+    if (f.when === "2027" && !e.start.startsWith("2027")) return false;
+    return true;
+  }
+  const visibleEvents = () => state.data.events.filter(eventMatches);
+  const filterActive = () => Object.values(state.evf).some((v) => v !== "all");
+  function renderFilterOptions() {
+    const evs = state.data.events;
+    const countries = [...new Set(evs.map((e) => e.country))];
+    const cities = [...new Set(evs.filter((e) => state.evf.country === "all" || e.country === state.evf.country).map((e) => e.city))].sort();
+    $("fCountry").innerHTML = `<option value="all">All countries</option>` + countries.map((c) => `<option value="${c}">${COUNTRY[c] || c}</option>`).join("");
+    $("fCity").innerHTML = `<option value="all">All cities</option>` + cities.map((c) => `<option value="${esc(c)}">${esc(c)}</option>`).join("");
+    $("fCountry").value = state.evf.country;
+    if (!cities.includes(state.evf.city)) state.evf.city = "all";
+    $("fCity").value = state.evf.city;
+    $("fWhen").value = state.evf.when;
+  }
+
   // ---------- events rail ----------
   function renderEvents() {
-    $("eventList").innerHTML = state.data.events.map((e) => {
+    const shown = visibleEvents();
+    $("eventCount").textContent = filterActive() ? `${shown.length} of ${state.data.events.length}` : String(state.data.events.length);
+    $("evFilterDot").hidden = !filterActive();
+    $("barSub").textContent = `${state.data.events.length} upcoming events · ${state.data.leads.length} scored leads · every record linked to its source`;
+    if (!shown.length) { $("eventList").innerHTML = `<li class="ev-empty">No events match these filters.</li>`; return; }
+    $("eventList").innerHTML = shown.map((e) => {
       const c = e.counts, total = Math.max(c.leads, 1);
       const d = parseDay(e.start);
       const until = daysUntil(e.start);
@@ -98,7 +128,6 @@
           </span>
         </button></li>`;
     }).join("");
-    $("allEvents").setAttribute("aria-pressed", String(!state.eventId));
     $("watchList").innerHTML = state.data.watchlist.map((w) =>
       `<li><b>${esc(w.name)}</b>, ${esc(w.city)}, ${parseDay(w.start).toLocaleString("en-GB", { weekday: "short", day: "numeric", month: "short", year: "numeric" })}<br><span>${esc(w.status)}</span></li>`).join("");
   }
@@ -125,7 +154,7 @@
   }
 
   // ---------- filtering ----------
-  const inEvent = (r) => !state.eventId || r.event_id === state.eventId;
+  const inEvent = (r) => state.eventId ? r.event_id === state.eventId : (!filterActive() || visibleEvents().some((e) => e.id === r.event_id));
   function matchesQuery(r) {
     if (!state.query) return true;
     const q = state.query.toLowerCase();
@@ -161,7 +190,7 @@
       const v = tab.dataset.view;
       const count = n(state.data[v]);
       tab.hidden = v === "partners" && state.data.partners.length === 0;
-      tab.innerHTML = `${{ leads: "Leads", partners: "Partners", excluded: "Filtered out" }[v]}<span class="n">${count}</span>`;
+      tab.innerHTML = `${{ leads: "Leads", partners: "Partners", excluded: "Excluded" }[v]}<span class="n">${count}</span>`;
       tab.setAttribute("aria-selected", String(state.view === v));
     });
     document.querySelector(".filters").style.visibility = state.view === "leads" ? "visible" : "hidden";
@@ -215,7 +244,7 @@
     const s = statusOf(l.id);
     if (s === "synced") return syncedCell(l.id);
     return `<span class="review">
-      <button class="btn btn-approve" data-act="approved" data-id="${l.id}" aria-pressed="${s === "approved"}">${s === "approved" ? "Approved ✓" : "Approve"}</button>
+      <button class="btn btn-approve" data-act="approved" data-id="${l.id}" aria-pressed="${s === "approved"}">${s === "approved" ? "Approved" : "Approve"}</button>
       <button class="btn btn-reject" data-act="rejected" data-id="${l.id}" aria-pressed="${s === "rejected"}">${s === "rejected" ? "Rejected" : "Reject"}</button>
     </span>`;
   }
@@ -418,7 +447,18 @@
       state.eventId = state.eventId === b.dataset.event ? null : b.dataset.event;
       state.selectedId = null; renderAll();
     });
-    $("allEvents").addEventListener("click", () => { state.eventId = null; renderAll(); });
+    $("evFilterBtn").addEventListener("click", () => {
+      const open = $("evFilter").hidden;
+      $("evFilter").hidden = !open;
+      $("evFilterBtn").setAttribute("aria-expanded", String(open));
+    });
+    const onFilter = () => {
+      state.evf = { country: $("fCountry").value, city: $("fCity").value, when: $("fWhen").value };
+      if (state.eventId && !visibleEvents().some((e) => e.id === state.eventId)) state.eventId = null;
+      state.selectedId = null; renderFilterOptions(); renderAll();
+    };
+    ["fCountry", "fCity", "fWhen"].forEach((id) => $(id).addEventListener("change", onFilter));
+    $("fClear").addEventListener("click", () => { state.evf = { country: "all", city: "all", when: "all" }; state.eventId = null; renderFilterOptions(); renderAll(); });
     document.querySelector(".tabs").addEventListener("click", (ev) => {
       const t = ev.target.closest("[data-view]");
       if (!t) return;
@@ -461,7 +501,7 @@
       $("tableWrap").innerHTML = `<div class="empty"><b>Could not load the lead data.</b><p>The <a href="evidence.html">evidence table</a> has the same records.</p></div>`;
       return;
     }
-    bind(); renderRules(); renderAll(); checkCrm();
+    bind(); renderRules(); renderFilterOptions(); renderAll(); checkCrm();
   }
 
   init();
