@@ -101,20 +101,6 @@
    "date_source": "https://eurometal.net/?p=43431"
   },
   {
-   "id": "sclt-munich-2026",
-   "name": "Supply Chain & Logistics Transformation Summit",
-   "start": "2026-11-12",
-   "end": "2026-11-13",
-   "city": "Munich",
-   "country": "DE",
-   "url": "https://www.key-notion.com/supply-chain-logistics-transformation-summit-munich-2026",
-   "format": "Executive summit",
-   "audience": "Supply chain, planning and logistics heads from large manufacturers and consumer goods companies",
-   "why": "A transformation-focused room: the people on stage run supply chain planning and digitalisation programmes, the budget GeneralMind's autopilot competes for.",
-   "evidence_summary": "Speakers named on the organiser's page for the November 2026 edition; the list itself carries no year, so treat as unconfirmed until the agenda is out.",
-   "date_source": "https://www.key-notion.com/supply-chain-logistics-transformation-summit-munich-2026"
-  },
-  {
    "id": "zukunft-stahl-2027",
    "name": "Handelsblatt Zukunft Stahl 2027",
    "start": "2027-03-17",
@@ -141,6 +127,20 @@
    "why": "A senior transformation audience with an agenda on agentic AI in supply chain operations, the exact category GeneralMind sells into.",
    "evidence_summary": "Each speaker has an organiser page that states 'Speaking at TFEST26' with a session slot; speakers who only 'previously spoke' at TFEST24 or TFEST25 are not used.",
    "date_source": "https://www.eventbrite.com/e/tfest26-the-supply-chain-transformation-event-for-senior-leaders-tickets-1980709472351"
+  },
+  {
+   "id": "hb-industrie-gipfel-2026",
+   "name": "Handelsblatt Industrie-Gipfel 2026",
+   "start": "2026-11-25",
+   "end": "2026-11-26",
+   "city": "Düsseldorf",
+   "country": "DE",
+   "url": "https://live.handelsblatt.com/event/handelsblatt-industrie-gipfel/",
+   "format": "Executive conference",
+   "audience": "Board members and transformation leaders of German and Austrian industrial companies",
+   "why": "The executive sponsors of industrial AI and transformation budgets, including steel (voestalpine), machinery (GEA) and logistics (FIEGE).",
+   "evidence_summary": "Speakers listed on the organiser's 2026 event page as having confirmed they will attend ('haben ihr Kommen zugesagt').",
+   "date_source": "https://live.handelsblatt.com/event/handelsblatt-industrie-gipfel/"
   }
  ],
  "watchlist": [
@@ -150,6 +150,13 @@
    "city": "Berlin",
    "why": "International CPOs and supply chain heads",
    "status": "The 2027 page still shows the 2026 lineup; waiting for the 2027 list"
+  },
+  {
+   "name": "Supply Chain & Logistics Transformation Summit",
+   "start": "2026-11-12",
+   "city": "Munich",
+   "why": "Supply chain planning and digitalisation heads",
+   "status": "Speaker list on the event page carries no year; waiting for a dated agenda"
   },
   {
    "name": "DSAG Technologietage 2027",

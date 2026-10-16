@@ -825,6 +825,47 @@
    "type": "consultancy",
    "segment": "other",
    "country": ""
+  },
+  "voestalpine": {
+   "type": "buyer",
+   "segment": "metal",
+   "country": "AT",
+   "domain": "voestalpine.com"
+  },
+  "GEA": {
+   "type": "buyer",
+   "segment": "manufacturing",
+   "country": "DE",
+   "domain": "gea.com"
+  },
+  "Stadtwerke Düsseldorf": {
+   "type": "public",
+   "segment": "other",
+   "country": "DE"
+  },
+  "Rheinmetall": {
+   "type": "buyer",
+   "segment": "manufacturing",
+   "country": "DE",
+   "domain": "rheinmetall.com"
+  },
+  "FIEGE": {
+   "type": "buyer",
+   "segment": "logistics",
+   "country": "DE",
+   "domain": "fiege.com"
+  },
+  "Heraeus": {
+   "type": "buyer",
+   "segment": "manufacturing",
+   "country": "DE",
+   "domain": "heraeus.com"
+  },
+  "Schunk": {
+   "type": "buyer",
+   "segment": "manufacturing",
+   "country": "DE",
+   "domain": "schunk-group.com"
   }
  }
 }

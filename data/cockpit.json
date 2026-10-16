@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-16T02:49:24+00:00",
+ "generated_at": "2026-10-16T02:56:30+00:00",
  "checked_on": "2026-10-16",
  "weights": {
   "segment": 30,
@@ -10,7 +10,7 @@
  },
  "tier_rules": {
   "A": "Strong ICP + relevant senior role + strong event evidence. Core segment (metal, food, distribution, logistics) with a P2P, O2C or supply chain leader at Head level or above, named as a speaker. Manufacturing qualifies only at the top: VP or C-level, DACH-based, named by the organiser.",
-  "B": "Good company or role fit, but a weaker buying signal or weaker evidence: company-level or undated evidence, adjacent or junior role, manufacturing below the A bar, or retail.",
+  "B": "Good company or role fit, but a weaker buying signal or weaker evidence: company-level evidence only, adjacent or junior role, manufacturing below the A bar, or retail.",
   "C": "Weak ICP fit or low relevance: outside target segments, or no buying-relevant function in the published title."
  },
  "events": [
@@ -87,30 +87,6 @@
    }
   },
   {
-   "id": "sclt-munich-2026",
-   "name": "Supply Chain & Logistics Transformation Summit",
-   "start": "2026-11-12",
-   "end": "2026-11-13",
-   "city": "Munich",
-   "country": "DE",
-   "url": "https://www.key-notion.com/supply-chain-logistics-transformation-summit-munich-2026",
-   "format": "Executive summit",
-   "audience": "Supply chain, planning and logistics heads from large manufacturers and consumer goods companies",
-   "why": "A transformation-focused room: the people on stage run supply chain planning and digitalisation programmes, the budget GeneralMind's autopilot competes for.",
-   "evidence_summary": "Speakers named on the organiser's page for the November 2026 edition; the list itself carries no year, so treat as unconfirmed until the agenda is out.",
-   "date_source": "https://www.key-notion.com/supply-chain-logistics-transformation-summit-munich-2026",
-   "counts": {
-    "leads": 12,
-    "people": 12,
-    "accounts": 0,
-    "A": 0,
-    "B": 9,
-    "C": 3,
-    "partners": 0,
-    "excluded": 1
-   }
-  },
-  {
    "id": "logipharma-dscc-2026",
    "name": "LogiPharma Digital Supply Chain Connect",
    "start": "2026-11-17",
@@ -172,11 +148,11 @@
    "evidence_summary": "Named speakers with titles in the organiser's own programme PDF.",
    "date_source": "https://a.storyblok.com/f/104752/x/f35c82985f/bme-symposium-2026-premail.pdf",
    "counts": {
-    "leads": 31,
-    "people": 31,
+    "leads": 32,
+    "people": 32,
     "accounts": 0,
     "A": 17,
-    "B": 10,
+    "B": 11,
     "C": 4,
     "partners": 0,
     "excluded": 5
@@ -204,6 +180,30 @@
     "C": 2,
     "partners": 0,
     "excluded": 7
+   }
+  },
+  {
+   "id": "hb-industrie-gipfel-2026",
+   "name": "Handelsblatt Industrie-Gipfel 2026",
+   "start": "2026-11-25",
+   "end": "2026-11-26",
+   "city": "Düsseldorf",
+   "country": "DE",
+   "url": "https://live.handelsblatt.com/event/handelsblatt-industrie-gipfel/",
+   "format": "Executive conference",
+   "audience": "Board members and transformation leaders of German and Austrian industrial companies",
+   "why": "The executive sponsors of industrial AI and transformation budgets, including steel (voestalpine), machinery (GEA) and logistics (FIEGE).",
+   "evidence_summary": "Speakers listed on the organiser's 2026 event page as having confirmed they will attend ('haben ihr Kommen zugesagt').",
+   "date_source": "https://live.handelsblatt.com/event/handelsblatt-industrie-gipfel/",
+   "counts": {
+    "leads": 6,
+    "people": 6,
+    "accounts": 0,
+    "A": 0,
+    "B": 6,
+    "C": 0,
+    "partners": 0,
+    "excluded": 1
    }
   },
   {
@@ -262,6 +262,13 @@
    "city": "Berlin",
    "why": "International CPOs and supply chain heads",
    "status": "The 2027 page still shows the 2026 lineup; waiting for the 2027 list"
+  },
+  {
+   "name": "Supply Chain & Logistics Transformation Summit",
+   "start": "2026-11-12",
+   "city": "Munich",
+   "why": "Supply chain planning and digitalisation heads",
+   "status": "Speaker list on the event page carries no year; waiting for a dated agenda"
   },
   {
    "name": "DSAG Technologietage 2027",
@@ -2219,6 +2226,74 @@
    }
   },
   {
+   "id": "herbert-eibensteiner-voestalpine-hb-industrie-gipfel-2026",
+   "kind": "person",
+   "name": "Herbert Eibensteiner",
+   "title": "CEO",
+   "company": "voestalpine",
+   "company_type": "buyer",
+   "segment": "metal",
+   "country": "AT",
+   "domain": "voestalpine.com",
+   "event_id": "hb-industrie-gipfel-2026",
+   "event_name": "Handelsblatt Industrie-Gipfel 2026",
+   "role": "speaker",
+   "evidence_level": "speaker:organiser",
+   "evidence_label": "Speaker, named by the organiser",
+   "evidence_strength": "strong",
+   "source_url": "https://live.handelsblatt.com/event/handelsblatt-industrie-gipfel/",
+   "source_label": "Handelsblatt Live 2026 event page (confirmed speakers)",
+   "source_publisher": "organiser",
+   "checked_on": "2026-10-16",
+   "linkedin_check": "https://www.linkedin.com/search/results/people/?keywords=Herbert+Eibensteiner+voestalpine",
+   "flags": [
+    "Confirm current title and employer on LinkedIn"
+   ],
+   "score": 88,
+   "tier": "B",
+   "tier_reason": "Good fit (metal & steel, executive sponsor), but the role is adjacent (executive sponsor).",
+   "persona": "Executive sponsor",
+   "seniority": "C-level / VP",
+   "region": "DACH",
+   "breakdown": [
+    {
+     "factor": "Segment",
+     "points": 30,
+     "max": 30,
+     "why": "Metal & steel: distribution, processing, production (Kloeckner Metals lookalike)"
+    },
+    {
+     "factor": "Function",
+     "points": 18,
+     "max": 30,
+     "why": "Executive sponsor"
+    },
+    {
+     "factor": "Seniority",
+     "points": 20,
+     "max": 20,
+     "why": "C-level / VP"
+    },
+    {
+     "factor": "Region",
+     "points": 10,
+     "max": 10,
+     "why": "DACH"
+    },
+    {
+     "factor": "Evidence",
+     "points": 10,
+     "max": 10,
+     "why": "Speaker, named by the organiser"
+    }
+   ],
+   "reference": {
+    "id": "oatly",
+    "customer": "Oatly",
+    "story": "Scaling order intake without scaling headcount"
+   }
+  },
+  {
    "id": "maruan-el-daghma-primex-steel-trading-eurometal-std-2026",
    "kind": "person",
    "name": "Maruan El Daghma",
@@ -3376,35 +3451,34 @@
    }
   },
   {
-   "id": "andreas-walz-e-g-o-europe-sclt-munich-2026",
+   "id": "alireza-tavakoli-schunk-hb-industrie-gipfel-2026",
    "kind": "person",
-   "name": "Andreas Walz",
-   "title": "Head of Supply Chain and Logistics",
-   "company": "E.G.O. Europe",
+   "name": "Alireza Tavakoli",
+   "title": "Managing Director, Schunk Digital Industries & Group CDO",
+   "company": "Schunk",
    "company_type": "buyer",
    "segment": "manufacturing",
    "country": "DE",
-   "domain": "egoproducts.com",
-   "event_id": "sclt-munich-2026",
-   "event_name": "Supply Chain & Logistics Transformation Summit",
+   "domain": "schunk-group.com",
+   "event_id": "hb-industrie-gipfel-2026",
+   "event_name": "Handelsblatt Industrie-Gipfel 2026",
    "role": "speaker",
-   "evidence_level": "speaker:organiser-undated",
-   "evidence_label": "Speaker on the organiser's event page, list not dated",
-   "evidence_strength": "medium",
-   "source_url": "https://www.key-notion.com/supply-chain-logistics-transformation-summit-munich-2026",
-   "source_label": "Organiser event page (speaker list not dated)",
-   "source_publisher": "organiser-undated",
+   "evidence_level": "speaker:organiser",
+   "evidence_label": "Speaker, named by the organiser",
+   "evidence_strength": "strong",
+   "source_url": "https://live.handelsblatt.com/event/handelsblatt-industrie-gipfel/",
+   "source_label": "Handelsblatt Live 2026 event page (confirmed speakers)",
+   "source_publisher": "organiser",
    "checked_on": "2026-10-16",
-   "linkedin_check": "https://www.linkedin.com/search/results/people/?keywords=Andreas+Walz+E.G.O.+Europe",
+   "linkedin_check": "https://www.linkedin.com/search/results/people/?keywords=Alireza+Tavakoli+Schunk",
    "flags": [
-    "Confirm current title and employer on LinkedIn",
-    "Speaker list on the organiser page is not dated: confirm this person is on the 2026 agenda"
+    "Confirm current title and employer on LinkedIn"
    ],
    "score": 79,
    "tier": "B",
-   "tier_reason": "Good fit (manufacturing, supply chain / logistics leader), but the evidence is weaker (speaker on the organiser's event page, list not dated) and manufacturing below the A bar (below VP level, named only on a third-party listing).",
-   "persona": "Supply chain / logistics leader",
-   "seniority": "Head / Director",
+   "tier_reason": "Good fit (manufacturing, transformation / digital lead), but the role is adjacent (transformation / digital lead).",
+   "persona": "Transformation / digital lead",
+   "seniority": "C-level / VP",
    "region": "DACH",
    "breakdown": [
     {
@@ -3415,15 +3489,15 @@
     },
     {
      "factor": "Function",
-     "points": 27,
+     "points": 21,
      "max": 30,
-     "why": "Supply chain / logistics leader"
+     "why": "Transformation / digital lead"
     },
     {
      "factor": "Seniority",
-     "points": 17,
+     "points": 20,
      "max": 20,
-     "why": "Head / Director"
+     "why": "C-level / VP"
     },
     {
      "factor": "Region",
@@ -3433,60 +3507,59 @@
     },
     {
      "factor": "Evidence",
-     "points": 7,
+     "points": 10,
      "max": 10,
-     "why": "Speaker on the organiser's event page, list not dated"
+     "why": "Speaker, named by the organiser"
     }
    ],
    "reference": {
-    "id": "oatly",
-    "customer": "Oatly",
-    "story": "Scaling order intake without scaling headcount"
+    "id": "kloeckner",
+    "customer": "Kloeckner Metals",
+    "story": "Supplier order confirmations on autopilot"
    }
   },
   {
-   "id": "anna-leona-breidbach-covestro-sclt-munich-2026",
+   "id": "claudia-pohlink-fiege-hb-industrie-gipfel-2026",
    "kind": "person",
-   "name": "Anna-Leona Breidbach",
-   "title": "Head of Center of Excellence EMLA, Supply Chain & Logistics",
-   "company": "Covestro",
+   "name": "Claudia Pohlink",
+   "title": "Director Data & AI",
+   "company": "FIEGE",
    "company_type": "buyer",
-   "segment": "manufacturing",
+   "segment": "logistics",
    "country": "DE",
-   "domain": "covestro.com",
-   "event_id": "sclt-munich-2026",
-   "event_name": "Supply Chain & Logistics Transformation Summit",
+   "domain": "fiege.com",
+   "event_id": "hb-industrie-gipfel-2026",
+   "event_name": "Handelsblatt Industrie-Gipfel 2026",
    "role": "speaker",
-   "evidence_level": "speaker:organiser-undated",
-   "evidence_label": "Speaker on the organiser's event page, list not dated",
-   "evidence_strength": "medium",
-   "source_url": "https://www.key-notion.com/supply-chain-logistics-transformation-summit-munich-2026",
-   "source_label": "Organiser event page (speaker list not dated)",
-   "source_publisher": "organiser-undated",
+   "evidence_level": "speaker:organiser",
+   "evidence_label": "Speaker, named by the organiser",
+   "evidence_strength": "strong",
+   "source_url": "https://live.handelsblatt.com/event/handelsblatt-industrie-gipfel/",
+   "source_label": "Handelsblatt Live 2026 event page (confirmed speakers)",
+   "source_publisher": "organiser",
    "checked_on": "2026-10-16",
-   "linkedin_check": "https://www.linkedin.com/search/results/people/?keywords=Anna-Leona+Breidbach+Covestro",
+   "linkedin_check": "https://www.linkedin.com/search/results/people/?keywords=Claudia+Pohlink+FIEGE",
    "flags": [
-    "Confirm current title and employer on LinkedIn",
-    "Speaker list on the organiser page is not dated: confirm this person is on the 2026 agenda"
+    "Confirm current title and employer on LinkedIn"
    ],
    "score": 79,
    "tier": "B",
-   "tier_reason": "Good fit (manufacturing, supply chain / logistics leader), but the evidence is weaker (speaker on the organiser's event page, list not dated) and manufacturing below the A bar (below VP level, named only on a third-party listing).",
-   "persona": "Supply chain / logistics leader",
+   "tier_reason": "Good fit (logistics, transformation / digital lead), but the role is adjacent (transformation / digital lead).",
+   "persona": "Transformation / digital lead",
    "seniority": "Head / Director",
    "region": "DACH",
    "breakdown": [
     {
      "factor": "Segment",
-     "points": 18,
+     "points": 21,
      "max": 30,
-     "why": "Manufacturing with high PO / SO volume"
+     "why": "Logistics and fleet-heavy operations (bofrost* fleet story)"
     },
     {
      "factor": "Function",
-     "points": 27,
+     "points": 21,
      "max": 30,
-     "why": "Supply chain / logistics leader"
+     "why": "Transformation / digital lead"
     },
     {
      "factor": "Seniority",
@@ -3502,47 +3575,46 @@
     },
     {
      "factor": "Evidence",
-     "points": 7,
+     "points": 10,
      "max": 10,
-     "why": "Speaker on the organiser's event page, list not dated"
+     "why": "Speaker, named by the organiser"
     }
    ],
    "reference": {
-    "id": "oatly",
-    "customer": "Oatly",
-    "story": "Scaling order intake without scaling headcount"
+    "id": "kloeckner",
+    "customer": "Kloeckner Metals",
+    "story": "Supplier order confirmations on autopilot"
    }
   },
   {
-   "id": "candy-wei-thieme-beiersdorf-sclt-munich-2026",
+   "id": "deniz-serifsoy-heraeus-hb-industrie-gipfel-2026",
    "kind": "person",
-   "name": "Candy Weiß-Thieme",
-   "title": "Global Supply Chain Director E-Commerce",
-   "company": "Beiersdorf",
+   "name": "Deniz Serifsoy",
+   "title": "Chief Transformation Officer",
+   "company": "Heraeus",
    "company_type": "buyer",
    "segment": "manufacturing",
    "country": "DE",
-   "domain": "beiersdorf.com",
-   "event_id": "sclt-munich-2026",
-   "event_name": "Supply Chain & Logistics Transformation Summit",
+   "domain": "heraeus.com",
+   "event_id": "hb-industrie-gipfel-2026",
+   "event_name": "Handelsblatt Industrie-Gipfel 2026",
    "role": "speaker",
-   "evidence_level": "speaker:organiser-undated",
-   "evidence_label": "Speaker on the organiser's event page, list not dated",
-   "evidence_strength": "medium",
-   "source_url": "https://www.key-notion.com/supply-chain-logistics-transformation-summit-munich-2026",
-   "source_label": "Organiser event page (speaker list not dated)",
-   "source_publisher": "organiser-undated",
+   "evidence_level": "speaker:organiser",
+   "evidence_label": "Speaker, named by the organiser",
+   "evidence_strength": "strong",
+   "source_url": "https://live.handelsblatt.com/event/handelsblatt-industrie-gipfel/",
+   "source_label": "Handelsblatt Live 2026 event page (confirmed speakers)",
+   "source_publisher": "organiser",
    "checked_on": "2026-10-16",
-   "linkedin_check": "https://www.linkedin.com/search/results/people/?keywords=Candy+Wei%C3%9F-Thieme+Beiersdorf",
+   "linkedin_check": "https://www.linkedin.com/search/results/people/?keywords=Deniz+Serifsoy+Heraeus",
    "flags": [
-    "Confirm current title and employer on LinkedIn",
-    "Speaker list on the organiser page is not dated: confirm this person is on the 2026 agenda"
+    "Confirm current title and employer on LinkedIn"
    ],
    "score": 79,
    "tier": "B",
-   "tier_reason": "Good fit (manufacturing, supply chain / logistics leader), but the evidence is weaker (speaker on the organiser's event page, list not dated) and manufacturing below the A bar (below VP level, named only on a third-party listing).",
-   "persona": "Supply chain / logistics leader",
-   "seniority": "Head / Director",
+   "tier_reason": "Good fit (manufacturing, transformation / digital lead), but the role is adjacent (transformation / digital lead).",
+   "persona": "Transformation / digital lead",
+   "seniority": "C-level / VP",
    "region": "DACH",
    "breakdown": [
     {
@@ -3553,15 +3625,15 @@
     },
     {
      "factor": "Function",
-     "points": 27,
+     "points": 21,
      "max": 30,
-     "why": "Supply chain / logistics leader"
+     "why": "Transformation / digital lead"
     },
     {
      "factor": "Seniority",
-     "points": 17,
+     "points": 20,
      "max": 20,
-     "why": "Head / Director"
+     "why": "C-level / VP"
     },
     {
      "factor": "Region",
@@ -3571,153 +3643,15 @@
     },
     {
      "factor": "Evidence",
-     "points": 7,
-     "max": 10,
-     "why": "Speaker on the organiser's event page, list not dated"
-    }
-   ],
-   "reference": {
-    "id": "oatly",
-    "customer": "Oatly",
-    "story": "Scaling order intake without scaling headcount"
-   }
-  },
-  {
-   "id": "florian-kaesen-intel-germany-sclt-munich-2026",
-   "kind": "person",
-   "name": "Florian Kaesen",
-   "title": "Director Supply Chain",
-   "company": "Intel Germany",
-   "company_type": "buyer",
-   "segment": "manufacturing",
-   "country": "DE",
-   "domain": "intel.de",
-   "event_id": "sclt-munich-2026",
-   "event_name": "Supply Chain & Logistics Transformation Summit",
-   "role": "speaker",
-   "evidence_level": "speaker:organiser-undated",
-   "evidence_label": "Speaker on the organiser's event page, list not dated",
-   "evidence_strength": "medium",
-   "source_url": "https://www.key-notion.com/supply-chain-logistics-transformation-summit-munich-2026",
-   "source_label": "Organiser event page (speaker list not dated)",
-   "source_publisher": "organiser-undated",
-   "checked_on": "2026-10-16",
-   "linkedin_check": "https://www.linkedin.com/search/results/people/?keywords=Florian+Kaesen+Intel+Germany",
-   "flags": [
-    "Confirm current title and employer on LinkedIn",
-    "Speaker list on the organiser page is not dated: confirm this person is on the 2026 agenda"
-   ],
-   "score": 79,
-   "tier": "B",
-   "tier_reason": "Good fit (manufacturing, supply chain / logistics leader), but the evidence is weaker (speaker on the organiser's event page, list not dated) and manufacturing below the A bar (below VP level, named only on a third-party listing).",
-   "persona": "Supply chain / logistics leader",
-   "seniority": "Head / Director",
-   "region": "DACH",
-   "breakdown": [
-    {
-     "factor": "Segment",
-     "points": 18,
-     "max": 30,
-     "why": "Manufacturing with high PO / SO volume"
-    },
-    {
-     "factor": "Function",
-     "points": 27,
-     "max": 30,
-     "why": "Supply chain / logistics leader"
-    },
-    {
-     "factor": "Seniority",
-     "points": 17,
-     "max": 20,
-     "why": "Head / Director"
-    },
-    {
-     "factor": "Region",
      "points": 10,
      "max": 10,
-     "why": "DACH"
-    },
-    {
-     "factor": "Evidence",
-     "points": 7,
-     "max": 10,
-     "why": "Speaker on the organiser's event page, list not dated"
+     "why": "Speaker, named by the organiser"
     }
    ],
    "reference": {
-    "id": "oatly",
-    "customer": "Oatly",
-    "story": "Scaling order intake without scaling headcount"
-   }
-  },
-  {
-   "id": "immanuel-sollner-miele-sclt-munich-2026",
-   "kind": "person",
-   "name": "Immanuel Söllner",
-   "title": "Director Supply Chain Planning Southeastern Europe",
-   "company": "Miele",
-   "company_type": "buyer",
-   "segment": "manufacturing",
-   "country": "DE",
-   "domain": "miele.com",
-   "event_id": "sclt-munich-2026",
-   "event_name": "Supply Chain & Logistics Transformation Summit",
-   "role": "speaker",
-   "evidence_level": "speaker:organiser-undated",
-   "evidence_label": "Speaker on the organiser's event page, list not dated",
-   "evidence_strength": "medium",
-   "source_url": "https://www.key-notion.com/supply-chain-logistics-transformation-summit-munich-2026",
-   "source_label": "Organiser event page (speaker list not dated)",
-   "source_publisher": "organiser-undated",
-   "checked_on": "2026-10-16",
-   "linkedin_check": "https://www.linkedin.com/search/results/people/?keywords=Immanuel+S%C3%B6llner+Miele",
-   "flags": [
-    "Confirm current title and employer on LinkedIn",
-    "Speaker list on the organiser page is not dated: confirm this person is on the 2026 agenda"
-   ],
-   "score": 79,
-   "tier": "B",
-   "tier_reason": "Good fit (manufacturing, supply chain / logistics leader), but the evidence is weaker (speaker on the organiser's event page, list not dated) and manufacturing below the A bar (below VP level, named only on a third-party listing).",
-   "persona": "Supply chain / logistics leader",
-   "seniority": "Head / Director",
-   "region": "DACH",
-   "breakdown": [
-    {
-     "factor": "Segment",
-     "points": 18,
-     "max": 30,
-     "why": "Manufacturing with high PO / SO volume"
-    },
-    {
-     "factor": "Function",
-     "points": 27,
-     "max": 30,
-     "why": "Supply chain / logistics leader"
-    },
-    {
-     "factor": "Seniority",
-     "points": 17,
-     "max": 20,
-     "why": "Head / Director"
-    },
-    {
-     "factor": "Region",
-     "points": 10,
-     "max": 10,
-     "why": "DACH"
-    },
-    {
-     "factor": "Evidence",
-     "points": 7,
-     "max": 10,
-     "why": "Speaker on the organiser's event page, list not dated"
-    }
-   ],
-   "reference": {
-    "id": "oatly",
-    "customer": "Oatly",
-    "story": "Scaling order intake without scaling headcount"
+    "id": "kloeckner",
+    "customer": "Kloeckner Metals",
+    "story": "Supplier order confirmations on autopilot"
    }
   },
   {
@@ -4401,6 +4335,142 @@
    }
   },
   {
+   "id": "armin-papperger-rheinmetall-hb-industrie-gipfel-2026",
+   "kind": "person",
+   "name": "Armin Papperger",
+   "title": "Vorstandsvorsitzender",
+   "company": "Rheinmetall",
+   "company_type": "buyer",
+   "segment": "manufacturing",
+   "country": "DE",
+   "domain": "rheinmetall.com",
+   "event_id": "hb-industrie-gipfel-2026",
+   "event_name": "Handelsblatt Industrie-Gipfel 2026",
+   "role": "speaker",
+   "evidence_level": "speaker:organiser",
+   "evidence_label": "Speaker, named by the organiser",
+   "evidence_strength": "strong",
+   "source_url": "https://live.handelsblatt.com/event/handelsblatt-industrie-gipfel/",
+   "source_label": "Handelsblatt Live 2026 event page (confirmed speakers)",
+   "source_publisher": "organiser",
+   "checked_on": "2026-10-16",
+   "linkedin_check": "https://www.linkedin.com/search/results/people/?keywords=Armin+Papperger+Rheinmetall",
+   "flags": [
+    "Confirm current title and employer on LinkedIn"
+   ],
+   "score": 76,
+   "tier": "B",
+   "tier_reason": "Good fit (manufacturing, executive sponsor), but the role is adjacent (executive sponsor).",
+   "persona": "Executive sponsor",
+   "seniority": "C-level / VP",
+   "region": "DACH",
+   "breakdown": [
+    {
+     "factor": "Segment",
+     "points": 18,
+     "max": 30,
+     "why": "Manufacturing with high PO / SO volume"
+    },
+    {
+     "factor": "Function",
+     "points": 18,
+     "max": 30,
+     "why": "Executive sponsor"
+    },
+    {
+     "factor": "Seniority",
+     "points": 20,
+     "max": 20,
+     "why": "C-level / VP"
+    },
+    {
+     "factor": "Region",
+     "points": 10,
+     "max": 10,
+     "why": "DACH"
+    },
+    {
+     "factor": "Evidence",
+     "points": 10,
+     "max": 10,
+     "why": "Speaker, named by the organiser"
+    }
+   ],
+   "reference": {
+    "id": "oatly",
+    "customer": "Oatly",
+    "story": "Scaling order intake without scaling headcount"
+   }
+  },
+  {
+   "id": "stefan-klebert-gea-hb-industrie-gipfel-2026",
+   "kind": "person",
+   "name": "Stefan Klebert",
+   "title": "CEO & Chairman of the Executive Board",
+   "company": "GEA",
+   "company_type": "buyer",
+   "segment": "manufacturing",
+   "country": "DE",
+   "domain": "gea.com",
+   "event_id": "hb-industrie-gipfel-2026",
+   "event_name": "Handelsblatt Industrie-Gipfel 2026",
+   "role": "speaker",
+   "evidence_level": "speaker:organiser",
+   "evidence_label": "Speaker, named by the organiser",
+   "evidence_strength": "strong",
+   "source_url": "https://live.handelsblatt.com/event/handelsblatt-industrie-gipfel/",
+   "source_label": "Handelsblatt Live 2026 event page (confirmed speakers)",
+   "source_publisher": "organiser",
+   "checked_on": "2026-10-16",
+   "linkedin_check": "https://www.linkedin.com/search/results/people/?keywords=Stefan+Klebert+GEA",
+   "flags": [
+    "Confirm current title and employer on LinkedIn"
+   ],
+   "score": 76,
+   "tier": "B",
+   "tier_reason": "Good fit (manufacturing, executive sponsor), but the role is adjacent (executive sponsor).",
+   "persona": "Executive sponsor",
+   "seniority": "C-level / VP",
+   "region": "DACH",
+   "breakdown": [
+    {
+     "factor": "Segment",
+     "points": 18,
+     "max": 30,
+     "why": "Manufacturing with high PO / SO volume"
+    },
+    {
+     "factor": "Function",
+     "points": 18,
+     "max": 30,
+     "why": "Executive sponsor"
+    },
+    {
+     "factor": "Seniority",
+     "points": 20,
+     "max": 20,
+     "why": "C-level / VP"
+    },
+    {
+     "factor": "Region",
+     "points": 10,
+     "max": 10,
+     "why": "DACH"
+    },
+    {
+     "factor": "Evidence",
+     "points": 10,
+     "max": 10,
+     "why": "Speaker, named by the organiser"
+    }
+   ],
+   "reference": {
+    "id": "oatly",
+    "customer": "Oatly",
+    "story": "Scaling order intake without scaling headcount"
+   }
+  },
+  {
    "id": "tobias-harzer-jungheinrich-bvl-cx-2026",
    "kind": "person",
    "name": "Tobias Harzer",
@@ -4469,36 +4539,35 @@
    }
   },
   {
-   "id": "pavel-sinelnik-electrolux-group-sclt-munich-2026",
+   "id": "arjun-varma-apollo-tyres-bme-2026",
    "kind": "person",
-   "name": "Pavel Sinelnik",
-   "title": "D2C Supply Chain Development Director",
-   "company": "Electrolux Group",
+   "name": "Arjun Varma",
+   "title": "Group Head – Supply Chain Strategy & Transformation",
+   "company": "Apollo Tyres",
    "company_type": "buyer",
    "segment": "manufacturing",
-   "country": "SE",
-   "domain": "electroluxgroup.com",
-   "event_id": "sclt-munich-2026",
-   "event_name": "Supply Chain & Logistics Transformation Summit",
+   "country": "IN",
+   "domain": "apollotyres.com",
+   "event_id": "bme-2026",
+   "event_name": "BME Symposium Einkauf & Logistik",
    "role": "speaker",
-   "evidence_level": "speaker:organiser-undated",
-   "evidence_label": "Speaker on the organiser's event page, list not dated",
-   "evidence_strength": "medium",
-   "source_url": "https://www.key-notion.com/supply-chain-logistics-transformation-summit-munich-2026",
-   "source_label": "Organiser event page (speaker list not dated)",
-   "source_publisher": "organiser-undated",
+   "evidence_level": "speaker:organiser",
+   "evidence_label": "Speaker, named by the organiser",
+   "evidence_strength": "strong",
+   "source_url": "https://a.storyblok.com/f/104752/x/f35c82985f/bme-symposium-2026-premail.pdf",
+   "source_label": "BME programme PDF",
+   "source_publisher": "organiser",
    "checked_on": "2026-10-16",
-   "linkedin_check": "https://www.linkedin.com/search/results/people/?keywords=Pavel+Sinelnik+Electrolux+Group",
+   "linkedin_check": "https://www.linkedin.com/search/results/people/?keywords=Arjun+Varma+Apollo+Tyres",
    "flags": [
-    "Confirm current title and employer on LinkedIn",
-    "Speaker list on the organiser page is not dated: confirm this person is on the 2026 agenda"
+    "Confirm current title and employer on LinkedIn"
    ],
-   "score": 75,
+   "score": 74,
    "tier": "B",
-   "tier_reason": "Good fit (manufacturing, supply chain / logistics leader), but the evidence is weaker (speaker on the organiser's event page, list not dated) and manufacturing below the A bar (below VP level, outside DACH, named only on a third-party listing).",
+   "tier_reason": "Good fit (manufacturing, supply chain / logistics leader), but manufacturing below the A bar (below VP level, outside DACH).",
    "persona": "Supply chain / logistics leader",
    "seniority": "Head / Director",
-   "region": "Europe",
+   "region": "Other",
    "breakdown": [
     {
      "factor": "Segment",
@@ -4520,15 +4589,15 @@
     },
     {
      "factor": "Region",
-     "points": 6,
+     "points": 2,
      "max": 10,
-     "why": "Europe"
+     "why": "Other"
     },
     {
      "factor": "Evidence",
-     "points": 7,
+     "points": 10,
      "max": 10,
-     "why": "Speaker on the organiser's event page, list not dated"
+     "why": "Speaker, named by the organiser"
     }
    ],
    "reference": {
@@ -4671,216 +4740,6 @@
     "id": "kloeckner",
     "customer": "Kloeckner Metals",
     "story": "Supplier order confirmations on autopilot"
-   }
-  },
-  {
-   "id": "arjun-varma-apollo-tyres-sclt-munich-2026",
-   "kind": "person",
-   "name": "Arjun Varma",
-   "title": "Group Head – Supply Chain Strategy & Transformation",
-   "company": "Apollo Tyres",
-   "company_type": "buyer",
-   "segment": "manufacturing",
-   "country": "IN",
-   "domain": "apollotyres.com",
-   "event_id": "sclt-munich-2026",
-   "event_name": "Supply Chain & Logistics Transformation Summit",
-   "role": "speaker",
-   "evidence_level": "speaker:organiser-undated",
-   "evidence_label": "Speaker on the organiser's event page, list not dated",
-   "evidence_strength": "medium",
-   "source_url": "https://www.key-notion.com/supply-chain-logistics-transformation-summit-munich-2026",
-   "source_label": "Organiser event page (speaker list not dated)",
-   "source_publisher": "organiser-undated",
-   "checked_on": "2026-10-16",
-   "linkedin_check": "https://www.linkedin.com/search/results/people/?keywords=Arjun+Varma+Apollo+Tyres",
-   "flags": [
-    "Confirm current title and employer on LinkedIn",
-    "Speaker list on the organiser page is not dated: confirm this person is on the 2026 agenda"
-   ],
-   "score": 71,
-   "tier": "B",
-   "tier_reason": "Good fit (manufacturing, supply chain / logistics leader), but the evidence is weaker (speaker on the organiser's event page, list not dated) and manufacturing below the A bar (below VP level, outside DACH, named only on a third-party listing).",
-   "persona": "Supply chain / logistics leader",
-   "seniority": "Head / Director",
-   "region": "Other",
-   "breakdown": [
-    {
-     "factor": "Segment",
-     "points": 18,
-     "max": 30,
-     "why": "Manufacturing with high PO / SO volume"
-    },
-    {
-     "factor": "Function",
-     "points": 27,
-     "max": 30,
-     "why": "Supply chain / logistics leader"
-    },
-    {
-     "factor": "Seniority",
-     "points": 17,
-     "max": 20,
-     "why": "Head / Director"
-    },
-    {
-     "factor": "Region",
-     "points": 2,
-     "max": 10,
-     "why": "Other"
-    },
-    {
-     "factor": "Evidence",
-     "points": 7,
-     "max": 10,
-     "why": "Speaker on the organiser's event page, list not dated"
-    }
-   ],
-   "reference": {
-    "id": "oatly",
-    "customer": "Oatly",
-    "story": "Scaling order intake without scaling headcount"
-   },
-   "also_at": [
-    "BME Symposium Einkauf & Logistik"
-   ]
-  },
-  {
-   "id": "guilherme-pereira-ingredion-sclt-munich-2026",
-   "kind": "person",
-   "name": "Guilherme Pereira",
-   "title": "Global Principal, Digital Technology Solutions – Supply Chain & Operations",
-   "company": "Ingredion",
-   "company_type": "buyer",
-   "segment": "food",
-   "country": "US",
-   "domain": "ingredion.com",
-   "event_id": "sclt-munich-2026",
-   "event_name": "Supply Chain & Logistics Transformation Summit",
-   "role": "speaker",
-   "evidence_level": "speaker:organiser-undated",
-   "evidence_label": "Speaker on the organiser's event page, list not dated",
-   "evidence_strength": "medium",
-   "source_url": "https://www.key-notion.com/supply-chain-logistics-transformation-summit-munich-2026",
-   "source_label": "Organiser event page (speaker list not dated)",
-   "source_publisher": "organiser-undated",
-   "checked_on": "2026-10-16",
-   "linkedin_check": "https://www.linkedin.com/search/results/people/?keywords=Guilherme+Pereira+Ingredion",
-   "flags": [
-    "Confirm current title and employer on LinkedIn",
-    "Speaker list on the organiser page is not dated: confirm this person is on the 2026 agenda"
-   ],
-   "score": 70,
-   "tier": "B",
-   "tier_reason": "Good fit (food & beverage, supply chain / logistics leader), but the evidence is weaker (speaker on the organiser's event page, list not dated) and the role is relevant but individual contributor.",
-   "persona": "Supply chain / logistics leader",
-   "seniority": "Individual contributor",
-   "region": "Other",
-   "breakdown": [
-    {
-     "factor": "Segment",
-     "points": 30,
-     "max": 30,
-     "why": "Food & beverage (Oatly, bofrost* lookalike)"
-    },
-    {
-     "factor": "Function",
-     "points": 27,
-     "max": 30,
-     "why": "Supply chain / logistics leader"
-    },
-    {
-     "factor": "Seniority",
-     "points": 4,
-     "max": 20,
-     "why": "Individual contributor"
-    },
-    {
-     "factor": "Region",
-     "points": 2,
-     "max": 10,
-     "why": "Other"
-    },
-    {
-     "factor": "Evidence",
-     "points": 7,
-     "max": 10,
-     "why": "Speaker on the organiser's event page, list not dated"
-    }
-   ],
-   "reference": {
-    "id": "oatly",
-    "customer": "Oatly",
-    "story": "Scaling order intake without scaling headcount"
-   }
-  },
-  {
-   "id": "ashish-chandra-saxena-boehringer-ingelheim-sclt-munich-2026",
-   "kind": "person",
-   "name": "Ashish Chandra Saxena",
-   "title": "Global Capability Owner, Customer Targeting & Engagement Planning",
-   "company": "Boehringer Ingelheim",
-   "company_type": "buyer",
-   "segment": "manufacturing",
-   "country": "DE",
-   "domain": "boehringer-ingelheim.com",
-   "event_id": "sclt-munich-2026",
-   "event_name": "Supply Chain & Logistics Transformation Summit",
-   "role": "speaker",
-   "evidence_level": "speaker:organiser-undated",
-   "evidence_label": "Speaker on the organiser's event page, list not dated",
-   "evidence_strength": "medium",
-   "source_url": "https://www.key-notion.com/supply-chain-logistics-transformation-summit-munich-2026",
-   "source_label": "Organiser event page (speaker list not dated)",
-   "source_publisher": "organiser-undated",
-   "checked_on": "2026-10-16",
-   "linkedin_check": "https://www.linkedin.com/search/results/people/?keywords=Ashish+Chandra+Saxena+Boehringer+Ingelheim",
-   "flags": [
-    "Confirm current title and employer on LinkedIn",
-    "Speaker list on the organiser page is not dated: confirm this person is on the 2026 agenda"
-   ],
-   "score": 66,
-   "tier": "B",
-   "tier_reason": "Good fit (manufacturing, supply chain / logistics leader), but the evidence is weaker (speaker on the organiser's event page, list not dated) and the role is relevant but individual contributor.",
-   "persona": "Supply chain / logistics leader",
-   "seniority": "Individual contributor",
-   "region": "DACH",
-   "breakdown": [
-    {
-     "factor": "Segment",
-     "points": 18,
-     "max": 30,
-     "why": "Manufacturing with high PO / SO volume"
-    },
-    {
-     "factor": "Function",
-     "points": 27,
-     "max": 30,
-     "why": "Supply chain / logistics leader"
-    },
-    {
-     "factor": "Seniority",
-     "points": 4,
-     "max": 20,
-     "why": "Individual contributor"
-    },
-    {
-     "factor": "Region",
-     "points": 10,
-     "max": 10,
-     "why": "DACH"
-    },
-    {
-     "factor": "Evidence",
-     "points": 7,
-     "max": 10,
-     "why": "Speaker on the organiser's event page, list not dated"
-    }
-   ],
-   "reference": {
-    "id": "oatly",
-    "customer": "Oatly",
-    "story": "Scaling order intake without scaling headcount"
    }
   },
   {
@@ -6163,146 +6022,6 @@
    }
   },
   {
-   "id": "enno-ogniwek-shell-sclt-munich-2026",
-   "kind": "person",
-   "name": "Enno Ogniwek",
-   "title": "Senior Supply Chain Strategy Manager",
-   "company": "Shell",
-   "company_type": "buyer",
-   "segment": "other",
-   "country": "GB",
-   "domain": "shell.com",
-   "event_id": "sclt-munich-2026",
-   "event_name": "Supply Chain & Logistics Transformation Summit",
-   "role": "speaker",
-   "evidence_level": "speaker:organiser-undated",
-   "evidence_label": "Speaker on the organiser's event page, list not dated",
-   "evidence_strength": "medium",
-   "source_url": "https://www.key-notion.com/supply-chain-logistics-transformation-summit-munich-2026",
-   "source_label": "Organiser event page (speaker list not dated)",
-   "source_publisher": "organiser-undated",
-   "checked_on": "2026-10-16",
-   "linkedin_check": "https://www.linkedin.com/search/results/people/?keywords=Enno+Ogniwek+Shell",
-   "flags": [
-    "Confirm current title and employer on LinkedIn",
-    "Speaker list on the organiser page is not dated: confirm this person is on the 2026 agenda"
-   ],
-   "score": 53,
-   "tier": "C",
-   "tier_reason": "Company is outside the target segments.",
-   "persona": "Supply chain / logistics leader",
-   "seniority": "Manager",
-   "region": "Europe",
-   "breakdown": [
-    {
-     "factor": "Segment",
-     "points": 3,
-     "max": 30,
-     "why": "Outside target segments"
-    },
-    {
-     "factor": "Function",
-     "points": 27,
-     "max": 30,
-     "why": "Supply chain / logistics leader"
-    },
-    {
-     "factor": "Seniority",
-     "points": 10,
-     "max": 20,
-     "why": "Manager"
-    },
-    {
-     "factor": "Region",
-     "points": 6,
-     "max": 10,
-     "why": "Europe"
-    },
-    {
-     "factor": "Evidence",
-     "points": 7,
-     "max": 10,
-     "why": "Speaker on the organiser's event page, list not dated"
-    }
-   ],
-   "reference": {
-    "id": "oatly",
-    "customer": "Oatly",
-    "story": "Scaling order intake without scaling headcount"
-   }
-  },
-  {
-   "id": "peter-seitel-merck-sclt-munich-2026",
-   "kind": "person",
-   "name": "Peter Seitel",
-   "title": "Director Production Services (summit chair)",
-   "company": "Merck",
-   "company_type": "buyer",
-   "segment": "manufacturing",
-   "country": "DE",
-   "domain": "",
-   "event_id": "sclt-munich-2026",
-   "event_name": "Supply Chain & Logistics Transformation Summit",
-   "role": "speaker",
-   "evidence_level": "speaker:organiser-undated",
-   "evidence_label": "Speaker on the organiser's event page, list not dated",
-   "evidence_strength": "medium",
-   "source_url": "https://www.key-notion.com/supply-chain-logistics-transformation-summit-munich-2026",
-   "source_label": "Organiser event page (speaker list not dated)",
-   "source_publisher": "organiser-undated",
-   "checked_on": "2026-10-16",
-   "linkedin_check": "https://www.linkedin.com/search/results/people/?keywords=Peter+Seitel+Merck",
-   "flags": [
-    "Confirm current title and employer on LinkedIn",
-    "Speaker list on the organiser page is not dated: confirm this person is on the 2026 agenda",
-    "No company domain: HubSpot dedupe falls back to company name",
-    "Source does not say whether Merck KGaA or MSD; confirm before outreach"
-   ],
-   "score": 52,
-   "tier": "C",
-   "tier_reason": "No Procure-to-Pay, Order-to-Cash or supply chain function in the published title.",
-   "persona": "Unclassified",
-   "seniority": "Head / Director",
-   "region": "DACH",
-   "breakdown": [
-    {
-     "factor": "Segment",
-     "points": 18,
-     "max": 30,
-     "why": "Manufacturing with high PO / SO volume"
-    },
-    {
-     "factor": "Function",
-     "points": 0,
-     "max": 30,
-     "why": "No P2P / O2C / supply chain function in title"
-    },
-    {
-     "factor": "Seniority",
-     "points": 17,
-     "max": 20,
-     "why": "Head / Director"
-    },
-    {
-     "factor": "Region",
-     "points": 10,
-     "max": 10,
-     "why": "DACH"
-    },
-    {
-     "factor": "Evidence",
-     "points": 7,
-     "max": 10,
-     "why": "Speaker on the organiser's event page, list not dated"
-    }
-   ],
-   "reference": {
-    "id": "kloeckner",
-    "customer": "Kloeckner Metals",
-    "story": "Supplier order confirmations on autopilot"
-   }
-  },
-  {
    "id": "alfonso-zoia-electrolux-group-emsc-2026",
    "kind": "person",
    "name": "Alfonso Zoia",
@@ -6573,75 +6292,6 @@
     "customer": "Kloeckner Metals",
     "story": "Supplier order confirmations on autopilot"
    }
-  },
-  {
-   "id": "morgan-lasrado-zalando-sclt-munich-2026",
-   "kind": "person",
-   "name": "Morgan Lasrado",
-   "title": "Principal, Programs & Portfolios",
-   "company": "Zalando",
-   "company_type": "buyer",
-   "segment": "retail",
-   "country": "DE",
-   "domain": "zalando.com",
-   "event_id": "sclt-munich-2026",
-   "event_name": "Supply Chain & Logistics Transformation Summit",
-   "role": "speaker",
-   "evidence_level": "speaker:organiser-undated",
-   "evidence_label": "Speaker on the organiser's event page, list not dated",
-   "evidence_strength": "medium",
-   "source_url": "https://www.key-notion.com/supply-chain-logistics-transformation-summit-munich-2026",
-   "source_label": "Organiser event page (speaker list not dated)",
-   "source_publisher": "organiser-undated",
-   "checked_on": "2026-10-16",
-   "linkedin_check": "https://www.linkedin.com/search/results/people/?keywords=Morgan+Lasrado+Zalando",
-   "flags": [
-    "Confirm current title and employer on LinkedIn",
-    "Speaker list on the organiser page is not dated: confirm this person is on the 2026 agenda"
-   ],
-   "score": 35,
-   "tier": "C",
-   "tier_reason": "Retail is an adjacent segment and the title shows no buying-relevant function.",
-   "persona": "Unclassified",
-   "seniority": "Individual contributor",
-   "region": "DACH",
-   "breakdown": [
-    {
-     "factor": "Segment",
-     "points": 14,
-     "max": 30,
-     "why": "Retail: replenishment-heavy, adjacent fit"
-    },
-    {
-     "factor": "Function",
-     "points": 0,
-     "max": 30,
-     "why": "No P2P / O2C / supply chain function in title"
-    },
-    {
-     "factor": "Seniority",
-     "points": 4,
-     "max": 20,
-     "why": "Individual contributor"
-    },
-    {
-     "factor": "Region",
-     "points": 10,
-     "max": 10,
-     "why": "DACH"
-    },
-    {
-     "factor": "Evidence",
-     "points": 7,
-     "max": 10,
-     "why": "Speaker on the organiser's event page, list not dated"
-    }
-   ],
-   "reference": {
-    "id": "oatly",
-    "customer": "Oatly",
-    "story": "Scaling order intake without scaling headcount"
-   }
   }
  ],
  "partners": [],
@@ -6832,34 +6482,6 @@
     "No company domain: HubSpot dedupe falls back to company name"
    ],
    "reason": "Consultancy or analyst: possible referral source, not a buyer"
-  },
-  {
-   "id": "ceylan-uensal-women-in-logistics-sclt-munich-2026",
-   "kind": "person",
-   "name": "Ceylan Uensal",
-   "title": "Managing Director",
-   "company": "Women in Logistics",
-   "company_type": "association",
-   "segment": "other",
-   "country": "DE",
-   "domain": "",
-   "event_id": "sclt-munich-2026",
-   "event_name": "Supply Chain & Logistics Transformation Summit",
-   "role": "speaker",
-   "evidence_level": "speaker:organiser-undated",
-   "evidence_label": "Speaker on the organiser's event page, list not dated",
-   "evidence_strength": "medium",
-   "source_url": "https://www.key-notion.com/supply-chain-logistics-transformation-summit-munich-2026",
-   "source_label": "Organiser event page (speaker list not dated)",
-   "source_publisher": "organiser-undated",
-   "checked_on": "2026-10-16",
-   "linkedin_check": "https://www.linkedin.com/search/results/people/?keywords=Ceylan+Uensal+Women+in+Logistics",
-   "flags": [
-    "Confirm current title and employer on LinkedIn",
-    "Speaker list on the organiser page is not dated: confirm this person is on the 2026 agenda",
-    "No company domain: HubSpot dedupe falls back to company name"
-   ],
-   "reason": "Event organiser or industry association"
   },
   {
    "id": "christian-bode-university-of-mannheim-bme-2026",
@@ -7181,6 +6803,33 @@
     "No company domain: HubSpot dedupe falls back to company name"
    ],
    "reason": "Sells software, services or equipment: competitor or partner, not a buyer"
+  },
+  {
+   "id": "julien-mounier-stadtwerke-dusseldorf-hb-industrie-gipfel-2026",
+   "kind": "person",
+   "name": "Julien Mounier",
+   "title": "Vorstandsvorsitzender",
+   "company": "Stadtwerke Düsseldorf",
+   "company_type": "public",
+   "segment": "other",
+   "country": "DE",
+   "domain": "",
+   "event_id": "hb-industrie-gipfel-2026",
+   "event_name": "Handelsblatt Industrie-Gipfel 2026",
+   "role": "speaker",
+   "evidence_level": "speaker:organiser",
+   "evidence_label": "Speaker, named by the organiser",
+   "evidence_strength": "strong",
+   "source_url": "https://live.handelsblatt.com/event/handelsblatt-industrie-gipfel/",
+   "source_label": "Handelsblatt Live 2026 event page (confirmed speakers)",
+   "source_publisher": "organiser",
+   "checked_on": "2026-10-16",
+   "linkedin_check": "https://www.linkedin.com/search/results/people/?keywords=Julien+Mounier+Stadtwerke+D%C3%BCsseldorf",
+   "flags": [
+    "Confirm current title and employer on LinkedIn",
+    "No company domain: HubSpot dedupe falls back to company name"
+   ],
+   "reason": "Public-sector or state-owned: long procurement cycles, outside current focus"
   },
   {
    "id": "dirk-holbach-former-henkel-executive-tfest-2026",

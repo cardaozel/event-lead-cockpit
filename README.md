@@ -26,8 +26,7 @@ api/hubspot.js            Vercel function: upsert company (by domain) and contac
 ```
 
 **Evidence.** Each record answers three questions: is this person or company at the event
-(speaker named by the organiser, speaker on an undated organiser list, speaker on a third-party
-listing, speaking company, exhibitor, exhibitor staff, sponsor: exactly what the source states; nobody is called an attendee), is the role
+(speaker named by the organiser, speaker on a third-party listing, speaking company, exhibitor, exhibitor staff, sponsor: exactly what the source states; nobody is called an attendee), is the role
 right (published title plus a LinkedIn check link, not yet verified), and why it fits (score and tier
 reason). [`evidence.html`](https://event-lead-cockpit.vercel.app/evidence.html) lists all of it as a
 plain table that needs no JavaScript.
@@ -71,11 +70,13 @@ python3 -m http.server 8000       # open http://localhost:8000 (HubSpot push nee
 - Attendee lists are not public. Speakers and sponsors are used as the attending-leads proxy.
 - All ten events have public evidence for the upcoming edition: seven name speakers, three
   (EuroBLECH, LogiPharma, Fi Europe) give company-level evidence only. EP&SCE 2027 was dropped from
-  the ten: its organiser page still shows the 2026 lineup, so it waits on the watchlist (eight events)
+  the ten: its organiser page still shows the 2026 lineup, so it waits on the watchlist
   until the 2027 list is published. TFEST26 replaced it; its organiser marks each speaker as
   'Speaking at TFEST26' or 'Previously spoke at', and only the former are used.
-- The Munich transformation summit's speaker list sits on the page for the November 2026 edition
-  but carries no year, so those leads are flagged for confirmation and capped at tier B.
+- Two events were swapped out after a source check: EP&SCE 2027 (its page still shows the 2026
+  lineup) and the Munich Supply Chain & Logistics Transformation Summit (its speaker list carries no
+  year). Both sit on the watchlist. Their replacements, TFEST26 and Handelsblatt Industrie-Gipfel
+  2026, state on the organiser's page that the speakers are confirmed for this edition.
 - Titles come from event listings and are not yet verified against LinkedIn.
 - Enrichment is a hand-built seed. In production this is an enrichment provider keyed on domain.
 - Review state is saved in the viewer's browser. In production it lives in a shared store.
