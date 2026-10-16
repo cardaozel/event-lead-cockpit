@@ -112,12 +112,20 @@ async function pushLead(token, lead) {
     contact = await upsertContact(token, lead);
     await hs(token, "PUT", `/crm/v4/objects/contacts/${contact.id}/associations/default/companies/${company.id}`);
   }
-  await addNote(token, lead, contact && contact.id, company.id);
+  // The note carries score, tier reason and source. If it fails (e.g. a missing scope),
+  // the contact and company are still synced and the warning is reported back.
+  let noteWarning = null;
+  try {
+    await addNote(token, lead, contact && contact.id, company.id);
+  } catch (err) {
+    noteWarning = `Note not added: ${String(err.message || err)}`;
+  }
   return {
     id: lead.id,
     status: "synced",
     company: { id: company.id, created: company.created },
     contact: contact ? { id: contact.id, created: contact.created } : null,
+    warning: noteWarning,
   };
 }
 

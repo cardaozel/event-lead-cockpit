@@ -332,9 +332,12 @@
       ok.forEach((x) => (state.review[x.id] = "synced"));
       saveReview();
       const failed = results.filter((x) => x.status === "error");
+      const warned = ok.filter((x) => x.warning);
       toast(failed.length
         ? `Pushed ${ok.length} to HubSpot. ${failed.length} failed: ${failed[0].error}`
-        : `Pushed ${ok.length} to HubSpot.`);
+        : warned.length
+          ? `Pushed ${ok.length} to HubSpot. ${warned[0].warning}`
+          : `Pushed ${ok.length} to HubSpot, each with a note holding score, tier reason and source.`);
     } catch (err) {
       toast(`Push failed: ${err.message}`);
     } finally {
