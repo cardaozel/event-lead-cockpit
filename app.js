@@ -180,7 +180,26 @@
   }
 
   // ---------- table ----------
-  const scoreBar = (l) => `<span class="score-bar" aria-hidden="true">${l.breakdown.map((b) =>
+  const SEG_SHORT = { metal: "Metal & steel", food: "Food & bev", distribution: "Distribution", logistics: "Logistics", manufacturing: "Manufacturing", retail: "Retail", other: "Off-target segment" };
+  const PERSONA_SHORT = {
+    "Procure-to-Pay owner": "P2P owner", "Order-to-Cash owner": "O2C owner",
+    "Supply chain / logistics leader": "Supply chain lead", "Transformation / digital lead": "Transformation",
+    "Executive sponsor": "Exec sponsor", "Account (buyer not named)": "No buyer named", "Unclassified": "Role off-target",
+  };
+  const SEN_SHORT = { "C-level / VP": "VP+", "Head / Director": "Head / Dir", "Manager": "Manager", "Individual contributor": "IC" };
+  const EV_SHORT = { "speaker:organiser": "Organiser source", "speaker:third-party": "3rd-party source", "speaking company": "Company only", exhibitor: "Company only", "exhibitor staff": "Exhibitor staff", sponsor: "Company only" };
+  function reasonTags(l) {
+    const weak = new Set();
+    if (l.segment === "other" || l.segment === "retail") weak.add("seg");
+    if (!["Procure-to-Pay owner", "Order-to-Cash owner", "Supply chain / logistics leader"].includes(l.persona)) weak.add("fn");
+    if (l.kind === "person" && !["C-level / VP", "Head / Director"].includes(l.seniority)) weak.add("sen");
+    if (l.evidence_strength !== "strong") weak.add("ev");
+    const t = [["seg", SEG_SHORT[l.segment]], ["fn", PERSONA_SHORT[l.persona] || l.persona]];
+    if (l.kind === "person") t.push(["sen", SEN_SHORT[l.seniority] || l.seniority]);
+    t.push(["ev", EV_SHORT[l.evidence_level]]);
+    return `<span class="tags">${t.map(([k, v]) => `<span class="tag${weak.has(k) ? " miss" : ""}">${esc(v)}</span>`).join("")}</span>`;
+  }
+  const scoreBar = (l) => `<span class="score-bar" title="${esc(l.breakdown.map((b) => `${b.factor} ${b.points}/${b.max}`).join(" · "))}">${l.breakdown.map((b) =>
     `<span style="width:${b.points}%;background:${FACTOR_COLOR[b.factor]}"></span>`).join("")}</span>`;
 
   function reviewCell(l) {
@@ -207,7 +226,7 @@
     wrap.innerHTML = `<table>
       <thead><tr>
         <th class="col-score">Tier and score</th><th>Person or company</th><th>Company</th>
-        ${state.eventId ? "" : `<th class="col-event">Event</th>`}<th>Why this tier</th><th class="col-review">Review</th>
+        ${state.eventId ? "" : `<th class="col-event">Event</th>`}<th class="col-persona" title="Amber tags are what keeps a lead out of a higher tier">Why this tier</th><th class="col-review">Review</th>
       </tr></thead>
       <tbody>${rows.map((l) => `
         <tr data-id="${l.id}" aria-selected="${state.selectedId === l.id}" tabindex="0">
@@ -218,7 +237,7 @@
             <span class="hs-target">${l.kind === "person" ? "HubSpot: contact + company" : "HubSpot: company only"}</span></td>
           <td class="col-co co">${esc(l.company)}<div class="s">${SEGMENT_LABEL[l.segment]}${l.country ? `, ${esc(l.country)}` : ""}</div></td>
           ${state.eventId ? "" : `<td class="col-event persona">${esc(l.event_name)}${l.also_at ? `<div class="s">Also: ${esc(l.also_at.join(", "))}</div>` : ""}</td>`}
-          <td class="col-persona persona">${esc(l.tier_reason)}</td>
+          <td class="col-persona persona" title="${esc(l.tier_reason)}">${reasonTags(l)}</td>
           <td class="col-review">${reviewCell(l)}</td>
         </tr>`).join("")}</tbody></table>`;
   }
