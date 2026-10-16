@@ -139,12 +139,21 @@
     const leads = state.data.leads.filter(inEvent);
     const by = (s) => leads.filter((l) => statusOf(l.id) === s).length;
     const t = (x) => leads.filter((l) => l.tier === x).length;
+    const total = Math.max(leads.length, 1);
+    const pct = (v) => `${(v / total) * 100}%`;
+    const tiers = ["A", "B", "C"].map((x) => [x, t(x)]);
+    const flow = [["pending", "To review"], ["approved", "Approved"], ["synced", "In HubSpot"], ["rejected", "Rejected"]].map(([k, label]) => [k, label, by(k)]);
     $("summary").innerHTML = `
-      <span><b>${leads.length}</b>leads</span>
-      <span><b>${t("A")}</b>A</span><span><b>${t("B")}</b>B</span><span><b>${t("C")}</b>C</span>
-      <span><b>${by("pending")}</b>to review</span>
-      <span><b>${by("approved")}</b>approved</span>
-      <span><b>${by("synced")}</b>in HubSpot</span>`;
+      <section class="stat-card" aria-label="Lead quality">
+        <div class="stat-head"><span class="stat-total">${leads.length}</span><span class="stat-label">leads${state.eventId ? " at this event" : ""}</span><span class="stat-hint">by tier</span></div>
+        <div class="stack" aria-hidden="true">${tiers.map(([x, v]) => v ? `<span class="seg seg-${x}" style="width:${pct(v)}"></span>` : "").join("")}</div>
+        <div class="stat-parts">${tiers.map(([x, v]) => `<span><i class="dot dot-${x}"></i><b>${v}</b> ${x}</span>`).join('<span class="op">+</span>')}</div>
+      </section>
+      <section class="stat-card" aria-label="Review progress">
+        <div class="stat-head"><span class="stat-total">${by("synced")}<small>/${leads.length}</small></span><span class="stat-label">in HubSpot</span><span class="stat-hint">review flow</span></div>
+        <div class="stack" aria-hidden="true">${flow.map(([k, , v]) => v ? `<span class="seg seg-${k}" style="width:${pct(v)}"></span>` : "").join("")}</div>
+        <div class="stat-parts">${flow.map(([k, label, v]) => `<span><i class="dot dot-${k}"></i><b>${v}</b> ${label}</span>`).join('<span class="op">→</span>')}</div>
+      </section>`;
     renderPushButton();
 
     const n = (arr) => arr.filter(inEvent).length;
@@ -236,7 +245,7 @@
             <span class="ev ev-${l.evidence_strength}">${ROLE_LABEL[l.evidence_level]}</span>
             <span class="hs-target">${l.kind === "person" ? "HubSpot: contact + company" : "HubSpot: company only"}</span></td>
           <td class="col-co co">${esc(l.company)}<div class="s">${SEGMENT_LABEL[l.segment]}${l.country ? `, ${esc(l.country)}` : ""}</div></td>
-          ${state.eventId ? "" : `<td class="col-event persona">${esc(l.event_name)}${l.also_at ? `<div class="s">Also: ${esc(l.also_at.join(", "))}</div>` : ""}</td>`}
+          ${state.eventId ? "" : `<td class="col-event"><span class="event-pill">${esc(l.event_name)}</span>${l.also_at ? l.also_at.map((x) => `<span class="event-pill also">+ ${esc(x)}</span>`).join("") : ""}</td>`}
           <td class="col-persona persona" title="${esc(l.tier_reason)}">${reasonTags(l)}</td>
           <td class="col-review">${reviewCell(l)}</td>
         </tr>`).join("")}</tbody></table>`;
