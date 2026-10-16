@@ -92,7 +92,19 @@ function noteBody(lead) {
   if (lead.reference) lines.push(`Suggested opener: ${lead.reference.customer} – ${lead.reference.story}`);
   if (lead.flags && lead.flags.length) lines.push(`Flags: ${lead.flags.join("; ")}`);
   if (lead.source_url) lines.push(`Source: ${lead.source_url}`);
+  lines.push(`<span style="color:#888">Lead ID: ${lead.id}</span>`);
   return lines.join("<br>");
+}
+
+// Idempotency: each note carries "Lead ID: <id>". Before writing, look at notes already
+// attached to the record; if one carries this lead's ID, skip. Re-pushing never duplicates.
+async function noteExists(token, lead, contactId, companyId) {
+  const [type, id] = contactId ? ["contacts", contactId] : ["companies", companyId];
+  const assoc = await hs(token, "GET", `/crm/v4/objects/${type}/${id}/associations/notes?limit=100`);
+  const ids = (assoc.results || []).map((r) => ({ id: String(r.toObjectId) }));
+  if (!ids.length) return false;
+  const notes = await hs(token, "POST", "/crm/v3/objects/notes/batch/read", { properties: ["hs_note_body"], inputs: ids });
+  return (notes.results || []).some((n) => ((n.properties || {}).hs_note_body || "").includes(`Lead ID: ${lead.id}`));
 }
 
 async function addNote(token, lead, contactId, companyId) {
@@ -139,9 +151,14 @@ async function pushLead(token, lead) {
   // The note carries score, tier reason and source. If it fails (e.g. a missing scope),
   // the contact and company are still synced and the warning is reported back.
   let noteWarning = null;
+  let note = "added";
   try {
-    await addNote(token, lead, contact && contact.id, company.id);
+    let exists = false;
+    try { exists = await noteExists(token, lead, contact && contact.id, company.id); } catch { /* if the check fails, write the note */ }
+    if (exists) note = "already there";
+    else await addNote(token, lead, contact && contact.id, company.id);
   } catch (err) {
+    note = "failed";
     noteWarning = `Note not added: ${String(err.message || err)}`;
   }
   const portal = await portalId(token);
@@ -150,6 +167,7 @@ async function pushLead(token, lead) {
     status: "synced",
     company: { id: company.id, created: company.created, url: recordUrl(portal, "0-2", company.id) },
     contact: contact ? { id: contact.id, created: contact.created, linked: verified.linked, url: recordUrl(portal, "0-1", contact.id) } : null,
+    note,
     warning: noteWarning,
   };
 }

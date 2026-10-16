@@ -351,7 +351,12 @@
         ? `Pushed ${ok.length} to HubSpot. ${failed.length} failed: ${failed[0].error}`
         : warned.length
           ? `Pushed ${ok.length} to HubSpot. ${warned[0].warning}`
-          : `Pushed ${ok.length} to HubSpot, each with a note holding score, tier reason and source.`);
+          : (() => {
+              const created = ok.filter((x) => (x.contact ? x.contact.created : x.company.created)).length;
+              const kept = ok.filter((x) => x.note === "already there").length;
+              return `Pushed ${ok.length} to HubSpot: ${created} new, ${ok.length - created} matched existing records` +
+                (kept ? `, ${kept} notes already there (not duplicated).` : ", each with a note holding score, tier reason and source.");
+            })());
     } catch (err) {
       toast(`Push failed: ${err.message}`);
     } finally {
