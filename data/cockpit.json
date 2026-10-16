@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-16T02:44:01+00:00",
+ "generated_at": "2026-10-16T02:49:24+00:00",
  "checked_on": "2026-10-16",
  "weights": {
   "segment": 30,
@@ -207,6 +207,30 @@
    }
   },
   {
+   "id": "tfest-2026",
+   "name": "TFEST26 Supply Chain Transformation Event",
+   "start": "2026-12-01",
+   "end": "2026-12-02",
+   "city": "Berlin",
+   "country": "DE",
+   "url": "https://tfest.ai/",
+   "format": "Executive conference, three stages",
+   "audience": "About 400 senior supply chain and procurement leaders from large manufacturers and consumer goods companies",
+   "why": "A senior transformation audience with an agenda on agentic AI in supply chain operations, the exact category GeneralMind sells into.",
+   "evidence_summary": "Each speaker has an organiser page that states 'Speaking at TFEST26' with a session slot; speakers who only 'previously spoke' at TFEST24 or TFEST25 are not used.",
+   "date_source": "https://www.eventbrite.com/e/tfest26-the-supply-chain-transformation-event-for-senior-leaders-tickets-1980709472351",
+   "counts": {
+    "leads": 5,
+    "people": 5,
+    "accounts": 0,
+    "A": 1,
+    "B": 4,
+    "C": 0,
+    "partners": 0,
+    "excluded": 3
+   }
+  },
+  {
    "id": "zukunft-stahl-2027",
    "name": "Handelsblatt Zukunft Stahl 2027",
    "start": "2027-03-17",
@@ -229,34 +253,16 @@
     "partners": 0,
     "excluded": 2
    }
-  },
-  {
-   "id": "epsce-2027",
-   "name": "European Procurement & Supply Chain Excellence Summit",
-   "start": "2027-04-19",
-   "end": "2027-04-20",
-   "city": "Berlin",
-   "country": "DE",
-   "url": "https://www.bme.de/veranstaltungen/grossveranstaltungen/european-procurement-supply-chain-excellence-summit/summit-speakers/",
-   "format": "Executive summit",
-   "audience": "European CPOs and supply chain heads",
-   "why": "International procurement leaders in Berlin, with a large speaker list published six months ahead.",
-   "evidence_summary": "No names used. The organiser's 2027 page still shows the April 2026 lineup, so the cockpit waits for an edition-specific speaker list.",
-   "date_source": "https://www.bme.de/veranstaltungen/grossveranstaltungen/european-procurement-supply-chain-excellence-summit/facts",
-   "rail_note": "Waiting for the 2027 speaker list",
-   "counts": {
-    "leads": 0,
-    "people": 0,
-    "accounts": 0,
-    "A": 0,
-    "B": 0,
-    "C": 0,
-    "partners": 0,
-    "excluded": 0
-   }
   }
  ],
  "watchlist": [
+  {
+   "name": "European Procurement & Supply Chain Excellence Summit",
+   "start": "2027-04-19",
+   "city": "Berlin",
+   "why": "International CPOs and supply chain heads",
+   "status": "The 2027 page still shows the 2026 lineup; waiting for the 2027 list"
+  },
   {
    "name": "DSAG Technologietage 2027",
    "start": "2027-03-09",
@@ -782,6 +788,74 @@
     "id": "kloeckner",
     "customer": "Kloeckner Metals",
     "story": "Supplier order confirmations on autopilot"
+   }
+  },
+  {
+   "id": "alexander-press-pernod-ricard-tfest-2026",
+   "kind": "person",
+   "name": "Alexander Press",
+   "title": "Head of Technology – Supply Chain, Manufacturing and R&D",
+   "company": "Pernod Ricard",
+   "company_type": "buyer",
+   "segment": "food",
+   "country": "FR",
+   "domain": "pernod-ricard.com",
+   "event_id": "tfest-2026",
+   "event_name": "TFEST26 Supply Chain Transformation Event",
+   "role": "speaker",
+   "evidence_level": "speaker:organiser",
+   "evidence_label": "Speaker, named by the organiser",
+   "evidence_strength": "strong",
+   "source_url": "https://tfest.ai/speakers/alexander-press",
+   "source_label": "Organiser speaker page: 'Speaking at TFEST26'",
+   "source_publisher": "organiser",
+   "checked_on": "2026-10-16",
+   "linkedin_check": "https://www.linkedin.com/search/results/people/?keywords=Alexander+Press+Pernod+Ricard",
+   "flags": [
+    "Confirm current title and employer on LinkedIn"
+   ],
+   "score": 90,
+   "tier": "A",
+   "tier_reason": "Core segment (food & beverage), supply chain / logistics leader at Head / Director level, speaker, named by the organiser.",
+   "persona": "Supply chain / logistics leader",
+   "seniority": "Head / Director",
+   "region": "Europe",
+   "breakdown": [
+    {
+     "factor": "Segment",
+     "points": 30,
+     "max": 30,
+     "why": "Food & beverage (Oatly, bofrost* lookalike)"
+    },
+    {
+     "factor": "Function",
+     "points": 27,
+     "max": 30,
+     "why": "Supply chain / logistics leader"
+    },
+    {
+     "factor": "Seniority",
+     "points": 17,
+     "max": 20,
+     "why": "Head / Director"
+    },
+    {
+     "factor": "Region",
+     "points": 6,
+     "max": 10,
+     "why": "Europe"
+    },
+    {
+     "factor": "Evidence",
+     "points": 10,
+     "max": 10,
+     "why": "Speaker, named by the organiser"
+    }
+   ],
+   "reference": {
+    "id": "oatly",
+    "customer": "Oatly",
+    "story": "Scaling order intake without scaling headcount"
    }
   },
   {
@@ -4055,6 +4129,278 @@
    }
   },
   {
+   "id": "abdelaziz-salah-kimberly-clark-tfest-2026",
+   "kind": "person",
+   "name": "Abdelaziz Salah",
+   "title": "Vice-President IFP Supply Chain",
+   "company": "Kimberly-Clark",
+   "company_type": "buyer",
+   "segment": "manufacturing",
+   "country": "US",
+   "domain": "kimberly-clark.com",
+   "event_id": "tfest-2026",
+   "event_name": "TFEST26 Supply Chain Transformation Event",
+   "role": "speaker",
+   "evidence_level": "speaker:organiser",
+   "evidence_label": "Speaker, named by the organiser",
+   "evidence_strength": "strong",
+   "source_url": "https://tfest.ai/speakers/abdelaziz-salah",
+   "source_label": "Organiser speaker page: 'Speaking at TFEST26'",
+   "source_publisher": "organiser",
+   "checked_on": "2026-10-16",
+   "linkedin_check": "https://www.linkedin.com/search/results/people/?keywords=Abdelaziz+Salah+Kimberly-Clark",
+   "flags": [
+    "Confirm current title and employer on LinkedIn"
+   ],
+   "score": 77,
+   "tier": "B",
+   "tier_reason": "Good fit (manufacturing, supply chain / logistics leader), but manufacturing below the A bar (outside DACH).",
+   "persona": "Supply chain / logistics leader",
+   "seniority": "C-level / VP",
+   "region": "Other",
+   "breakdown": [
+    {
+     "factor": "Segment",
+     "points": 18,
+     "max": 30,
+     "why": "Manufacturing with high PO / SO volume"
+    },
+    {
+     "factor": "Function",
+     "points": 27,
+     "max": 30,
+     "why": "Supply chain / logistics leader"
+    },
+    {
+     "factor": "Seniority",
+     "points": 20,
+     "max": 20,
+     "why": "C-level / VP"
+    },
+    {
+     "factor": "Region",
+     "points": 2,
+     "max": 10,
+     "why": "Other"
+    },
+    {
+     "factor": "Evidence",
+     "points": 10,
+     "max": 10,
+     "why": "Speaker, named by the organiser"
+    }
+   ],
+   "reference": {
+    "id": "oatly",
+    "customer": "Oatly",
+    "story": "Scaling order intake without scaling headcount"
+   }
+  },
+  {
+   "id": "agnieszka-romaniuk-thermo-fisher-scientific-tfest-2026",
+   "kind": "person",
+   "name": "Agnieszka Romaniuk",
+   "title": "Vice President Supply Chain",
+   "company": "Thermo Fisher Scientific",
+   "company_type": "buyer",
+   "segment": "manufacturing",
+   "country": "US",
+   "domain": "thermofisher.com",
+   "event_id": "tfest-2026",
+   "event_name": "TFEST26 Supply Chain Transformation Event",
+   "role": "speaker",
+   "evidence_level": "speaker:organiser",
+   "evidence_label": "Speaker, named by the organiser",
+   "evidence_strength": "strong",
+   "source_url": "https://tfest.ai/speakers/agnieszka-romaniuk",
+   "source_label": "Organiser speaker page: 'Speaking at TFEST26'",
+   "source_publisher": "organiser",
+   "checked_on": "2026-10-16",
+   "linkedin_check": "https://www.linkedin.com/search/results/people/?keywords=Agnieszka+Romaniuk+Thermo+Fisher+Scientific",
+   "flags": [
+    "Confirm current title and employer on LinkedIn"
+   ],
+   "score": 77,
+   "tier": "B",
+   "tier_reason": "Good fit (manufacturing, supply chain / logistics leader), but manufacturing below the A bar (outside DACH).",
+   "persona": "Supply chain / logistics leader",
+   "seniority": "C-level / VP",
+   "region": "Other",
+   "breakdown": [
+    {
+     "factor": "Segment",
+     "points": 18,
+     "max": 30,
+     "why": "Manufacturing with high PO / SO volume"
+    },
+    {
+     "factor": "Function",
+     "points": 27,
+     "max": 30,
+     "why": "Supply chain / logistics leader"
+    },
+    {
+     "factor": "Seniority",
+     "points": 20,
+     "max": 20,
+     "why": "C-level / VP"
+    },
+    {
+     "factor": "Region",
+     "points": 2,
+     "max": 10,
+     "why": "Other"
+    },
+    {
+     "factor": "Evidence",
+     "points": 10,
+     "max": 10,
+     "why": "Speaker, named by the organiser"
+    }
+   ],
+   "reference": {
+    "id": "oatly",
+    "customer": "Oatly",
+    "story": "Scaling order intake without scaling headcount"
+   }
+  },
+  {
+   "id": "chuck-graham-cisco-tfest-2026",
+   "kind": "person",
+   "name": "Chuck Graham",
+   "title": "Chief Supply Chain Officer",
+   "company": "Cisco",
+   "company_type": "buyer",
+   "segment": "manufacturing",
+   "country": "US",
+   "domain": "cisco.com",
+   "event_id": "tfest-2026",
+   "event_name": "TFEST26 Supply Chain Transformation Event",
+   "role": "speaker",
+   "evidence_level": "speaker:organiser",
+   "evidence_label": "Speaker, named by the organiser",
+   "evidence_strength": "strong",
+   "source_url": "https://tfest.ai/speakers/chuck-graham",
+   "source_label": "Organiser speaker page: 'Speaking at TFEST26'",
+   "source_publisher": "organiser",
+   "checked_on": "2026-10-16",
+   "linkedin_check": "https://www.linkedin.com/search/results/people/?keywords=Chuck+Graham+Cisco",
+   "flags": [
+    "Confirm current title and employer on LinkedIn"
+   ],
+   "score": 77,
+   "tier": "B",
+   "tier_reason": "Good fit (manufacturing, supply chain / logistics leader), but manufacturing below the A bar (outside DACH).",
+   "persona": "Supply chain / logistics leader",
+   "seniority": "C-level / VP",
+   "region": "Other",
+   "breakdown": [
+    {
+     "factor": "Segment",
+     "points": 18,
+     "max": 30,
+     "why": "Manufacturing with high PO / SO volume"
+    },
+    {
+     "factor": "Function",
+     "points": 27,
+     "max": 30,
+     "why": "Supply chain / logistics leader"
+    },
+    {
+     "factor": "Seniority",
+     "points": 20,
+     "max": 20,
+     "why": "C-level / VP"
+    },
+    {
+     "factor": "Region",
+     "points": 2,
+     "max": 10,
+     "why": "Other"
+    },
+    {
+     "factor": "Evidence",
+     "points": 10,
+     "max": 10,
+     "why": "Speaker, named by the organiser"
+    }
+   ],
+   "reference": {
+    "id": "oatly",
+    "customer": "Oatly",
+    "story": "Scaling order intake without scaling headcount"
+   }
+  },
+  {
+   "id": "roberto-canevari-the-estee-lauder-companies-tfest-2026",
+   "kind": "person",
+   "name": "Roberto Canevari",
+   "title": "Executive Vice President and Chief Value Chain Officer",
+   "company": "The Estée Lauder Companies",
+   "company_type": "buyer",
+   "segment": "manufacturing",
+   "country": "US",
+   "domain": "elcompanies.com",
+   "event_id": "tfest-2026",
+   "event_name": "TFEST26 Supply Chain Transformation Event",
+   "role": "speaker",
+   "evidence_level": "speaker:organiser",
+   "evidence_label": "Speaker, named by the organiser",
+   "evidence_strength": "strong",
+   "source_url": "https://tfest.ai/speakers/roberto-canevari",
+   "source_label": "Organiser speaker page: 'Speaking at TFEST26'",
+   "source_publisher": "organiser",
+   "checked_on": "2026-10-16",
+   "linkedin_check": "https://www.linkedin.com/search/results/people/?keywords=Roberto+Canevari+The+Est%C3%A9e+Lauder+Companies",
+   "flags": [
+    "Confirm current title and employer on LinkedIn"
+   ],
+   "score": 77,
+   "tier": "B",
+   "tier_reason": "Good fit (manufacturing, supply chain / logistics leader), but manufacturing below the A bar (outside DACH).",
+   "persona": "Supply chain / logistics leader",
+   "seniority": "C-level / VP",
+   "region": "Other",
+   "breakdown": [
+    {
+     "factor": "Segment",
+     "points": 18,
+     "max": 30,
+     "why": "Manufacturing with high PO / SO volume"
+    },
+    {
+     "factor": "Function",
+     "points": 27,
+     "max": 30,
+     "why": "Supply chain / logistics leader"
+    },
+    {
+     "factor": "Seniority",
+     "points": 20,
+     "max": 20,
+     "why": "C-level / VP"
+    },
+    {
+     "factor": "Region",
+     "points": 2,
+     "max": 10,
+     "why": "Other"
+    },
+    {
+     "factor": "Evidence",
+     "points": 10,
+     "max": 10,
+     "why": "Speaker, named by the organiser"
+    }
+   ],
+   "reference": {
+    "id": "oatly",
+    "customer": "Oatly",
+    "story": "Scaling order intake without scaling headcount"
+   }
+  },
+  {
    "id": "tobias-harzer-jungheinrich-bvl-cx-2026",
    "kind": "person",
    "name": "Tobias Harzer",
@@ -6835,6 +7181,87 @@
     "No company domain: HubSpot dedupe falls back to company name"
    ],
    "reason": "Sells software, services or equipment: competitor or partner, not a buyer"
+  },
+  {
+   "id": "dirk-holbach-former-henkel-executive-tfest-2026",
+   "kind": "person",
+   "name": "Dirk Holbach",
+   "title": "Former Chief Supply Chain Officer, Consumer Brands",
+   "company": "Former Henkel executive",
+   "company_type": "former",
+   "segment": "other",
+   "country": "DE",
+   "domain": "",
+   "event_id": "tfest-2026",
+   "event_name": "TFEST26 Supply Chain Transformation Event",
+   "role": "speaker",
+   "evidence_level": "speaker:organiser",
+   "evidence_label": "Speaker, named by the organiser",
+   "evidence_strength": "strong",
+   "source_url": "https://tfest.ai/speakers/dirk-holbach",
+   "source_label": "Organiser speaker page: 'Speaking at TFEST26'",
+   "source_publisher": "organiser",
+   "checked_on": "2026-10-16",
+   "linkedin_check": "https://www.linkedin.com/search/results/people/?keywords=Dirk+Holbach+Former+Henkel+executive",
+   "flags": [
+    "Confirm current title and employer on LinkedIn",
+    "No company domain: HubSpot dedupe falls back to company name"
+   ],
+   "reason": "Former role: no current buying power at that company"
+  },
+  {
+   "id": "hanno-bruemmer-independent-advisor-ex-covestro-tfest-2026",
+   "kind": "person",
+   "name": "Hanno Bruemmer",
+   "title": "Independent Advisor, former Head of Supply Chain & Logistics at Covestro",
+   "company": "Independent advisor (ex-Covestro)",
+   "company_type": "former",
+   "segment": "other",
+   "country": "DE",
+   "domain": "",
+   "event_id": "tfest-2026",
+   "event_name": "TFEST26 Supply Chain Transformation Event",
+   "role": "speaker",
+   "evidence_level": "speaker:organiser",
+   "evidence_label": "Speaker, named by the organiser",
+   "evidence_strength": "strong",
+   "source_url": "https://tfest.ai/speakers/hanno-bruemmer",
+   "source_label": "Organiser speaker page: 'Speaking at TFEST26'",
+   "source_publisher": "organiser",
+   "checked_on": "2026-10-16",
+   "linkedin_check": "https://www.linkedin.com/search/results/people/?keywords=Hanno+Bruemmer+Independent+advisor+%28ex-Covestro%29",
+   "flags": [
+    "Confirm current title and employer on LinkedIn",
+    "No company domain: HubSpot dedupe falls back to company name"
+   ],
+   "reason": "Former role: no current buying power at that company"
+  },
+  {
+   "id": "stephanie-wright-agora-leadership-tfest-2026",
+   "kind": "person",
+   "name": "Stephanie Wright",
+   "title": "Founder & CEO",
+   "company": "Agora Leadership",
+   "company_type": "consultancy",
+   "segment": "other",
+   "country": "",
+   "domain": "",
+   "event_id": "tfest-2026",
+   "event_name": "TFEST26 Supply Chain Transformation Event",
+   "role": "speaker",
+   "evidence_level": "speaker:organiser",
+   "evidence_label": "Speaker, named by the organiser",
+   "evidence_strength": "strong",
+   "source_url": "https://tfest.ai/speakers/stephanie-wright",
+   "source_label": "Organiser speaker page: 'Speaking at TFEST26'",
+   "source_publisher": "organiser",
+   "checked_on": "2026-10-16",
+   "linkedin_check": "https://www.linkedin.com/search/results/people/?keywords=Stephanie+Wright+Agora+Leadership",
+   "flags": [
+    "Confirm current title and employer on LinkedIn",
+    "No company domain: HubSpot dedupe falls back to company name"
+   ],
+   "reason": "Consultancy or analyst: possible referral source, not a buyer"
   },
   {
    "id": "bernd-lange-european-parliament-zukunft-stahl-2027",

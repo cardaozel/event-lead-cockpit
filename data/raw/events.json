@@ -101,21 +101,6 @@
    "date_source": "https://eurometal.net/?p=43431"
   },
   {
-   "id": "epsce-2027",
-   "name": "European Procurement & Supply Chain Excellence Summit",
-   "start": "2027-04-19",
-   "end": "2027-04-20",
-   "city": "Berlin",
-   "country": "DE",
-   "url": "https://www.bme.de/veranstaltungen/grossveranstaltungen/european-procurement-supply-chain-excellence-summit/summit-speakers/",
-   "format": "Executive summit",
-   "audience": "European CPOs and supply chain heads",
-   "why": "International procurement leaders in Berlin, with a large speaker list published six months ahead.",
-   "evidence_summary": "No names used. The organiser's 2027 page still shows the April 2026 lineup, so the cockpit waits for an edition-specific speaker list.",
-   "date_source": "https://www.bme.de/veranstaltungen/grossveranstaltungen/european-procurement-supply-chain-excellence-summit/facts",
-   "rail_note": "Waiting for the 2027 speaker list"
-  },
-  {
    "id": "sclt-munich-2026",
    "name": "Supply Chain & Logistics Transformation Summit",
    "start": "2026-11-12",
@@ -142,9 +127,30 @@
    "why": "Metal vertical, Kloeckner Metals' world. Executives here sponsor the order and supplier processes that run through steel distribution.",
    "evidence_summary": "First confirmed 2027 speakers named by the organiser; more to be announced.",
    "date_source": "https://live.handelsblatt.com/event/handelsblatt-jahrestagung-zukunft-stahl/"
+  },
+  {
+   "id": "tfest-2026",
+   "name": "TFEST26 Supply Chain Transformation Event",
+   "start": "2026-12-01",
+   "end": "2026-12-02",
+   "city": "Berlin",
+   "country": "DE",
+   "url": "https://tfest.ai/",
+   "format": "Executive conference, three stages",
+   "audience": "About 400 senior supply chain and procurement leaders from large manufacturers and consumer goods companies",
+   "why": "A senior transformation audience with an agenda on agentic AI in supply chain operations, the exact category GeneralMind sells into.",
+   "evidence_summary": "Each speaker has an organiser page that states 'Speaking at TFEST26' with a session slot; speakers who only 'previously spoke' at TFEST24 or TFEST25 are not used.",
+   "date_source": "https://www.eventbrite.com/e/tfest26-the-supply-chain-transformation-event-for-senior-leaders-tickets-1980709472351"
   }
  ],
  "watchlist": [
+  {
+   "name": "European Procurement & Supply Chain Excellence Summit",
+   "start": "2027-04-19",
+   "city": "Berlin",
+   "why": "International CPOs and supply chain heads",
+   "status": "The 2027 page still shows the 2026 lineup; waiting for the 2027 list"
+  },
   {
    "name": "DSAG Technologietage 2027",
    "start": "2027-03-09",

@@ -24,7 +24,7 @@
   };
   const TYPE_LABEL = {
     vendor: "Vendor", consultancy: "Consultancy", academia: "Academia / think tank",
-    association: "Association", public: "Public sector", integrator: "Integrator",
+    association: "Association", public: "Public sector", integrator: "Integrator", former: "Former role",
   };
 
   const state = {

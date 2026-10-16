@@ -780,6 +780,51 @@
    "segment": "manufacturing",
    "country": "FR",
    "domain": "loreal.com"
+  },
+  "Cisco": {
+   "type": "buyer",
+   "segment": "manufacturing",
+   "country": "US",
+   "domain": "cisco.com"
+  },
+  "The Estée Lauder Companies": {
+   "type": "buyer",
+   "segment": "manufacturing",
+   "country": "US",
+   "domain": "elcompanies.com"
+  },
+  "Former Henkel executive": {
+   "type": "former",
+   "segment": "other",
+   "country": "DE"
+  },
+  "Independent advisor (ex-Covestro)": {
+   "type": "former",
+   "segment": "other",
+   "country": "DE"
+  },
+  "Thermo Fisher Scientific": {
+   "type": "buyer",
+   "segment": "manufacturing",
+   "country": "US",
+   "domain": "thermofisher.com"
+  },
+  "Kimberly-Clark": {
+   "type": "buyer",
+   "segment": "manufacturing",
+   "country": "US",
+   "domain": "kimberly-clark.com"
+  },
+  "Pernod Ricard": {
+   "type": "buyer",
+   "segment": "food",
+   "country": "FR",
+   "domain": "pernod-ricard.com"
+  },
+  "Agora Leadership": {
+   "type": "consultancy",
+   "segment": "other",
+   "country": ""
   }
  }
 }

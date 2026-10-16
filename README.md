@@ -69,10 +69,11 @@ python3 -m http.server 8000       # open http://localhost:8000 (HubSpot push nee
 ## Honest limits of this build
 
 - Attendee lists are not public. Speakers and sponsors are used as the attending-leads proxy.
-- Nine of the ten events have public evidence for the upcoming edition: six name speakers, three
-  (EuroBLECH, LogiPharma, Fi Europe) give company-level evidence only. EP&SCE 2027 has no names on
-  purpose: its organiser page still shows the 2026 lineup, so nothing is sourced until the 2027 list
-  is published. Seven more events sit on a watchlist.
+- All ten events have public evidence for the upcoming edition: seven name speakers, three
+  (EuroBLECH, LogiPharma, Fi Europe) give company-level evidence only. EP&SCE 2027 was dropped from
+  the ten: its organiser page still shows the 2026 lineup, so it waits on the watchlist (eight events)
+  until the 2027 list is published. TFEST26 replaced it; its organiser marks each speaker as
+  'Speaking at TFEST26' or 'Previously spoke at', and only the former are used.
 - The Munich transformation summit's speaker list sits on the page for the November 2026 edition
   but carries no year, so those leads are flagged for confirmation and capped at tier B.
 - Titles come from event listings and are not yet verified against LinkedIn.

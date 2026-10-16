@@ -80,7 +80,8 @@
   "consultancy": "Consultancy or analyst: possible referral source, not a buyer",
   "academia": "Academic or think-tank speaker",
   "association": "Event organiser or industry association",
-  "public": "Public-sector or state-owned: long procurement cycles, outside current focus"
+  "public": "Public-sector or state-owned: long procurement cycles, outside current focus",
+  "former": "Former role: no current buying power at that company"
  },
  "segments": {
   "metal": {

@@ -61,6 +61,46 @@
    "url": "https://www.luminik.io/events/ems-scms-summit-munich/",
    "publisher": "third-party",
    "label": "Third-party listing of summit speakers"
+  },
+  "tf-graham": {
+   "url": "https://tfest.ai/speakers/chuck-graham",
+   "publisher": "organiser",
+   "label": "Organiser speaker page: 'Speaking at TFEST26'"
+  },
+  "tf-canevari": {
+   "url": "https://tfest.ai/speakers/roberto-canevari",
+   "publisher": "organiser",
+   "label": "Organiser speaker page: 'Speaking at TFEST26'"
+  },
+  "tf-holbach": {
+   "url": "https://tfest.ai/speakers/dirk-holbach",
+   "publisher": "organiser",
+   "label": "Organiser speaker page: 'Speaking at TFEST26'"
+  },
+  "tf-bruemmer": {
+   "url": "https://tfest.ai/speakers/hanno-bruemmer",
+   "publisher": "organiser",
+   "label": "Organiser speaker page: 'Speaking at TFEST26'"
+  },
+  "tf-romaniuk": {
+   "url": "https://tfest.ai/speakers/agnieszka-romaniuk",
+   "publisher": "organiser",
+   "label": "Organiser speaker page: 'Speaking at TFEST26'"
+  },
+  "tf-salah": {
+   "url": "https://tfest.ai/speakers/abdelaziz-salah",
+   "publisher": "organiser",
+   "label": "Organiser speaker page: 'Speaking at TFEST26'"
+  },
+  "tf-press": {
+   "url": "https://tfest.ai/speakers/alexander-press",
+   "publisher": "organiser",
+   "label": "Organiser speaker page: 'Speaking at TFEST26'"
+  },
+  "tf-wright": {
+   "url": "https://tfest.ai/speakers/stephanie-wright",
+   "publisher": "organiser",
+   "label": "Organiser speaker page: 'Speaking at TFEST26'"
   }
  },
  "records": [
@@ -1062,6 +1102,78 @@
    "name": "Sandrine Torandell",
    "title": "Operations Director",
    "company": "L'Oréal"
+  },
+  {
+   "event": "tfest-2026",
+   "src": "tf-graham",
+   "kind": "person",
+   "role": "speaker",
+   "name": "Chuck Graham",
+   "title": "Chief Supply Chain Officer",
+   "company": "Cisco"
+  },
+  {
+   "event": "tfest-2026",
+   "src": "tf-canevari",
+   "kind": "person",
+   "role": "speaker",
+   "name": "Roberto Canevari",
+   "title": "Executive Vice President and Chief Value Chain Officer",
+   "company": "The Estée Lauder Companies"
+  },
+  {
+   "event": "tfest-2026",
+   "src": "tf-holbach",
+   "kind": "person",
+   "role": "speaker",
+   "name": "Dirk Holbach",
+   "title": "Former Chief Supply Chain Officer, Consumer Brands",
+   "company": "Former Henkel executive"
+  },
+  {
+   "event": "tfest-2026",
+   "src": "tf-bruemmer",
+   "kind": "person",
+   "role": "speaker",
+   "name": "Hanno Bruemmer",
+   "title": "Independent Advisor, former Head of Supply Chain & Logistics at Covestro",
+   "company": "Independent advisor (ex-Covestro)"
+  },
+  {
+   "event": "tfest-2026",
+   "src": "tf-romaniuk",
+   "kind": "person",
+   "role": "speaker",
+   "name": "Agnieszka Romaniuk",
+   "title": "Vice President Supply Chain",
+   "company": "Thermo Fisher Scientific"
+  },
+  {
+   "event": "tfest-2026",
+   "src": "tf-salah",
+   "kind": "person",
+   "role": "speaker",
+   "name": "Abdelaziz Salah",
+   "title": "Vice-President IFP Supply Chain",
+   "company": "Kimberly-Clark"
+  },
+  {
+   "event": "tfest-2026",
+   "src": "tf-press",
+   "kind": "person",
+   "role": "speaker",
+   "name": "Alexander Press",
+   "title": "Head of Technology – Supply Chain, Manufacturing and R&D",
+   "company": "Pernod Ricard"
+  },
+  {
+   "event": "tfest-2026",
+   "src": "tf-wright",
+   "kind": "person",
+   "role": "speaker",
+   "name": "Stephanie Wright",
+   "title": "Founder & CEO",
+   "company": "Agora Leadership"
   }
  ]
 }
