@@ -117,7 +117,7 @@
       const yieldLine = c.leads
         ? `<span class="yield-bar" aria-hidden="true">${["A", "B", "C"].map((t) => `<span class="y-${t}" style="width:${(c[t] / total) * 100}%"></span>`).join("")}</span>
            <span>${what}${c.A ? `, ${c.A} A` : ""}</span>`
-        : `<span class="status-tag">No names published yet</span>`;
+        : `<span class="status-tag">${esc(e.rail_note || "No names yet for this edition")}</span>`;
       return `<li class="event-item">
         <button type="button" data-event="${e.id}" aria-current="${state.eventId === e.id}">
           <span class="event-date"><small class="dow">${dowRange(e.start, e.end)}</small><b>${d.getDate()}</b><small>${d.toLocaleString("en-GB", { month: "short" })} ${String(d.getFullYear()).slice(2)}</small></span>
@@ -258,7 +258,7 @@
     if (!rows.length) {
       const ev = state.data.events.find((e) => e.id === state.eventId);
       wrap.innerHTML = ev && !ev.counts.leads
-        ? `<div class="empty"><b>No names published for this event yet.</b><p>${esc(ev.evidence_summary)}</p></div>`
+        ? `<div class="empty"><b>${esc(ev.rail_note || "No names yet for this edition.")}</b><p>${esc(ev.evidence_summary)}</p></div>`
         : `<div class="empty"><b>No leads match these filters.</b><p>Turn a tier back on or clear the search.</p></div>`;
       return;
     }
