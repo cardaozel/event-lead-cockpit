@@ -217,15 +217,19 @@ table {{ border-collapse:collapse; width:100%; min-width:900px; }}
 th, td {{ text-align:left; vertical-align:top; padding:7px 8px; border-bottom:1px solid var(--line); }}
 th {{ color:var(--ink3); font-weight:500; }}
 .t {{ color:var(--ink3); }}
+.back {{ display:inline-block; margin:0 0 18px; padding:7px 12px; border:1px solid var(--line); border-radius:6px; text-decoration:none; font-weight:500; }}
+.back:hover {{ border-color:var(--ink3); }}
 a {{ color:inherit; }}
 </style></head><body><main>
+<a class="back" href="/">&larr; Back to the cockpit</a>
 <h1>Evidence table</h1>
-<p>Every record in the cockpit, with the public source that puts it at the event. Roles are exactly what the source states. Nobody is labelled an attendee: no public source lists attendees. Sources checked on {out['checked_on']}. <a href="./">Back to the cockpit</a></p>
+<p>Every record in the cockpit, with the public source that puts it at the event. Roles are exactly what the source states. Nobody is labelled an attendee: no public source lists attendees. Sources checked on {out['checked_on']}.</p>
 <h2>Tier rules</h2><ul>{rules}</ul>
 <h2>Events</h2><div class="wrap"><table><thead><tr><th>Event</th><th>Dates</th><th>City</th><th>Leads</th><th>Evidence</th></tr></thead><tbody>{ev_rows}</tbody></table></div>
 <h2>Records ({len(rows)})</h2>
 <div class="wrap"><table><thead><tr><th>Event</th><th>Name and title</th><th>Company</th><th>Evidence</th><th>Bucket</th><th>Tier</th><th>Why</th></tr></thead>
 <tbody>{''.join(body)}</tbody></table></div>
+<p><a class="back" href="/">&larr; Back to the cockpit</a></p>
 </main></body></html>"""
     path.write_text(page, encoding="utf-8")
 
