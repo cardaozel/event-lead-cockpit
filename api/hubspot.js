@@ -105,12 +105,36 @@ async function addNote(token, lead, contactId, companyId) {
   });
 }
 
+let portalIdCache = null;
+async function portalId(token) {
+  if (portalIdCache) return portalIdCache;
+  try {
+    const info = await hs(token, "GET", "/account-info/v3/details");
+    portalIdCache = info.portalId || null;
+  } catch { /* link is optional */ }
+  return portalIdCache;
+}
+const recordUrl = (portal, type, id) => (portal ? `https://app.hubspot.com/contacts/${portal}/record/${type}/${id}` : null);
+
+// Read the contact back and confirm it is linked to the company, so "In HubSpot"
+// in the cockpit means verified, not just "the API did not error".
+async function verifyContact(token, contactId, companyId) {
+  const c = await hs(token, "GET", `/crm/v3/objects/contacts/${contactId}?associations=companies`);
+  const linked = (((c.associations || {}).companies || {}).results || []).some((r) => String(r.id) === String(companyId));
+  return { exists: Boolean(c.id), linked };
+}
+
 async function pushLead(token, lead) {
   const company = await upsertCompany(token, lead);
   let contact = null;
-  if (lead.kind === "contact") {
+  let verified = null;
+  if (lead.kind === "person") {
     contact = await upsertContact(token, lead);
     await hs(token, "PUT", `/crm/v4/objects/contacts/${contact.id}/associations/default/companies/${company.id}`);
+    verified = await verifyContact(token, contact.id, company.id);
+    if (!verified.exists || !verified.linked) {
+      throw new Error(`Contact ${contact.id} ${verified.exists ? "is not linked to the company" : "could not be read back"}`);
+    }
   }
   // The note carries score, tier reason and source. If it fails (e.g. a missing scope),
   // the contact and company are still synced and the warning is reported back.
@@ -120,11 +144,12 @@ async function pushLead(token, lead) {
   } catch (err) {
     noteWarning = `Note not added: ${String(err.message || err)}`;
   }
+  const portal = await portalId(token);
   return {
     id: lead.id,
     status: "synced",
-    company: { id: company.id, created: company.created },
-    contact: contact ? { id: contact.id, created: contact.created } : null,
+    company: { id: company.id, created: company.created, url: recordUrl(portal, "0-2", company.id) },
+    contact: contact ? { id: contact.id, created: contact.created, linked: verified.linked, url: recordUrl(portal, "0-1", contact.id) } : null,
     warning: noteWarning,
   };
 }
@@ -160,7 +185,7 @@ module.exports = async (req, res) => {
         status: "dry-run",
         would_create: {
           company: { name: l.company, domain: l.domain || null },
-          contact: l.kind === "contact" ? { ...splitName(l.name), jobtitle: l.title, lifecyclestage: "lead" } : null,
+          contact: l.kind === "person" ? { ...splitName(l.name), jobtitle: l.title, lifecyclestage: "lead" } : null,
           note: `ICP ${l.score}/100, tier ${l.tier}, ${l.event_name}`,
         },
       })),

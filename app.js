@@ -1,7 +1,7 @@
 (() => {
   "use strict";
 
-  const STORE_KEY = "elc-review-v2";
+  const STORE_KEY = "elc-review-v3";
   const FACTOR_COLOR = {
     Segment: "var(--s-segment)",
     Function: "var(--s-function)",
@@ -35,6 +35,7 @@
     query: "",
     selectedId: null,
     review: loadReview(),
+    links: loadLinks(),
     crm: { mode: "checking", keyRequired: false },
   };
 
@@ -47,7 +48,16 @@
   function saveReview() {
     try { localStorage.setItem(STORE_KEY, JSON.stringify(state.review)); } catch { /* storage unavailable: keep in memory */ }
   }
+  function loadLinks() {
+    try { return JSON.parse(localStorage.getItem(STORE_KEY + "-links") || "{}"); } catch { return {}; }
+  }
+  function saveLinks() {
+    try { localStorage.setItem(STORE_KEY + "-links", JSON.stringify(state.links)); } catch { /* keep in memory */ }
+  }
   const statusOf = (id) => state.review[id] || "pending";
+  const syncedCell = (id) => state.links[id]
+    ? `<a class="synced" href="${esc(state.links[id])}" target="_blank" rel="noopener">Open in HubSpot</a>`
+    : `<span class="synced">In HubSpot</span>`;
 
   const parseDay = (d) => new Date(d + "T00:00:00");
   function fmtRange(a, b) {
@@ -167,7 +177,7 @@
 
   function reviewCell(l) {
     const s = statusOf(l.id);
-    if (s === "synced") return `<span class="synced">In HubSpot</span>`;
+    if (s === "synced") return syncedCell(l.id);
     return `<span class="review">
       <button class="btn btn-approve" data-act="approved" data-id="${l.id}" aria-pressed="${s === "approved"}">Approve</button>
       <button class="btn btn-reject" data-act="rejected" data-id="${l.id}" aria-pressed="${s === "rejected"}">Reject</button>
@@ -258,7 +268,7 @@
           <span class="why">${esc(b.why)}</span></li>`).join("")}
       </ul>
       ${l.reference ? `<h3>Suggested opener</h3><div class="opener"><b>${esc(l.reference.customer)}</b>${esc(l.reference.story)}</div>` : ""}
-      <div class="drawer-actions">${s === "synced" ? `<span class="synced">In HubSpot</span>` : reviewCell(l)}</div>`;
+      <div class="drawer-actions">${s === "synced" ? syncedCell(l.id) : reviewCell(l)}</div>`;
   }
 
   function renderAll() {
@@ -329,7 +339,11 @@
         results.push(...body.results);
       }
       const ok = results.filter((x) => x.status === "synced");
-      ok.forEach((x) => (state.review[x.id] = "synced"));
+      ok.forEach((x) => {
+        state.review[x.id] = "synced";
+        state.links[x.id] = (x.contact && x.contact.url) || (x.company && x.company.url) || null;
+      });
+      saveLinks();
       saveReview();
       const failed = results.filter((x) => x.status === "error");
       const warned = ok.filter((x) => x.warning);
