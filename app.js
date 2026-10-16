@@ -66,6 +66,11 @@
     const left = s.getMonth() === e.getMonth() ? `${s.getDate()}` : `${s.getDate()} ${m(s)}`;
     return `${left}–${e.getDate()} ${m(e)} ${e.getFullYear()}`;
   }
+  const COUNTRY = { DE: "Germany", CH: "Switzerland", AT: "Austria", ES: "Spain", NL: "Netherlands", FR: "France", IT: "Italy", GB: "United Kingdom" };
+  function dowRange(a, b) {
+    const f = (d) => parseDay(d).toLocaleString("en-GB", { weekday: "short" });
+    return a === b ? f(a) : `${f(a)}–${f(b)}`;
+  }
   function daysUntil(d) {
     return Math.round((parseDay(d) - new Date(new Date().toDateString())) / 86400000);
   }
@@ -84,17 +89,18 @@
         : `<span class="status-tag">No names published yet</span>`;
       return `<li class="event-item">
         <button type="button" data-event="${e.id}" aria-current="${state.eventId === e.id}">
-          <span class="event-date"><b>${d.getDate()}</b><small>${d.toLocaleString("en-GB", { month: "short" })} ${String(d.getFullYear()).slice(2)}</small></span>
+          <span class="event-date"><small class="dow">${dowRange(e.start, e.end)}</small><b>${d.getDate()}</b><small>${d.toLocaleString("en-GB", { month: "short" })} ${String(d.getFullYear()).slice(2)}</small></span>
           <span>
             <span class="event-name">${esc(e.name)}</span>
-            <span class="event-meta">${esc(e.city)}${when ? `, ${when}` : ""}</span>
+            <span class="event-meta">${fmtRange(e.start, e.end)}</span>
+            <span class="event-meta">${esc(e.city)}, ${COUNTRY[e.country] || esc(e.country)}${when ? ` · ${when}` : ""}</span>
             <span class="event-yield">${yieldLine}</span>
           </span>
         </button></li>`;
     }).join("");
     $("allEvents").setAttribute("aria-pressed", String(!state.eventId));
     $("watchList").innerHTML = state.data.watchlist.map((w) =>
-      `<li><b>${esc(w.name)}</b>, ${esc(w.city)}, ${parseDay(w.start).toLocaleString("en-GB", { month: "short", year: "numeric" })}<br><span>${esc(w.status)}</span></li>`).join("");
+      `<li><b>${esc(w.name)}</b>, ${esc(w.city)}, ${parseDay(w.start).toLocaleString("en-GB", { weekday: "short", day: "numeric", month: "short", year: "numeric" })}<br><span>${esc(w.status)}</span></li>`).join("");
   }
 
   function renderBrief() {
@@ -104,7 +110,7 @@
     box.hidden = false;
     box.innerHTML = `
       <h2>${esc(e.name)}</h2>
-      <p class="when">${fmtRange(e.start, e.end)}, ${esc(e.city)}. ${esc(e.format)}. <a href="${esc(e.url)}" target="_blank" rel="noopener">Event page</a></p>
+      <p class="when">${dowRange(e.start, e.end)}, ${fmtRange(e.start, e.end)} · ${esc(e.city)}, ${COUNTRY[e.country] || esc(e.country)} · ${esc(e.format)}. <a href="${esc(e.url)}" target="_blank" rel="noopener">Event page</a></p>
       <dl>
         <dt>Why this event</dt><dd>${esc(e.why)}</dd>
         <dt>Who attends</dt><dd>${esc(e.audience)}</dd>
