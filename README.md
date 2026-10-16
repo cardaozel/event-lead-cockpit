@@ -69,14 +69,13 @@ python3 -m http.server 8000       # open http://localhost:8000 (HubSpot push nee
 
 - Attendee lists are not public. Speakers and sponsors are used as the attending-leads proxy.
 - All ten events have public evidence for the upcoming edition: seven name speakers, three
-  (EuroBLECH, LogiPharma, Fi Europe) give company-level evidence only. EP&SCE 2027 was dropped from
-  the ten: its organiser page still shows the 2026 lineup, so it waits on the watchlist
-  until the 2027 list is published. TFEST26 replaced it; its organiser marks each speaker as
-  'Speaking at TFEST26' or 'Previously spoke at', and only the former are used.
+  (EuroBLECH, LogiPharma, Fi Europe) give company-level evidence only. One lead (Nanda Kishore)
+  rests on a third-party listing and is labelled as such.
 - Two events were swapped out after a source check: EP&SCE 2027 (its page still shows the 2026
   lineup) and the Munich Supply Chain & Logistics Transformation Summit (its speaker list carries no
   year). Both sit on the watchlist. Their replacements, TFEST26 and Handelsblatt Industrie-Gipfel
-  2026, state on the organiser's page that the speakers are confirmed for this edition.
+  2026, state on the organiser's page that the speakers are confirmed for this edition (TFEST marks
+  each speaker 'Speaking at TFEST26' or 'Previously spoke at'; only the former are used).
 - Titles come from event listings and are not yet verified against LinkedIn.
 - Enrichment is a hand-built seed. In production this is an enrichment provider keyed on domain.
 - Review state is saved in the viewer's browser. In production it lives in a shared store.
