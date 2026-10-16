@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-16T02:43:34+00:00",
+ "generated_at": "2026-10-16T02:44:01+00:00",
  "checked_on": "2026-10-16",
  "weights": {
   "segment": 30,
@@ -10,7 +10,7 @@
  },
  "tier_rules": {
   "A": "Strong ICP + relevant senior role + strong event evidence. Core segment (metal, food, distribution, logistics) with a P2P, O2C or supply chain leader at Head level or above, named as a speaker. Manufacturing qualifies only at the top: VP or C-level, DACH-based, named by the organiser.",
-  "B": "Good company or role fit, but a weaker buying signal or weaker evidence: company-level presence only, adjacent or junior role, manufacturing below the A bar, or retail.",
+  "B": "Good company or role fit, but a weaker buying signal or weaker evidence: company-level or undated evidence, adjacent or junior role, manufacturing below the A bar, or retail.",
   "C": "Weak ICP fit or low relevance: outside target segments, or no buying-relevant function in the published title."
  },
  "events": [
